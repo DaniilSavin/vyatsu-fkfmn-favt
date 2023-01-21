@@ -1,0 +1,13 @@
+D:\      \2 КУРС\.NET программирование\Laboratornaya_5\5.1\obj\Debug\5.1.csprojAssemblyReference.cache
+D:\      \2 КУРС\.NET программирование\Laboratornaya_5\5.1\bin\Debug\5.1.exe.config
+D:\      \2 КУРС\.NET программирование\Laboratornaya_5\5.1\bin\Debug\5.1.exe
+D:\      \2 КУРС\.NET программирование\Laboratornaya_5\5.1\bin\Debug\5.1.pdb
+D:\      \2 КУРС\.NET программирование\Laboratornaya_5\5.1\obj\Debug\5.1.exe
+D:\      \2 КУРС\.NET программирование\Laboratornaya_5\5.1\obj\Debug\5.1.pdb
+D:\ВУЗ\2 КУРС\.NET программирование\Laboratornaya_5\5.1\bin\Debug\5.1.exe.config
+D:\ВУЗ\2 КУРС\.NET программирование\Laboratornaya_5\5.1\bin\Debug\5.1.exe
+D:\ВУЗ\2 КУРС\.NET программирование\Laboratornaya_5\5.1\bin\Debug\5.1.pdb
+D:\ВУЗ\2 КУРС\.NET программирование\Laboratornaya_5\5.1\obj\Debug\5.1.csprojAssemblyReference.cache
+D:\ВУЗ\2 КУРС\.NET программирование\Laboratornaya_5\5.1\obj\Debug\5.1.csproj.CoreCompileInputs.cache
+D:\ВУЗ\2 КУРС\.NET программирование\Laboratornaya_5\5.1\obj\Debug\5.1.exe
+D:\ВУЗ\2 КУРС\.NET программирование\Laboratornaya_5\5.1\obj\Debug\5.1.pdb
