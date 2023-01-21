@@ -1,0 +1,13 @@
+D:\lab1\1.9\bin\Debug\1.9.exe.config
+D:\lab1\1.9\bin\Debug\1.9.exe
+D:\lab1\1.9\bin\Debug\1.9.pdb
+D:\lab1\1.9\obj\Debug\1.9.csproj.CoreCompileInputs.cache
+D:\lab1\1.9\obj\Debug\1.9.exe
+D:\lab1\1.9\obj\Debug\1.9.pdb
+D:\      \2 КУРС\lab1\1.9\bin\Debug\1.9.exe.config
+D:\      \2 КУРС\lab1\1.9\bin\Debug\1.9.exe
+D:\      \2 КУРС\lab1\1.9\bin\Debug\1.9.pdb
+D:\      \2 КУРС\lab1\1.9\obj\Debug\1.9.csprojAssemblyReference.cache
+D:\      \2 КУРС\lab1\1.9\obj\Debug\1.9.csproj.CoreCompileInputs.cache
+D:\      \2 КУРС\lab1\1.9\obj\Debug\1.9.exe
+D:\      \2 КУРС\lab1\1.9\obj\Debug\1.9.pdb

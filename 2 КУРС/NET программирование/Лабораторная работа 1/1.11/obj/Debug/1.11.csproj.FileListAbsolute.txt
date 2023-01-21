@@ -1,0 +1,21 @@
+D:\lab1\1.11\obj\Debug\1.11.csproj.CoreCompileInputs.cache
+D:\lab1\1.11\bin\Debug\1.11.exe.config
+D:\lab1\1.11\bin\Debug\1.11.exe
+D:\lab1\1.11\bin\Debug\1.11.pdb
+D:\lab1\1.11\obj\Debug\1.11.exe
+D:\lab1\1.11\obj\Debug\1.11.pdb
+D:\lab1\1.11\obj\Debug\1.11.csprojAssemblyReference.cache
+D:\      \2 КУРС\lab1\1.11\bin\Debug\1.11.exe.config
+D:\      \2 КУРС\lab1\1.11\bin\Debug\1.11.exe
+D:\      \2 КУРС\lab1\1.11\bin\Debug\1.11.pdb
+D:\      \2 КУРС\lab1\1.11\obj\Debug\1.11.csprojAssemblyReference.cache
+D:\      \2 КУРС\lab1\1.11\obj\Debug\1.11.csproj.CoreCompileInputs.cache
+D:\      \2 КУРС\lab1\1.11\obj\Debug\1.11.exe
+D:\      \2 КУРС\lab1\1.11\obj\Debug\1.11.pdb
+D:\Новая папка\Лабораторная работа 1\lab1\1.11\bin\Debug\1.11.exe.config
+D:\Новая папка\Лабораторная работа 1\lab1\1.11\bin\Debug\1.11.exe
+D:\Новая папка\Лабораторная работа 1\lab1\1.11\bin\Debug\1.11.pdb
+D:\Новая папка\Лабораторная работа 1\lab1\1.11\obj\Debug\1.11.csprojAssemblyReference.cache
+D:\Новая папка\Лабораторная работа 1\lab1\1.11\obj\Debug\1.11.csproj.CoreCompileInputs.cache
+D:\Новая папка\Лабораторная работа 1\lab1\1.11\obj\Debug\1.11.exe
+D:\Новая папка\Лабораторная работа 1\lab1\1.11\obj\Debug\1.11.pdb

@@ -1,0 +1,6 @@
+D:\lab1\1.10\obj\Debug\1.10.csproj.CoreCompileInputs.cache
+D:\lab1\1.10\bin\Debug\1.10.exe.config
+D:\lab1\1.10\bin\Debug\1.10.exe
+D:\lab1\1.10\bin\Debug\1.10.pdb
+D:\lab1\1.10\obj\Debug\1.10.exe
+D:\lab1\1.10\obj\Debug\1.10.pdb
