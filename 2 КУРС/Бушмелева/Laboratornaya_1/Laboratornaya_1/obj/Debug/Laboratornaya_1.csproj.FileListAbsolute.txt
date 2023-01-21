@@ -1,0 +1,9 @@
+E:\      \2 КУРС\Бушмелева\Laboratornaya_1\Laboratornaya_1\bin\Debug\Laboratornaya_1.exe.config
+E:\      \2 КУРС\Бушмелева\Laboratornaya_1\Laboratornaya_1\bin\Debug\Laboratornaya_1.exe
+E:\      \2 КУРС\Бушмелева\Laboratornaya_1\Laboratornaya_1\bin\Debug\Laboratornaya_1.pdb
+E:\      \2 КУРС\Бушмелева\Laboratornaya_1\Laboratornaya_1\obj\Debug\Laboratornaya_1.csprojAssemblyReference.cache
+E:\      \2 КУРС\Бушмелева\Laboratornaya_1\Laboratornaya_1\obj\Debug\Laboratornaya_1.Form1.resources
+E:\      \2 КУРС\Бушмелева\Laboratornaya_1\Laboratornaya_1\obj\Debug\Laboratornaya_1.Properties.Resources.resources
+E:\      \2 КУРС\Бушмелева\Laboratornaya_1\Laboratornaya_1\obj\Debug\Laboratornaya_1.csproj.GenerateResource.cache
+E:\      \2 КУРС\Бушмелева\Laboratornaya_1\Laboratornaya_1\obj\Debug\Laboratornaya_1.exe
+E:\      \2 КУРС\Бушмелева\Laboratornaya_1\Laboratornaya_1\obj\Debug\Laboratornaya_1.pdb

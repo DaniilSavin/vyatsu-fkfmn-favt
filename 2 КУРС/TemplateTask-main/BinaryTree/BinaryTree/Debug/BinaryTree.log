@@ -1,0 +1,6 @@
+﻿  BinaryTree.cpp
+C:\Users\savin\source\repos\BinaryTree\BinaryTree\BinaryTree.cpp(19): warning C4091: typedef : пропускается слева от "binaryTree<T>::nodeTree", когда ни одна переменная не объявлена
+C:\Users\savin\source\repos\BinaryTree\BinaryTree\BinaryTree.cpp(36): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "binaryTree<T>"
+C:\Users\savin\source\repos\BinaryTree\BinaryTree\BinaryTree.cpp(19): warning C4091: typedef : пропускается слева от "binaryTree<int>::nodeTree", когда ни одна переменная не объявлена
+C:\Users\savin\source\repos\BinaryTree\BinaryTree\BinaryTree.cpp(218): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "binaryTree<int>"
+  BinaryTree.vcxproj -> C:\Users\savin\source\repos\BinaryTree\Debug\BinaryTree.exe
