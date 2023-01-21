@@ -1,0 +1,6 @@
+﻿  pch.cpp
+  zadanie_413.cpp
+d:\вуз\zadanie_413\zadanie_413\zadanie_413.cpp(41): warning C4018: <: несоответствие типов со знаком и без знака
+d:\вуз\zadanie_413\zadanie_413\zadanie_413.cpp(48): warning C4018: <: несоответствие типов со знаком и без знака
+d:\вуз\zadanie_413\zadanie_413\zadanie_413.cpp(49): warning C4018: <: несоответствие типов со знаком и без знака
+  zadanie_413.vcxproj -> D:\ВУЗ\zadanie_413\Debug\zadanie_413.exe
