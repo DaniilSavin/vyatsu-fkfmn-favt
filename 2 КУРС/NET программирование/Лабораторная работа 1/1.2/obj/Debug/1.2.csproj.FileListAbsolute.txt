@@ -1,0 +1,13 @@
+C:\Users\class\source\repos\lab1\1.2\bin\Debug\1.2.exe.config
+C:\Users\class\source\repos\lab1\1.2\bin\Debug\1.2.exe
+C:\Users\class\source\repos\lab1\1.2\bin\Debug\1.2.pdb
+C:\Users\class\source\repos\lab1\1.2\obj\Debug\1.2.csproj.CoreCompileInputs.cache
+C:\Users\class\source\repos\lab1\1.2\obj\Debug\1.2.exe
+C:\Users\class\source\repos\lab1\1.2\obj\Debug\1.2.pdb
+D:\      \lab1\1.2\bin\Debug\1.2.exe.config
+D:\      \lab1\1.2\bin\Debug\1.2.exe
+D:\      \lab1\1.2\bin\Debug\1.2.pdb
+D:\      \lab1\1.2\obj\Debug\1.2.csprojAssemblyReference.cache
+D:\      \lab1\1.2\obj\Debug\1.2.csproj.CoreCompileInputs.cache
+D:\      \lab1\1.2\obj\Debug\1.2.exe
+D:\      \lab1\1.2\obj\Debug\1.2.pdb
