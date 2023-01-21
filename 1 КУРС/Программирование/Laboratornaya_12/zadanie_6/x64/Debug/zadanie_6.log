@@ -1,0 +1,5 @@
+﻿  pch.cpp
+  zadanie_6.cpp
+d:\вуз\программирование\lab12\laboratornaya_12\zadanie_6\zadanie_6.cpp(26): warning C4101: count: неиспользованная локальная переменная
+  zadanie_6.vcxproj -> D:\ВУЗ\Программирование\lab12\Laboratornaya_12\x64\Debug\zadanie_6.exe
+  zadanie_6.vcxproj -> D:\ВУЗ\Программирование\lab12\Laboratornaya_12\x64\Debug\zadanie_6.pdb (Full PDB)
