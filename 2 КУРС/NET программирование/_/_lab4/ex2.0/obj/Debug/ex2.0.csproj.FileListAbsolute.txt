@@ -1,0 +1,10 @@
+F:\lab4\ex2.0\bin\Debug\ex2.0.exe.config
+F:\lab4\ex2.0\bin\Debug\ex2.0.exe
+F:\lab4\ex2.0\bin\Debug\ex2.0.pdb
+F:\lab4\ex2.0\obj\Debug\ex2.0.csprojAssemblyReference.cache
+F:\lab4\ex2.0\obj\Debug\ex2._0.MainForm.resources
+F:\lab4\ex2.0\obj\Debug\ex2._0.Properties.Resources.resources
+F:\lab4\ex2.0\obj\Debug\ex2.0.csproj.GenerateResource.cache
+F:\lab4\ex2.0\obj\Debug\ex2.0.csproj.CoreCompileInputs.cache
+F:\lab4\ex2.0\obj\Debug\ex2.0.exe
+F:\lab4\ex2.0\obj\Debug\ex2.0.pdb

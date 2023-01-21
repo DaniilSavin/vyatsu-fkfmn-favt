@@ -1,0 +1,9 @@
+F:\lab4\ex3\bin\Debug\ex3.exe.config
+F:\lab4\ex3\bin\Debug\ex3.exe
+F:\lab4\ex3\bin\Debug\ex3.pdb
+F:\lab4\ex3\obj\Debug\ex3.MainForm.resources
+F:\lab4\ex3\obj\Debug\ex3.Properties.Resources.resources
+F:\lab4\ex3\obj\Debug\ex3.csproj.GenerateResource.cache
+F:\lab4\ex3\obj\Debug\ex3.csproj.CoreCompileInputs.cache
+F:\lab4\ex3\obj\Debug\ex3.exe
+F:\lab4\ex3\obj\Debug\ex3.pdb
