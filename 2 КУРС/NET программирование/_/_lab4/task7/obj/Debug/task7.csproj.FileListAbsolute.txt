@@ -1,0 +1,9 @@
+E:\lab4\task7\bin\Debug\task7.exe.config
+E:\lab4\task7\bin\Debug\task7.exe
+E:\lab4\task7\bin\Debug\task7.pdb
+E:\lab4\task7\obj\Debug\task7.Form1.resources
+E:\lab4\task7\obj\Debug\task7.Properties.Resources.resources
+E:\lab4\task7\obj\Debug\task7.csproj.GenerateResource.cache
+E:\lab4\task7\obj\Debug\task7.csproj.CoreCompileInputs.cache
+E:\lab4\task7\obj\Debug\task7.exe
+E:\lab4\task7\obj\Debug\task7.pdb
