@@ -1,0 +1,20 @@
+F:\lab4\task 5\obj\Debug\task 5.csprojAssemblyReference.cache
+F:\lab4\task 5\obj\Debug\task_5.Form1.resources
+F:\lab4\task 5\obj\Debug\task_5.Properties.Resources.resources
+F:\lab4\task 5\obj\Debug\task 5.csproj.GenerateResource.cache
+F:\lab4\task 5\obj\Debug\task 5.csproj.CoreCompileInputs.cache
+F:\lab4\task 5\bin\Debug\task 5.exe.config
+F:\lab4\task 5\bin\Debug\task 5.exe
+F:\lab4\task 5\bin\Debug\task 5.pdb
+F:\lab4\task 5\obj\Debug\task 5.exe
+F:\lab4\task 5\obj\Debug\task 5.pdb
+E:\lab4\task 5\bin\Debug\task 5.exe.config
+E:\lab4\task 5\bin\Debug\task 5.exe
+E:\lab4\task 5\bin\Debug\task 5.pdb
+E:\lab4\task 5\obj\Debug\task 5.csprojAssemblyReference.cache
+E:\lab4\task 5\obj\Debug\task_5.Form1.resources
+E:\lab4\task 5\obj\Debug\task_5.Properties.Resources.resources
+E:\lab4\task 5\obj\Debug\task 5.csproj.GenerateResource.cache
+E:\lab4\task 5\obj\Debug\task 5.csproj.CoreCompileInputs.cache
+E:\lab4\task 5\obj\Debug\task 5.exe
+E:\lab4\task 5\obj\Debug\task 5.pdb
