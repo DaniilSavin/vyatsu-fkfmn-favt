@@ -1,0 +1,10 @@
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\4.4\bin\Debug\4.4.exe.config
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\4.4\bin\Debug\4.4.exe
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\4.4\bin\Debug\4.4.pdb
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\4.4\obj\Debug\4.4-.csprojAssemblyReference.cache
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\4.4\obj\Debug\_4._4.Form1.resources
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\4.4\obj\Debug\_4._4.Properties.Resources.resources
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\4.4\obj\Debug\4.4-.csproj.GenerateResource.cache
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\4.4\obj\Debug\4.4-.csproj.CoreCompileInputs.cache
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\4.4\obj\Debug\4.4.exe
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\4.4\obj\Debug\4.4.pdb

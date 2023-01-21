@@ -1,0 +1,8 @@
+C:\Users\savin\source\repos\Laboratornaya_4\4.1\bin\Debug\4.1.exe.config
+C:\Users\savin\source\repos\Laboratornaya_4\4.1\bin\Debug\4.1.exe
+C:\Users\savin\source\repos\Laboratornaya_4\4.1\bin\Debug\4.1.pdb
+C:\Users\savin\source\repos\Laboratornaya_4\4.1\obj\Debug\4.1.csprojAssemblyReference.cache
+C:\Users\savin\source\repos\Laboratornaya_4\4.1\obj\Debug\_4._1.Properties.Resources.resources
+C:\Users\savin\source\repos\Laboratornaya_4\4.1\obj\Debug\4.1.csproj.GenerateResource.cache
+C:\Users\savin\source\repos\Laboratornaya_4\4.1\obj\Debug\4.1.exe
+C:\Users\savin\source\repos\Laboratornaya_4\4.1\obj\Debug\4.1.pdb
