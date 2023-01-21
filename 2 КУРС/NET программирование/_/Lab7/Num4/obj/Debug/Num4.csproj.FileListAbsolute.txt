@@ -1,0 +1,6 @@
+C:\Users\zagos\source\repos\Num5\Num4\bin\Debug\Num4.exe.config
+C:\Users\zagos\source\repos\Num5\Num4\bin\Debug\Num4.exe
+C:\Users\zagos\source\repos\Num5\Num4\bin\Debug\Num4.pdb
+C:\Users\zagos\source\repos\Num5\Num4\obj\Debug\Num4.csprojAssemblyReference.cache
+C:\Users\zagos\source\repos\Num5\Num4\obj\Debug\Num4.exe
+C:\Users\zagos\source\repos\Num5\Num4\obj\Debug\Num4.pdb

@@ -1,0 +1,5 @@
+C:\Users\zagos\source\repos\Num5\Num6\bin\Debug\Num6.exe.config
+C:\Users\zagos\source\repos\Num5\Num6\bin\Debug\Num6.exe
+C:\Users\zagos\source\repos\Num5\Num6\bin\Debug\Num6.pdb
+C:\Users\zagos\source\repos\Num5\Num6\obj\Debug\Num6.exe
+C:\Users\zagos\source\repos\Num5\Num6\obj\Debug\Num6.pdb
