@@ -1,0 +1,14 @@
+H:\Лабораторная 6\6.1\obj\Debug\task1.csprojAssemblyReference.cache
+H:\Лабораторная 6\6.1\obj\Debug\task1.csproj.CoreCompileInputs.cache
+H:\Лабораторная 6\6.1\obj\Debug\6.1.exe
+H:\Лабораторная 6\6.1\obj\Debug\6.1.pdb
+H:\Лабораторная 6\6.1\bin\Debug\6.1.exe.config
+H:\Лабораторная 6\6.1\bin\Debug\6.1.exe
+H:\Лабораторная 6\6.1\bin\Debug\6.1.pdb
+E:\Лабораторная 6\6.1\bin\Debug\6.1.exe.config
+E:\Лабораторная 6\6.1\bin\Debug\6.1.exe
+E:\Лабораторная 6\6.1\bin\Debug\6.1.pdb
+E:\Лабораторная 6\6.1\obj\Debug\task1.csprojAssemblyReference.cache
+E:\Лабораторная 6\6.1\obj\Debug\task1.csproj.CoreCompileInputs.cache
+E:\Лабораторная 6\6.1\obj\Debug\6.1.exe
+E:\Лабораторная 6\6.1\obj\Debug\6.1.pdb
