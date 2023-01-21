@@ -1,0 +1,7 @@
+E:\lab5\alphabet\bin\Debug\alphabet.exe.config
+E:\lab5\alphabet\bin\Debug\alphabet.exe
+E:\lab5\alphabet\bin\Debug\alphabet.pdb
+E:\lab5\alphabet\obj\Debug\alphabet.csprojAssemblyReference.cache
+E:\lab5\alphabet\obj\Debug\alphabet.csproj.CoreCompileInputs.cache
+E:\lab5\alphabet\obj\Debug\alphabet.exe
+E:\lab5\alphabet\obj\Debug\alphabet.pdb

@@ -1,0 +1,26 @@
+C:\Users\Дмитрий Лаптев\source\repos\lab5\lab5\bin\Debug\lab5.exe.config
+C:\Users\Дмитрий Лаптев\source\repos\lab5\lab5\bin\Debug\lab5.exe
+C:\Users\Дмитрий Лаптев\source\repos\lab5\lab5\bin\Debug\lab5.pdb
+C:\Users\Дмитрий Лаптев\source\repos\lab5\lab5\obj\Debug\lab5.csprojAssemblyReference.cache
+C:\Users\Дмитрий Лаптев\source\repos\lab5\lab5\obj\Debug\lab5.exe
+C:\Users\Дмитрий Лаптев\source\repos\lab5\lab5\obj\Debug\lab5.pdb
+F:\lab5\lab5\obj\Debug\lab5.csprojAssemblyReference.cache
+F:\lab5\lab5\obj\Debug\lab5.exe
+F:\lab5\lab5\obj\Debug\lab5.pdb
+F:\lab5\lab5\bin\Debug\lab5.exe.config
+F:\lab5\lab5\bin\Debug\lab5.exe
+F:\lab5\lab5\bin\Debug\lab5.pdb
+E:\lab5\lab5\bin\Debug\lab5.exe.config
+E:\lab5\lab5\bin\Debug\lab5.exe
+E:\lab5\lab5\bin\Debug\lab5.pdb
+E:\lab5\lab5\obj\Debug\lab5.csprojAssemblyReference.cache
+E:\lab5\lab5\obj\Debug\lab5.csproj.CoreCompileInputs.cache
+E:\lab5\lab5\obj\Debug\lab5.exe
+E:\lab5\lab5\obj\Debug\lab5.pdb
+D:\ВУЗ\2 КУРС\.NET программирование\lab5\lab5\bin\Debug\lab5.exe.config
+D:\ВУЗ\2 КУРС\.NET программирование\lab5\lab5\bin\Debug\lab5.exe
+D:\ВУЗ\2 КУРС\.NET программирование\lab5\lab5\bin\Debug\lab5.pdb
+D:\ВУЗ\2 КУРС\.NET программирование\lab5\lab5\obj\Debug\lab5.csprojAssemblyReference.cache
+D:\ВУЗ\2 КУРС\.NET программирование\lab5\lab5\obj\Debug\lab5.csproj.CoreCompileInputs.cache
+D:\ВУЗ\2 КУРС\.NET программирование\lab5\lab5\obj\Debug\lab5.exe
+D:\ВУЗ\2 КУРС\.NET программирование\lab5\lab5\obj\Debug\lab5.pdb

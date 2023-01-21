@@ -1,0 +1,69 @@
+C:\Users\Дмитрий Лаптев\source\repos\lab5\Task2\bin\Debug\Task2.exe.config
+C:\Users\Дмитрий Лаптев\source\repos\lab5\Task2\bin\Debug\Task2.exe
+C:\Users\Дмитрий Лаптев\source\repos\lab5\Task2\bin\Debug\Task2.pdb
+C:\Users\Дмитрий Лаптев\source\repos\lab5\Task2\obj\Debug\Task2.csprojAssemblyReference.cache
+C:\Users\Дмитрий Лаптев\source\repos\lab5\Task2\obj\Debug\Task2.Form1.resources
+C:\Users\Дмитрий Лаптев\source\repos\lab5\Task2\obj\Debug\Task2.Properties.Resources.resources
+C:\Users\Дмитрий Лаптев\source\repos\lab5\Task2\obj\Debug\Task2.csproj.GenerateResource.cache
+C:\Users\Дмитрий Лаптев\source\repos\lab5\Task2\obj\Debug\Task2.exe
+C:\Users\Дмитрий Лаптев\source\repos\lab5\Task2\obj\Debug\Task2.pdb
+C:\Users\Дмитрий Лаптев\source\repos\lab5\Task2\obj\Debug\Task2.Form2.resources
+C:\Users\Дмитрий Лаптев\source\repos\lab5\Task2\obj\Debug\Task2.Form3.resources
+C:\Users\Дмитрий Лаптев\source\repos\lab5\Task2\obj\Debug\Task2.Form5.resources
+C:\Users\Дмитрий Лаптев\source\repos\lab5\Task2\obj\Debug\Task2.Form6.resources
+C:\Users\Дмитрий Лаптев\source\repos\lab5\Task2\obj\Debug\Task2.Form4.resources
+C:\Users\Дмитрий Лаптев\source\repos\lab5\Task2\obj\Debug\Task2.Form7.resources
+C:\Users\Дмитрий Лаптев\source\repos\lab5\Task2\obj\Debug\Task2.Form9.resources
+C:\Users\Дмитрий Лаптев\source\repos\lab5\Task2\obj\Debug\Task2.Form8.resources
+F:\lab5\Task2\bin\Debug\Task2.exe.config
+F:\lab5\Task2\bin\Debug\Task2.exe
+F:\lab5\Task2\bin\Debug\Task2.pdb
+F:\lab5\Task2\obj\Debug\Task2.csprojAssemblyReference.cache
+F:\lab5\Task2\obj\Debug\Task2.Form1.resources
+F:\lab5\Task2\obj\Debug\Task2.Form2.resources
+F:\lab5\Task2\obj\Debug\Task2.Form3.resources
+F:\lab5\Task2\obj\Debug\Task2.Form4.resources
+F:\lab5\Task2\obj\Debug\Task2.Form5.resources
+F:\lab5\Task2\obj\Debug\Task2.Form6.resources
+F:\lab5\Task2\obj\Debug\Task2.Form7.resources
+F:\lab5\Task2\obj\Debug\Task2.Form8.resources
+F:\lab5\Task2\obj\Debug\Task2.Form9.resources
+F:\lab5\Task2\obj\Debug\Task2.Properties.Resources.resources
+F:\lab5\Task2\obj\Debug\Task2.csproj.GenerateResource.cache
+F:\lab5\Task2\obj\Debug\Task2.exe
+F:\lab5\Task2\obj\Debug\Task2.pdb
+E:\lab5\Task2\obj\Debug\Task2.csprojAssemblyReference.cache
+E:\lab5\Task2\obj\Debug\Task2.Form1.resources
+E:\lab5\Task2\obj\Debug\Task2.Form2.resources
+E:\lab5\Task2\obj\Debug\Task2.Form3.resources
+E:\lab5\Task2\obj\Debug\Task2.Form4.resources
+E:\lab5\Task2\obj\Debug\Task2.Form5.resources
+E:\lab5\Task2\obj\Debug\Task2.Form6.resources
+E:\lab5\Task2\obj\Debug\Task2.Form7.resources
+E:\lab5\Task2\obj\Debug\Task2.Form8.resources
+E:\lab5\Task2\obj\Debug\Task2.Form9.resources
+E:\lab5\Task2\obj\Debug\Task2.Properties.Resources.resources
+E:\lab5\Task2\obj\Debug\Task2.csproj.GenerateResource.cache
+E:\lab5\Task2\obj\Debug\Task2.csproj.CoreCompileInputs.cache
+E:\lab5\Task2\obj\Debug\Task2.exe
+E:\lab5\Task2\obj\Debug\Task2.pdb
+E:\lab5\Task2\bin\Debug\Task2.exe.config
+E:\lab5\Task2\bin\Debug\Task2.exe
+E:\lab5\Task2\bin\Debug\Task2.pdb
+E:\      \2 КУРС\.NET программирование\lab5\Task2\bin\Debug\Task2.exe.config
+E:\      \2 КУРС\.NET программирование\lab5\Task2\bin\Debug\Task2.exe
+E:\      \2 КУРС\.NET программирование\lab5\Task2\bin\Debug\Task2.pdb
+E:\      \2 КУРС\.NET программирование\lab5\Task2\obj\Debug\Task2.csprojAssemblyReference.cache
+E:\      \2 КУРС\.NET программирование\lab5\Task2\obj\Debug\Task2.Form1.resources
+E:\      \2 КУРС\.NET программирование\lab5\Task2\obj\Debug\Task2.Form2.resources
+E:\      \2 КУРС\.NET программирование\lab5\Task2\obj\Debug\Task2.Form3.resources
+E:\      \2 КУРС\.NET программирование\lab5\Task2\obj\Debug\Task2.Form4.resources
+E:\      \2 КУРС\.NET программирование\lab5\Task2\obj\Debug\Task2.Form5.resources
+E:\      \2 КУРС\.NET программирование\lab5\Task2\obj\Debug\Task2.Form6.resources
+E:\      \2 КУРС\.NET программирование\lab5\Task2\obj\Debug\Task2.Form7.resources
+E:\      \2 КУРС\.NET программирование\lab5\Task2\obj\Debug\Task2.Form8.resources
+E:\      \2 КУРС\.NET программирование\lab5\Task2\obj\Debug\Task2.Form9.resources
+E:\      \2 КУРС\.NET программирование\lab5\Task2\obj\Debug\Task2.Properties.Resources.resources
+E:\      \2 КУРС\.NET программирование\lab5\Task2\obj\Debug\Task2.csproj.GenerateResource.cache
+E:\      \2 КУРС\.NET программирование\lab5\Task2\obj\Debug\Task2.exe
+E:\      \2 КУРС\.NET программирование\lab5\Task2\obj\Debug\Task2.pdb
