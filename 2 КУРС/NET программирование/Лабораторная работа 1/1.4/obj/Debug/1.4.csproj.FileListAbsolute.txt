@@ -1,0 +1,21 @@
+C:\Users\class\source\repos\lab1\1.4\bin\Debug\1.4.exe.config
+C:\Users\class\source\repos\lab1\1.4\bin\Debug\1.4.exe
+C:\Users\class\source\repos\lab1\1.4\bin\Debug\1.4.pdb
+C:\Users\class\source\repos\lab1\1.4\obj\Debug\1.4.csproj.CoreCompileInputs.cache
+C:\Users\class\source\repos\lab1\1.4\obj\Debug\1.4.exe
+C:\Users\class\source\repos\lab1\1.4\obj\Debug\1.4.pdb
+C:\Users\class\source\repos\lab1\1.4\obj\Debug\1.4.csprojAssemblyReference.cache
+D:\lab1\1.4\bin\Debug\1.4.exe.config
+D:\lab1\1.4\bin\Debug\1.4.exe
+D:\lab1\1.4\bin\Debug\1.4.pdb
+D:\lab1\1.4\obj\Debug\1.4.csprojAssemblyReference.cache
+D:\lab1\1.4\obj\Debug\1.4.csproj.CoreCompileInputs.cache
+D:\lab1\1.4\obj\Debug\1.4.exe
+D:\lab1\1.4\obj\Debug\1.4.pdb
+D:\Новая папка\Лабораторная работа 1\lab1\1.4\bin\Debug\1.4.exe.config
+D:\Новая папка\Лабораторная работа 1\lab1\1.4\bin\Debug\1.4.exe
+D:\Новая папка\Лабораторная работа 1\lab1\1.4\bin\Debug\1.4.pdb
+D:\Новая папка\Лабораторная работа 1\lab1\1.4\obj\Debug\1.4.csprojAssemblyReference.cache
+D:\Новая папка\Лабораторная работа 1\lab1\1.4\obj\Debug\1.4.csproj.CoreCompileInputs.cache
+D:\Новая папка\Лабораторная работа 1\lab1\1.4\obj\Debug\1.4.exe
+D:\Новая папка\Лабораторная работа 1\lab1\1.4\obj\Debug\1.4.pdb

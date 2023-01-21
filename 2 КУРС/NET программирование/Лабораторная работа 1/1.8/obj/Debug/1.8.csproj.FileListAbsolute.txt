@@ -1,0 +1,13 @@
+D:\lab1\1.8\bin\Debug\1.8.exe.config
+D:\lab1\1.8\bin\Debug\1.8.exe
+D:\lab1\1.8\bin\Debug\1.8.pdb
+D:\lab1\1.8\obj\Debug\1.8.csproj.CoreCompileInputs.cache
+D:\lab1\1.8\obj\Debug\1.8.exe
+D:\lab1\1.8\obj\Debug\1.8.pdb
+D:\Новая папка\Лабораторная работа 1\lab1\1.8\bin\Debug\1.8.exe.config
+D:\Новая папка\Лабораторная работа 1\lab1\1.8\bin\Debug\1.8.exe
+D:\Новая папка\Лабораторная работа 1\lab1\1.8\bin\Debug\1.8.pdb
+D:\Новая папка\Лабораторная работа 1\lab1\1.8\obj\Debug\1.8.csprojAssemblyReference.cache
+D:\Новая папка\Лабораторная работа 1\lab1\1.8\obj\Debug\1.8.csproj.CoreCompileInputs.cache
+D:\Новая папка\Лабораторная работа 1\lab1\1.8\obj\Debug\1.8.exe
+D:\Новая папка\Лабораторная работа 1\lab1\1.8\obj\Debug\1.8.pdb

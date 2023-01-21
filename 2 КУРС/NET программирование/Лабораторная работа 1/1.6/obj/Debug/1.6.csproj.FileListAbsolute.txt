@@ -1,0 +1,13 @@
+C:\Users\class\source\repos\lab1\1.6\bin\Debug\1.6.exe.config
+C:\Users\class\source\repos\lab1\1.6\bin\Debug\1.6.exe
+C:\Users\class\source\repos\lab1\1.6\bin\Debug\1.6.pdb
+C:\Users\class\source\repos\lab1\1.6\obj\Debug\1.6.csproj.CoreCompileInputs.cache
+C:\Users\class\source\repos\lab1\1.6\obj\Debug\1.6.exe
+C:\Users\class\source\repos\lab1\1.6\obj\Debug\1.6.pdb
+D:\lab1\1.6\obj\Debug\1.6.csprojAssemblyReference.cache
+D:\lab1\1.6\obj\Debug\1.6.csproj.CoreCompileInputs.cache
+D:\lab1\1.6\obj\Debug\1.6.exe
+D:\lab1\1.6\obj\Debug\1.6.pdb
+D:\lab1\1.6\bin\Debug\1.6.exe.config
+D:\lab1\1.6\bin\Debug\1.6.exe
+D:\lab1\1.6\bin\Debug\1.6.pdb
