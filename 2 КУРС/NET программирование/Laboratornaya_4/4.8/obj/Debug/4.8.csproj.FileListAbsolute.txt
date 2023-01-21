@@ -1,0 +1,29 @@
+C:\Users\savin\source\repos\Laboratornaya_4\4.8\bin\Debug\4.8.exe.config
+C:\Users\savin\source\repos\Laboratornaya_4\4.8\bin\Debug\4.8.exe
+C:\Users\savin\source\repos\Laboratornaya_4\4.8\bin\Debug\4.8.pdb
+C:\Users\savin\source\repos\Laboratornaya_4\4.8\obj\Debug\4.8.csprojAssemblyReference.cache
+C:\Users\savin\source\repos\Laboratornaya_4\4.8\obj\Debug\_4._8.Form1.resources
+C:\Users\savin\source\repos\Laboratornaya_4\4.8\obj\Debug\_4._8.Properties.Resources.resources
+C:\Users\savin\source\repos\Laboratornaya_4\4.8\obj\Debug\4.8.csproj.GenerateResource.cache
+C:\Users\savin\source\repos\Laboratornaya_4\4.8\obj\Debug\4.8.exe
+C:\Users\savin\source\repos\Laboratornaya_4\4.8\obj\Debug\4.8.pdb
+C:\Users\class\Desktop\Лабораторная работа 4\Laboratornaya_4\4.8\bin\Debug\4.8.exe.config
+C:\Users\class\Desktop\Лабораторная работа 4\Laboratornaya_4\4.8\bin\Debug\4.8.exe
+C:\Users\class\Desktop\Лабораторная работа 4\Laboratornaya_4\4.8\bin\Debug\4.8.pdb
+C:\Users\class\Desktop\Лабораторная работа 4\Laboratornaya_4\4.8\obj\Debug\4.8.csprojAssemblyReference.cache
+C:\Users\class\Desktop\Лабораторная работа 4\Laboratornaya_4\4.8\obj\Debug\_4._8.Form1.resources
+C:\Users\class\Desktop\Лабораторная работа 4\Laboratornaya_4\4.8\obj\Debug\_4._8.Properties.Resources.resources
+C:\Users\class\Desktop\Лабораторная работа 4\Laboratornaya_4\4.8\obj\Debug\4.8.csproj.GenerateResource.cache
+C:\Users\class\Desktop\Лабораторная работа 4\Laboratornaya_4\4.8\obj\Debug\4.8.csproj.CoreCompileInputs.cache
+C:\Users\class\Desktop\Лабораторная работа 4\Laboratornaya_4\4.8\obj\Debug\4.8.exe
+C:\Users\class\Desktop\Лабораторная работа 4\Laboratornaya_4\4.8\obj\Debug\4.8.pdb
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\4.8\bin\Debug\4.8.exe.config
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\4.8\bin\Debug\4.8.exe
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\4.8\bin\Debug\4.8.pdb
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\4.8\obj\Debug\4.8.csprojAssemblyReference.cache
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\4.8\obj\Debug\_4._8.Form1.resources
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\4.8\obj\Debug\_4._8.Properties.Resources.resources
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\4.8\obj\Debug\4.8.csproj.GenerateResource.cache
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\4.8\obj\Debug\4.8.csproj.CoreCompileInputs.cache
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\4.8\obj\Debug\4.8.exe
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\4.8\obj\Debug\4.8.pdb
