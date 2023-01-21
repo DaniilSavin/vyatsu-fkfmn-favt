@@ -1,0 +1,29 @@
+D:\      \2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\Ex1\bin\Debug\Ex1.exe.config
+D:\      \2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\Ex1\bin\Debug\Ex1.exe
+D:\      \2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\Ex1\bin\Debug\Ex1.pdb
+D:\      \2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\Ex1\obj\Debug\4.1.csprojAssemblyReference.cache
+D:\      \2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\Ex1\obj\Debug\Ex1.Form1.resources
+D:\      \2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\Ex1\obj\Debug\Ex1.Properties.Resources.resources
+D:\      \2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\Ex1\obj\Debug\4.1.csproj.GenerateResource.cache
+D:\      \2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\Ex1\obj\Debug\Ex1.exe
+D:\      \2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\Ex1\obj\Debug\Ex1.pdb
+C:\Users\class\Desktop\Лабораторная работа 4\Laboratornaya_4\Ex1\bin\Debug\Ex1.exe.config
+C:\Users\class\Desktop\Лабораторная работа 4\Laboratornaya_4\Ex1\bin\Debug\Ex1.exe
+C:\Users\class\Desktop\Лабораторная работа 4\Laboratornaya_4\Ex1\bin\Debug\Ex1.pdb
+C:\Users\class\Desktop\Лабораторная работа 4\Laboratornaya_4\Ex1\obj\Debug\4.1.csprojAssemblyReference.cache
+C:\Users\class\Desktop\Лабораторная работа 4\Laboratornaya_4\Ex1\obj\Debug\Ex1.Form1.resources
+C:\Users\class\Desktop\Лабораторная работа 4\Laboratornaya_4\Ex1\obj\Debug\Ex1.Properties.Resources.resources
+C:\Users\class\Desktop\Лабораторная работа 4\Laboratornaya_4\Ex1\obj\Debug\4.1.csproj.GenerateResource.cache
+C:\Users\class\Desktop\Лабораторная работа 4\Laboratornaya_4\Ex1\obj\Debug\4.1.csproj.CoreCompileInputs.cache
+C:\Users\class\Desktop\Лабораторная работа 4\Laboratornaya_4\Ex1\obj\Debug\Ex1.exe
+C:\Users\class\Desktop\Лабораторная работа 4\Laboratornaya_4\Ex1\obj\Debug\Ex1.pdb
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\Ex1\bin\Debug\Ex1.exe.config
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\Ex1\bin\Debug\Ex1.exe
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\Ex1\bin\Debug\Ex1.pdb
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\Ex1\obj\Debug\4.1.csprojAssemblyReference.cache
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\Ex1\obj\Debug\Ex1.Form1.resources
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\Ex1\obj\Debug\Ex1.Properties.Resources.resources
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\Ex1\obj\Debug\4.1.csproj.GenerateResource.cache
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\Ex1\obj\Debug\4.1.csproj.CoreCompileInputs.cache
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\Ex1\obj\Debug\Ex1.exe
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 4\Laboratornaya_4\Ex1\obj\Debug\Ex1.pdb
