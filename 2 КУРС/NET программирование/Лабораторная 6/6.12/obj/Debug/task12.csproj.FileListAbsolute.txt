@@ -1,0 +1,6 @@
+E:\Лабораторная 6\6.12\bin\Debug\6.12.exe.config
+E:\Лабораторная 6\6.12\bin\Debug\6.12.exe
+E:\Лабораторная 6\6.12\bin\Debug\6.12.pdb
+E:\Лабораторная 6\6.12\obj\Debug\task12.csproj.CoreCompileInputs.cache
+E:\Лабораторная 6\6.12\obj\Debug\6.12.exe
+E:\Лабораторная 6\6.12\obj\Debug\6.12.pdb

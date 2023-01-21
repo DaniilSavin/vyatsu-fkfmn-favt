@@ -1,0 +1,7 @@
+H:\Лабораторная 6\7.5\bin\Debug\7.5.exe.config
+H:\Лабораторная 6\7.5\bin\Debug\7.5.exe
+H:\Лабораторная 6\7.5\bin\Debug\7.5.pdb
+H:\Лабораторная 6\7.5\obj\Debug\7.5.csprojAssemblyReference.cache
+H:\Лабораторная 6\7.5\obj\Debug\7.5.csproj.CoreCompileInputs.cache
+H:\Лабораторная 6\7.5\obj\Debug\7.5.exe
+H:\Лабораторная 6\7.5\obj\Debug\7.5.pdb
