@@ -1,0 +1,13 @@
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 7\laboratornya_7\zadanie_4_2\bin\Debug\netcoreapp3.1\zadanie_4_2.exe
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 7\laboratornya_7\zadanie_4_2\bin\Debug\netcoreapp3.1\zadanie_4_2.deps.json
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 7\laboratornya_7\zadanie_4_2\bin\Debug\netcoreapp3.1\zadanie_4_2.runtimeconfig.json
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 7\laboratornya_7\zadanie_4_2\bin\Debug\netcoreapp3.1\zadanie_4_2.runtimeconfig.dev.json
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 7\laboratornya_7\zadanie_4_2\bin\Debug\netcoreapp3.1\zadanie_4_2.dll
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 7\laboratornya_7\zadanie_4_2\bin\Debug\netcoreapp3.1\zadanie_4_2.pdb
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 7\laboratornya_7\zadanie_4_2\obj\Debug\netcoreapp3.1\zadanie_4_2.csprojAssemblyReference.cache
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 7\laboratornya_7\zadanie_4_2\obj\Debug\netcoreapp3.1\zadanie_4_2.AssemblyInfoInputs.cache
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 7\laboratornya_7\zadanie_4_2\obj\Debug\netcoreapp3.1\zadanie_4_2.AssemblyInfo.cs
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 7\laboratornya_7\zadanie_4_2\obj\Debug\netcoreapp3.1\zadanie_4_2.csproj.CoreCompileInputs.cache
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 7\laboratornya_7\zadanie_4_2\obj\Debug\netcoreapp3.1\zadanie_4_2.dll
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 7\laboratornya_7\zadanie_4_2\obj\Debug\netcoreapp3.1\zadanie_4_2.pdb
+D:\ВУЗ\2 КУРС\.NET программирование\Лабораторная работа 7\laboratornya_7\zadanie_4_2\obj\Debug\netcoreapp3.1\zadanie_4_2.genruntimeconfig.cache
