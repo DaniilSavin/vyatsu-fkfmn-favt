@@ -1,0 +1,19 @@
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Lab4\Task4.8\bin\Debug\Task4.8.exe.config
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Lab4\Task4.8\bin\Debug\Task4.8.exe
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Lab4\Task4.8\bin\Debug\Task4.8.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Lab4\Task4.8\obj\Debug\Task4._8.Form1.resources
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Lab4\Task4.8\obj\Debug\Task4._8.Properties.Resources.resources
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Lab4\Task4.8\obj\Debug\Task4.8.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Lab4\Task4.8\obj\Debug\Task4.8.exe
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Lab4\Task4.8\obj\Debug\Task4.8.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Lab4\Task4.8\obj\Debug\Task4._8.Form2.resources
+D:\      \2 КУРС\.NET программирование\Lab4\Lab4\Task4.8\bin\Debug\Task4.8.exe.config
+D:\      \2 КУРС\.NET программирование\Lab4\Lab4\Task4.8\bin\Debug\Task4.8.exe
+D:\      \2 КУРС\.NET программирование\Lab4\Lab4\Task4.8\bin\Debug\Task4.8.pdb
+D:\      \2 КУРС\.NET программирование\Lab4\Lab4\Task4.8\obj\Debug\Task4.8.csprojAssemblyReference.cache
+D:\      \2 КУРС\.NET программирование\Lab4\Lab4\Task4.8\obj\Debug\Task4._8.Form1.resources
+D:\      \2 КУРС\.NET программирование\Lab4\Lab4\Task4.8\obj\Debug\Task4._8.Form2.resources
+D:\      \2 КУРС\.NET программирование\Lab4\Lab4\Task4.8\obj\Debug\Task4._8.Properties.Resources.resources
+D:\      \2 КУРС\.NET программирование\Lab4\Lab4\Task4.8\obj\Debug\Task4.8.csproj.GenerateResource.cache
+D:\      \2 КУРС\.NET программирование\Lab4\Lab4\Task4.8\obj\Debug\Task4.8.exe
+D:\      \2 КУРС\.NET программирование\Lab4\Lab4\Task4.8\obj\Debug\Task4.8.pdb
