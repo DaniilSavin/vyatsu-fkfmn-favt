@@ -1,0 +1,10 @@
+C:\Laboratornaya_3\Task_3.3\bin\Debug\Task_3.3.exe.config
+C:\Laboratornaya_3\Task_3.3\bin\Debug\Task_3.3.exe
+C:\Laboratornaya_3\Task_3.3\bin\Debug\Task_3.3.pdb
+C:\Laboratornaya_3\Task_3.3\obj\Debug\Task_3._3.Form1.resources
+C:\Laboratornaya_3\Task_3.3\obj\Debug\Task_3._3.Properties.Resources.resources
+C:\Laboratornaya_3\Task_3.3\obj\Debug\Task_3.3.csproj.GenerateResource.cache
+C:\Laboratornaya_3\Task_3.3\obj\Debug\Task_3.3.csproj.CoreCompileInputs.cache
+C:\Laboratornaya_3\Task_3.3\obj\Debug\Task_3.3.exe
+C:\Laboratornaya_3\Task_3.3\obj\Debug\Task_3.3.pdb
+C:\Laboratornaya_3\Task_3.3\obj\Debug\Task_3.3.csprojAssemblyReference.cache
