@@ -1,0 +1,6 @@
+E:\      \2 КУРС\.NET программирование\Laboratornaya_6\Laboratornaya_6\bin\Debug\Laboratornaya_6.exe.config
+E:\      \2 КУРС\.NET программирование\Laboratornaya_6\Laboratornaya_6\bin\Debug\Laboratornaya_6.exe
+E:\      \2 КУРС\.NET программирование\Laboratornaya_6\Laboratornaya_6\bin\Debug\Laboratornaya_6.pdb
+E:\      \2 КУРС\.NET программирование\Laboratornaya_6\Laboratornaya_6\obj\Debug\zadanie_1.csprojAssemblyReference.cache
+E:\      \2 КУРС\.NET программирование\Laboratornaya_6\Laboratornaya_6\obj\Debug\Laboratornaya_6.exe
+E:\      \2 КУРС\.NET программирование\Laboratornaya_6\Laboratornaya_6\obj\Debug\Laboratornaya_6.pdb

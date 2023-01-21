@@ -1,0 +1,5 @@
+E:\      \2 КУРС\.NET программирование\Laboratornaya_6\zadanie_2\bin\Debug\zadanie_2.exe.config
+E:\      \2 КУРС\.NET программирование\Laboratornaya_6\zadanie_2\bin\Debug\zadanie_2.exe
+E:\      \2 КУРС\.NET программирование\Laboratornaya_6\zadanie_2\bin\Debug\zadanie_2.pdb
+E:\      \2 КУРС\.NET программирование\Laboratornaya_6\zadanie_2\obj\Debug\zadanie_2.exe
+E:\      \2 КУРС\.NET программирование\Laboratornaya_6\zadanie_2\obj\Debug\zadanie_2.pdb
