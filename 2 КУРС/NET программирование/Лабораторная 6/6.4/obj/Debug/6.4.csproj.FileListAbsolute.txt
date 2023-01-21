@@ -1,0 +1,7 @@
+C:\Users\megas\source\repos\Лабораторная 6\6.4\bin\Debug\6.4.exe.config
+C:\Users\megas\source\repos\Лабораторная 6\6.4\bin\Debug\6.4.exe
+C:\Users\megas\source\repos\Лабораторная 6\6.4\bin\Debug\6.4.pdb
+C:\Users\megas\source\repos\Лабораторная 6\6.4\obj\Debug\6.4.csprojAssemblyReference.cache
+C:\Users\megas\source\repos\Лабораторная 6\6.4\obj\Debug\6.4.csproj.CoreCompileInputs.cache
+C:\Users\megas\source\repos\Лабораторная 6\6.4\obj\Debug\6.4.exe
+C:\Users\megas\source\repos\Лабораторная 6\6.4\obj\Debug\6.4.pdb
