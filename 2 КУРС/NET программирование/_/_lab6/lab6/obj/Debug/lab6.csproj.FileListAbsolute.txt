@@ -1,0 +1,12 @@
+C:\Users\Дмитрий Лаптев\source\repos\lab6\lab6\bin\Debug\lab6.exe.config
+C:\Users\Дмитрий Лаптев\source\repos\lab6\lab6\bin\Debug\lab6.exe
+C:\Users\Дмитрий Лаптев\source\repos\lab6\lab6\bin\Debug\lab6.pdb
+C:\Users\Дмитрий Лаптев\source\repos\lab6\lab6\obj\Debug\lab6.csprojAssemblyReference.cache
+C:\Users\Дмитрий Лаптев\source\repos\lab6\lab6\obj\Debug\lab6.exe
+C:\Users\Дмитрий Лаптев\source\repos\lab6\lab6\obj\Debug\lab6.pdb
+F:\lab6\lab6\bin\Debug\lab6.exe.config
+F:\lab6\lab6\bin\Debug\lab6.exe
+F:\lab6\lab6\bin\Debug\lab6.pdb
+F:\lab6\lab6\obj\Debug\lab6.csprojAssemblyReference.cache
+F:\lab6\lab6\obj\Debug\lab6.exe
+F:\lab6\lab6\obj\Debug\lab6.pdb

@@ -1,0 +1,20 @@
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task4\bin\Debug\task4.exe.config
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task4\bin\Debug\task4.exe
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task4\bin\Debug\task4.pdb
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task4\obj\Debug\task4.csprojAssemblyReference.cache
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task4\obj\Debug\task4.csproj.CoreCompileInputs.cache
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task4\obj\Debug\task4.exe
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task4\obj\Debug\task4.pdb
+F:\lab6\task4\bin\Debug\task4.exe.config
+F:\lab6\task4\bin\Debug\task4.exe
+F:\lab6\task4\bin\Debug\task4.pdb
+F:\lab6\task4\obj\Debug\task4.csprojAssemblyReference.cache
+F:\lab6\task4\obj\Debug\task4.exe
+F:\lab6\task4\obj\Debug\task4.pdb
+E:\lab6\task4\bin\Debug\task4.exe.config
+E:\lab6\task4\bin\Debug\task4.exe
+E:\lab6\task4\bin\Debug\task4.pdb
+E:\lab6\task4\obj\Debug\task4.csprojAssemblyReference.cache
+E:\lab6\task4\obj\Debug\task4.csproj.CoreCompileInputs.cache
+E:\lab6\task4\obj\Debug\task4.exe
+E:\lab6\task4\obj\Debug\task4.pdb

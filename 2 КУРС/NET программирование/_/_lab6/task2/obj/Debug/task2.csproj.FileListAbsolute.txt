@@ -1,0 +1,20 @@
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task2\bin\Debug\task2.exe.config
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task2\bin\Debug\task2.exe
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task2\bin\Debug\task2.pdb
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task2\obj\Debug\task2.csprojAssemblyReference.cache
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task2\obj\Debug\task2.csproj.CoreCompileInputs.cache
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task2\obj\Debug\task2.exe
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task2\obj\Debug\task2.pdb
+F:\lab6\task2\bin\Debug\task2.exe.config
+F:\lab6\task2\bin\Debug\task2.exe
+F:\lab6\task2\bin\Debug\task2.pdb
+F:\lab6\task2\obj\Debug\task2.csprojAssemblyReference.cache
+F:\lab6\task2\obj\Debug\task2.exe
+F:\lab6\task2\obj\Debug\task2.pdb
+E:\lab6\task2\bin\Debug\task2.exe.config
+E:\lab6\task2\bin\Debug\task2.exe
+E:\lab6\task2\bin\Debug\task2.pdb
+E:\lab6\task2\obj\Debug\task2.csprojAssemblyReference.cache
+E:\lab6\task2\obj\Debug\task2.csproj.CoreCompileInputs.cache
+E:\lab6\task2\obj\Debug\task2.exe
+E:\lab6\task2\obj\Debug\task2.pdb
