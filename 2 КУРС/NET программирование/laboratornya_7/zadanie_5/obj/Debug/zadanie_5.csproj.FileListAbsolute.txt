@@ -1,0 +1,13 @@
+E:\      \2 КУРС\.NET программирование\Лабораторная работа 7\laboratornya_7\zadanie_5\bin\Debug\zadanie_5.exe.config
+E:\      \2 КУРС\.NET программирование\Лабораторная работа 7\laboratornya_7\zadanie_5\bin\Debug\zadanie_5.exe
+E:\      \2 КУРС\.NET программирование\Лабораторная работа 7\laboratornya_7\zadanie_5\bin\Debug\zadanie_5.pdb
+E:\      \2 КУРС\.NET программирование\Лабораторная работа 7\laboratornya_7\zadanie_5\obj\Debug\zadanie_5.csprojAssemblyReference.cache
+E:\      \2 КУРС\.NET программирование\Лабораторная работа 7\laboratornya_7\zadanie_5\obj\Debug\zadanie_5.exe
+E:\      \2 КУРС\.NET программирование\Лабораторная работа 7\laboratornya_7\zadanie_5\obj\Debug\zadanie_5.pdb
+D:\Лабораторная работа 7\laboratornya_7\zadanie_5\bin\Debug\zadanie_5.exe.config
+D:\Лабораторная работа 7\laboratornya_7\zadanie_5\bin\Debug\zadanie_5.exe
+D:\Лабораторная работа 7\laboratornya_7\zadanie_5\bin\Debug\zadanie_5.pdb
+D:\Лабораторная работа 7\laboratornya_7\zadanie_5\obj\Debug\zadanie_5.csprojAssemblyReference.cache
+D:\Лабораторная работа 7\laboratornya_7\zadanie_5\obj\Debug\zadanie_5.csproj.CoreCompileInputs.cache
+D:\Лабораторная работа 7\laboratornya_7\zadanie_5\obj\Debug\zadanie_5.exe
+D:\Лабораторная работа 7\laboratornya_7\zadanie_5\obj\Debug\zadanie_5.pdb
