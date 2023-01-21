@@ -1,0 +1,9 @@
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Lab4\Task4.5\bin\Debug\Task4.5.exe.config
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Lab4\Task4.5\bin\Debug\Task4.5.exe
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Lab4\Task4.5\bin\Debug\Task4.5.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Lab4\Task4.5\obj\Debug\Task4._5.Form1.resources
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Lab4\Task4.5\obj\Debug\Task4._5.Properties.Resources.resources
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Lab4\Task4.5\obj\Debug\Task4.5.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Lab4\Task4.5\obj\Debug\Task4.5.exe
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Lab4\Task4.5\obj\Debug\Task4.5.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Lab4\Task4.5\obj\Debug\Task4.5.csprojResolveAssemblyReference.cache

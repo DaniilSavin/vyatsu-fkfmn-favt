@@ -1,0 +1,24 @@
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Lab4\Task4.6\bin\Debug\Task4.6.exe.config
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Lab4\Task4.6\bin\Debug\Task4.6.exe
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Lab4\Task4.6\bin\Debug\Task4.6.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Lab4\Task4.6\obj\Debug\Task4._6.Form1.resources
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Lab4\Task4.6\obj\Debug\Task4._6.Properties.Resources.resources
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Lab4\Task4.6\obj\Debug\Task4.6.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Lab4\Task4.6\obj\Debug\Task4.6.exe
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Lab4\Task4.6\obj\Debug\Task4.6.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Lab4\Task4.6\bin\Debug\Task4.8.exe
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Lab4\Task4.6\bin\Debug\Task4.8.pdb
+C:\Users\Admin\Documents\Visual Studio 2015\Projects\Lab4\Task4.6\obj\Debug\Task4.6.csprojResolveAssemblyReference.cache
+D:\      \2 КУРС\.NET программирование\Lab4\Lab4\Task4.6\bin\Debug\Task4.6.exe.config
+D:\      \2 КУРС\.NET программирование\Lab4\Lab4\Task4.6\bin\Debug\Task4.6.exe
+D:\      \2 КУРС\.NET программирование\Lab4\Lab4\Task4.6\bin\Debug\Task4.6.pdb
+D:\      \2 КУРС\.NET программирование\Lab4\Lab4\Task4.6\bin\Debug\Task4.8.exe
+D:\      \2 КУРС\.NET программирование\Lab4\Lab4\Task4.6\bin\Debug\Task4.8.pdb
+D:\      \2 КУРС\.NET программирование\Lab4\Lab4\Task4.6\bin\Debug\Task4.8.exe.config
+D:\      \2 КУРС\.NET программирование\Lab4\Lab4\Task4.6\obj\Debug\Task4.6.csprojAssemblyReference.cache
+D:\      \2 КУРС\.NET программирование\Lab4\Lab4\Task4.6\obj\Debug\Task4._6.Form1.resources
+D:\      \2 КУРС\.NET программирование\Lab4\Lab4\Task4.6\obj\Debug\Task4._6.Properties.Resources.resources
+D:\      \2 КУРС\.NET программирование\Lab4\Lab4\Task4.6\obj\Debug\Task4.6.csproj.GenerateResource.cache
+D:\      \2 КУРС\.NET программирование\Lab4\Lab4\Task4.6\obj\Debug\Task4.6.csproj.CopyComplete
+D:\      \2 КУРС\.NET программирование\Lab4\Lab4\Task4.6\obj\Debug\Task4.6.exe
+D:\      \2 КУРС\.NET программирование\Lab4\Lab4\Task4.6\obj\Debug\Task4.6.pdb
