@@ -1,0 +1,9 @@
+﻿  stdafx.cpp
+  zadanie_3.cpp
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(638,5): warning MSB4220: ожидание отмены выполняемой в текущий момент задачи "Link".
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(638,5): warning MSB4220: ожидание отмены выполняемой в текущий момент задачи "Link".
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(638,5): warning MSB4220: ожидание отмены выполняемой в текущий момент задачи "Link".
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(638,5): warning MSB4220: ожидание отмены выполняемой в текущий момент задачи "Link".
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(638,5): warning MSB4220: ожидание отмены выполняемой в текущий момент задачи "Link".
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(638,5): warning MSB4220: ожидание отмены выполняемой в текущий момент задачи "Link".
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppCommon.targets(638,5): error MSB6006: "link.exe" завершилась с кодом 1.
