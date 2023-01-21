@@ -1,0 +1,30 @@
+C:\Users\savin\source\repos\Laboratornaya_2\Task_3\bin\Debug\Task_3.exe.config
+C:\Users\savin\source\repos\Laboratornaya_2\Task_3\bin\Debug\Task_3.exe
+C:\Users\savin\source\repos\Laboratornaya_2\Task_3\bin\Debug\Task_3.pdb
+C:\Users\savin\source\repos\Laboratornaya_2\Task_3\obj\Debug\Task_3.csprojAssemblyReference.cache
+C:\Users\savin\source\repos\Laboratornaya_2\Task_3\obj\Debug\Task_3.Form1.resources
+C:\Users\savin\source\repos\Laboratornaya_2\Task_3\obj\Debug\Task_3.Properties.Resources.resources
+C:\Users\savin\source\repos\Laboratornaya_2\Task_3\obj\Debug\Task_3.csproj.GenerateResource.cache
+C:\Users\savin\source\repos\Laboratornaya_2\Task_3\obj\Debug\Task_3.csproj.CoreCompileInputs.cache
+C:\Users\savin\source\repos\Laboratornaya_2\Task_3\obj\Debug\Task_3.exe
+C:\Users\savin\source\repos\Laboratornaya_2\Task_3\obj\Debug\Task_3.pdb
+D:\Новая папка\Лабораторная работа 2\Laboratornaya_2\Task_3\bin\Debug\Task_3.exe.config
+D:\Новая папка\Лабораторная работа 2\Laboratornaya_2\Task_3\bin\Debug\Task_3.exe
+D:\Новая папка\Лабораторная работа 2\Laboratornaya_2\Task_3\bin\Debug\Task_3.pdb
+D:\Новая папка\Лабораторная работа 2\Laboratornaya_2\Task_3\obj\Debug\Task_3.csprojAssemblyReference.cache
+D:\Новая папка\Лабораторная работа 2\Laboratornaya_2\Task_3\obj\Debug\Task_3.Form1.resources
+D:\Новая папка\Лабораторная работа 2\Laboratornaya_2\Task_3\obj\Debug\Task_3.Properties.Resources.resources
+D:\Новая папка\Лабораторная работа 2\Laboratornaya_2\Task_3\obj\Debug\Task_3.csproj.GenerateResource.cache
+D:\Новая папка\Лабораторная работа 2\Laboratornaya_2\Task_3\obj\Debug\Task_3.csproj.CoreCompileInputs.cache
+D:\Новая папка\Лабораторная работа 2\Laboratornaya_2\Task_3\obj\Debug\Task_3.exe
+D:\Новая папка\Лабораторная работа 2\Laboratornaya_2\Task_3\obj\Debug\Task_3.pdb
+D:\      \2 КУРС\.NET программирование\Лабораторная работа 2\Laboratornaya_2\Task_3\bin\Debug\Task_3.exe.config
+D:\      \2 КУРС\.NET программирование\Лабораторная работа 2\Laboratornaya_2\Task_3\bin\Debug\Task_3.exe
+D:\      \2 КУРС\.NET программирование\Лабораторная работа 2\Laboratornaya_2\Task_3\bin\Debug\Task_3.pdb
+D:\      \2 КУРС\.NET программирование\Лабораторная работа 2\Laboratornaya_2\Task_3\obj\Debug\Task_3.csprojAssemblyReference.cache
+D:\      \2 КУРС\.NET программирование\Лабораторная работа 2\Laboratornaya_2\Task_3\obj\Debug\Task_3.Form1.resources
+D:\      \2 КУРС\.NET программирование\Лабораторная работа 2\Laboratornaya_2\Task_3\obj\Debug\Task_3.Properties.Resources.resources
+D:\      \2 КУРС\.NET программирование\Лабораторная работа 2\Laboratornaya_2\Task_3\obj\Debug\Task_3.csproj.GenerateResource.cache
+D:\      \2 КУРС\.NET программирование\Лабораторная работа 2\Laboratornaya_2\Task_3\obj\Debug\Task_3.csproj.CoreCompileInputs.cache
+D:\      \2 КУРС\.NET программирование\Лабораторная работа 2\Laboratornaya_2\Task_3\obj\Debug\Task_3.exe
+D:\      \2 КУРС\.NET программирование\Лабораторная работа 2\Laboratornaya_2\Task_3\obj\Debug\Task_3.pdb

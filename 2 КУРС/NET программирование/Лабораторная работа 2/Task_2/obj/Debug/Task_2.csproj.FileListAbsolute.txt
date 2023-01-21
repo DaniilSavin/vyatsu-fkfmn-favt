@@ -1,0 +1,20 @@
+C:\Users\savin\source\repos\Laboratornaya_2\Task_2\obj\Debug\Task_2.Form1.resources
+C:\Users\savin\source\repos\Laboratornaya_2\Task_2\obj\Debug\Task_2.Properties.Resources.resources
+C:\Users\savin\source\repos\Laboratornaya_2\Task_2\obj\Debug\Task_2.csproj.GenerateResource.cache
+C:\Users\savin\source\repos\Laboratornaya_2\Task_2\obj\Debug\Task_2.csproj.CoreCompileInputs.cache
+C:\Users\savin\source\repos\Laboratornaya_2\Task_2\bin\Debug\Task_2.exe.config
+C:\Users\savin\source\repos\Laboratornaya_2\Task_2\bin\Debug\Task_2.exe
+C:\Users\savin\source\repos\Laboratornaya_2\Task_2\bin\Debug\Task_2.pdb
+C:\Users\savin\source\repos\Laboratornaya_2\Task_2\obj\Debug\Task_2.exe
+C:\Users\savin\source\repos\Laboratornaya_2\Task_2\obj\Debug\Task_2.pdb
+C:\Users\savin\source\repos\Laboratornaya_2\Task_2\obj\Debug\Task_2.csprojAssemblyReference.cache
+D:\Новая папка\Лабораторная работа 2\Laboratornaya_2\Task_2\bin\Debug\Task_2.exe.config
+D:\Новая папка\Лабораторная работа 2\Laboratornaya_2\Task_2\bin\Debug\Task_2.exe
+D:\Новая папка\Лабораторная работа 2\Laboratornaya_2\Task_2\bin\Debug\Task_2.pdb
+D:\Новая папка\Лабораторная работа 2\Laboratornaya_2\Task_2\obj\Debug\Task_2.csprojAssemblyReference.cache
+D:\Новая папка\Лабораторная работа 2\Laboratornaya_2\Task_2\obj\Debug\Task_2.Form1.resources
+D:\Новая папка\Лабораторная работа 2\Laboratornaya_2\Task_2\obj\Debug\Task_2.Properties.Resources.resources
+D:\Новая папка\Лабораторная работа 2\Laboratornaya_2\Task_2\obj\Debug\Task_2.csproj.GenerateResource.cache
+D:\Новая папка\Лабораторная работа 2\Laboratornaya_2\Task_2\obj\Debug\Task_2.csproj.CoreCompileInputs.cache
+D:\Новая папка\Лабораторная работа 2\Laboratornaya_2\Task_2\obj\Debug\Task_2.exe
+D:\Новая папка\Лабораторная работа 2\Laboratornaya_2\Task_2\obj\Debug\Task_2.pdb
