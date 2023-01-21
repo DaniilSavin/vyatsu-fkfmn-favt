@@ -1,0 +1,50 @@
+C:\Users\savin\source\repos\organiser\organiser\bin\Debug\organiser.exe.config
+C:\Users\savin\source\repos\organiser\organiser\bin\Debug\organiser.exe
+C:\Users\savin\source\repos\organiser\organiser\bin\Debug\organiser.pdb
+C:\Users\savin\source\repos\organiser\organiser\obj\Debug\organiser.csprojAssemblyReference.cache
+C:\Users\savin\source\repos\organiser\organiser\obj\Debug\organiser.form1.resources
+C:\Users\savin\source\repos\organiser\organiser\obj\Debug\organiser.Properties.Resources.resources
+C:\Users\savin\source\repos\organiser\organiser\obj\Debug\organiser.csproj.GenerateResource.cache
+C:\Users\savin\source\repos\organiser\organiser\obj\Debug\organiser.exe
+C:\Users\savin\source\repos\organiser\organiser\obj\Debug\organiser.pdb
+C:\Users\class\source\repos\organiser\organiser\bin\Debug\organiser.exe.config
+C:\Users\class\source\repos\organiser\organiser\bin\Debug\organiser.exe
+C:\Users\class\source\repos\organiser\organiser\bin\Debug\organiser.pdb
+C:\Users\class\source\repos\organiser\organiser\obj\Debug\organiser.csprojAssemblyReference.cache
+C:\Users\class\source\repos\organiser\organiser\obj\Debug\organiser.form1.resources
+C:\Users\class\source\repos\organiser\organiser\obj\Debug\organiser.Properties.Resources.resources
+C:\Users\class\source\repos\organiser\organiser\obj\Debug\organiser.csproj.GenerateResource.cache
+C:\Users\class\source\repos\organiser\organiser\obj\Debug\organiser.csproj.CoreCompileInputs.cache
+C:\Users\class\source\repos\organiser\organiser\obj\Debug\organiser.exe
+C:\Users\class\source\repos\organiser\organiser\obj\Debug\organiser.pdb
+E:\ВУЗ\organiser\organiser\bin\Debug\organiser.exe.config
+E:\ВУЗ\organiser\organiser\bin\Debug\organiser.exe
+E:\ВУЗ\organiser\organiser\bin\Debug\organiser.pdb
+E:\ВУЗ\organiser\organiser\obj\Debug\organiser.csprojAssemblyReference.cache
+E:\ВУЗ\organiser\organiser\obj\Debug\organiser.form1.resources
+E:\ВУЗ\organiser\organiser\obj\Debug\organiser.Properties.Resources.resources
+E:\ВУЗ\organiser\organiser\obj\Debug\organiser.csproj.GenerateResource.cache
+E:\ВУЗ\organiser\organiser\obj\Debug\organiser.csproj.CoreCompileInputs.cache
+E:\ВУЗ\organiser\organiser\obj\Debug\organiser.exe
+E:\ВУЗ\organiser\organiser\obj\Debug\organiser.pdb
+D:\ВУЗ\2 КУРС\organiser\organiser\bin\Debug\organiser.exe.config
+D:\ВУЗ\2 КУРС\organiser\organiser\bin\Debug\organiser.exe
+D:\ВУЗ\2 КУРС\organiser\organiser\bin\Debug\organiser.pdb
+D:\ВУЗ\2 КУРС\organiser\organiser\obj\Debug\organiser.csprojAssemblyReference.cache
+D:\ВУЗ\2 КУРС\organiser\organiser\obj\Debug\organiser.form1.resources
+D:\ВУЗ\2 КУРС\organiser\organiser\obj\Debug\organiser.Properties.Resources.resources
+D:\ВУЗ\2 КУРС\organiser\organiser\obj\Debug\organiser.csproj.GenerateResource.cache
+D:\ВУЗ\2 КУРС\organiser\organiser\obj\Debug\organiser.csproj.CoreCompileInputs.cache
+D:\ВУЗ\2 КУРС\organiser\organiser\obj\Debug\organiser.exe
+D:\ВУЗ\2 КУРС\organiser\organiser\obj\Debug\organiser.pdb
+D:\ВУЗ\ВУЗ\2 КУРС\organiser\organiser\bin\Debug\organiser.exe.config
+D:\ВУЗ\ВУЗ\2 КУРС\organiser\organiser\bin\Debug\organiser.exe
+D:\ВУЗ\ВУЗ\2 КУРС\organiser\organiser\bin\Debug\organiser.pdb
+D:\ВУЗ\ВУЗ\2 КУРС\organiser\organiser\obj\Debug\organiser.csproj.AssemblyReference.cache
+D:\ВУЗ\ВУЗ\2 КУРС\organiser\organiser\obj\Debug\organiser.csproj.SuggestedBindingRedirects.cache
+D:\ВУЗ\ВУЗ\2 КУРС\organiser\organiser\obj\Debug\organiser.form1.resources
+D:\ВУЗ\ВУЗ\2 КУРС\organiser\organiser\obj\Debug\organiser.Properties.Resources.resources
+D:\ВУЗ\ВУЗ\2 КУРС\organiser\organiser\obj\Debug\organiser.csproj.GenerateResource.cache
+D:\ВУЗ\ВУЗ\2 КУРС\organiser\organiser\obj\Debug\organiser.csproj.CoreCompileInputs.cache
+D:\ВУЗ\ВУЗ\2 КУРС\organiser\organiser\obj\Debug\organiser.exe
+D:\ВУЗ\ВУЗ\2 КУРС\organiser\organiser\obj\Debug\organiser.pdb
