@@ -1,0 +1,29 @@
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task10\bin\Debug\task10.exe.config
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task10\bin\Debug\task10.exe
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task10\bin\Debug\task10.pdb
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task10\obj\Debug\task10.csprojAssemblyReference.cache
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task10\obj\Debug\task10.Form1.resources
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task10\obj\Debug\task10.Properties.Resources.resources
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task10\obj\Debug\task10.csproj.GenerateResource.cache
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task10\obj\Debug\task10.csproj.CoreCompileInputs.cache
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task10\obj\Debug\task10.exe
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task10\obj\Debug\task10.pdb
+F:\lab6\task10\bin\Debug\task10.exe.config
+F:\lab6\task10\bin\Debug\task10.exe
+F:\lab6\task10\bin\Debug\task10.pdb
+F:\lab6\task10\obj\Debug\task10.csprojAssemblyReference.cache
+F:\lab6\task10\obj\Debug\task10.Form1.resources
+F:\lab6\task10\obj\Debug\task10.Properties.Resources.resources
+F:\lab6\task10\obj\Debug\task10.csproj.GenerateResource.cache
+F:\lab6\task10\obj\Debug\task10.exe
+F:\lab6\task10\obj\Debug\task10.pdb
+E:\lab6\task10\bin\Debug\task10.exe.config
+E:\lab6\task10\bin\Debug\task10.exe
+E:\lab6\task10\bin\Debug\task10.pdb
+E:\lab6\task10\obj\Debug\task10.csprojAssemblyReference.cache
+E:\lab6\task10\obj\Debug\task10.Form1.resources
+E:\lab6\task10\obj\Debug\task10.Properties.Resources.resources
+E:\lab6\task10\obj\Debug\task10.csproj.GenerateResource.cache
+E:\lab6\task10\obj\Debug\task10.csproj.CoreCompileInputs.cache
+E:\lab6\task10\obj\Debug\task10.exe
+E:\lab6\task10\obj\Debug\task10.pdb

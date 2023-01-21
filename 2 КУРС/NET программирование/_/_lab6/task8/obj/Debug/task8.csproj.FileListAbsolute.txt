@@ -1,0 +1,13 @@
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task8\bin\Debug\task8.exe.config
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task8\bin\Debug\task8.exe
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task8\bin\Debug\task8.pdb
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task8\obj\Debug\task8.exe
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task8\obj\Debug\task8.pdb
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task8\obj\Debug\task8.csprojAssemblyReference.cache
+E:\lab6\task8\bin\Debug\task8.exe.config
+E:\lab6\task8\bin\Debug\task8.exe
+E:\lab6\task8\bin\Debug\task8.pdb
+E:\lab6\task8\obj\Debug\task8.csprojAssemblyReference.cache
+E:\lab6\task8\obj\Debug\task8.csproj.CoreCompileInputs.cache
+E:\lab6\task8\obj\Debug\task8.exe
+E:\lab6\task8\obj\Debug\task8.pdb

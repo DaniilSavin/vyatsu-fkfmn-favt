@@ -1,0 +1,18 @@
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task7new\bin\Debug\task7new.exe.config
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task7new\bin\Debug\task7new.exe
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task7new\bin\Debug\task7new.pdb
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task7new\obj\Debug\task7new.csprojAssemblyReference.cache
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task7new\obj\Debug\task7new.exe
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task7new\obj\Debug\task7new.pdb
+F:\lab6\task7new\bin\Debug\task7new.exe.config
+F:\lab6\task7new\bin\Debug\task7new.exe
+F:\lab6\task7new\bin\Debug\task7new.pdb
+F:\lab6\task7new\obj\Debug\task7new.csprojAssemblyReference.cache
+F:\lab6\task7new\obj\Debug\task7new.exe
+F:\lab6\task7new\obj\Debug\task7new.pdb
+E:\lab6\task7new\bin\Debug\task7new.exe.config
+E:\lab6\task7new\bin\Debug\task7new.exe
+E:\lab6\task7new\bin\Debug\task7new.pdb
+E:\lab6\task7new\obj\Debug\task7new.csproj.CoreCompileInputs.cache
+E:\lab6\task7new\obj\Debug\task7new.exe
+E:\lab6\task7new\obj\Debug\task7new.pdb

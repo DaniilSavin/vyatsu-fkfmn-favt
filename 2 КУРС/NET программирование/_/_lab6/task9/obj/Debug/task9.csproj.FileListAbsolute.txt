@@ -1,0 +1,19 @@
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task9\bin\Debug\task9.exe.config
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task9\bin\Debug\task9.exe
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task9\bin\Debug\task9.pdb
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task9\obj\Debug\task9.exe
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task9\obj\Debug\task9.pdb
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task9\obj\Debug\task9.csprojAssemblyReference.cache
+F:\lab6\task9\bin\Debug\task9.exe.config
+F:\lab6\task9\bin\Debug\task9.exe
+F:\lab6\task9\bin\Debug\task9.pdb
+F:\lab6\task9\obj\Debug\task9.csprojAssemblyReference.cache
+F:\lab6\task9\obj\Debug\task9.exe
+F:\lab6\task9\obj\Debug\task9.pdb
+E:\lab6\task9\bin\Debug\task9.exe.config
+E:\lab6\task9\bin\Debug\task9.exe
+E:\lab6\task9\bin\Debug\task9.pdb
+E:\lab6\task9\obj\Debug\task9.csprojAssemblyReference.cache
+E:\lab6\task9\obj\Debug\task9.csproj.CoreCompileInputs.cache
+E:\lab6\task9\obj\Debug\task9.exe
+E:\lab6\task9\obj\Debug\task9.pdb

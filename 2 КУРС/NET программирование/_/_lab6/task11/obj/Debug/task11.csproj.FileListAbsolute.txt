@@ -1,0 +1,28 @@
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task11\bin\Debug\task11.exe.config
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task11\bin\Debug\task11.exe
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task11\bin\Debug\task11.pdb
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task11\obj\Debug\task11.csprojAssemblyReference.cache
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task11\obj\Debug\task11.Form1.resources
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task11\obj\Debug\task11.Properties.Resources.resources
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task11\obj\Debug\task11.csproj.GenerateResource.cache
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task11\obj\Debug\task11.exe
+C:\Users\Дмитрий Лаптев\source\repos\lab6\task11\obj\Debug\task11.pdb
+F:\lab6\task11\bin\Debug\task11.exe.config
+F:\lab6\task11\bin\Debug\task11.exe
+F:\lab6\task11\bin\Debug\task11.pdb
+F:\lab6\task11\obj\Debug\task11.csprojAssemblyReference.cache
+F:\lab6\task11\obj\Debug\task11.Form1.resources
+F:\lab6\task11\obj\Debug\task11.Properties.Resources.resources
+F:\lab6\task11\obj\Debug\task11.csproj.GenerateResource.cache
+F:\lab6\task11\obj\Debug\task11.exe
+F:\lab6\task11\obj\Debug\task11.pdb
+E:\lab6\task11\bin\Debug\task11.exe.config
+E:\lab6\task11\bin\Debug\task11.exe
+E:\lab6\task11\bin\Debug\task11.pdb
+E:\lab6\task11\obj\Debug\task11.csprojAssemblyReference.cache
+E:\lab6\task11\obj\Debug\task11.Form1.resources
+E:\lab6\task11\obj\Debug\task11.Properties.Resources.resources
+E:\lab6\task11\obj\Debug\task11.csproj.GenerateResource.cache
+E:\lab6\task11\obj\Debug\task11.csproj.CoreCompileInputs.cache
+E:\lab6\task11\obj\Debug\task11.exe
+E:\lab6\task11\obj\Debug\task11.pdb
