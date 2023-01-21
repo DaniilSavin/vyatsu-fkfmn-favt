@@ -1,0 +1,131 @@
+private static string _10NUMto2(int numb)
+            {
+                string result = "";
+                while (numb >= 1)
+                {
+                    result = numb % 2 + result;
+                    numb /= 2;
+
+                }
+                return result;
+            }
+            private static string _8NUMto2(string numb)
+            {
+                return _10NUMto2(int.Parse(_8NUMto10(numb)));
+            }
+            private static string _8NUMto10(string numb)
+            {
+                numb = numb.ToUpper();
+                int _10NUM = 0;
+                for (int i = 0; i < numb.Length; i++)
+                {
+                        _10NUM += int.Parse(numb[i].ToString()) * (int)(Math.Pow(8, numb.Length - i - 1));
+                }
+                return _10NUM.ToString();
+            }
+
+            public static string Sum(string num1, string num2)
+            {
+                return Convert.ToString(Convert.ToInt32(num1, 8) + Convert.ToInt32(num2, 8), 8);
+            }
+            public static string Sum(int num1, string num2)
+            {
+                return Convert.ToString(Convert.ToInt32(num1.ToString(), 8) + Convert.ToInt32(num2, 8), 8);
+            }
+            public static string Sub(string num1, string num2)
+            {
+                return Convert.ToString(Convert.ToInt32(num1, 8) - Convert.ToInt32(num2, 8), 8);
+            }
+            public static string Sub(int num1, string num2)
+            {
+                return Convert.ToString(Convert.ToInt32(num1.ToString(), 8) - Convert.ToInt32(num2, 8), 8);
+            }
+            public static string And(string num1, string num2)
+            {
+                string result = "";
+                num1 = _8NUMto2(num1);
+                num2 = _8NUMto2(num2);
+                if (num2.Length > num1.Length)
+                {
+                    string tmp = num2;
+                    num2 = num1;
+                    num1 = tmp;
+                }
+                for (int i = num1.Length - 1; i >= 0; i--)
+                {
+                    if (i > num1.Length - num2.Length - 1)
+                    {
+                        Console.WriteLine(num1[i] + " " + num2[i - (num1.Length - num2.Length)]);
+                        result = ((num1[i] == '1' && num2[i - (num1.Length - num2.Length)] == num1[i]) ? "1" : "0") + result;
+                    }
+                    else result = num1[i] + result;
+                }
+                return result;
+            }
+            public static string And(int num1_, string num2)
+            {
+                string result = "";
+                string num1 = _8NUMto2(num1_.ToString());
+                num2 = _8NUMto2(num2);
+                if (num2.Length > num1.Length)
+                {
+                    string tmp = num2;
+                    num2 = num1;
+                    num1 = tmp;
+                }
+                for (int i = num1.Length - 1; i >= 0; i--)
+                {
+                    if (i > num1.Length - num2.Length - 1)
+                    {
+                        Console.WriteLine(num1[i] + " " + num2[i - (num1.Length - num2.Length)]);
+                        result = ((num1[i] == '1' && num2[i - (num1.Length - num2.Length)] == num1[i]) ? "1" : "0") + result;
+                    }
+                    else result = num1[i] + result;
+                }
+                return result;
+            }
+
+            public static string Or(string num1, string num2)
+            {
+                string result = "";
+                num1 = _8NUMto2(num1);
+                num2 = _8NUMto2(num2);
+                if (num2.Length > num1.Length)
+                {
+                    string tmp = num2;
+                    num2 = num1;
+                    num1 = tmp;
+                }
+                for (int i = num1.Length - 1; i >= 0; i--)
+                {
+                    if (i > num1.Length - num2.Length - 1)
+                    {
+                        Console.WriteLine(num1[i] + " " + num2[i - (num1.Length - num2.Length)]);
+                        result = ((num1[i] == '1' || num2[i - (num1.Length - num2.Length)] == '1') ? "1" : "0") + result;
+                    }
+                    else result = num1[i] + result;
+                }
+                return result;
+            }
+            public static string Or(int num1_, string num2)
+            {
+                string result = "";
+                string num1 = _8NUMto2(num1_.ToString());
+                num2 = _8NUMto2(num2);
+                if (num2.Length > num1.Length)
+                {
+                    string tmp = num2;
+                    num2 = num1;
+                    num1 = tmp;
+                }
+                for (int i = num1.Length - 1; i >= 0; i--)
+                {
+                    if (i > num1.Length - num2.Length - 1)
+                    {
+                        Console.WriteLine(num1[i] + " " + num2[i - (num1.Length - num2.Length)]);
+                        result = ((num1[i] == '1' || num2[i - (num1.Length - num2.Length)] == '1') ? "1" : "0") + result;
+                    }
+                    else result = num1[i] + result;
+                }
+                return result;
+            }
