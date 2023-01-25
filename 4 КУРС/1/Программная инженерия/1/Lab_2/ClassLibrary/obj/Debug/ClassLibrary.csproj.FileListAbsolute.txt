@@ -1,0 +1,11 @@
+E:\      \Программная инженерия\1\Lab_2\ClassLibrary\bin\Debug\ClassLibrary.dll
+E:\      \Программная инженерия\1\Lab_2\ClassLibrary\bin\Debug\ClassLibrary.pdb
+E:\      \Программная инженерия\1\Lab_2\ClassLibrary\obj\Debug\ClassLibrary.csprojResolveAssemblyReference.cache
+E:\      \Программная инженерия\1\Lab_2\ClassLibrary\obj\Debug\ClassLibrary.dll
+E:\      \Программная инженерия\1\Lab_2\ClassLibrary\obj\Debug\ClassLibrary.pdb
+F:\      \Программная инженерия\1\Lab_2\ClassLibrary\bin\Debug\ClassLibrary.dll
+F:\      \Программная инженерия\1\Lab_2\ClassLibrary\bin\Debug\ClassLibrary.pdb
+F:\      \Программная инженерия\1\Lab_2\ClassLibrary\obj\Debug\ClassLibrary.csproj.AssemblyReference.cache
+F:\      \Программная инженерия\1\Lab_2\ClassLibrary\obj\Debug\ClassLibrary.csproj.CoreCompileInputs.cache
+F:\      \Программная инженерия\1\Lab_2\ClassLibrary\obj\Debug\ClassLibrary.dll
+F:\      \Программная инженерия\1\Lab_2\ClassLibrary\obj\Debug\ClassLibrary.pdb
