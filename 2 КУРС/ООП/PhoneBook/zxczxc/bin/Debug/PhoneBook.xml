@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Notes>
+  <Note id="0">
+    <Lastname>Савин</Lastname>
+    <Name>Даниил</Name>
+    <Patronymic>Александрович</Patronymic>
+    <Street>Первая</Street>
+    <House>12</House>
+    <Flat>15</Flat>
+    <Phone>(123) 321-222</Phone>
+  </Note>
+  <Note id="1">
+    <Lastname>Глызин</Lastname>
+    <Name>Андрей</Name>
+    <Patronymic>Сергеевич</Patronymic>
+    <Street>Вторая</Street>
+    <House>11</House>
+    <Flat>122</Flat>
+    <Phone>(232) 311-223</Phone>
+  </Note>
+  <Note id="2">
+    <Lastname>Мохов</Lastname>
+    <Name>Павел</Name>
+    <Patronymic>Александрович</Patronymic>
+    <Street>Третья</Street>
+    <House>14</House>
+    <Flat>144</Flat>
+    <Phone>(232) 221-122</Phone>
+  </Note>
+  <Note id="3">
+    <Lastname>Жаворонков</Lastname>
+    <Name>Вячеслав</Name>
+    <Patronymic>Александрович</Patronymic>
+    <Street>Четвертая</Street>
+    <House>143</House>
+    <Flat>111</Flat>
+    <Phone>(664) 334-223</Phone>
+  </Note>
+</Notes>

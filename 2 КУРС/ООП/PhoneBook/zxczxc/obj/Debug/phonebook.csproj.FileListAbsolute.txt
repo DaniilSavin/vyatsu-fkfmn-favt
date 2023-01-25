@@ -1,0 +1,80 @@
+C:\Users\class\source\repos\zxczxc\zxczxc\bin\Debug\zxczxc.exe.config
+C:\Users\class\source\repos\zxczxc\zxczxc\bin\Debug\zxczxc.exe
+C:\Users\class\source\repos\zxczxc\zxczxc\bin\Debug\zxczxc.pdb
+C:\Users\class\source\repos\zxczxc\zxczxc\obj\Debug\phonebook.csprojAssemblyReference.cache
+C:\Users\class\source\repos\zxczxc\zxczxc\obj\Debug\zxczxc.Form1.resources
+C:\Users\class\source\repos\zxczxc\zxczxc\obj\Debug\zxczxc.AddForm.resources
+C:\Users\class\source\repos\zxczxc\zxczxc\obj\Debug\zxczxc.Properties.Resources.resources
+C:\Users\class\source\repos\zxczxc\zxczxc\obj\Debug\phonebook.csproj.GenerateResource.cache
+C:\Users\class\source\repos\zxczxc\zxczxc\obj\Debug\phonebook.csproj.CoreCompileInputs.cache
+C:\Users\class\source\repos\zxczxc\zxczxc\obj\Debug\zxczxc.exe
+C:\Users\class\source\repos\zxczxc\zxczxc\obj\Debug\zxczxc.pdb
+C:\zxczxc\zxczxc\bin\Debug\zxczxc.exe.config
+C:\zxczxc\zxczxc\obj\Debug\zxczxc.exe
+C:\zxczxc\zxczxc\obj\Debug\zxczxc.pdb
+C:\zxczxc\zxczxc\bin\Debug\zxczxc.exe
+C:\zxczxc\zxczxc\bin\Debug\zxczxc.pdb
+C:\zxczxc\zxczxc\obj\Debug\phonebook.csprojResolveAssemblyReference.cache
+C:\zxczxc\zxczxc\obj\Debug\zxczxc.Form1.resources
+C:\zxczxc\zxczxc\obj\Debug\zxczxc.AddForm.resources
+C:\zxczxc\zxczxc\obj\Debug\zxczxc.Properties.Resources.resources
+C:\zxczxc\zxczxc\obj\Debug\phonebook.csproj.GenerateResource.Cache
+E:\      \2 КУРС\ООП\zxczxc\zxczxc\bin\Debug\zxczxc.exe.config
+E:\      \2 КУРС\ООП\zxczxc\zxczxc\bin\Debug\zxczxc.exe
+E:\      \2 КУРС\ООП\zxczxc\zxczxc\bin\Debug\zxczxc.pdb
+E:\      \2 КУРС\ООП\zxczxc\zxczxc\obj\Debug\zxczxc.Form1.resources
+E:\      \2 КУРС\ООП\zxczxc\zxczxc\obj\Debug\zxczxc.AddForm.resources
+E:\      \2 КУРС\ООП\zxczxc\zxczxc\obj\Debug\zxczxc.Properties.Resources.resources
+E:\      \2 КУРС\ООП\zxczxc\zxczxc\obj\Debug\phonebook.csproj.GenerateResource.cache
+E:\      \2 КУРС\ООП\zxczxc\zxczxc\obj\Debug\zxczxc.exe
+E:\      \2 КУРС\ООП\zxczxc\zxczxc\obj\Debug\zxczxc.pdb
+E:\      \2 КУРС\ООП\zxczxc\zxczxc\obj\Debug\phonebook.csprojAssemblyReference.cache
+D:\zxczxc\zxczxc\bin\Debug\zxczxc.exe.config
+D:\zxczxc\zxczxc\bin\Debug\zxczxc.exe
+D:\zxczxc\zxczxc\bin\Debug\zxczxc.pdb
+D:\zxczxc\zxczxc\obj\Debug\phonebook.csprojAssemblyReference.cache
+D:\zxczxc\zxczxc\obj\Debug\zxczxc.Form1.resources
+D:\zxczxc\zxczxc\obj\Debug\zxczxc.AddForm.resources
+D:\zxczxc\zxczxc\obj\Debug\zxczxc.Properties.Resources.resources
+D:\zxczxc\zxczxc\obj\Debug\phonebook.csproj.GenerateResource.cache
+D:\zxczxc\zxczxc\obj\Debug\phonebook.csproj.CoreCompileInputs.cache
+D:\zxczxc\zxczxc\obj\Debug\zxczxc.exe
+D:\zxczxc\zxczxc\obj\Debug\zxczxc.pdb
+F:\      \ООП\zxczxc\zxczxc\bin\Debug\zxczxc.exe.config
+F:\      \ООП\zxczxc\zxczxc\bin\Debug\zxczxc.exe
+F:\      \ООП\zxczxc\zxczxc\bin\Debug\zxczxc.pdb
+F:\      \ООП\zxczxc\zxczxc\obj\Debug\phonebook.csprojAssemblyReference.cache
+F:\      \ООП\zxczxc\zxczxc\obj\Debug\zxczxc.Form1.resources
+F:\      \ООП\zxczxc\zxczxc\obj\Debug\zxczxc.AddForm.resources
+F:\      \ООП\zxczxc\zxczxc\obj\Debug\zxczxc.Properties.Resources.resources
+F:\      \ООП\zxczxc\zxczxc\obj\Debug\phonebook.csproj.GenerateResource.cache
+F:\      \ООП\zxczxc\zxczxc\obj\Debug\zxczxc.exe
+F:\      \ООП\zxczxc\zxczxc\obj\Debug\zxczxc.pdb
+E:\ВУЗ\2 КУРС\ООП\zxczxc\zxczxc\bin\Debug\zxczxc.exe.config
+E:\ВУЗ\2 КУРС\ООП\zxczxc\zxczxc\bin\Debug\zxczxc.exe
+E:\ВУЗ\2 КУРС\ООП\zxczxc\zxczxc\bin\Debug\zxczxc.pdb
+E:\ВУЗ\2 КУРС\ООП\zxczxc\zxczxc\obj\Debug\phonebook.csprojAssemblyReference.cache
+E:\ВУЗ\2 КУРС\ООП\zxczxc\zxczxc\obj\Debug\zxczxc.Form1.resources
+E:\ВУЗ\2 КУРС\ООП\zxczxc\zxczxc\obj\Debug\zxczxc.AddForm.resources
+E:\ВУЗ\2 КУРС\ООП\zxczxc\zxczxc\obj\Debug\zxczxc.Properties.Resources.resources
+E:\ВУЗ\2 КУРС\ООП\zxczxc\zxczxc\obj\Debug\phonebook.csproj.GenerateResource.cache
+E:\ВУЗ\2 КУРС\ООП\zxczxc\zxczxc\obj\Debug\phonebook.csproj.CoreCompileInputs.cache
+E:\ВУЗ\2 КУРС\ООП\zxczxc\zxczxc\obj\Debug\zxczxc.exe
+E:\ВУЗ\2 КУРС\ООП\zxczxc\zxczxc\obj\Debug\zxczxc.pdb
+E:\ВУЗ\2 КУРС\ООП\zxczxc\zxczxc\obj\Debug\zxczxc.SearchNameForm.resources
+E:\ВУЗ\2 КУРС\ООП\zxczxc\zxczxc\obj\Debug\zxczxc.SearchPhoneForm.resources
+E:\ВУЗ\2 КУРС\ООП\zxczxc\zxczxc\obj\Debug\zxczxc.SearchAddressForm.resources
+E:\ВУЗ\2 КУРС\ООП\PhoneBook\zxczxc\bin\Debug\zxczxc.exe.config
+E:\ВУЗ\2 КУРС\ООП\PhoneBook\zxczxc\bin\Debug\zxczxc.exe
+E:\ВУЗ\2 КУРС\ООП\PhoneBook\zxczxc\bin\Debug\zxczxc.pdb
+E:\ВУЗ\2 КУРС\ООП\PhoneBook\zxczxc\obj\Debug\phonebook.csprojAssemblyReference.cache
+E:\ВУЗ\2 КУРС\ООП\PhoneBook\zxczxc\obj\Debug\zxczxc.Form1.resources
+E:\ВУЗ\2 КУРС\ООП\PhoneBook\zxczxc\obj\Debug\zxczxc.AddForm.resources
+E:\ВУЗ\2 КУРС\ООП\PhoneBook\zxczxc\obj\Debug\zxczxc.Properties.Resources.resources
+E:\ВУЗ\2 КУРС\ООП\PhoneBook\zxczxc\obj\Debug\zxczxc.SearchAddressForm.resources
+E:\ВУЗ\2 КУРС\ООП\PhoneBook\zxczxc\obj\Debug\zxczxc.SearchNameForm.resources
+E:\ВУЗ\2 КУРС\ООП\PhoneBook\zxczxc\obj\Debug\zxczxc.SearchPhoneForm.resources
+E:\ВУЗ\2 КУРС\ООП\PhoneBook\zxczxc\obj\Debug\phonebook.csproj.GenerateResource.cache
+E:\ВУЗ\2 КУРС\ООП\PhoneBook\zxczxc\obj\Debug\phonebook.csproj.CoreCompileInputs.cache
+E:\ВУЗ\2 КУРС\ООП\PhoneBook\zxczxc\obj\Debug\zxczxc.exe
+E:\ВУЗ\2 КУРС\ООП\PhoneBook\zxczxc\obj\Debug\zxczxc.pdb
