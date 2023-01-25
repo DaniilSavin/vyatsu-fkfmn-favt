@@ -1,0 +1,30 @@
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\UsingDelegates\bin\Debug\UsingDelegates.exe.config
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\UsingDelegates\bin\Debug\UsingDelegates.exe
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\UsingDelegates\bin\Debug\UsingDelegates.pdb
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\UsingDelegates\obj\Debug\UsingDelegates.csprojAssemblyReference.cache
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\UsingDelegates\obj\Debug\UsingDelegates.exe
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\UsingDelegates\obj\Debug\UsingDelegates.pdb
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\UsingDelegates\bin\Debug\CalcLibrary.dll
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\UsingDelegates\bin\Debug\CalcLibrary.pdb
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\UsingDelegates\obj\Debug\UsingDelegates.csproj.CopyComplete
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\UsingDelegates\bin\Debug\UsingDelegates.exe.config
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\UsingDelegates\bin\Debug\UsingDelegates.exe
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\UsingDelegates\bin\Debug\UsingDelegates.pdb
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\UsingDelegates\bin\Debug\CalcLibrary.dll
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\UsingDelegates\bin\Debug\CalcLibrary.pdb
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\UsingDelegates\bin\Debug\CalcLibrary.xml
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\UsingDelegates\obj\Debug\UsingDelegates.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\UsingDelegates\obj\Debug\UsingDelegates.csproj.CopyComplete
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\UsingDelegates\obj\Debug\UsingDelegates.exe
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\UsingDelegates\obj\Debug\UsingDelegates.pdb
+E:\ВУЗ\2 КУРС\ООП\Lab 6\UsingDelegates\bin\Debug\UsingDelegates.exe.config
+E:\ВУЗ\2 КУРС\ООП\Lab 6\UsingDelegates\bin\Debug\UsingDelegates.exe
+E:\ВУЗ\2 КУРС\ООП\Lab 6\UsingDelegates\bin\Debug\UsingDelegates.pdb
+E:\ВУЗ\2 КУРС\ООП\Lab 6\UsingDelegates\bin\Debug\CalcLibrary.dll
+E:\ВУЗ\2 КУРС\ООП\Lab 6\UsingDelegates\bin\Debug\CalcLibrary.pdb
+E:\ВУЗ\2 КУРС\ООП\Lab 6\UsingDelegates\bin\Debug\CalcLibrary.xml
+E:\ВУЗ\2 КУРС\ООП\Lab 6\UsingDelegates\obj\Debug\UsingDelegates.csprojAssemblyReference.cache
+E:\ВУЗ\2 КУРС\ООП\Lab 6\UsingDelegates\obj\Debug\UsingDelegates.csproj.CoreCompileInputs.cache
+E:\ВУЗ\2 КУРС\ООП\Lab 6\UsingDelegates\obj\Debug\UsingDelegates.csproj.CopyComplete
+E:\ВУЗ\2 КУРС\ООП\Lab 6\UsingDelegates\obj\Debug\UsingDelegates.exe
+E:\ВУЗ\2 КУРС\ООП\Lab 6\UsingDelegates\obj\Debug\UsingDelegates.pdb
