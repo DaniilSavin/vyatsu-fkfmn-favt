@@ -1,0 +1,12 @@
+D:\      \2 КУРС\УЧ\zadanie_1448_c\zadanie_1448_c\bin\Debug\zadanie_1448_c.exe.config
+D:\      \2 КУРС\УЧ\zadanie_1448_c\zadanie_1448_c\bin\Debug\zadanie_1448_c.exe
+D:\      \2 КУРС\УЧ\zadanie_1448_c\zadanie_1448_c\bin\Debug\zadanie_1448_c.pdb
+D:\      \2 КУРС\УЧ\zadanie_1448_c\zadanie_1448_c\obj\Debug\zadanie_1448_c.csprojAssemblyReference.cache
+D:\      \2 КУРС\УЧ\zadanie_1448_c\zadanie_1448_c\obj\Debug\zadanie_1448_c.exe
+D:\      \2 КУРС\УЧ\zadanie_1448_c\zadanie_1448_c\obj\Debug\zadanie_1448_c.pdb
+E:\      \2 КУРС\УЧ\zadanie_1448_c\zadanie_1448_c\bin\Debug\zadanie_1448_c.exe.config
+E:\      \2 КУРС\УЧ\zadanie_1448_c\zadanie_1448_c\bin\Debug\zadanie_1448_c.exe
+E:\      \2 КУРС\УЧ\zadanie_1448_c\zadanie_1448_c\bin\Debug\zadanie_1448_c.pdb
+E:\      \2 КУРС\УЧ\zadanie_1448_c\zadanie_1448_c\obj\Debug\zadanie_1448_c.csprojAssemblyReference.cache
+E:\      \2 КУРС\УЧ\zadanie_1448_c\zadanie_1448_c\obj\Debug\zadanie_1448_c.exe
+E:\      \2 КУРС\УЧ\zadanie_1448_c\zadanie_1448_c\obj\Debug\zadanie_1448_c.pdb

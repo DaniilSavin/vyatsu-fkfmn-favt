@@ -1,0 +1,6 @@
+E:\      \2 КУРС\УЧ\zadanie_1718_c\zadanie_1718_c\obj\Debug\zadanie_1718_c.csprojAssemblyReference.cache
+E:\      \2 КУРС\УЧ\zadanie_1718_c\zadanie_1718_c\bin\Debug\zadanie_1718_c.exe.config
+E:\      \2 КУРС\УЧ\zadanie_1718_c\zadanie_1718_c\bin\Debug\zadanie_1718_c.exe
+E:\      \2 КУРС\УЧ\zadanie_1718_c\zadanie_1718_c\bin\Debug\zadanie_1718_c.pdb
+E:\      \2 КУРС\УЧ\zadanie_1718_c\zadanie_1718_c\obj\Debug\zadanie_1718_c.exe
+E:\      \2 КУРС\УЧ\zadanie_1718_c\zadanie_1718_c\obj\Debug\zadanie_1718_c.pdb
