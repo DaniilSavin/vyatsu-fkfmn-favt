@@ -1,0 +1,7 @@
+D:\      \2 КУРС\УЧ\zadanie_1502_c\zadanie_1502_c\bin\Debug\zadanie_1502_c.exe.config
+D:\      \2 КУРС\УЧ\zadanie_1502_c\zadanie_1502_c\bin\Debug\zadanie_1502_c.exe
+D:\      \2 КУРС\УЧ\zadanie_1502_c\zadanie_1502_c\bin\Debug\zadanie_1502_c.pdb
+D:\      \2 КУРС\УЧ\zadanie_1502_c\zadanie_1502_c\obj\Debug\zadanie_1502_c.csprojAssemblyReference.cache
+D:\      \2 КУРС\УЧ\zadanie_1502_c\zadanie_1502_c\obj\Debug\zadanie_1502_c.csproj.CoreCompileInputs.cache
+D:\      \2 КУРС\УЧ\zadanie_1502_c\zadanie_1502_c\obj\Debug\zadanie_1502_c.exe
+D:\      \2 КУРС\УЧ\zadanie_1502_c\zadanie_1502_c\obj\Debug\zadanie_1502_c.pdb
