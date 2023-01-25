@@ -1,0 +1,6 @@
+E:\      \2 КУРС\УЧ\2069\2069\bin\Debug\2069.exe.config
+E:\      \2 КУРС\УЧ\2069\2069\bin\Debug\2069.exe
+E:\      \2 КУРС\УЧ\2069\2069\bin\Debug\2069.pdb
+E:\      \2 КУРС\УЧ\2069\2069\obj\Debug\2069.csprojAssemblyReference.cache
+E:\      \2 КУРС\УЧ\2069\2069\obj\Debug\2069.exe
+E:\      \2 КУРС\УЧ\2069\2069\obj\Debug\2069.pdb
