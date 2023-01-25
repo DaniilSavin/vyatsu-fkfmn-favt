@@ -1,0 +1,17 @@
+C:\Users\eMahines\source\repos\WindowsFormsApp3\ComponentLibrary\bin\Debug\ComponentLibrary.dll
+C:\Users\eMahines\source\repos\WindowsFormsApp3\ComponentLibrary\bin\Debug\ComponentLibrary.pdb
+C:\Users\eMahines\source\repos\WindowsFormsApp3\ComponentLibrary\obj\Debug\ComponentLibrary.GameTimer.resources
+C:\Users\eMahines\source\repos\WindowsFormsApp3\ComponentLibrary\obj\Debug\ComponentLibrary.csproj.GenerateResource.cache
+C:\Users\eMahines\source\repos\WindowsFormsApp3\ComponentLibrary\obj\Debug\ComponentLibrary.dll
+C:\Users\eMahines\source\repos\WindowsFormsApp3\ComponentLibrary\obj\Debug\ComponentLibrary.pdb
+C:\Users\eMahines\source\repos\WindowsFormsApp3\ComponentLibrary\obj\Debug\ComponentLibrary.Button1.resources
+C:\Users\eMahines\source\repos\WindowsFormsApp3\ComponentLibrary\obj\Debug\ComponentLibrary.csprojAssemblyReference.cache
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-20200528T130423Z-001\WindowsFormsApp3\ComponentLibrary\bin\Debug\ComponentLibrary.dll
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-20200528T130423Z-001\WindowsFormsApp3\ComponentLibrary\bin\Debug\ComponentLibrary.pdb
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-20200528T130423Z-001\WindowsFormsApp3\ComponentLibrary\obj\Debug\ComponentLibrary.csprojAssemblyReference.cache
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-20200528T130423Z-001\WindowsFormsApp3\ComponentLibrary\obj\Debug\ComponentLibrary.Button1.resources
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-20200528T130423Z-001\WindowsFormsApp3\ComponentLibrary\obj\Debug\ComponentLibrary.GameTimer.resources
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-20200528T130423Z-001\WindowsFormsApp3\ComponentLibrary\obj\Debug\ComponentLibrary.csproj.GenerateResource.cache
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-20200528T130423Z-001\WindowsFormsApp3\ComponentLibrary\obj\Debug\ComponentLibrary.csproj.CoreCompileInputs.cache
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-20200528T130423Z-001\WindowsFormsApp3\ComponentLibrary\obj\Debug\ComponentLibrary.dll
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-20200528T130423Z-001\WindowsFormsApp3\ComponentLibrary\obj\Debug\ComponentLibrary.pdb
