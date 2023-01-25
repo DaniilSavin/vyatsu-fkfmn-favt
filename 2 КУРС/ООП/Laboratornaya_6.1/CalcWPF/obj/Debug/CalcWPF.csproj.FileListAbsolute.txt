@@ -1,0 +1,78 @@
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcWPF\bin\Debug\CalcWPF.exe.config
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcWPF\bin\Debug\CalcWPF.exe
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcWPF\bin\Debug\CalcWPF.pdb
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcWPF\obj\Debug\CalcWPF.csprojAssemblyReference.cache
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcWPF\obj\Debug\MainWindow.g.cs
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcWPF\obj\Debug\App.g.cs
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcWPF\obj\Debug\CalcWPF_MarkupCompile.cache
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcWPF\obj\Debug\CalcWPF_MarkupCompile.lref
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcWPF\obj\Debug\MainWindow.baml
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcWPF\obj\Debug\CalcWPF.g.resources
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcWPF\obj\Debug\CalcWPF.Properties.Resources.resources
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcWPF\obj\Debug\CalcWPF.csproj.GenerateResource.cache
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcWPF\obj\Debug\CalcWPF.exe
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcWPF\obj\Debug\CalcWPF.pdb
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcWPF\bin\Debug\BinCalc.dll
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcWPF\bin\Debug\BinCalc.xml
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcWPF\obj\Debug\CalcWPF.csproj.CopyComplete
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcWPF\bin\Debug\CalcLibrary.dll
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcWPF\bin\Debug\CalcLibrary.pdb
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcWPF\bin\Debug\CalcWPF.exe.config
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcWPF\bin\Debug\CalcWPF.exe
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcWPF\bin\Debug\CalcWPF.pdb
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcWPF\bin\Debug\CalcLibrary.dll
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcWPF\bin\Debug\BinCalc.xml
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcWPF\bin\Debug\CalcLibrary.pdb
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcWPF\bin\Debug\CalcLibrary.xml
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcWPF\obj\Debug\CalcWPF.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcWPF\obj\Debug\MainWindow.g.cs
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcWPF\obj\Debug\App.g.cs
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcWPF\obj\Debug\CalcWPF_MarkupCompile.cache
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcWPF\obj\Debug\CalcWPF_MarkupCompile.lref
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcWPF\obj\Debug\MainWindow.baml
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcWPF\obj\Debug\CalcWPF.g.resources
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcWPF\obj\Debug\CalcWPF.Properties.Resources.resources
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcWPF\obj\Debug\CalcWPF.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcWPF\obj\Debug\CalcWPF.csproj.CopyComplete
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcWPF\obj\Debug\CalcWPF.exe
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcWPF\obj\Debug\CalcWPF.pdb
+E:\ВУЗ\2 КУРС\ООП\Lab 6\CalcWPF\bin\Debug\CalcWPF.exe.config
+E:\ВУЗ\2 КУРС\ООП\Lab 6\CalcWPF\bin\Debug\CalcWPF.exe
+E:\ВУЗ\2 КУРС\ООП\Lab 6\CalcWPF\bin\Debug\CalcWPF.pdb
+E:\ВУЗ\2 КУРС\ООП\Lab 6\CalcWPF\bin\Debug\CalcLibrary.dll
+E:\ВУЗ\2 КУРС\ООП\Lab 6\CalcWPF\bin\Debug\BinCalc.xml
+E:\ВУЗ\2 КУРС\ООП\Lab 6\CalcWPF\bin\Debug\CalcLibrary.pdb
+E:\ВУЗ\2 КУРС\ООП\Lab 6\CalcWPF\bin\Debug\CalcLibrary.xml
+E:\ВУЗ\2 КУРС\ООП\Lab 6\CalcWPF\obj\Debug\CalcWPF.csprojAssemblyReference.cache
+E:\ВУЗ\2 КУРС\ООП\Lab 6\CalcWPF\obj\Debug\MainWindow.g.cs
+E:\ВУЗ\2 КУРС\ООП\Lab 6\CalcWPF\obj\Debug\App.g.cs
+E:\ВУЗ\2 КУРС\ООП\Lab 6\CalcWPF\obj\Debug\CalcWPF_MarkupCompile.cache
+E:\ВУЗ\2 КУРС\ООП\Lab 6\CalcWPF\obj\Debug\CalcWPF_MarkupCompile.lref
+E:\ВУЗ\2 КУРС\ООП\Lab 6\CalcWPF\obj\Debug\MainWindow.baml
+E:\ВУЗ\2 КУРС\ООП\Lab 6\CalcWPF\obj\Debug\CalcWPF.g.resources
+E:\ВУЗ\2 КУРС\ООП\Lab 6\CalcWPF\obj\Debug\CalcWPF.Properties.Resources.resources
+E:\ВУЗ\2 КУРС\ООП\Lab 6\CalcWPF\obj\Debug\CalcWPF.csproj.GenerateResource.cache
+E:\ВУЗ\2 КУРС\ООП\Lab 6\CalcWPF\obj\Debug\CalcWPF.csproj.CoreCompileInputs.cache
+E:\ВУЗ\2 КУРС\ООП\Lab 6\CalcWPF\obj\Debug\CalcWPF.csproj.CopyComplete
+E:\ВУЗ\2 КУРС\ООП\Lab 6\CalcWPF\obj\Debug\CalcWPF.exe
+E:\ВУЗ\2 КУРС\ООП\Lab 6\CalcWPF\obj\Debug\CalcWPF.pdb
+E:\ВУЗ\2 КУРС\ООП\Laboratornaya_6.1\CalcWPF\bin\Debug\CalcWPF.exe.config
+E:\ВУЗ\2 КУРС\ООП\Laboratornaya_6.1\CalcWPF\bin\Debug\CalcWPF.exe
+E:\ВУЗ\2 КУРС\ООП\Laboratornaya_6.1\CalcWPF\bin\Debug\CalcWPF.pdb
+E:\ВУЗ\2 КУРС\ООП\Laboratornaya_6.1\CalcWPF\bin\Debug\CalcLibrary.dll
+E:\ВУЗ\2 КУРС\ООП\Laboratornaya_6.1\CalcWPF\bin\Debug\BinCalc.xml
+E:\ВУЗ\2 КУРС\ООП\Laboratornaya_6.1\CalcWPF\bin\Debug\CalcLibrary.pdb
+E:\ВУЗ\2 КУРС\ООП\Laboratornaya_6.1\CalcWPF\bin\Debug\CalcLibrary.xml
+E:\ВУЗ\2 КУРС\ООП\Laboratornaya_6.1\CalcWPF\obj\Debug\CalcWPF.csprojAssemblyReference.cache
+E:\ВУЗ\2 КУРС\ООП\Laboratornaya_6.1\CalcWPF\obj\Debug\MainWindow.g.cs
+E:\ВУЗ\2 КУРС\ООП\Laboratornaya_6.1\CalcWPF\obj\Debug\App.g.cs
+E:\ВУЗ\2 КУРС\ООП\Laboratornaya_6.1\CalcWPF\obj\Debug\CalcWPF_MarkupCompile.cache
+E:\ВУЗ\2 КУРС\ООП\Laboratornaya_6.1\CalcWPF\obj\Debug\CalcWPF_MarkupCompile.lref
+E:\ВУЗ\2 КУРС\ООП\Laboratornaya_6.1\CalcWPF\obj\Debug\MainWindow.baml
+E:\ВУЗ\2 КУРС\ООП\Laboratornaya_6.1\CalcWPF\obj\Debug\CalcWPF.g.resources
+E:\ВУЗ\2 КУРС\ООП\Laboratornaya_6.1\CalcWPF\obj\Debug\CalcWPF.Properties.Resources.resources
+E:\ВУЗ\2 КУРС\ООП\Laboratornaya_6.1\CalcWPF\obj\Debug\CalcWPF.csproj.GenerateResource.cache
+E:\ВУЗ\2 КУРС\ООП\Laboratornaya_6.1\CalcWPF\obj\Debug\CalcWPF.csproj.CoreCompileInputs.cache
+E:\ВУЗ\2 КУРС\ООП\Laboratornaya_6.1\CalcWPF\obj\Debug\CalcWPF.csproj.CopyComplete
+E:\ВУЗ\2 КУРС\ООП\Laboratornaya_6.1\CalcWPF\obj\Debug\CalcWPF.exe
+E:\ВУЗ\2 КУРС\ООП\Laboratornaya_6.1\CalcWPF\obj\Debug\CalcWPF.pdb

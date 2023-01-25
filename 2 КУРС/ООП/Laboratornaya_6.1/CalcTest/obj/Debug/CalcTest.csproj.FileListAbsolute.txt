@@ -1,0 +1,43 @@
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcTest\obj\Debug\CalcTest.csprojAssemblyReference.cache
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcTest\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcTest\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcTest\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcTest\bin\Debug\CalcTest.dll
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcTest\bin\Debug\CalcTest.pdb
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcTest\bin\Debug\CalcLibrary.dll
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcTest\bin\Debug\CalcLibrary.pdb
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcTest\obj\Debug\CalcTest.csproj.CopyComplete
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcTest\obj\Debug\CalcTest.dll
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcTest\obj\Debug\CalcTest.pdb
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcTest\bin\Debug\BinCalc.dll
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcTest\bin\Debug\BinCalc.xml
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcTest\bin\Debug\CalcLibrary.xml
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcTest\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcTest\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcTest\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcTest\bin\Debug\CalcTest.dll
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcTest\bin\Debug\CalcTest.pdb
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcTest\bin\Debug\CalcLibrary.dll
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcTest\bin\Debug\CalcLibrary.pdb
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcTest\bin\Debug\CalcLibrary.xml
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcTest\bin\Debug\BinCalc.xml
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcTest\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcTest\obj\Debug\CalcTest.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcTest\obj\Debug\CalcTest.csproj.CopyComplete
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcTest\obj\Debug\CalcTest.dll
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcTest\obj\Debug\CalcTest.pdb
+E:\ВУЗ\2 КУРС\ООП\Lab 6\CalcTest\obj\Debug\CalcTest.dll
+E:\ВУЗ\2 КУРС\ООП\Lab 6\CalcTest\obj\Debug\CalcTest.pdb

@@ -1,0 +1,25 @@
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcLibrary\obj\Debug\CalcLibrary.csprojAssemblyReference.cache
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcLibrary\bin\Debug\CalcLibrary.dll
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcLibrary\bin\Debug\CalcLibrary.pdb
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcLibrary\obj\Debug\CalcLibrary.dll
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcLibrary\obj\Debug\CalcLibrary.pdb
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcLibrary\bin\Debug\BinCalc.dll
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcLibrary\bin\Debug\BinCalc.xml
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcLibrary\obj\Debug\CalcLibrary.csproj.CopyComplete
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcLibrary\bin\Debug\CalcLibrary.xml
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcLibrary\bin\Debug\Lab2.exe
+C:\Users\Дмитрий Лаптев\source\repos\UsingDelegates\CalcLibrary\bin\Debug\Lab2.pdb
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcLibrary\bin\Debug\CalcLibrary.xml
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcLibrary\bin\Debug\CalcLibrary.dll
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcLibrary\bin\Debug\CalcLibrary.pdb
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcLibrary\obj\Debug\CalcLibrary.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcLibrary\obj\Debug\CalcLibrary.csproj.CopyComplete
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcLibrary\obj\Debug\CalcLibrary.dll
+C:\Users\User\Desktop\Универ\ООП\UsingDelegates\UsingDelegates\CalcLibrary\obj\Debug\CalcLibrary.pdb
+E:\ВУЗ\2 КУРС\ООП\Lab 6\CalcLibrary\bin\Debug\CalcLibrary.xml
+E:\ВУЗ\2 КУРС\ООП\Lab 6\CalcLibrary\bin\Debug\CalcLibrary.dll
+E:\ВУЗ\2 КУРС\ООП\Lab 6\CalcLibrary\bin\Debug\CalcLibrary.pdb
+E:\ВУЗ\2 КУРС\ООП\Lab 6\CalcLibrary\obj\Debug\CalcLibrary.csproj.CoreCompileInputs.cache
+E:\ВУЗ\2 КУРС\ООП\Lab 6\CalcLibrary\obj\Debug\CalcLibrary.csproj.CopyComplete
+E:\ВУЗ\2 КУРС\ООП\Lab 6\CalcLibrary\obj\Debug\CalcLibrary.dll
+E:\ВУЗ\2 КУРС\ООП\Lab 6\CalcLibrary\obj\Debug\CalcLibrary.pdb
