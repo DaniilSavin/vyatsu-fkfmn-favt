@@ -1,0 +1,4 @@
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\try2\obj\Debug\try2.csproj.AssemblyReference.cache
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\try2\obj\Debug\try2.Properties.Resources.resources
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\try2\obj\Debug\try2.csproj.GenerateResource.cache
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\try2\obj\Debug\try2.csproj.CoreCompileInputs.cache
