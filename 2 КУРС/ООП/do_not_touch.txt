@@ -1,0 +1,88 @@
+using System;
+using System.Collections.Generic;
+
+namespace ConsoleApp1
+{
+	class Program
+	{
+		private class CompexNumber
+		{
+			private double real { get; set; }
+			private double image { get; set; }
+
+			public CompexNumber(double real, double image)
+			{
+				this.real = real;
+				this.image = image;
+			}
+
+			public override string ToString()
+			{
+				return (image > 0) ? real.ToString() + "+" + image.ToString() + "i" : real.ToString() + image.ToString() + "i";
+			}
+			public override int GetHashCode()
+			{
+				return base.GetHashCode();
+			}
+
+			public static CompexNumber operator +(CompexNumber number1, CompexNumber number2)
+			{
+				return new CompexNumber(number1.real + number2.real, number1.image + number2.image);
+			}
+			public static CompexNumber operator -(CompexNumber number1, CompexNumber number2)
+			{
+				return new CompexNumber(number1.real - number2.real, number1.image - number2.image);
+			}
+			public static CompexNumber operator *(CompexNumber number1, CompexNumber number2)
+			{
+				return new CompexNumber(number1.real * number2.real - number1.image * number2.image, number1.real * number2.image + number1.image * number2.real);
+			}
+			public static CompexNumber operator /(CompexNumber number1, CompexNumber number2)
+			{
+				return new CompexNumber
+				   ((number1.real * number2.real + number1.image * number2.image) / (Math.Pow(number2.real, 2) + Math.Pow(number2.image, 2)),
+					(number2.real * number1.image - number1.real * number2.image) / (Math.Pow(number2.real, 2) + Math.Pow(number2.image, 2)));
+			}
+			public CompexNumber Pow(double n)
+			{
+				double absoluteValue = Math.Sqrt(Math.Pow(real, 2) + Math.Pow(image, 2));
+				double argument = Math.Atan(image / real);
+				return new CompexNumber(Math.Pow(absoluteValue, n) * Math.Cos(n * argument), Math.Pow(absoluteValue, n) * Math.Sin(n * argument));
+			}
+
+			private double RadianToDegree(double rad)
+			{
+				return rad * (180 / Math.PI);
+			}
+			private double DegreeToRadian(double deg)
+			{
+				return deg * (Math.PI/180);
+			}
+
+			public List<CompexNumber> Sqrt(double n)
+			{
+				double absoluteValue = Math.Sqrt(Math.Pow(real, 2) + Math.Pow(image, 2));
+				double argument = RadianToDegree(Math.Atan(image / real));
+				List<CompexNumber> resutl = new List<CompexNumber>();
+				for (int i = 0; i < n; i++)
+				{
+					resutl.Add(new CompexNumber(
+						Math.Pow((double)absoluteValue, (double)1 / n) * Math.Cos(DegreeToRadian((argument + 2 * Math.PI * i) / n)),
+						Math.Pow((double)absoluteValue, (double)1 / n) * Math.Sin(DegreeToRadian((argument + 2 * Math.PI * i) / n))));
+				}
+				return resutl;
+			}
+		}
+
+		static void Main(string[] args)
+		{
+			CompexNumber compexNumber1 = new CompexNumber(5, -6);
+			List<CompexNumber> compexNumbers = compexNumber1.Sqrt(3);
+			foreach (CompexNumber item in compexNumbers)
+			{
+				Console.WriteLine(item.ToString());
+			}
+			Console.ReadKey(true);
+		}
+	}
+}
