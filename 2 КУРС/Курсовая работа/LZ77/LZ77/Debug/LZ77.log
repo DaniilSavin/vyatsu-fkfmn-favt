@@ -1,0 +1,4 @@
+﻿  LZ77.cpp
+C:\Users\savin\source\repos\LZ77\LZ77\LZ77.cpp(220,19): warning C4244: =: преобразование "std::streamoff" в "int", возможна потеря данных
+C:\Users\savin\source\repos\LZ77\LZ77\LZ77.cpp(260,12): warning C4244: инициализация: преобразование "std::streamoff" в "int", возможна потеря данных
+  LZ77.vcxproj -> C:\Users\savin\source\repos\LZ77\Debug\LZ77.exe

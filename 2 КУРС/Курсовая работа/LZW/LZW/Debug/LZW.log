@@ -1,0 +1,5 @@
+﻿  LZW.cpp
+C:\Users\savin\source\repos\LZW\LZW\LZW.cpp(95,45): warning C4554: "<<": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+C:\Users\savin\source\repos\LZW\LZW\LZW.cpp(239,22): warning C4244: =: преобразование "std::streamoff" в "int", возможна потеря данных
+C:\Users\savin\source\repos\LZW\LZW\LZW.cpp(312,15): warning C4244: инициализация: преобразование "std::streamoff" в "int", возможна потеря данных
+  LZW.vcxproj -> C:\Users\savin\source\repos\LZW\Debug\LZW.exe
