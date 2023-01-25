@@ -1,0 +1,32 @@
+E:\Учёба\Теория Алгоритмов\lab06\task\bin\Debug\net5.0\task.exe
+E:\Учёба\Теория Алгоритмов\lab06\task\bin\Debug\net5.0\task.deps.json
+E:\Учёба\Теория Алгоритмов\lab06\task\bin\Debug\net5.0\task.runtimeconfig.json
+E:\Учёба\Теория Алгоритмов\lab06\task\bin\Debug\net5.0\task.runtimeconfig.dev.json
+E:\Учёба\Теория Алгоритмов\lab06\task\bin\Debug\net5.0\task.dll
+E:\Учёба\Теория Алгоритмов\lab06\task\bin\Debug\net5.0\ref\task.dll
+E:\Учёба\Теория Алгоритмов\lab06\task\bin\Debug\net5.0\task.pdb
+E:\Учёба\Теория Алгоритмов\lab06\task\obj\Debug\net5.0\task.csproj.AssemblyReference.cache
+E:\Учёба\Теория Алгоритмов\lab06\task\obj\Debug\net5.0\task.GeneratedMSBuildEditorConfig.editorconfig
+E:\Учёба\Теория Алгоритмов\lab06\task\obj\Debug\net5.0\task.AssemblyInfoInputs.cache
+E:\Учёба\Теория Алгоритмов\lab06\task\obj\Debug\net5.0\task.AssemblyInfo.cs
+E:\Учёба\Теория Алгоритмов\lab06\task\obj\Debug\net5.0\task.csproj.CoreCompileInputs.cache
+E:\Учёба\Теория Алгоритмов\lab06\task\obj\Debug\net5.0\task.dll
+E:\Учёба\Теория Алгоритмов\lab06\task\obj\Debug\net5.0\ref\task.dll
+E:\Учёба\Теория Алгоритмов\lab06\task\obj\Debug\net5.0\task.pdb
+E:\Учёба\Теория Алгоритмов\lab06\task\obj\Debug\net5.0\task.genruntimeconfig.cache
+D:\ВУЗ\4 КУРС\Теория алгоритмов\lab06 Слободчиков\lab06\task\bin\Debug\net5.0\task.exe
+D:\ВУЗ\4 КУРС\Теория алгоритмов\lab06 Слободчиков\lab06\task\bin\Debug\net5.0\task.deps.json
+D:\ВУЗ\4 КУРС\Теория алгоритмов\lab06 Слободчиков\lab06\task\bin\Debug\net5.0\task.runtimeconfig.json
+D:\ВУЗ\4 КУРС\Теория алгоритмов\lab06 Слободчиков\lab06\task\bin\Debug\net5.0\task.runtimeconfig.dev.json
+D:\ВУЗ\4 КУРС\Теория алгоритмов\lab06 Слободчиков\lab06\task\bin\Debug\net5.0\task.dll
+D:\ВУЗ\4 КУРС\Теория алгоритмов\lab06 Слободчиков\lab06\task\bin\Debug\net5.0\ref\task.dll
+D:\ВУЗ\4 КУРС\Теория алгоритмов\lab06 Слободчиков\lab06\task\bin\Debug\net5.0\task.pdb
+D:\ВУЗ\4 КУРС\Теория алгоритмов\lab06 Слободчиков\lab06\task\obj\Debug\net5.0\task.csproj.AssemblyReference.cache
+D:\ВУЗ\4 КУРС\Теория алгоритмов\lab06 Слободчиков\lab06\task\obj\Debug\net5.0\task.GeneratedMSBuildEditorConfig.editorconfig
+D:\ВУЗ\4 КУРС\Теория алгоритмов\lab06 Слободчиков\lab06\task\obj\Debug\net5.0\task.AssemblyInfoInputs.cache
+D:\ВУЗ\4 КУРС\Теория алгоритмов\lab06 Слободчиков\lab06\task\obj\Debug\net5.0\task.AssemblyInfo.cs
+D:\ВУЗ\4 КУРС\Теория алгоритмов\lab06 Слободчиков\lab06\task\obj\Debug\net5.0\task.csproj.CoreCompileInputs.cache
+D:\ВУЗ\4 КУРС\Теория алгоритмов\lab06 Слободчиков\lab06\task\obj\Debug\net5.0\task.dll
+D:\ВУЗ\4 КУРС\Теория алгоритмов\lab06 Слободчиков\lab06\task\obj\Debug\net5.0\ref\task.dll
+D:\ВУЗ\4 КУРС\Теория алгоритмов\lab06 Слободчиков\lab06\task\obj\Debug\net5.0\task.pdb
+D:\ВУЗ\4 КУРС\Теория алгоритмов\lab06 Слободчиков\lab06\task\obj\Debug\net5.0\task.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+D:\ВУЗ\4 КУРС\Теория алгоритмов\6\6.1\6.1\bin\Debug\net5.0\6.1.exe
+D:\ВУЗ\4 КУРС\Теория алгоритмов\6\6.1\6.1\bin\Debug\net5.0\6.1.deps.json
+D:\ВУЗ\4 КУРС\Теория алгоритмов\6\6.1\6.1\bin\Debug\net5.0\6.1.runtimeconfig.json
+D:\ВУЗ\4 КУРС\Теория алгоритмов\6\6.1\6.1\bin\Debug\net5.0\6.1.runtimeconfig.dev.json
+D:\ВУЗ\4 КУРС\Теория алгоритмов\6\6.1\6.1\bin\Debug\net5.0\6.1.dll
+D:\ВУЗ\4 КУРС\Теория алгоритмов\6\6.1\6.1\bin\Debug\net5.0\ref\6.1.dll
+D:\ВУЗ\4 КУРС\Теория алгоритмов\6\6.1\6.1\bin\Debug\net5.0\6.1.pdb
+D:\ВУЗ\4 КУРС\Теория алгоритмов\6\6.1\6.1\obj\Debug\net5.0\6.1.GeneratedMSBuildEditorConfig.editorconfig
+D:\ВУЗ\4 КУРС\Теория алгоритмов\6\6.1\6.1\obj\Debug\net5.0\6.1.AssemblyInfoInputs.cache
+D:\ВУЗ\4 КУРС\Теория алгоритмов\6\6.1\6.1\obj\Debug\net5.0\6.1.AssemblyInfo.cs
+D:\ВУЗ\4 КУРС\Теория алгоритмов\6\6.1\6.1\obj\Debug\net5.0\6.1.csproj.CoreCompileInputs.cache
+D:\ВУЗ\4 КУРС\Теория алгоритмов\6\6.1\6.1\obj\Debug\net5.0\6.1.dll
+D:\ВУЗ\4 КУРС\Теория алгоритмов\6\6.1\6.1\obj\Debug\net5.0\ref\6.1.dll
+D:\ВУЗ\4 КУРС\Теория алгоритмов\6\6.1\6.1\obj\Debug\net5.0\6.1.pdb
+D:\ВУЗ\4 КУРС\Теория алгоритмов\6\6.1\6.1\obj\Debug\net5.0\6.1.genruntimeconfig.cache
