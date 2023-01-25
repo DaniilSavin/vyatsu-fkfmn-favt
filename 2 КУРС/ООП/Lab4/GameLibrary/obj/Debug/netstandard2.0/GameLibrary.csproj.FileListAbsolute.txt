@@ -1,0 +1,44 @@
+C:\Users\eMahines\source\repos\WindowsFormsApp3\GameLibrary\bin\Debug\netstandard2.0\GameLibrary.deps.json
+C:\Users\eMahines\source\repos\WindowsFormsApp3\GameLibrary\bin\Debug\netstandard2.0\GameLibrary.dll
+C:\Users\eMahines\source\repos\WindowsFormsApp3\GameLibrary\bin\Debug\netstandard2.0\GameLibrary.pdb
+C:\Users\eMahines\source\repos\WindowsFormsApp3\GameLibrary\obj\Debug\netstandard2.0\GameLibrary.AssemblyInfoInputs.cache
+C:\Users\eMahines\source\repos\WindowsFormsApp3\GameLibrary\obj\Debug\netstandard2.0\GameLibrary.AssemblyInfo.cs
+C:\Users\eMahines\source\repos\WindowsFormsApp3\GameLibrary\obj\Debug\netstandard2.0\GameLibrary.dll
+C:\Users\eMahines\source\repos\WindowsFormsApp3\GameLibrary\obj\Debug\netstandard2.0\GameLibrary.pdb
+C:\Users\eMahines\source\repos\WindowsFormsApp3\GameLibrary\obj\Debug\netstandard2.0\GameLibrary.csprojAssemblyReference.cache
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-202001\WindowsFormsApp3\GameLibrary\bin\Debug\netstandard2.0\GameLibrary.deps.json
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-202001\WindowsFormsApp3\GameLibrary\bin\Debug\netstandard2.0\GameLibrary.dll
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-202001\WindowsFormsApp3\GameLibrary\bin\Debug\netstandard2.0\GameLibrary.pdb
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-202001\WindowsFormsApp3\GameLibrary\obj\Debug\netstandard2.0\GameLibrary.csprojAssemblyReference.cache
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-202001\WindowsFormsApp3\GameLibrary\obj\Debug\netstandard2.0\GameLibrary.csproj.CoreCompileInputs.cache
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-202001\WindowsFormsApp3\GameLibrary\obj\Debug\netstandard2.0\GameLibrary.AssemblyInfoInputs.cache
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-202001\WindowsFormsApp3\GameLibrary\obj\Debug\netstandard2.0\GameLibrary.AssemblyInfo.cs
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-202001\WindowsFormsApp3\GameLibrary\obj\Debug\netstandard2.0\GameLibrary.dll
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-202001\WindowsFormsApp3\GameLibrary\obj\Debug\netstandard2.0\GameLibrary.pdb
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-202001\Lab4\GameLibrary\bin\Debug\netstandard2.0\GameLibrary.deps.json
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-202001\Lab4\GameLibrary\bin\Debug\netstandard2.0\GameLibrary.dll
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-202001\Lab4\GameLibrary\bin\Debug\netstandard2.0\GameLibrary.pdb
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-202001\Lab4\GameLibrary\obj\Debug\netstandard2.0\GameLibrary.csprojAssemblyReference.cache
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-202001\Lab4\GameLibrary\obj\Debug\netstandard2.0\GameLibrary.csproj.CoreCompileInputs.cache
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-202001\Lab4\GameLibrary\obj\Debug\netstandard2.0\GameLibrary.AssemblyInfoInputs.cache
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-202001\Lab4\GameLibrary\obj\Debug\netstandard2.0\GameLibrary.AssemblyInfo.cs
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-202001\Lab4\GameLibrary\obj\Debug\netstandard2.0\GameLibrary.dll
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-202001\Lab4\GameLibrary\obj\Debug\netstandard2.0\GameLibrary.pdb
+E:\ВУЗ\2 КУРС\ООП\Lab4\GameLibrary\bin\Debug\netstandard2.0\GameLibrary.deps.json
+E:\ВУЗ\2 КУРС\ООП\Lab4\GameLibrary\bin\Debug\netstandard2.0\GameLibrary.dll
+E:\ВУЗ\2 КУРС\ООП\Lab4\GameLibrary\bin\Debug\netstandard2.0\GameLibrary.pdb
+E:\ВУЗ\2 КУРС\ООП\Lab4\GameLibrary\obj\Debug\netstandard2.0\GameLibrary.csprojAssemblyReference.cache
+E:\ВУЗ\2 КУРС\ООП\Lab4\GameLibrary\obj\Debug\netstandard2.0\GameLibrary.csproj.CoreCompileInputs.cache
+E:\ВУЗ\2 КУРС\ООП\Lab4\GameLibrary\obj\Debug\netstandard2.0\GameLibrary.AssemblyInfoInputs.cache
+E:\ВУЗ\2 КУРС\ООП\Lab4\GameLibrary\obj\Debug\netstandard2.0\GameLibrary.AssemblyInfo.cs
+E:\ВУЗ\2 КУРС\ООП\Lab4\GameLibrary\obj\Debug\netstandard2.0\GameLibrary.dll
+E:\ВУЗ\2 КУРС\ООП\Lab4\GameLibrary\obj\Debug\netstandard2.0\GameLibrary.pdb
+D:\ВУЗ\2 КУРС\ООП\Lab4\GameLibrary\bin\Debug\netstandard2.0\GameLibrary.deps.json
+D:\ВУЗ\2 КУРС\ООП\Lab4\GameLibrary\bin\Debug\netstandard2.0\GameLibrary.dll
+D:\ВУЗ\2 КУРС\ООП\Lab4\GameLibrary\bin\Debug\netstandard2.0\GameLibrary.pdb
+D:\ВУЗ\2 КУРС\ООП\Lab4\GameLibrary\obj\Debug\netstandard2.0\GameLibrary.csprojAssemblyReference.cache
+D:\ВУЗ\2 КУРС\ООП\Lab4\GameLibrary\obj\Debug\netstandard2.0\GameLibrary.AssemblyInfoInputs.cache
+D:\ВУЗ\2 КУРС\ООП\Lab4\GameLibrary\obj\Debug\netstandard2.0\GameLibrary.AssemblyInfo.cs
+D:\ВУЗ\2 КУРС\ООП\Lab4\GameLibrary\obj\Debug\netstandard2.0\GameLibrary.csproj.CoreCompileInputs.cache
+D:\ВУЗ\2 КУРС\ООП\Lab4\GameLibrary\obj\Debug\netstandard2.0\GameLibrary.dll
+D:\ВУЗ\2 КУРС\ООП\Lab4\GameLibrary\obj\Debug\netstandard2.0\GameLibrary.pdb
