@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "F0ITYn2pMgamBq1ZTQpAuYwoMN585jFiLAT89XwBlt6nleLWkx1Qj7rVbTz54w2TZNcYpRC5X9zjUSO6pcKq+w==",
+  "success": true,
+  "projectFilePath": "E:\\vyatsu-fkfmn-favt\\2 КУРС\\ООП\\6\\_6\\_6.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\savin\\.nuget\\packages\\mstest.testframework\\2.1.2\\mstest.testframework.2.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}

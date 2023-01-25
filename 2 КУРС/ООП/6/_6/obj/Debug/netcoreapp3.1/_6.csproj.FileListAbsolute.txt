@@ -1,0 +1,16 @@
+C:\Users\Admin\Documents\2 курс\ООП\6\_6\bin\Debug\netcoreapp3.1\_6.exe
+C:\Users\Admin\Documents\2 курс\ООП\6\_6\obj\Debug\netcoreapp3.1\_6.csprojAssemblyReference.cache
+C:\Users\Admin\Documents\2 курс\ООП\6\_6\obj\Debug\netcoreapp3.1\_6.AssemblyInfoInputs.cache
+C:\Users\Admin\Documents\2 курс\ООП\6\_6\obj\Debug\netcoreapp3.1\_6.AssemblyInfo.cs
+C:\Users\Admin\Documents\2 курс\ООП\6\_6\bin\Debug\netcoreapp3.1\_6.deps.json
+C:\Users\Admin\Documents\2 курс\ООП\6\_6\bin\Debug\netcoreapp3.1\_6.runtimeconfig.json
+C:\Users\Admin\Documents\2 курс\ООП\6\_6\bin\Debug\netcoreapp3.1\_6.runtimeconfig.dev.json
+C:\Users\Admin\Documents\2 курс\ООП\6\_6\bin\Debug\netcoreapp3.1\_6.dll
+C:\Users\Admin\Documents\2 курс\ООП\6\_6\bin\Debug\netcoreapp3.1\_6.pdb
+C:\Users\Admin\Documents\2 курс\ООП\6\_6\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Admin\Documents\2 курс\ООП\6\_6\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Admin\Documents\2 курс\ООП\6\_6\obj\Debug\netcoreapp3.1\_6.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\2 курс\ООП\6\_6\obj\Debug\netcoreapp3.1\_6.csproj.CopyComplete
+C:\Users\Admin\Documents\2 курс\ООП\6\_6\obj\Debug\netcoreapp3.1\_6.dll
+C:\Users\Admin\Documents\2 курс\ООП\6\_6\obj\Debug\netcoreapp3.1\_6.pdb
+C:\Users\Admin\Documents\2 курс\ООП\6\_6\obj\Debug\netcoreapp3.1\_6.genruntimeconfig.cache
