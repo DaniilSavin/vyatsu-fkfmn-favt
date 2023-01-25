@@ -1,0 +1,17 @@
+C:\Users\eMahines\source\repos\WindowsFormsApp3\FifteenWPF\obj\Debug\MainWindow.g.cs
+C:\Users\eMahines\source\repos\WindowsFormsApp3\FifteenWPF\obj\Debug\App.g.cs
+C:\Users\eMahines\source\repos\WindowsFormsApp3\FifteenWPF\obj\Debug\FifteenWPF_MarkupCompile.cache
+C:\Users\eMahines\source\repos\WindowsFormsApp3\FifteenWPF\obj\Debug\FifteenWPF_MarkupCompile.lref
+C:\Users\eMahines\source\repos\WindowsFormsApp3\FifteenWPF\bin\Debug\FifteenWPF.exe.config
+C:\Users\eMahines\source\repos\WindowsFormsApp3\FifteenWPF\bin\Debug\FifteenWPF.exe
+C:\Users\eMahines\source\repos\WindowsFormsApp3\FifteenWPF\bin\Debug\FifteenWPF.pdb
+C:\Users\eMahines\source\repos\WindowsFormsApp3\FifteenWPF\obj\Debug\MainWindow.baml
+C:\Users\eMahines\source\repos\WindowsFormsApp3\FifteenWPF\obj\Debug\FifteenWPF.g.resources
+C:\Users\eMahines\source\repos\WindowsFormsApp3\FifteenWPF\obj\Debug\FifteenWPF.Properties.Resources.resources
+C:\Users\eMahines\source\repos\WindowsFormsApp3\FifteenWPF\obj\Debug\FifteenWPF.csproj.GenerateResource.cache
+C:\Users\eMahines\source\repos\WindowsFormsApp3\FifteenWPF\obj\Debug\FifteenWPF.exe
+C:\Users\eMahines\source\repos\WindowsFormsApp3\FifteenWPF\obj\Debug\FifteenWPF.pdb
+C:\Users\eMahines\source\repos\WindowsFormsApp3\FifteenWPF\bin\Debug\GameLibrary.dll
+C:\Users\eMahines\source\repos\WindowsFormsApp3\FifteenWPF\bin\Debug\GameLibrary.pdb
+C:\Users\eMahines\source\repos\WindowsFormsApp3\FifteenWPF\obj\Debug\FifteenWPF.csproj.CopyComplete
+C:\Users\eMahines\source\repos\WindowsFormsApp3\FifteenWPF\obj\Debug\FifteenWPF.csprojAssemblyReference.cache

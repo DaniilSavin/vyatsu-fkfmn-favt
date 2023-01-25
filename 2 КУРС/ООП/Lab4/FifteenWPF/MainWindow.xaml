@@ -1,0 +1,63 @@
+﻿<Window x:Class="FifteenWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FifteenWPF"
+        mc:Ignorable="d"
+        Title="Пятнашки" Height="500" Width="546" WindowStartupLocation="CenterScreen" Loaded="StartGame">
+    <DockPanel LastChildFill="True">
+        <Menu DockPanel.Dock="Top">
+            <Menu.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <DockPanel HorizontalAlignment="Stretch"/>
+                </ItemsPanelTemplate>
+            </Menu.ItemsPanel>
+            <MenuItem Name="MenuStartGame" Header="Начать игру" FontSize="16" Click="StartGame">
+           </MenuItem>
+            <MenuItem Name = "Cancel" Header = "Отменить ход" FontSize="16" Click="UndoClick">
+            </MenuItem>
+
+        </Menu>
+        <StatusBar DockPanel.Dock="Bottom">
+            <StatusBar.Resources>
+                <Style TargetType="{x:Type StatusBarItem}">
+                    <Setter Property="FontSize" Value="16"/>
+                </Style>
+            </StatusBar.Resources>
+            <StatusBarItem Content="Cчетчик:"/>
+            <StatusBarItem Name="CountOfMoves" Content="0"/>
+            <Separator/>
+            <StatusBarItem Content="Таймер:"/>
+            <StatusBarItem Name="CountOfTime" Content="0"/>
+        </StatusBar>
+        <UniformGrid DockPanel.Dock="Bottom" Name="uniformGrid" Rows="4" Columns="4" Margin="2,2,2,2">
+            <UniformGrid.Resources>
+                <Style TargetType="{x:Type Button}">
+                    <Setter Property="Focusable" Value="False"/>
+                    <Setter Property="Content" Value=""/>
+                    <Setter Property="FontSize" Value="36"/>
+                    <Setter Property="Margin" Value="2,2,2,2"/>
+                    <Setter Property="FontWeight" Value="Bold"/>
+                    <EventSetter Event="Click" Handler="ButtonClick"/>
+                </Style>
+            </UniformGrid.Resources>
+            <Button Name="button0" Tag="0"/>
+            <Button Name="button1" Tag="1"/>
+            <Button Name="button2" Tag="2"/>
+            <Button Name="button3" Tag="3"/>
+            <Button Name="button4" Tag="4"/>
+            <Button Name="button5" Tag="5"/>
+            <Button Name="button6" Tag="6"/>
+            <Button Name="button7" Tag="7"/>
+            <Button Name="button8" Tag="8"/>
+            <Button Name="button9" Tag="9"/>
+            <Button Name="button10" Tag="10"/>
+            <Button Name="button11" Tag="11" />
+            <Button Name="button12" Tag="12"/>
+            <Button Name="button13" Tag="13"/>
+            <Button Name="button14" Tag="14"/>
+            <Button Name="button15" Tag="15"/>
+        </UniformGrid>
+    </DockPanel>
+</Window>
