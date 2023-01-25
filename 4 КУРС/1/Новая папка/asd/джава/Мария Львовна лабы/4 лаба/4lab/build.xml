@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<project name="HelloWorld" default="run">
+    <target name="compile">
+        <mkdir dir="bin/classes"/>
+        <javac destdir="bin/classes" includeantruntime="false">
+            <src path="src"/>
+        </javac>
+    </target>
+    <target name="run" depends="compile">
+        <java classname="Hello" classpath="bin/classes"/>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+</project>
