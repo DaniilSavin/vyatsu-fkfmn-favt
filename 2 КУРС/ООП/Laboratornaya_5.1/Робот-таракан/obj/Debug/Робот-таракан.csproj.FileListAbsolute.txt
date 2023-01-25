@@ -1,0 +1,10 @@
+E:\ВУЗ\2 КУРС\ООП\Laboratornaya_5.1\Робот-таракан\bin\Debug\Робот-таракан.exe.config
+E:\ВУЗ\2 КУРС\ООП\Laboratornaya_5.1\Робот-таракан\bin\Debug\Робот-таракан.exe
+E:\ВУЗ\2 КУРС\ООП\Laboratornaya_5.1\Робот-таракан\bin\Debug\Робот-таракан.pdb
+E:\ВУЗ\2 КУРС\ООП\Laboratornaya_5.1\Робот-таракан\obj\Debug\Робот_таракан.Form1.resources
+E:\ВУЗ\2 КУРС\ООП\Laboratornaya_5.1\Робот-таракан\obj\Debug\Робот_таракан.Properties.Resources.resources
+E:\ВУЗ\2 КУРС\ООП\Laboratornaya_5.1\Робот-таракан\obj\Debug\Робот-таракан.csproj.GenerateResource.cache
+E:\ВУЗ\2 КУРС\ООП\Laboratornaya_5.1\Робот-таракан\obj\Debug\Робот-таракан.csproj.CoreCompileInputs.cache
+E:\ВУЗ\2 КУРС\ООП\Laboratornaya_5.1\Робот-таракан\obj\Debug\Робот-таракан.exe
+E:\ВУЗ\2 КУРС\ООП\Laboratornaya_5.1\Робот-таракан\obj\Debug\Робот-таракан.pdb
+E:\ВУЗ\2 КУРС\ООП\Laboratornaya_5.1\Робот-таракан\obj\Debug\Робот-таракан.csprojAssemblyReference.cache
