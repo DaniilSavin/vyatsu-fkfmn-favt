@@ -1,0 +1,13 @@
+C:\Users\savin\source\repos\Lab_2\zadanie_2\bin\Debug\netcoreapp3.1\zadanie_2.exe
+C:\Users\savin\source\repos\Lab_2\zadanie_2\bin\Debug\netcoreapp3.1\zadanie_2.deps.json
+C:\Users\savin\source\repos\Lab_2\zadanie_2\bin\Debug\netcoreapp3.1\zadanie_2.runtimeconfig.json
+C:\Users\savin\source\repos\Lab_2\zadanie_2\bin\Debug\netcoreapp3.1\zadanie_2.runtimeconfig.dev.json
+C:\Users\savin\source\repos\Lab_2\zadanie_2\bin\Debug\netcoreapp3.1\zadanie_2.dll
+C:\Users\savin\source\repos\Lab_2\zadanie_2\bin\Debug\netcoreapp3.1\zadanie_2.pdb
+C:\Users\savin\source\repos\Lab_2\zadanie_2\obj\Debug\netcoreapp3.1\zadanie_2.csprojAssemblyReference.cache
+C:\Users\savin\source\repos\Lab_2\zadanie_2\obj\Debug\netcoreapp3.1\zadanie_2.csproj.CoreCompileInputs.cache
+C:\Users\savin\source\repos\Lab_2\zadanie_2\obj\Debug\netcoreapp3.1\zadanie_2.AssemblyInfoInputs.cache
+C:\Users\savin\source\repos\Lab_2\zadanie_2\obj\Debug\netcoreapp3.1\zadanie_2.AssemblyInfo.cs
+C:\Users\savin\source\repos\Lab_2\zadanie_2\obj\Debug\netcoreapp3.1\zadanie_2.dll
+C:\Users\savin\source\repos\Lab_2\zadanie_2\obj\Debug\netcoreapp3.1\zadanie_2.pdb
+C:\Users\savin\source\repos\Lab_2\zadanie_2\obj\Debug\netcoreapp3.1\zadanie_2.genruntimeconfig.cache
