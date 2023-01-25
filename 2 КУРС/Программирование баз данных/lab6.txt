@@ -1,0 +1,50 @@
+SELECT * FROM employees
+WHERE TO_CHAR (hire_date, 'DD') = '01';
+
+SELECT * FROM employees
+WHERE to_char(hire_date,'MM.YYYY') = '02.2007';
+
+SELECT first_name, TO_CHAR (salary + salary * 0.20, 'fm$999,999.00') new_salary
+  FROM employees;
+
+SELECT first_name, commission_pct, NVL2 (commission_pct, 'Yes', 'No') has_bonus
+  FROM employees;
+
+SELECT first_name,
+       salary,
+       CASE
+           WHEN salary < 5000 THEN 'Low'
+           WHEN salary >= 5000 AND salary < 10000 THEN 'Normal'
+           ELSE 'High'
+       END salary_level
+  FROM employees;
+
+SELECT country_name
+           country,
+       CASE region_id
+           WHEN 1 THEN 'Europe'
+           WHEN 2 THEN 'America'
+           WHEN 3 THEN 'Asia'
+           WHEN 4 THEN 'Africa'
+           ELSE 'Unknown'
+       END
+           region
+  FROM countries;
+
+SELECT MIN(salary) FROM employees;
+SELECT COUNT(DISTINCT employee_id) FROM employees;
+
+SELECT MAX(salary) FROM employees;
+
+SELECT TO_CHAR (hire_date, 'YYYY') year, COUNT (*)
+    FROM employees
+GROUP BY TO_CHAR (hire_date, 'YYYY');
+
+SELECT COUNT (COUNT (*))     department_count
+    FROM employees
+   WHERE department_id IS NOT NULL
+GROUP BY department_id;
+
+SELECT department_id, ROUND(AVG (salary)) avg_salary
+    FROM employees
+GROUP BY department_id;

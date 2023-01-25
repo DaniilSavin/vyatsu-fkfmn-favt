@@ -1,0 +1,44 @@
+Create table TeachersGroups
+(
+ TeacherGroupID int primary key,
+ TeacherGroupName int not null,
+ TeacherGroupHeadID int not null,
+ FacultyID int not null,
+);
+
+Create table Teachers
+(
+ TeacherID int primary key,
+ TeacherName char (100) not null,
+ TeacherGroupID int references TeachersGroups(TeacherGroupID),
+);
+
+Create table Faculties
+(
+ FacultyID int primary key,
+ FacultyName int not null,
+ DeanID int not null,
+);
+
+alter table TeachersGroups add constraint c1 foreign key (TeacherGroupHeadID) references Teachers(TeacherID)
+
+alter table TeachersGroups add constraint c2 foreign key (FacultyID) references Faculties(FaciltyID)
+
+insert into Teachers
+values 
+(1, 'Лавров С.Д.',     3),
+(2, 'Соболева О.К.',   1),
+(3, 'Арасланова М.Л.', 1),
+(4, 'Коршунова Е.М.',  2),
+(5, 'Коршунова Е.М.',  2)
+
+insert into TeachersGroups
+values 
+(1, 'Кафедра ТМ',  3, 1),
+(2, 'Кафедра ИР',  5, 2),
+(3, 'Кафедра ФСП', 1, 2)
+
+insert into Faculties
+values 
+(1, 'Факультет МК',  3),
+(2, 'Факультет ВТиТ',  4)
