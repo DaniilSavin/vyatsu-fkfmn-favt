@@ -1,0 +1,7 @@
+D:\      \2 КУРС\УЧ\zadanie_1259_c\zadanie_1259_c\obj\Debug\zadanie_1259_c.csprojAssemblyReference.cache
+D:\      \2 КУРС\УЧ\zadanie_1259_c\zadanie_1259_c\obj\Debug\zadanie_1259_c.csproj.CoreCompileInputs.cache
+D:\      \2 КУРС\УЧ\zadanie_1259_c\zadanie_1259_c\bin\Debug\zadanie_1259_c.exe.config
+D:\      \2 КУРС\УЧ\zadanie_1259_c\zadanie_1259_c\bin\Debug\zadanie_1259_c.exe
+D:\      \2 КУРС\УЧ\zadanie_1259_c\zadanie_1259_c\bin\Debug\zadanie_1259_c.pdb
+D:\      \2 КУРС\УЧ\zadanie_1259_c\zadanie_1259_c\obj\Debug\zadanie_1259_c.exe
+D:\      \2 КУРС\УЧ\zadanie_1259_c\zadanie_1259_c\obj\Debug\zadanie_1259_c.pdb
