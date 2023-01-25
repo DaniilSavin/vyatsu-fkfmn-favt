@@ -1,0 +1,172 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        public static Dictionary<string, double> dc = new Dictionary<string, double>();
+        public static Dictionary<string, double> dc2 = new Dictionary<string, double>();
+        static void initDc()
+        {
+            dc.Add("_", 0.175);
+            dc.Add("о", 0.090);
+            dc.Add("ё", 0.072);
+            dc.Add("е", 0.072);
+            dc.Add("а", 0.062);
+            dc.Add("и", 0.062);
+            dc.Add("т", 0.053);
+            dc.Add("н", 0.053);
+            dc.Add("с", 0.045);
+
+            dc.Add("р", 0.040);
+            dc.Add("в", 0.038);
+            dc.Add("л", 0.035);
+            dc.Add("к", 0.028);
+            dc.Add("м", 0.026);
+            dc.Add("д", 0.025);
+            dc.Add("п", 0.023);
+            dc.Add("у", 0.021);
+
+            dc.Add("я", 0.018);
+            dc.Add("ы", 0.016);
+            dc.Add("з", 0.016);
+            dc.Add("ь", 0.014);
+            dc.Add("ъ", 0.014);
+            dc.Add("б", 0.014);
+            dc.Add("г", 0.013);
+            dc.Add("ч", 0.012);
+            dc.Add("й", 0.010);
+
+            dc.Add("х", 0.009);
+            dc.Add("ж", 0.007);
+            dc.Add("ю", 0.006);
+            dc.Add("ш", 0.006);
+            dc.Add("ц", 0.004);
+            dc.Add("щ", 0.003);
+            dc.Add("э", 0.003);
+            dc.Add("ф", 0.002);
+        }
+
+
+        public static void decrypt_mess_count(string s)
+        {
+
+            string text = s;
+
+            string AlreadyDone = "";
+            string[,] Result = new string[text.Length, 2];
+            int i = 0, l = 0;
+            foreach (char ch in text)
+            {
+                i = 0;
+                foreach (char c in text)
+                {
+                    if (ch == c) i++;
+                }
+                if (AlreadyDone.Contains(ch) != true)
+                {
+                    // Console.WriteLine(ch + "  повторяется " + i.ToString() + " раз ");
+                    Result[l, 0] = ch.ToString();//символ
+                    Result[l, 1] = (Math.Round((double)i / s.Length, 3)).ToString();  //кол-во повторов
+                    AlreadyDone += ch; l++;
+                }
+            }
+            for (int k = 0; k < AlreadyDone.Length; k++)
+            {
+                Console.WriteLine("{0} - {1}", Result[k, 0], Result[k, 1]);
+
+            }
+
+
+
+
+
+
+        }
+
+        static void Main(string[] args)
+        {
+            initDc();
+
+            string str = "я_рчюмжтучсю_ютжч_ужыьъюэчжчяюхфучрчя_рчюмжтучыж_юкуырчв_жэиохмбрачяюттжээпачжэножэч_юммрэьюыьч_жмкрв_юежычяу_угежйуээпучмююзщуэрцчрчнуъчмжъпъчяюъюсчяюзутрньчж_ърлчсосуэюнюечяюмыучяюзутпчя_жернуыьмнеючв_жэиррчэумбюыьбюч_жхчя_реыубжырчусючбч_жмкрв_юебучкрв_юечяюмыучмъу_нрч_юммрэьюыцчусючмпэчзюэжеуэно_ч_юммрэьюыьчжчяюхфучрчеэобчжэножэч_юммрэьюыьчя_ютюыфрырчусючтуыючечнюче_уъцчя_жернуыьмнеючв_жэиррчя_реыубжыючбч_жзюнучъэюфумнеючб_рянюс_жвюечбюню_пучеъумнучюз_жхюепежырчнжбчэжхпежуъпачйу_эпачбжзрэунчжэножэоч_юммрэьюылчя_рэжтыуфрнчтюбн_рэжчмюсыжмэючбюню_юачмнюабюмньчкрв_жчтюыфэжчюя_утуыцньмцчертюъчхжкрв_юежээюачрэвю_ъжиррчтыцчеюуээюсюче_уъуэрчтюмнжнюйэюачзотунчцеыцньмцчмнюабюмньчумырчмююзщуэручмчя_рбжхюъчж_ъуамбюъочяют_жхтуыуэрлчэучзотунч_жмкрв_юежэючя_юнреэрбюъчгюнцчзпчтючъюъуэнжчрмяюыэуэрцчяюыойжнуыуъчжчтыцчтряыюъжнрйумбюачяюйнпчкрв_чтюыфуэчюзумяуйрежньчмюг_жээюмньчэжчтумцнбрчыун";
+           // decrypt_mess_count(str);
+            string[] s = str.ToCharArray().Select(c => c.ToString()).ToArray();
+            int count = 0;
+            int size = s.Length;
+            string str2 = "при осаде города реальмон а позже и при осаде ларошели французский подданный антуан россиньоль расшифровал перехваченные сообщения и тем самым помог победить армию гугенотов после победы правительство франции несколько раз привлекали его к расшифровке шифров после смерти россиньоля его сын бонавентур россиньоль а позже и внук антуан россиньоль продолжили его дело в то время правительство франции привлекало к работе множество криптографов которые вместе образовывали так называемый черный кабинет антуану россиньолю принадлежит доктрина согласно которой стойкость шифра должна определяться видом зашифрованной информации для военного времени достаточной будет являться стойкость если сообщение с приказом армейскому подразделению не будет расшифровано противником хотя бы до момента исполнения получателем а для дипломатической почты шифр должен обеспечивать сохранность на десятки лет";
+            /* string ans = "";
+             for (int i = 0; i < s.Length; i++)
+             {
+                 if (dc.ContainsKey(s[i]))
+                 {
+                     ans +=dc[s[i]].ToString()+" |\t";   
+                 }
+             }*/
+            // Console.WriteLine(ans);
+
+            int[] Array = new int[size];
+            for (int i=0; i< size; i++)
+            {
+               // Console.WriteLine("Ищем " +  s[i]);
+                for (int j=i; j< size; j++)
+                {
+                    if (s[i]==s[j] && !dc2.ContainsKey(s[i]))
+                    {
+                       // Console.WriteLine("Find sym i="+i+" | " + s[i] +" > j= "+ j +" | "+ s[j]);
+                        count++;
+                    }
+                }
+                if (!dc2.ContainsKey(s[i]))
+                {
+                    double t = (double)count / size;
+                    dc2.Add(s[i], t);
+                  //  Console.WriteLine(" !!! \n val add - "+s[i]+ " | count= " + count+ " | count/length = " + t);
+                }
+                count = 0;
+            }
+
+            Console.WriteLine();
+            count = 0;
+            /*foreach (KeyValuePair<string, double> kvp in dc)
+            {
+                Console.WriteLine("Key = {0}, Value = {1}",
+                    kvp.Key, kvp.Value);
+                count++;
+            }
+
+            Console.WriteLine("count"+ count+ "\n" +"________");
+            count = 0;
+            foreach (KeyValuePair<string, double> kvp in dc2)
+            {
+                Console.WriteLine("Key = {0}, Value = {1}",
+                    kvp.Key, kvp.Value);
+                count++;
+            }
+            Console.WriteLine("count" + count + "\n" + "________");
+            count = 0;
+
+            Dictionary<string, double>.KeyCollection keyColl =
+                dc2.Keys;
+
+            // The elements of the KeyCollection are strongly typed
+            // with the type that was specified for dictionary keys.
+            Console.WriteLine();
+            foreach (string sssd in keyColl)
+            {
+                Console.WriteLine("{0}", sssd);
+            }*/
+            Console.WriteLine("__________________");
+            for (int i=0; i<str2.Length; i++)
+            {
+                Console.WriteLine(str[i] + " - " + str2[i]);
+            }
+
+
+
+        }
+    }
+}
