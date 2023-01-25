@@ -1,0 +1,32 @@
+D:\study\естествознание\lab3\bin\Debug\netcoreapp3.1\lab3.exe
+D:\study\естествознание\lab3\bin\Debug\netcoreapp3.1\lab3.deps.json
+D:\study\естествознание\lab3\bin\Debug\netcoreapp3.1\lab3.runtimeconfig.json
+D:\study\естествознание\lab3\bin\Debug\netcoreapp3.1\lab3.runtimeconfig.dev.json
+D:\study\естествознание\lab3\bin\Debug\netcoreapp3.1\lab3.dll
+D:\study\естествознание\lab3\bin\Debug\netcoreapp3.1\lab3.pdb
+D:\study\естествознание\lab3\obj\Debug\netcoreapp3.1\lab3.csproj.AssemblyReference.cache
+D:\study\естествознание\lab3\obj\Debug\netcoreapp3.1\lab3.Form1.resources
+D:\study\естествознание\lab3\obj\Debug\netcoreapp3.1\lab3.csproj.GenerateResource.cache
+D:\study\естествознание\lab3\obj\Debug\netcoreapp3.1\lab3.GeneratedMSBuildEditorConfig.editorconfig
+D:\study\естествознание\lab3\obj\Debug\netcoreapp3.1\lab3.AssemblyInfoInputs.cache
+D:\study\естествознание\lab3\obj\Debug\netcoreapp3.1\lab3.AssemblyInfo.cs
+D:\study\естествознание\lab3\obj\Debug\netcoreapp3.1\lab3.csproj.CoreCompileInputs.cache
+D:\study\естествознание\lab3\obj\Debug\netcoreapp3.1\lab3.dll
+D:\study\естествознание\lab3\obj\Debug\netcoreapp3.1\lab3.pdb
+D:\study\естествознание\lab3\obj\Debug\netcoreapp3.1\lab3.genruntimeconfig.cache
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab3\lab3\bin\Debug\netcoreapp3.1\lab3.exe
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab3\lab3\bin\Debug\netcoreapp3.1\lab3.deps.json
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab3\lab3\bin\Debug\netcoreapp3.1\lab3.runtimeconfig.json
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab3\lab3\bin\Debug\netcoreapp3.1\lab3.runtimeconfig.dev.json
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab3\lab3\bin\Debug\netcoreapp3.1\lab3.dll
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab3\lab3\bin\Debug\netcoreapp3.1\lab3.pdb
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab3\lab3\obj\Debug\netcoreapp3.1\lab3.csproj.AssemblyReference.cache
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab3\lab3\obj\Debug\netcoreapp3.1\lab3.Form1.resources
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab3\lab3\obj\Debug\netcoreapp3.1\lab3.csproj.GenerateResource.cache
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab3\lab3\obj\Debug\netcoreapp3.1\lab3.GeneratedMSBuildEditorConfig.editorconfig
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab3\lab3\obj\Debug\netcoreapp3.1\lab3.AssemblyInfoInputs.cache
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab3\lab3\obj\Debug\netcoreapp3.1\lab3.AssemblyInfo.cs
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab3\lab3\obj\Debug\netcoreapp3.1\lab3.csproj.CoreCompileInputs.cache
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab3\lab3\obj\Debug\netcoreapp3.1\lab3.dll
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab3\lab3\obj\Debug\netcoreapp3.1\lab3.pdb
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab3\lab3\obj\Debug\netcoreapp3.1\lab3.genruntimeconfig.cache
