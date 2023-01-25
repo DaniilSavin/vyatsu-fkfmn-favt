@@ -1,0 +1,14 @@
+D:\study\4 курс 2 семестр\программная инженерия\лаб. Паттерн\Builder\bin\Debug\netcoreapp3.1\Builder.exe
+D:\study\4 курс 2 семестр\программная инженерия\лаб. Паттерн\Builder\bin\Debug\netcoreapp3.1\Builder.deps.json
+D:\study\4 курс 2 семестр\программная инженерия\лаб. Паттерн\Builder\bin\Debug\netcoreapp3.1\Builder.runtimeconfig.json
+D:\study\4 курс 2 семестр\программная инженерия\лаб. Паттерн\Builder\bin\Debug\netcoreapp3.1\Builder.runtimeconfig.dev.json
+D:\study\4 курс 2 семестр\программная инженерия\лаб. Паттерн\Builder\bin\Debug\netcoreapp3.1\Builder.dll
+D:\study\4 курс 2 семестр\программная инженерия\лаб. Паттерн\Builder\bin\Debug\netcoreapp3.1\Builder.pdb
+D:\study\4 курс 2 семестр\программная инженерия\лаб. Паттерн\Builder\obj\Debug\netcoreapp3.1\Builder.csproj.AssemblyReference.cache
+D:\study\4 курс 2 семестр\программная инженерия\лаб. Паттерн\Builder\obj\Debug\netcoreapp3.1\Builder.GeneratedMSBuildEditorConfig.editorconfig
+D:\study\4 курс 2 семестр\программная инженерия\лаб. Паттерн\Builder\obj\Debug\netcoreapp3.1\Builder.AssemblyInfoInputs.cache
+D:\study\4 курс 2 семестр\программная инженерия\лаб. Паттерн\Builder\obj\Debug\netcoreapp3.1\Builder.AssemblyInfo.cs
+D:\study\4 курс 2 семестр\программная инженерия\лаб. Паттерн\Builder\obj\Debug\netcoreapp3.1\Builder.csproj.CoreCompileInputs.cache
+D:\study\4 курс 2 семестр\программная инженерия\лаб. Паттерн\Builder\obj\Debug\netcoreapp3.1\Builder.dll
+D:\study\4 курс 2 семестр\программная инженерия\лаб. Паттерн\Builder\obj\Debug\netcoreapp3.1\Builder.pdb
+D:\study\4 курс 2 семестр\программная инженерия\лаб. Паттерн\Builder\obj\Debug\netcoreapp3.1\Builder.genruntimeconfig.cache
