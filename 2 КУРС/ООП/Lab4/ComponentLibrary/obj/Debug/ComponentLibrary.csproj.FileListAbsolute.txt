@@ -1,0 +1,26 @@
+C:\Users\eMahines\source\repos\WindowsFormsApp3\ComponentLibrary\bin\Debug\ComponentLibrary.dll
+C:\Users\eMahines\source\repos\WindowsFormsApp3\ComponentLibrary\bin\Debug\ComponentLibrary.pdb
+C:\Users\eMahines\source\repos\WindowsFormsApp3\ComponentLibrary\obj\Debug\ComponentLibrary.GameTimer.resources
+C:\Users\eMahines\source\repos\WindowsFormsApp3\ComponentLibrary\obj\Debug\ComponentLibrary.csproj.GenerateResource.cache
+C:\Users\eMahines\source\repos\WindowsFormsApp3\ComponentLibrary\obj\Debug\ComponentLibrary.dll
+C:\Users\eMahines\source\repos\WindowsFormsApp3\ComponentLibrary\obj\Debug\ComponentLibrary.pdb
+C:\Users\eMahines\source\repos\WindowsFormsApp3\ComponentLibrary\obj\Debug\ComponentLibrary.Button1.resources
+C:\Users\eMahines\source\repos\WindowsFormsApp3\ComponentLibrary\obj\Debug\ComponentLibrary.csprojAssemblyReference.cache
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-202001\WindowsFormsApp3\ComponentLibrary\bin\Debug\ComponentLibrary.dll
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-202001\WindowsFormsApp3\ComponentLibrary\bin\Debug\ComponentLibrary.pdb
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-202001\WindowsFormsApp3\ComponentLibrary\obj\Debug\ComponentLibrary.csprojAssemblyReference.cache
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-202001\WindowsFormsApp3\ComponentLibrary\obj\Debug\ComponentLibrary.Button1.resources
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-202001\WindowsFormsApp3\ComponentLibrary\obj\Debug\ComponentLibrary.GameTimer.resources
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-202001\WindowsFormsApp3\ComponentLibrary\obj\Debug\ComponentLibrary.csproj.GenerateResource.cache
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-202001\WindowsFormsApp3\ComponentLibrary\obj\Debug\ComponentLibrary.csproj.CoreCompileInputs.cache
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-202001\WindowsFormsApp3\ComponentLibrary\obj\Debug\ComponentLibrary.dll
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-202001\WindowsFormsApp3\ComponentLibrary\obj\Debug\ComponentLibrary.pdb
+D:\ВУЗ\2 КУРС\ООП\Lab4\ComponentLibrary\bin\Debug\ComponentLibrary.dll
+D:\ВУЗ\2 КУРС\ООП\Lab4\ComponentLibrary\bin\Debug\ComponentLibrary.pdb
+D:\ВУЗ\2 КУРС\ООП\Lab4\ComponentLibrary\obj\Debug\ComponentLibrary.csprojAssemblyReference.cache
+D:\ВУЗ\2 КУРС\ООП\Lab4\ComponentLibrary\obj\Debug\ComponentLibrary.Button1.resources
+D:\ВУЗ\2 КУРС\ООП\Lab4\ComponentLibrary\obj\Debug\ComponentLibrary.GameTimer.resources
+D:\ВУЗ\2 КУРС\ООП\Lab4\ComponentLibrary\obj\Debug\ComponentLibrary.csproj.GenerateResource.cache
+D:\ВУЗ\2 КУРС\ООП\Lab4\ComponentLibrary\obj\Debug\ComponentLibrary.csproj.CoreCompileInputs.cache
+D:\ВУЗ\2 КУРС\ООП\Lab4\ComponentLibrary\obj\Debug\ComponentLibrary.dll
+D:\ВУЗ\2 КУРС\ООП\Lab4\ComponentLibrary\obj\Debug\ComponentLibrary.pdb
