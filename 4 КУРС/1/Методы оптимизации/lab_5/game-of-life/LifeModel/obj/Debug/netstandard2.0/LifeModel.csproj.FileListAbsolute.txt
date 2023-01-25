@@ -1,0 +1,37 @@
+C:\Users\class\Desktop\Csharp-Data-Visualization-master\examples\drawing\game-of-life\LifeModel\bin\Debug\netstandard2.0\LifeModel.deps.json
+C:\Users\class\Desktop\Csharp-Data-Visualization-master\examples\drawing\game-of-life\LifeModel\bin\Debug\netstandard2.0\LifeModel.dll
+C:\Users\class\Desktop\Csharp-Data-Visualization-master\examples\drawing\game-of-life\LifeModel\bin\Debug\netstandard2.0\LifeModel.pdb
+C:\Users\class\Desktop\Csharp-Data-Visualization-master\examples\drawing\game-of-life\LifeModel\obj\Debug\netstandard2.0\LifeModel.csprojAssemblyReference.cache
+C:\Users\class\Desktop\Csharp-Data-Visualization-master\examples\drawing\game-of-life\LifeModel\obj\Debug\netstandard2.0\LifeModel.AssemblyInfoInputs.cache
+C:\Users\class\Desktop\Csharp-Data-Visualization-master\examples\drawing\game-of-life\LifeModel\obj\Debug\netstandard2.0\LifeModel.AssemblyInfo.cs
+C:\Users\class\Desktop\Csharp-Data-Visualization-master\examples\drawing\game-of-life\LifeModel\obj\Debug\netstandard2.0\LifeModel.csproj.CoreCompileInputs.cache
+C:\Users\class\Desktop\Csharp-Data-Visualization-master\examples\drawing\game-of-life\LifeModel\obj\Debug\netstandard2.0\LifeModel.dll
+C:\Users\class\Desktop\Csharp-Data-Visualization-master\examples\drawing\game-of-life\LifeModel\obj\Debug\netstandard2.0\LifeModel.pdb
+D:\Учеба\4\Математические модели в естествознании и методы их исследования\game-of-life\LifeModel\bin\Debug\netstandard2.0\LifeModel.deps.json
+D:\Учеба\4\Математические модели в естествознании и методы их исследования\game-of-life\LifeModel\bin\Debug\netstandard2.0\LifeModel.dll
+D:\Учеба\4\Математические модели в естествознании и методы их исследования\game-of-life\LifeModel\bin\Debug\netstandard2.0\LifeModel.pdb
+D:\Учеба\4\Математические модели в естествознании и методы их исследования\game-of-life\LifeModel\obj\Debug\netstandard2.0\LifeModel.AssemblyInfoInputs.cache
+D:\Учеба\4\Математические модели в естествознании и методы их исследования\game-of-life\LifeModel\obj\Debug\netstandard2.0\LifeModel.AssemblyInfo.cs
+D:\Учеба\4\Математические модели в естествознании и методы их исследования\game-of-life\LifeModel\obj\Debug\netstandard2.0\LifeModel.csproj.CoreCompileInputs.cache
+D:\Учеба\4\Математические модели в естествознании и методы их исследования\game-of-life\LifeModel\obj\Debug\netstandard2.0\LifeModel.dll
+D:\Учеба\4\Математические модели в естествознании и методы их исследования\game-of-life\LifeModel\obj\Debug\netstandard2.0\LifeModel.pdb
+F:\естествознание\лаб.5\game-of-life\LifeModel\bin\Debug\netstandard2.0\LifeModel.deps.json
+F:\естествознание\лаб.5\game-of-life\LifeModel\bin\Debug\netstandard2.0\LifeModel.dll
+F:\естествознание\лаб.5\game-of-life\LifeModel\bin\Debug\netstandard2.0\LifeModel.pdb
+F:\естествознание\лаб.5\game-of-life\LifeModel\obj\Debug\netstandard2.0\LifeModel.csproj.AssemblyReference.cache
+F:\естествознание\лаб.5\game-of-life\LifeModel\obj\Debug\netstandard2.0\LifeModel.GeneratedMSBuildEditorConfig.editorconfig
+F:\естествознание\лаб.5\game-of-life\LifeModel\obj\Debug\netstandard2.0\LifeModel.AssemblyInfoInputs.cache
+F:\естествознание\лаб.5\game-of-life\LifeModel\obj\Debug\netstandard2.0\LifeModel.AssemblyInfo.cs
+F:\естествознание\лаб.5\game-of-life\LifeModel\obj\Debug\netstandard2.0\LifeModel.csproj.CoreCompileInputs.cache
+F:\естествознание\лаб.5\game-of-life\LifeModel\obj\Debug\netstandard2.0\LifeModel.dll
+F:\естествознание\лаб.5\game-of-life\LifeModel\obj\Debug\netstandard2.0\LifeModel.pdb
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab_5\game-of-life\LifeModel\bin\Debug\netstandard2.0\LifeModel.deps.json
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab_5\game-of-life\LifeModel\bin\Debug\netstandard2.0\LifeModel.dll
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab_5\game-of-life\LifeModel\bin\Debug\netstandard2.0\LifeModel.pdb
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab_5\game-of-life\LifeModel\obj\Debug\netstandard2.0\LifeModel.csproj.AssemblyReference.cache
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab_5\game-of-life\LifeModel\obj\Debug\netstandard2.0\LifeModel.GeneratedMSBuildEditorConfig.editorconfig
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab_5\game-of-life\LifeModel\obj\Debug\netstandard2.0\LifeModel.AssemblyInfoInputs.cache
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab_5\game-of-life\LifeModel\obj\Debug\netstandard2.0\LifeModel.AssemblyInfo.cs
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab_5\game-of-life\LifeModel\obj\Debug\netstandard2.0\LifeModel.csproj.CoreCompileInputs.cache
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab_5\game-of-life\LifeModel\obj\Debug\netstandard2.0\LifeModel.dll
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab_5\game-of-life\LifeModel\obj\Debug\netstandard2.0\LifeModel.pdb
