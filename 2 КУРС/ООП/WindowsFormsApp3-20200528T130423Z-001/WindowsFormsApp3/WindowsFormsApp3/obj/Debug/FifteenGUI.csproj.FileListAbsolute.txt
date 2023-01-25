@@ -1,0 +1,29 @@
+C:\Users\eMahines\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+C:\Users\eMahines\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+C:\Users\eMahines\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+C:\Users\eMahines\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\GameLibrary.dll
+C:\Users\eMahines\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\GameLibrary.pdb
+C:\Users\eMahines\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\FifteenGUI.csprojAssemblyReference.cache
+C:\Users\eMahines\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+C:\Users\eMahines\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\FifteenGUI.csproj.GenerateResource.cache
+C:\Users\eMahines\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\FifteenGUI.csproj.CopyComplete
+C:\Users\eMahines\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+C:\Users\eMahines\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
+C:\Users\eMahines\source\repos\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\game1.Fifteen.resources
+C:\Users\eMahines\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\ComponentLibrary.dll
+C:\Users\eMahines\source\repos\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\ComponentLibrary.pdb
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-20200528T130423Z-001\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe.config
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-20200528T130423Z-001\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.exe
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-20200528T130423Z-001\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\WindowsFormsApp3.pdb
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-20200528T130423Z-001\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\ComponentLibrary.dll
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-20200528T130423Z-001\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\GameLibrary.dll
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-20200528T130423Z-001\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\ComponentLibrary.pdb
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-20200528T130423Z-001\WindowsFormsApp3\WindowsFormsApp3\bin\Debug\GameLibrary.pdb
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-20200528T130423Z-001\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\FifteenGUI.csprojAssemblyReference.cache
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-20200528T130423Z-001\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\game1.Fifteen.resources
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-20200528T130423Z-001\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.Properties.Resources.resources
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-20200528T130423Z-001\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\FifteenGUI.csproj.GenerateResource.cache
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-20200528T130423Z-001\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\FifteenGUI.csproj.CoreCompileInputs.cache
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-20200528T130423Z-001\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\FifteenGUI.csproj.CopyComplete
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-20200528T130423Z-001\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.exe
+E:\ВУЗ\2 КУРС\ООП\WindowsFormsApp3-20200528T130423Z-001\WindowsFormsApp3\WindowsFormsApp3\obj\Debug\WindowsFormsApp3.pdb
