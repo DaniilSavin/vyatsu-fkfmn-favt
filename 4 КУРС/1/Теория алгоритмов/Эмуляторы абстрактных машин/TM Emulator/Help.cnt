@@ -1,0 +1,21 @@
+:Base C:\PROGRA~1\INSTHELP\EXAMPLE\DELPHI\HELP.HLP
+:Title Turing Machine Emulator
+1 Введение
+2 Определение Машины Тьюринга=hc_Opredelenie_Mashiny_Tyuringa
+2 Устройство Машины Тьюринга=hc_Ustroystvo_Mashiny_Tyuringa
+1 Работа с приложением
+2 Общий вид приложения=hc_Obschiy_vid_prilozheniya
+2 Элементы машины Тьюринга
+3 Лента=hc_Lenta
+3 Комментарий=hc_Kommentariy
+3 Задание алфавита=hc_Zadanie_alfavita
+3 Таблица ввода программы=hc_Tablitsa_vvoda_programmy
+3 Конфигурация машины=hc_Konfiguratsiya_mashiny
+2 Команды Меню
+3 Меню Файл=hc_Menyu_Fayl
+3 Меню Команды=hc_Menyu_Komandy
+3 Меню Управление=hc_Menyu_Upravlenie
+3 Меню ?=hc_Menyu
+3 Панель управления=hc_Panel_upravleniya
+1 О программе
+2 О программе=hc_O_programme
