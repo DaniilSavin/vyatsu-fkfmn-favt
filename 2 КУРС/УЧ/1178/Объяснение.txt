@@ -1,0 +1,36 @@
+
+class node  //структура в которой записаны координаты города и его номер
+{
+public:
+    int x, y, num;
+}dum;
+
+bool func(node i, node j) //функция возращающая 1 или 0 если Y 1 города больше Y 2 города
+{
+    if (i.y > j.y)
+        return true;
+    return false;
+}
+
+int main()
+{
+    deque<node> city; // двусторонняя очередь
+    int n; // кол во городов
+    cin >> n;
+    for (int i = 0; i < n; i++)
+    {
+        cin >> dum.x >> dum.y; //заносим в структуру координаты города
+        dum.num = (i + 1); //заносим в структуру номер города
+        city.push_back(dum); //заносим структуру в очередь
+    }
+    if (n == 0)
+    {
+        cout << "0";
+        return 0;
+    }
+    sort(city.begin(), city.end(), func);//сортируем
+    for (int i = 0; i < n; i += 2)
+    {
+        cout << city[i].num << " " << city[i + 1].num << endl;//выводим
+    }
+}

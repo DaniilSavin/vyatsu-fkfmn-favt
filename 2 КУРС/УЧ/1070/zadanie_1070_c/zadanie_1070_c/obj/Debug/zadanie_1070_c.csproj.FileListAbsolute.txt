@@ -1,0 +1,6 @@
+D:\      \2 КУРС\УЧ\zadanie_1070_c\zadanie_1070_c\bin\Debug\zadanie_1070_c.exe.config
+D:\      \2 КУРС\УЧ\zadanie_1070_c\zadanie_1070_c\bin\Debug\zadanie_1070_c.exe
+D:\      \2 КУРС\УЧ\zadanie_1070_c\zadanie_1070_c\bin\Debug\zadanie_1070_c.pdb
+D:\      \2 КУРС\УЧ\zadanie_1070_c\zadanie_1070_c\obj\Debug\zadanie_1070_c.csprojAssemblyReference.cache
+D:\      \2 КУРС\УЧ\zadanie_1070_c\zadanie_1070_c\obj\Debug\zadanie_1070_c.exe
+D:\      \2 КУРС\УЧ\zadanie_1070_c\zadanie_1070_c\obj\Debug\zadanie_1070_c.pdb
