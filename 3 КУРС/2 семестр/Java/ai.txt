@@ -1,0 +1,324 @@
+package com.example.voiceassistant;
+import android.annotation.SuppressLint;
+import android.graphics.Bitmap;
+import android.os.AsyncTask;
+import android.os.Build;
+import android.util.Log;
+
+import androidx.annotation.RequiresApi;
+
+import com.example.voiceassistant.CatsAPI.CatToPicture;
+import com.example.voiceassistant.CovidAPI.CovidToString;
+import com.example.voiceassistant.CurrencyAPI.CurrencyToString;
+import com.example.voiceassistant.NumberConversionAPI.NumberToString;
+import com.example.voiceassistant.ParsingService.ParsingFilmService;
+import com.example.voiceassistant.ParsingService.ParsingHtmlService;
+import com.example.voiceassistant.WeatherAPI.ForecastToString;
+
+import java.io.IOException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.GregorianCalendar;
+import java.util.HashMap;
+import java.util.ArrayList;
+import java.util.Locale;
+import java.util.Map;
+import java.util.TimeZone;
+import java.util.function.Consumer;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+
+public class AI {
+    static Map<String, String> hashMap = new HashMap<String, String>();
+    static SimpleDateFormat dayFormat = new SimpleDateFormat("dd/MM/YYYY");
+    static String currDate = dayFormat.format(new Date());
+    static SimpleDateFormat timeFormat = new SimpleDateFormat("HH:mm:ss");
+    static String currTime = timeFormat.format(new Date());
+    static SimpleDateFormat dayFormat2 = new SimpleDateFormat("EEEE");
+
+    static void DictionaryFill(Map hashMap) {
+        hashMap.put("привет", "Привет!");
+        hashMap.put("как дела", "Неплохо");
+        hashMap.put("чем занимаешься", "Отвечаю на вопросы");
+    }
+
+    @RequiresApi(api = Build.VERSION_CODES.O)
+    static String getDate(String text) throws ParseException {
+        LocalDateTime ldt;
+        DateTimeFormatter format1 = DateTimeFormatter.ofPattern("dd/MM/YYYY", Locale.ENGLISH);
+        if (text.contains("вчера")) {
+            ldt = LocalDateTime.now().minusDays(1);
+            String formatter = format1.format(ldt);
+            return formatter;
+        } else {
+            if (text.contains("завтра")) {
+                ldt = LocalDateTime.now().plusDays(1);
+                String formatter = format1.format(ldt);
+                return formatter;
+            } else {
+                if (text.contains("сегодня"))
+                    return dayFormat.format(new Date());
+                else {
+                    String nextDate;
+                    dayFormat = new SimpleDateFormat("dd/MM/YYYY");
+                    String regex = "(0[1-9]|[12][0-9]|3[01])[- /.](0[1-9]|1[012])[- /.](19|20)\\d\\d";
+                    Date date1 = null;
+                    Pattern pattern = Pattern.compile(regex);
+                    Matcher matcher = pattern.matcher(text);
+                    if (matcher.find())
+                        date1 = new SimpleDateFormat("dd/MM/yyyy").parse(matcher.group());
+                    nextDate = dayFormat.format(date1);
+                    return nextDate;
+                }
+            }
+        }
+    }
+
+
+    static String firstUpperCase(String word){
+        if(word == null || word.isEmpty()) return ""; //или return word;
+        return word.substring(0, 1).toUpperCase() + word.substring(1);
+    }
+
+    @SuppressLint("NewApi")
+    @RequiresApi(api = Build.VERSION_CODES.N)
+    public static void getAnswer(String text, final Consumer<String> callback) throws ParseException, IOException {
+        DictionaryFill(hashMap);
+        String result = null;
+        ArrayList<String> answers = new ArrayList<>();
+        ArrayList<HashMap.Entry> entries = new ArrayList<>(hashMap.entrySet());
+        text = text.toLowerCase();
+       /* for (HashMap.Entry entry : entries)
+        {*/
+        if (text.contains("сколько времени") || text.contains("время")) {
+            timeFormat = new SimpleDateFormat("HH:mm:ss");
+            currTime = timeFormat.format(new Date());
+            answers.add("Сейчас - " + currTime);
+            callback.accept(String.join(", ", answers/*hashMap.get(entry.getKey()))*/));
+        }
+        if (text.contains("какой сегодня день") || text.contains("дата")) {
+            dayFormat = new SimpleDateFormat("dd/MM/YYYY");
+            currDate = dayFormat.format(new Date());
+            answers.add("Сегодня - " + currDate);
+            callback.accept(String.join(", ", answers/*hashMap.get(entry.getKey()))*/));
+        }
+
+        if (text.contains("какой день недели") || text.contains("день недели")) {
+            dayFormat2 = new SimpleDateFormat("EEEE");
+            Calendar calendar = new GregorianCalendar(TimeZone.getTimeZone(currDate));
+            answers.add("Сегодня - " + dayFormat2.format(calendar.getTime()));
+            callback.accept(String.join(", ", answers/*hashMap.get(entry.getKey()))*/));
+        }
+
+        if (text.contains("сколько дней до") || text.contains("дней до") || text.contains("сколько до")) {
+            String nextDate;
+            dayFormat = new SimpleDateFormat("dd/MM/YYYY");
+            String regex = "(0[1-9]|[12][0-9]|3[01])[- /.](0[1-9]|1[012])[- /.](19|20)\\d\\d";
+            Date date1 = null;
+            Date date2 = null;
+            Pattern pattern = Pattern.compile(regex);
+            Matcher matcher = pattern.matcher(text);
+            date2 = new SimpleDateFormat("dd/MM/yyyy").parse(currDate);
+            if (matcher.find()) {
+                date1 = new SimpleDateFormat("dd/MM/yyyy").parse(matcher.group());
+            } else
+                answers.add("Дата не найдена");
+
+            try {
+
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+            long difference = date1.getTime() - date2.getTime();
+            long days = difference / (24 * 60 * 60 * 1000);
+            currDate = dayFormat.format(new Date());
+            nextDate = dayFormat.format(date1);
+            answers.add("Дней от " + currDate + " до " + nextDate + " = " + days);
+            callback.accept(String.join(", ", answers/*hashMap.get(entry.getKey()))*/));
+        }
+
+        if (text.contains ("переведи число") || text.contains("переведи"))
+        {
+            Pattern numPattern = Pattern.compile("переведи число ([0-9]+)", Pattern.CASE_INSENSITIVE);
+            Matcher matcher = numPattern.matcher(text);
+            if (matcher.find())
+            {
+                String number = matcher.group(1);
+                NumberToString.getNumString(Integer.valueOf(number), new Consumer<String>()
+                {
+                    @Override
+                    public void accept(String s)
+                    {
+                        answers.add(s);
+                        Log.i("WEATHER", "AI: " + s);
+                        callback.accept(String.join(", ", answers));
+
+                    }
+                });
+            }
+        }
+
+        if (text.contains ("фото кота") || text.contains("кот"))
+        {
+
+                CatToPicture.getCatPicture(new Consumer<String>()
+                {
+                    @Override
+                    public void accept(String bitmap) {
+                        answers.add(bitmap);
+                        callback.accept(String.join(", ", answers));
+                    }
+                });
+        }
+
+
+        if (text.contains("погода в городе"))
+        {
+            Pattern cityPattern = Pattern.compile("погода в городе (\\p{L}+)", Pattern.CASE_INSENSITIVE);
+            Matcher matcher = cityPattern.matcher(text);
+            if (matcher.find())
+            {
+                String cityName = matcher.group(1);
+                ForecastToString.getForecast(cityName, new Consumer<String>()
+                {
+                    @Override
+                    public void accept(String s) {
+                        answers.add(s);
+                        Log.i("WEATHER", "AI: " + s);
+                        callback.accept(String.join(", ", answers/*hashMap.get(entry.getKey()))*/));
+                    }
+                });
+                //return "Не знаю я, какая там погода у вас в городе "+cityName;
+            }
+
+        }
+
+
+        if (text.contains ("ковид в стране"))
+        {
+            Pattern numPattern = Pattern.compile("ковид в стране (\\p{L}+)", Pattern.CASE_INSENSITIVE);
+            Matcher matcher = numPattern.matcher(text);
+            if (matcher.find())
+            {
+                String country = matcher.group(1);
+                CovidToString.getCovidString(firstUpperCase(country), new Consumer<String>()
+                {
+                    @Override
+                    public void accept(String s)
+                    {
+                        answers.add(s);
+                        //Log.i("WEATHER", "AI: " + s);
+                        callback.accept(String.join(", ", answers));
+
+                    }
+                });
+            }
+        }
+
+
+        if (text.contains ("курс валюты"))
+        {
+            String usd = "USD";
+            String euro = "EUR";
+            CurrencyToString.getCurrencyString(new Consumer<String>()
+                {
+                    @Override
+                    public void accept(String s)
+                    {
+                        answers.add(s);
+                        //Log.i("WEATHER", "AI: " + s);
+                        callback.accept(String.join(", ", answers));
+
+                    }
+                });
+            /*CurrencyToString.getCurrencyString(euro, new Consumer<String>()
+            {
+                @Override
+                public void accept(String s)
+                {
+                    answers.add(s);
+                    //Log.i("WEATHER", "AI: " + s);
+                    callback.accept(String.join(", ", answers));
+
+                }
+            });*/
+
+        }
+
+
+        if(text.contains("фильмы"))
+        {
+            String finalText = text;
+            new AsyncTask<String, Integer, Void>() {
+
+                protected Void doInBackground(String... strings) {
+                    try {
+                        answers.add(ParsingFilmService.getFilm(finalText));
+                    }
+                    catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                    return null;
+                }
+
+                @Override
+                protected void onPostExecute(Void aVoid) {
+                    super.onPostExecute(aVoid);
+                    callback.accept(String.join(", ", answers));
+                }
+            }.execute(finalText.split(","));
+        }
+
+
+        if (text.contains("праздник")) {
+            String finalText = text;
+            String date = getDate(finalText);
+            new AsyncTask<String, Integer, Void>() {
+
+                protected Void doInBackground(String... strings) {
+                    try {
+                        answers.add(ParsingHtmlService.getHoliday(date));
+                    }
+                    catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                    return null;
+                }
+
+                @Override
+                protected void onPostExecute(Void aVoid) {
+                    super.onPostExecute(aVoid);
+                    callback.accept(String.join(", ", answers));
+                }
+            }.execute(date.split(","));
+
+           /* Observable.fromCallable(new Callable<Object>() {
+                @Override
+                public Object call() {
+                    try {
+                        answers.add(ParsingHtmlService.getHoliday(date));
+                        return answers;
+                    }
+                    catch (IOException e) {
+                        e.printStackTrace();
+                    }
+                    return null;
+                }
+            })
+                    .subscribeOn(Schedulers.io())
+                    .observeOn(AndroidSchedulers.mainThread())
+                    .subscribe((result2) -> {
+                        callback.accept(String.join(", ", answers));
+                    });*/
+
+        }
+    }
+}
+
+
+

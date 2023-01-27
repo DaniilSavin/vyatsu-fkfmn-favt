@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:id="actionPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <children>
+        <GridPane fx:id="gridPane" layoutX="0.0" layoutY="277.0" prefHeight="274.0" prefWidth="300.0" AnchorPane.bottomAnchor="0.0">
+        </GridPane>
+        <Button fx:id="restoreButton" focusTraversable="false" layoutX="199.0" layoutY="2.0" mnemonicParsing="false" onAction="#onClickRestoreButton" prefHeight="25.0" prefWidth="80.0" text="Отмена" />
+        <MenuBar fx:id="menuBar" layoutY="2.0">
+            <menus>
+                <Menu fx:id="menu" mnemonicParsing="false" text="Игра">
+                    <items>
+                        <MenuItem fx:id="newGame" mnemonicParsing="false" onAction="#onClickNewGameItem" text="Новая игра" />
+                        <MenuItem fx:id="exit" mnemonicParsing="false" onAction="#onClickExitItem" text="Выход" />
+                    </items>
+                </Menu>
+            </menus>
+        </MenuBar>
+        <Label fx:id="statusLabel" layoutX="139.0" layoutY="6.0" text="Label" />
+        <Label fx:id="timeLabel" layoutX="79.0" layoutY="6.0" text="Label" />
+    </children>
+</AnchorPane>

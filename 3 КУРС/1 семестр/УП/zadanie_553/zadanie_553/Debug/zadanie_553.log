@@ -1,0 +1,5 @@
+﻿  pch.cpp
+  zadanie_553.cpp
+d:\вуз\zadanie_553\zadanie_553\zadanie_553.cpp(37): error C2039: min: не является членом "std"
+  c:\program files (x86)\microsoft visual studio 14.0\vc\include\vector(17): note:  см. объявление "std"
+d:\вуз\zadanie_553\zadanie_553\zadanie_553.cpp(37): error C2064: результатом вычисления фрагмента не является функция, принимающая 2 аргументов

@@ -1,0 +1,9 @@
+C:\Laboratornaya_3\zadanie_2\bin\Debug\zadanie_2.exe.config
+C:\Laboratornaya_3\zadanie_2\bin\Debug\zadanie_2.exe
+C:\Laboratornaya_3\zadanie_2\bin\Debug\zadanie_2.pdb
+C:\Laboratornaya_3\zadanie_2\obj\Debug\zadanie_2.csprojResolveAssemblyReference.cache
+C:\Laboratornaya_3\zadanie_2\obj\Debug\zadanie_2.Form1.resources
+C:\Laboratornaya_3\zadanie_2\obj\Debug\zadanie_2.Properties.Resources.resources
+C:\Laboratornaya_3\zadanie_2\obj\Debug\zadanie_2.csproj.GenerateResource.Cache
+C:\Laboratornaya_3\zadanie_2\obj\Debug\zadanie_2.exe
+C:\Laboratornaya_3\zadanie_2\obj\Debug\zadanie_2.pdb

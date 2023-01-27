@@ -1,0 +1,218 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Numerics;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace fr2
+{
+	class Program
+	{
+		//class complex
+		//{
+		//	public double real;
+		//	public double image;
+		//	public complex (double real, double image)
+		//	{
+		//		this.real = real;
+		//		this.image = image;
+		//	}
+		//}
+
+		static List<Complex> fft(ref List<Complex> as_) {
+			int n = as_.Count();
+				int k = 0; // Длина n в битах
+			while ((1 << k) < n) k++;
+			List<int> rev = new List<int>();
+			for (int i = 0; i < n; i++)
+			{
+				rev.Add(0);
+			}
+				rev[0] = 0;
+			int high1 = -1;
+			for (int i = 1; i<n; i++) {
+				if ((i & (i - 1)) == 0)// Проверка на степень двойки. Если i ей является, то i-1 будет состоять из кучи единиц.
+					high1++;
+				rev[i] = rev[i ^ (1 << high1)]; // Переворачиваем остаток
+				rev[i] |= (1 << (k - high1 - 1));// Добавляем старший бит
+			}
+
+
+			List<Complex> roots = new List<Complex>();
+			for (int i = 0; i < n; i++)
+			{
+				roots.Add(0);
+			}
+			for (int i = 0; i<n; i++) {
+				double alpha = 2 * Math.PI * i / n;
+			roots[i] = new Complex(Math.Cos(alpha), Math.Sin(alpha));
+			}
+
+			List<Complex> cur = new List<Complex>();
+			for (int i = 0; i < n; i++)
+			{
+				cur.Add(0);
+			}
+			for (int i = 0; i<n; i++)
+				cur[i] = as_[rev[i]];
+
+			
+
+			for (int len = 1; len<n; len <<= 1) {
+				List<Complex> ncur = new List<Complex>(n);
+				for (int i = 0; i < n; i++)
+				{
+					ncur.Add(0);
+				}
+				int rstep = roots.Count() / (len * 2);
+				for (int pdest = 0; pdest<n;) {
+					int p1 = pdest;
+					for (int i = 0; i<len; i++) {
+						Complex val =  roots[i * rstep] * cur[p1 + len-1];
+						ncur[pdest] = cur[p1] + val;
+						Console.WriteLine(cur[p1] + val);
+						ncur[pdest + len- 1] = cur[p1] - val;
+						pdest++; p1++;
+					}
+					pdest += len;
+				}
+				cur = ncur;
+				foreach (var item in ncur)
+				{
+					Console.WriteLine("!" + item);
+				}
+			}
+			Array tmp = cur.ToArray();
+			Array.Reverse(tmp);
+			//reverse(cur.begin() + 1, cur.end());
+			return tmp.OfType<Complex>().ToList();
+		}
+
+		static List<Complex> fft_rev(ref List<Complex> as_) {
+			List<Complex> res = fft(ref as_);
+			//for (int i = 0; i<(int)res.size(); i++) res[i] /= as_.size();
+			//	reverse(res.begin() + 1, res.end());
+			Array tmp = res.ToArray();
+			Array.Reverse(tmp);
+			return tmp.OfType<Complex>().ToList();
+		}
+
+	static void Main(string[] args)
+		{
+			int n = int.Parse(Console.ReadLine());
+			List<Complex> as_ = new List<Complex>();
+			for (int i = 0; i < n; i++)
+			{
+				double x = int.Parse(Console.ReadLine()) ;	
+				as_.Add( new Complex(x, 0));
+			}
+
+			List<Complex> res = fft(ref as_);
+
+			foreach (var item in res)
+			{
+				Console.WriteLine(" " + item);
+			}
+
+			for (int i = 0; i < n; i++)
+				Console.WriteLine(res[i].Real + " " + res[i].Imaginary);
+
+			List<Complex> as2 = fft_rev(ref res);
+
+			for (int i = 0; i < n; i++)
+				Console.WriteLine(as2[i].Real + " " + as2[i].Imaginary);
+			Console.ReadKey();
+		}
+	}
+}
+
+#define _CRT_SECURE_NO_WARNINGS
+#include <algorithm>
+#include <cstdio>
+#include <ctime>
+#include <vector>
+#include <complex>
+using namespace std;
+
+double M_PI = 3.1415926;
+typedef complex<double> cd;
+typedef vector<cd> vcd;
+
+vcd fft(const vcd& as) {
+    int n = as.size();
+    int k = 0; // Длина n в битах
+    while ((1 << k) < n) k++;
+    vector<int> rev(n);
+    rev[0] = 0;
+    int high1 = -1;
+    for (int i = 1; i < n; i++) {
+        if ((i & (i - 1)) == 0) // Проверка на степень двойки
+            high1++;
+        rev[i] = rev[i ^ (1 << high1)]; //переворачивание остатка
+        rev[i] |= (1 << (k - high1 - 1)); //добавление старшего бита
+    }
+
+    vcd roots(n);
+    for (int i = 0; i < n; i++) {
+        double alpha = 2 * M_PI * i / n;
+        roots[i] = cd(cos(alpha), sin(alpha));//текущий корень
+    }
+
+    vcd cur(n);
+    for (int i = 0; i < n; i++)
+        cur[i] = as[rev[i]];
+
+    for (int len = 1; len < n; len <<= 1) {
+        vcd ncur(n);
+        int rstep = roots.size() / (len * 2);
+        for (int pdest = 0; pdest < n;) {
+            int p1 = pdest;
+            for (int i = 0; i < len; i++) {
+                cd val = roots[i * rstep] * cur[p1 + len];
+                ncur[pdest] = cur[p1] + val;
+                ncur[pdest + len] = cur[p1] - val;
+                pdest++, p1++;
+            }
+            pdest += len;
+        }
+        cur.swap(ncur);
+    }
+	reverse(cur.begin() + 1, cur.end());
+    return cur;
+}
+
+vcd fft_rev(const vcd& as) {
+    vcd res = fft(as);
+    for (int i = 0; i < (int)res.size(); i++) res[i] /= as.size();
+    reverse(res.begin() + 1, res.end());
+    return res;
+}
+
+int main() {
+    int n;
+    scanf("%d", &n);
+    vcd as(n);
+    for (int i = 0; i < n; i++) {
+        int x;
+        scanf("%d", &x);
+        as[i] = x;
+    }
+	//for (int i = 0; i < n; i++) {
+	//	printf("%.4lf %.4lf\n", as[i].real(), as[i].imag());
+	//}
+ //   
+    vcd res = fft(as);
+   
+    for (int i = 0; i < n; i++)
+        printf("%.4lf %.4lf\n", res[i].real(), res[i].imag());
+
+	
+
+  
+    vcd as2 = fft_rev(res);
+    
+    for (int i = 0; i < n; i++)
+        printf("%.4lf %.4lf\n", as2[i].real(), as2[i].imag());
+    return 0;
+}

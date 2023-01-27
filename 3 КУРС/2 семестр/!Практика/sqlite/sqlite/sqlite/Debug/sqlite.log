@@ -1,0 +1,3 @@
+﻿  sqlite.cpp
+LINK : warning LNK4067: неоднозначная точка входа; выбрана "mainCRTStartup"
+  sqlite.vcxproj -> E:\Projects\sqlite\Debug\sqlite.exe

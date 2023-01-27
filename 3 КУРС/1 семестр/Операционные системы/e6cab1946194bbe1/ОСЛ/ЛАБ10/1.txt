@@ -1,0 +1,36 @@
+#include <stdio.h>
+#include <unistd.h>
+#include <errno.h>
+int main()
+{
+int ret;
+errno = 0;
+ret = nice (10); /* увеличение значения приоритета на 10 */
+if (ret == -1 && errno != 0)
+	perror ("nice");
+else
+	printf ("значение приоритета теперь равно %d\n", ret);
+	return 0;
+}
+
+
+#include <unistd.h>
+#include <stdio.h>
+#include <errno.h>
+#include <sys/time.h>
+
+int getpriority (int which, int who);
+int setpriority (int which, int who, int prio);
+
+int main()
+{
+int ret;
+ret = setpriority (PRIO_PGRP, 0, 10);
+if (ret == –1)
+{
+	perror ("setpriority");
+}
+ret = getpriority (PRIO_PGRP, 0);
+printf ("значение любезности равно %d\n", ret);
+return 0;
+}

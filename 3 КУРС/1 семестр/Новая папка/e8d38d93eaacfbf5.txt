@@ -1,0 +1,51 @@
+using System;
+using System.Collections.Generic;
+
+namespace ConsoleApp10
+{
+    class Program
+    {
+        struct Number { 
+            public int real; public int image;
+        };
+        static void Main(string[] args)
+        {
+            string input = "333-123123i";
+            Number parseNum(string str)
+            {
+                string tmpStr = "";
+                Number output = new Number();
+                int i = 0;
+                if (str[0] == '-')
+                {
+                    ++i;
+                    tmpStr += str[0];
+                }
+                bool realParsed = false;
+                for (; i < str.Length; i++)
+                {
+                    if (str[i]=='-'|| str[i] == '+' || i+1==str.Length)
+                    {
+                        if (!realParsed)
+                        {
+                            realParsed = !realParsed;
+                            output.real = int.Parse(tmpStr);
+                            tmpStr = str[i].ToString();
+                        }
+                        else
+                        {
+                            output.image = int.Parse(tmpStr);
+                        }
+                    }
+                    else
+                    {
+                        tmpStr += str[i];
+                    }
+                }
+                return output;
+            }
+            Number output = parseNum(input);
+            Console.WriteLine(output.real+ ((output.image < 0) ? "" : "+") + output.image+"i");
+        }
+    }
+}

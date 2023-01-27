@@ -1,0 +1,4 @@
+﻿  zadanie_1.cpp
+c:\laboratornaya_0\zadanie_1\zadanie_1.cpp(27): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+  zadanie_1.vcxproj -> C:\Laboratornaya_0\x64\Debug\zadanie_1.exe
+  zadanie_1.vcxproj -> C:\Laboratornaya_0\x64\Debug\zadanie_1.pdb (Full PDB)

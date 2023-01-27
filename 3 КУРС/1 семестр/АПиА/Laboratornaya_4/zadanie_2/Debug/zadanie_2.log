@@ -1,0 +1,4 @@
+﻿  zadanie_2.cpp
+C:\Users\student\source\repos\Laboratornaya_4\zadanie_2\zadanie_2.cpp(12,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\student\source\repos\Laboratornaya_4\zadanie_2\zadanie_2.cpp(25,23): warning C4018: <: несоответствие типов со знаком и без знака
+  zadanie_2.vcxproj -> C:\Users\student\source\repos\Laboratornaya_4\Debug\zadanie_2.exe

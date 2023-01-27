@@ -1,0 +1,28 @@
+#include <iostream>
+
+
+using namespace std;
+
+int main()
+{
+    setlocale(LC_ALL,"rus");
+    double a, b, x, y, h;   
+    cout << "Введите A и B: " << endl;
+    cin >> a >> b;
+    double* fx = new double[a + b];
+    
+    cout << "Введите шаг: " << endl;
+    cin >> h;
+    int j = 0;
+    for (double i = a; i <= b;i=i+h)
+    {
+        
+        j++;
+       
+        y = pow(i, 2) - 2 * i - 20;
+        fx[j] = y;
+        cout << i << "\t" << y << endl;
+
+
+
+    }

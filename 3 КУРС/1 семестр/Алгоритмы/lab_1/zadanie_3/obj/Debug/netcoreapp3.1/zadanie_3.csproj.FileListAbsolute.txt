@@ -1,0 +1,13 @@
+D:\ВУЗ\3 КУРС\Алгоритмы\lab_1\zadanie_3\bin\Debug\netcoreapp3.1\zadanie_3.exe
+D:\ВУЗ\3 КУРС\Алгоритмы\lab_1\zadanie_3\bin\Debug\netcoreapp3.1\zadanie_3.deps.json
+D:\ВУЗ\3 КУРС\Алгоритмы\lab_1\zadanie_3\bin\Debug\netcoreapp3.1\zadanie_3.runtimeconfig.json
+D:\ВУЗ\3 КУРС\Алгоритмы\lab_1\zadanie_3\bin\Debug\netcoreapp3.1\zadanie_3.runtimeconfig.dev.json
+D:\ВУЗ\3 КУРС\Алгоритмы\lab_1\zadanie_3\bin\Debug\netcoreapp3.1\zadanie_3.dll
+D:\ВУЗ\3 КУРС\Алгоритмы\lab_1\zadanie_3\bin\Debug\netcoreapp3.1\zadanie_3.pdb
+D:\ВУЗ\3 КУРС\Алгоритмы\lab_1\zadanie_3\obj\Debug\netcoreapp3.1\zadanie_3.csprojAssemblyReference.cache
+D:\ВУЗ\3 КУРС\Алгоритмы\lab_1\zadanie_3\obj\Debug\netcoreapp3.1\zadanie_3.AssemblyInfoInputs.cache
+D:\ВУЗ\3 КУРС\Алгоритмы\lab_1\zadanie_3\obj\Debug\netcoreapp3.1\zadanie_3.AssemblyInfo.cs
+D:\ВУЗ\3 КУРС\Алгоритмы\lab_1\zadanie_3\obj\Debug\netcoreapp3.1\zadanie_3.csproj.CoreCompileInputs.cache
+D:\ВУЗ\3 КУРС\Алгоритмы\lab_1\zadanie_3\obj\Debug\netcoreapp3.1\zadanie_3.dll
+D:\ВУЗ\3 КУРС\Алгоритмы\lab_1\zadanie_3\obj\Debug\netcoreapp3.1\zadanie_3.pdb
+D:\ВУЗ\3 КУРС\Алгоритмы\lab_1\zadanie_3\obj\Debug\netcoreapp3.1\zadanie_3.genruntimeconfig.cache

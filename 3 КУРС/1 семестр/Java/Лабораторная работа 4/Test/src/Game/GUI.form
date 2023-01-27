@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Game.GUI">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="280" height="384"/>
+    </constraints>
+    <properties>
+      <minimumSize width="250" height="200"/>
+      <preferredSize width="250" height="200"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="33a2e" binding="rootPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <scrollpane id="cdcce">
+        <constraints border-constraint="Center"/>
+        <properties/>
+        <border type="none"/>
+        <children/>
+      </scrollpane>
+    </children>
+  </grid>
+</form>

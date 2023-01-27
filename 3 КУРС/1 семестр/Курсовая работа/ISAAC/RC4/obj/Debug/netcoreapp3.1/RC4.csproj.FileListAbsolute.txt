@@ -1,0 +1,13 @@
+D:\ВУЗ\3 КУРС\Курсовая работа\ISAAC\RC4\bin\Debug\netcoreapp3.1\RC4.exe
+D:\ВУЗ\3 КУРС\Курсовая работа\ISAAC\RC4\bin\Debug\netcoreapp3.1\RC4.deps.json
+D:\ВУЗ\3 КУРС\Курсовая работа\ISAAC\RC4\bin\Debug\netcoreapp3.1\RC4.runtimeconfig.json
+D:\ВУЗ\3 КУРС\Курсовая работа\ISAAC\RC4\bin\Debug\netcoreapp3.1\RC4.runtimeconfig.dev.json
+D:\ВУЗ\3 КУРС\Курсовая работа\ISAAC\RC4\bin\Debug\netcoreapp3.1\RC4.dll
+D:\ВУЗ\3 КУРС\Курсовая работа\ISAAC\RC4\bin\Debug\netcoreapp3.1\RC4.pdb
+D:\ВУЗ\3 КУРС\Курсовая работа\ISAAC\RC4\obj\Debug\netcoreapp3.1\RC4.csprojAssemblyReference.cache
+D:\ВУЗ\3 КУРС\Курсовая работа\ISAAC\RC4\obj\Debug\netcoreapp3.1\RC4.AssemblyInfoInputs.cache
+D:\ВУЗ\3 КУРС\Курсовая работа\ISAAC\RC4\obj\Debug\netcoreapp3.1\RC4.AssemblyInfo.cs
+D:\ВУЗ\3 КУРС\Курсовая работа\ISAAC\RC4\obj\Debug\netcoreapp3.1\RC4.csproj.CoreCompileInputs.cache
+D:\ВУЗ\3 КУРС\Курсовая работа\ISAAC\RC4\obj\Debug\netcoreapp3.1\RC4.dll
+D:\ВУЗ\3 КУРС\Курсовая работа\ISAAC\RC4\obj\Debug\netcoreapp3.1\RC4.pdb
+D:\ВУЗ\3 КУРС\Курсовая работа\ISAAC\RC4\obj\Debug\netcoreapp3.1\RC4.genruntimeconfig.cache

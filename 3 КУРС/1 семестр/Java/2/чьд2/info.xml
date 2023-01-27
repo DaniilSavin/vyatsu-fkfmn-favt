@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<supply>
+    <region name="Ленинский">
+        <flat count="2" square="51.2" kitchen="14.6" housingpart="30.6">
+            <rooms>
+                <room>
+                    19.0
+                </room>
+                <room>
+                    11.6
+                </room>
+            </rooms>
+            <seller tel="+7922-154-10-11" title="Иванов Иван"/>
+        </flat>
+        <flat count="3" square="123.2" kitchen="123.6" housingpart="123.6">
+            <rooms>
+                <room>
+                    11.0
+                </room>
+                <room>
+                    23.6
+                </room>
+                <room>
+                    2.6
+                </room>
+            </rooms>
+            <seller tel="+7333-333-33-33" title="Максим Максимов"/>
+        </flat>
+        <flat count="3" square="123.2" kitchen="123.6" housingpart="22.0">
+            <rooms>
+                <room>
+                    22.0
+                </room>
+            </rooms>
+            <seller tel="+7888-111-22-22" title="Сергеей Сергеев"/>
+        </flat>
+    </region>
+    <region name="Октябрьский">
+        <flat count="1" square="36.2" kitchen="9.9" housingpart="18.6">
+            <rooms>
+                <room>
+                    18.6
+                </room>
+            </rooms>
+            <seller tel="+7922-154-10-11" title="Петров Петр"/>
+        </flat>
+    </region>
+    <region name="Первомайский">
+        <flat count="1" square="36.2" kitchen="9.9" housingpart="3.6">
+            <rooms>
+                <room>
+                    12.1
+                </room>
+            </rooms>
+            <seller tel="+71234-22-45-55" title="Александр Александров"/>
+        </flat>
+    </region>
+    <region name="Волжский">
+        <flat count="1" square="36.2" kitchen="0" housingpart="13">
+            <rooms>
+                <room>
+                    13
+                </room>
+            </rooms>
+            <seller tel="+71234-22-45-22" title="Алексей Александров"/>
+        </flat>
+    </region>
+</supply>

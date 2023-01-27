@@ -1,0 +1,35 @@
+#include <sys/types.h>
+#include <fcntl.h>
+#include <stdio.h>
+int main(){
+    int fd; 
+    size_t size;
+    char string[] = "Hello, world!";
+    /* Обнуляем маску создания файлов текущего процесса для того, 
+    чтобы права доступа у создаваемого файла точно соответствовали параметру вызова open() */
+    (void)umask(0); 
+    /* Попытаемся открыть файл с именем myfile в текущей директории только для операций вывода. Если файла не существует, попробуем его создать с правами доступа 0666, т. е. read-write для всех категорий пользователей */
+    fd = open("myfile", O_WRONLY | O_CREAT, 0666);
+
+    /* Пробуем записать в файл 14 байт из нашего массива, т.е. всю строку "Hello, world!" вместе с признаком конца строки */
+    close(fd);
+    write(fd, string, 14);
+
+    fd = open("myfile", O_RDONLY, 0666);
+    char string2[14];
+    char ch;
+    while ((size=read(fd, &ch, 1))>0)
+	printf("%c", ch);
+    /*size = read(fd, string2, 14);
+    if (size>0)
+	printf("%s", string2);
+    else
+	printf("ОШИБКА!");*/
+    printf("\n");
+/*while ((size=read(fd, &ch, 1))>0)*/
+
+    /* Закрываем файл */
+    close(fd);
+
+    return 0; 
+}

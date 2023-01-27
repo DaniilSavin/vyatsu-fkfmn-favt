@@ -1,0 +1,6 @@
+﻿  pch.cpp
+  zadanie_189.cpp
+d:\вуз\zadanie_189\zadanie_189\zadanie_189.cpp(17): warning C4018: <: несоответствие типов со знаком и без знака
+d:\вуз\zadanie_189\zadanie_189\zadanie_189.cpp(27): warning C4018: <: несоответствие типов со знаком и без знака
+d:\вуз\zadanie_189\zadanie_189\zadanie_189.cpp(66): warning C4018: <: несоответствие типов со знаком и без знака
+  zadanie_189.vcxproj -> D:\ВУЗ\zadanie_189\Debug\zadanie_189.exe

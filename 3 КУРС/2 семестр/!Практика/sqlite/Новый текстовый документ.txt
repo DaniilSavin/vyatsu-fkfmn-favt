@@ -1,0 +1,37 @@
+2 таблицы:
+Исходные данные
+Результаты
+____________
+
+Индекс | Температура в 13.00 | Температура в 19.00 | Точка росы | Результат(Формула) | ?Дата?
+
+____________
+CREATE TABLE ns(
+ind INTEGER NOT NULL PRIMARY KEY,
+name varchar(100));
+
+CREATE TABLE data (
+ind INTEGER REFERENCES ns(ind) ON UPDATE CASCADE ON DELETE CASCADE,
+meas_hash varchar(10),
+value varchar(5),
+meas_name varchar (100),
+date varchar(50));
+
+CREATE TABLE wd (
+indx INTEGER PRIMARY KEY,
+temp13 varchar(50),
+temp19 varchar(50),
+dewPoint varchar(50),
+tempRes varchar(50),
+date varchar(50));
+____________
+
+INSERT INTO wd (indx, temp13, temp19, dewPoint)
+VALUES ('123', '28','22', '2');
+
+____________
+
+.mode column
+SELECT * FROM wd;
+UPDATE wd SET tempRes='2' WHERE indx=123;
+____________

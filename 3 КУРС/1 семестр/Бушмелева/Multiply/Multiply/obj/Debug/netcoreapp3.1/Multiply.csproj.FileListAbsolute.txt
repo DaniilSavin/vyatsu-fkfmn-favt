@@ -1,0 +1,13 @@
+D:\ВУЗ\3 КУРС\Бушмелева\Multiply\Multiply\bin\Debug\netcoreapp3.1\Multiply.exe
+D:\ВУЗ\3 КУРС\Бушмелева\Multiply\Multiply\bin\Debug\netcoreapp3.1\Multiply.deps.json
+D:\ВУЗ\3 КУРС\Бушмелева\Multiply\Multiply\bin\Debug\netcoreapp3.1\Multiply.runtimeconfig.json
+D:\ВУЗ\3 КУРС\Бушмелева\Multiply\Multiply\bin\Debug\netcoreapp3.1\Multiply.runtimeconfig.dev.json
+D:\ВУЗ\3 КУРС\Бушмелева\Multiply\Multiply\bin\Debug\netcoreapp3.1\Multiply.dll
+D:\ВУЗ\3 КУРС\Бушмелева\Multiply\Multiply\bin\Debug\netcoreapp3.1\Multiply.pdb
+D:\ВУЗ\3 КУРС\Бушмелева\Multiply\Multiply\obj\Debug\netcoreapp3.1\Multiply.csprojAssemblyReference.cache
+D:\ВУЗ\3 КУРС\Бушмелева\Multiply\Multiply\obj\Debug\netcoreapp3.1\Multiply.AssemblyInfoInputs.cache
+D:\ВУЗ\3 КУРС\Бушмелева\Multiply\Multiply\obj\Debug\netcoreapp3.1\Multiply.AssemblyInfo.cs
+D:\ВУЗ\3 КУРС\Бушмелева\Multiply\Multiply\obj\Debug\netcoreapp3.1\Multiply.csproj.CoreCompileInputs.cache
+D:\ВУЗ\3 КУРС\Бушмелева\Multiply\Multiply\obj\Debug\netcoreapp3.1\Multiply.dll
+D:\ВУЗ\3 КУРС\Бушмелева\Multiply\Multiply\obj\Debug\netcoreapp3.1\Multiply.pdb
+D:\ВУЗ\3 КУРС\Бушмелева\Multiply\Multiply\obj\Debug\netcoreapp3.1\Multiply.genruntimeconfig.cache

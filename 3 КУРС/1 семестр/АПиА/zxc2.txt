@@ -1,0 +1,54 @@
+#include <iostream>
+#include<vector>
+
+using namespace std;
+
+int size;
+string  s_pref = "abc";
+string s_main = "abbabaabcabbaabc";
+void kmp(string s);
+
+int main() {
+
+    string str = s_pref + "$" + s_main;
+
+    cout << str << endl;
+    kmp(str);
+
+}
+
+void kmp(string s)
+{
+    setlocale(LC_ALL, "rus");
+    int size = s.length();
+    bool f = false;
+    vector<int> pi(size);
+    for (int i = 1; i < size; ++i)
+    {
+        int j = pi[i - 1];
+        while (j > 0 && s[i] != s[j])
+            j = pi[j - 1];
+        if (s[i] == s[j])
+            ++j;
+        pi[i] = j;
+    }
+   
+    for (int i = 0; i < size; ++i) 
+    {
+        if (pi[i] == s_pref.length() && f == false)
+        {
+            cout << "Первое вхождение: " << i - 2 * s_pref.length() << endl;
+            f = true;
+        }
+    }
+    f = false;
+
+    for (int i = size - 1; i > 0; --i)
+    {
+        if (pi[i] == s_pref.length() && f == false)
+        {
+            cout << "Последнее вхождение: " << i - 2 * s_pref.length() << endl;
+            f = true;
+        }
+    }
+}

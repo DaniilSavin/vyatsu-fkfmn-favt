@@ -1,0 +1,88 @@
+package com.company;
+
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
+//import org.w3c.dom.*;
+import org.xml.sax.Attributes;
+import org.xml.sax.InputSource;
+import org.xml.sax.SAXException;
+import org.xml.sax.helpers.DefaultHandler;
+import org.jsoup.Jsoup;
+
+import javax.xml.parsers.*;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerException;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.TransformerFactoryConfigurationError;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
+import java.awt.*;
+import java.io.*;
+import java.net.MalformedURLException;
+import java.net.URL;
+import java.net.URLConnection;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Scanner;
+
+public class Main {
+    public static  class Item{
+        String header;
+        String price;
+        String address;
+        Integer roomCount;
+        public Item(String header, String price,String address,Integer roomCount){
+            this.address = address;
+            this.price = price;
+            this.header = header;
+            this.roomCount = roomCount;
+        }
+    }
+
+    public static void main(String[] args) throws ParserConfigurationException, IOException, SAXException {
+        Document document = Jsoup.connect("https://www.avito.ru/kirovskaya_oblast_kirov/kvartiry/prodam-ASgBAgICAUSSA8YQ?cd=1").get();
+        Elements allElements = document.getElementsByClass("iva-item-content-m2FiN");
+        ArrayList<Item> items = new ArrayList<Item>();
+        for (org.jsoup.nodes.Element element : allElements) {
+            try {
+                String header = element.getElementsByClass("title-root-395AQ iva-item-title-1Rmmj title-listRedesign-3RaU2 title-root_maxHeight-3obWc text-text-1PdBw text-size-s-1PUdo text-bold-3R9dt").last().ownText();
+                Elements meta = element.getElementsByTag("meta");
+                String price = "";
+                for (Element _element: meta) {
+                    if (_element.attributes().get("itemprop").toString().equals("price")){
+                        price = _element.attributes().get("content");
+                    }
+                }
+                String address = element.getElementsByClass("geo-address-9QndR text-text-1PdBw text-size-s-1PUdo").last()
+                        .getElementsByTag("span").last().ownText();
+                Integer roomCount = -1;
+                try {
+                    roomCount = Character.getNumericValue(header.charAt(0));
+                } catch (Exception e){
+                }
+                items.add(new Item(header,price,address,roomCount));
+            } catch (Exception e){
+                continue;
+            }
+        }
+        Integer targetRoomCount = 2;
+        try(FileWriter writer = new FileWriter("output.txt", false))
+        {
+            for (var item:
+                    items) {
+                if (targetRoomCount==-1)
+                writer.write(item.header+" "+item.price+" "+item.address+" Room count: "+ item.roomCount+System.lineSeparator());
+                else
+                    if (targetRoomCount==item.roomCount)
+                    writer.write(item.header+" "+item.price+" "+item.address+" Room count:"+ item.roomCount+System.lineSeparator());
+                //System.out.println(item.header+" "+item.price+" "+item.address+" "+ item.roomCount);
+            }
+            writer.flush();
+        }
+        catch(IOException ex){
+            System.out.println(ex.getMessage());
+        }
+    }
+}

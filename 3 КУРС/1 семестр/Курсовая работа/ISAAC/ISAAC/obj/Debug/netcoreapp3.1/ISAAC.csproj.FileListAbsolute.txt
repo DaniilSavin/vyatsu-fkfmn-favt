@@ -1,0 +1,13 @@
+D:\ВУЗ\3 КУРС\Курсовая работа\ISAAC\ISAAC\bin\Debug\netcoreapp3.1\ISAAC.exe
+D:\ВУЗ\3 КУРС\Курсовая работа\ISAAC\ISAAC\bin\Debug\netcoreapp3.1\ISAAC.deps.json
+D:\ВУЗ\3 КУРС\Курсовая работа\ISAAC\ISAAC\bin\Debug\netcoreapp3.1\ISAAC.runtimeconfig.json
+D:\ВУЗ\3 КУРС\Курсовая работа\ISAAC\ISAAC\bin\Debug\netcoreapp3.1\ISAAC.runtimeconfig.dev.json
+D:\ВУЗ\3 КУРС\Курсовая работа\ISAAC\ISAAC\bin\Debug\netcoreapp3.1\ISAAC.dll
+D:\ВУЗ\3 КУРС\Курсовая работа\ISAAC\ISAAC\bin\Debug\netcoreapp3.1\ISAAC.pdb
+D:\ВУЗ\3 КУРС\Курсовая работа\ISAAC\ISAAC\obj\Debug\netcoreapp3.1\ISAAC.csprojAssemblyReference.cache
+D:\ВУЗ\3 КУРС\Курсовая работа\ISAAC\ISAAC\obj\Debug\netcoreapp3.1\ISAAC.AssemblyInfoInputs.cache
+D:\ВУЗ\3 КУРС\Курсовая работа\ISAAC\ISAAC\obj\Debug\netcoreapp3.1\ISAAC.AssemblyInfo.cs
+D:\ВУЗ\3 КУРС\Курсовая работа\ISAAC\ISAAC\obj\Debug\netcoreapp3.1\ISAAC.csproj.CoreCompileInputs.cache
+D:\ВУЗ\3 КУРС\Курсовая работа\ISAAC\ISAAC\obj\Debug\netcoreapp3.1\ISAAC.dll
+D:\ВУЗ\3 КУРС\Курсовая работа\ISAAC\ISAAC\obj\Debug\netcoreapp3.1\ISAAC.pdb
+D:\ВУЗ\3 КУРС\Курсовая работа\ISAAC\ISAAC\obj\Debug\netcoreapp3.1\ISAAC.genruntimeconfig.cache

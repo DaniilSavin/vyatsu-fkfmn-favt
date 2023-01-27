@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <unistd.h>
+#include <errno.h>
+#include <sched.h>
+int set_highest_priority (pid_t pid)
+{ 
+struct sched_param sp; 
+int policy, max, ret; 
+policy = SCHED_FIFO; 
+printf ("Политика: %d\n", policy);
+
+max = sched_get_priority_max (policy); 
+if (max == -1) 
+return -1; 
+
+memset (&sp, 0, sizeof (struct sched_param)); 
+sp.sched_priority = max; 
+ret = sched_setparam (pid, &sp); 
+sched_getparam (0, &sp);
+printf ("Установлен приоритет: %d\n", sp.sched_priority);
+return ret;
+}
+
+int main()
+{
+
+printf ("Выполнено с кодом: %d\n", set_highest_priority(getpid()));
+return 0;
+}

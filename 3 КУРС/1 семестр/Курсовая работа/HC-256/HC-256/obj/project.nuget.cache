@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6Y4cnaE04Ax69+74AcmGDH32I1hCHu179FaUX/33k/WKU9cEAK3/1OIryK3YFp8HvDufD6lFU5sPbWYZkximxg==",
+  "success": true,
+  "projectFilePath": "D:\\ВУЗ\\3 КУРС\\Курсовая работа\\HC-256\\HC-256\\HC-256.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\savin\\.nuget\\packages\\portable.bouncycastle\\1.8.9\\portable.bouncycastle.1.8.9.nupkg.sha512"
+  ],
+  "logs": []
+}

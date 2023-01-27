@@ -1,0 +1,5 @@
+bin\Debug\jRand.dll
+bin\Debug\jRand.pdb
+obj\x86\Debug\ResolveAssemblyReference.cache
+obj\x86\Debug\jRand.dll
+obj\x86\Debug\jRand.pdb

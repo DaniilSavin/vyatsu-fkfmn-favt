@@ -1,0 +1,57 @@
+#include <iostream>
+
+
+using namespace std;
+
+float func(float x)
+{
+	return (pow(x, 2) - 2 * x - 20);
+}
+
+
+
+int main()
+{
+	setlocale(LC_ALL, "rus");
+	double a, b, y, h;
+	a = 3;
+	b = 7;
+	h = 0.5;
+	/*int max = INT_MIN;
+	int min = INT_MAX;*/
+	float max = (func(a));
+	float min = max;
+	float max1 = abs(func(a));
+	float min1 = max1;
+	//cout << "Введите A и B: " << endl;
+	//cin >> a >> b;
+	/*cout << "Введите шаг: " << endl;
+	cin >> h;*/	
+
+
+	for (double i = a; i <= b;i = i + h)
+	{
+		float y = func(i);
+		if (abs(y) > max1)
+			max1 = abs(y);
+
+			if (abs(y) < min1)
+				min1 = abs(y);
+		if (y > max)
+			max = y;
+	
+			if (y < min)
+				min = y;
+	}
+
+
+	cout << "Наибольшое значение: " << max << endl;
+	cout << "Наименьшее значение равно: " << min << endl;
+	/*double max1 = abs(func(a));
+	double min1 = max1;*/
+	
+
+
+	cout << "Наибольшее по модулю значение: " << max1 << endl;
+	cout << "Наименьшее по модулю значение: " << min1 << endl;
+}

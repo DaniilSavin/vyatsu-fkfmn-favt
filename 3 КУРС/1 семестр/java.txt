@@ -1,0 +1,108 @@
+import java.util.Scanner;
+
+public class MyClass {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Введите кол-во ноутбуков: ");
+        int num = in.nextInt();
+        int numr;
+        numr = num % 10;
+
+        if (numr == 1) {
+            System.out.println("Вы купили " + num + " ноутбук.");
+
+        } else if (numr >= 2 && numr <= 4) {
+            System.out.println("Вы купили " + num + " ноутбука.");
+
+        } else if (numr >= 5 && numr <= 9 || numr == 0) {
+            System.out.println("Вы купили " + num + " ноутбуков.");
+
+        }
+
+    }
+}
+
+
+
+
+
+mport java.util.Scanner;
+import java.util.Random;
+
+public class MyClass2 {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.println("Введите n");
+        int n = in.nextInt();
+        String str1 = "";
+        int k = 0;
+        int min = 0;
+        int max = 9;
+        int diff = max - min;
+        while (k < n)
+        {
+            int num = in.nextInt();
+            str1 += num;
+            k++;
+
+            Random random = new Random();
+            int i = random.nextInt(diff + 1);
+            if (k < n) {
+                str1 += i;
+            }
+            k++;
+        }
+        int num = Integer.parseInt(str1);
+        System.out.println(num);
+        if (num % 9 == 0 && n % 2 != 0)
+        {
+            System.out.println("Первый победил");
+        }
+
+        if (num % 9 == 0 && n % 2 == 0)
+        {
+            System.out.println("Второй победил");
+        }
+
+        if (num % 9 != 0 && n % 2 != 0)
+        {
+            System.out.println("Первый проиграл");
+        }
+
+        if (num % 9 != 0 && n % 2 == 0)
+        {
+            System.out.println("Второй проиграл");
+        }
+    }
+}
+
+
+
+
+
+import java.util.Scanner;
+import java.util.Random;
+
+public class MyClass3 {
+    public static void main(String[] args) {
+        int min = 1;
+        int max = 6;
+        int diff = max - min;
+        int k1 = 0;
+        for (int j = 1; j <= 36000; j++) {
+            Random random = new Random();
+            int i = random.nextInt(diff + 1);
+            int h = random.nextInt(diff + 1);
+            int num = i + h;
+            if (num == 7) {
+                k1++;
+            }
+            System.out.println(num);
+        }
+        System.out.println(k1);
+    }
+}
+
+
+
+

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<supply>
+    <rooms count="2">
+        <flat housing_part="30.6" kitchen="14.6" region_name="Ленинский" square="51.2">
+            <rooms>
+                <room square="19.0"/>
+                <room square="31.6"/>
+            </rooms>
+            <seller tel="+7922-154-10-11" title="Иванов Александр"/>
+        </flat>
+    </rooms>
+    <rooms count="1">
+        <flat housing_part="18.6" kitchen="9.9" region_name="Октябрьский" square="36.2">
+            <rooms>
+                <room square="18.6"/>
+            </rooms>
+            <seller tel="+7922-154-10-11" title="Петров Олег"/>
+        </flat>
+    </rooms>
+</supply>

@@ -1,0 +1,9 @@
+C:\Users\student\Desktop\Новая папка (4)\MainForm\bin\Debug\MainForm.exe.config
+C:\Users\student\Desktop\Новая папка (4)\MainForm\bin\Debug\MainForm.exe
+C:\Users\student\Desktop\Новая папка (4)\MainForm\bin\Debug\MainForm.pdb
+C:\Users\student\Desktop\Новая папка (4)\MainForm\obj\Debug\MainForm.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\Новая папка (4)\MainForm\obj\Debug\MainForm.Form1.resources
+C:\Users\student\Desktop\Новая папка (4)\MainForm\obj\Debug\MainForm.Properties.Resources.resources
+C:\Users\student\Desktop\Новая папка (4)\MainForm\obj\Debug\MainForm.csproj.GenerateResource.Cache
+C:\Users\student\Desktop\Новая папка (4)\MainForm\obj\Debug\MainForm.exe
+C:\Users\student\Desktop\Новая папка (4)\MainForm\obj\Debug\MainForm.pdb

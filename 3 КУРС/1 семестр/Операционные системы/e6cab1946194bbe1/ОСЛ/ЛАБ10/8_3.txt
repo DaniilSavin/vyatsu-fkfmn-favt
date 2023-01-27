@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <unistd.h>
+#include <errno.h>
+#include <sched.h>
+#include <sys/time.h>
+#include <sys/resource.h>
+
+struct rlimit rlim;
+int main()
+{
+int ret;
+rlim.rlim_cur = 32 * 1024 * 1024; /* 32 ћбайт */
+rlim.rlim_max = RLIM_INFINITY; /* не мен€ть */
+ret = setrlimit (RLIMIT_CORE, &rlim);
+if (ret == -1) { 
+perror ("setrlimit"); 
+return 1;
+}
+ret = getrlimit (RLIMIT_CORE, &rlim);
+if (ret == -1) { 
+perror ("getrlimit"); 
+return 1;
+}
+printf ("Ћимиты RLIMIT_CORE: м€гкий=%ld жесткий=%ld\n", 
+rlim.rlim_cur, rlim.rlim_max);
+
+return 0;
+}

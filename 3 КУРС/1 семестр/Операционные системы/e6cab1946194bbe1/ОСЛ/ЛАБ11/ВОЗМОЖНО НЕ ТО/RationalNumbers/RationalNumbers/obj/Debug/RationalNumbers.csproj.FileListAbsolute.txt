@@ -1,0 +1,24 @@
+G:\Абстрактная и компьютерная алгебра\RationalNumbers\RationalNumbers\bin\Debug\RationalNumbers.exe.config
+G:\Абстрактная и компьютерная алгебра\RationalNumbers\RationalNumbers\bin\Debug\RationalNumbers.exe
+G:\Абстрактная и компьютерная алгебра\RationalNumbers\RationalNumbers\bin\Debug\RationalNumbers.pdb
+G:\Абстрактная и компьютерная алгебра\RationalNumbers\RationalNumbers\obj\Debug\RationalNumbers.csprojResolveAssemblyReference.cache
+G:\Абстрактная и компьютерная алгебра\RationalNumbers\RationalNumbers\obj\Debug\RationalNumbers.exe
+G:\Абстрактная и компьютерная алгебра\RationalNumbers\RationalNumbers\obj\Debug\RationalNumbers.pdb
+G:\4 курс\АиК алгебра\RationalNumbers\RationalNumbers\bin\Debug\RationalNumbers.exe.config
+G:\4 курс\АиК алгебра\RationalNumbers\RationalNumbers\obj\Debug\RationalNumbers.exe
+G:\4 курс\АиК алгебра\RationalNumbers\RationalNumbers\obj\Debug\RationalNumbers.pdb
+G:\4 курс\АиК алгебра\RationalNumbers\RationalNumbers\bin\Debug\RationalNumbers.exe
+G:\4 курс\АиК алгебра\RationalNumbers\RationalNumbers\bin\Debug\RationalNumbers.pdb
+G:\4 курс\АиК алгебра\RationalNumbers\RationalNumbers\obj\Debug\RationalNumbers.csprojResolveAssemblyReference.cache
+E:\Загрузки\RationalNumbers\RationalNumbers\bin\Debug\RationalNumbers.exe.config
+E:\Загрузки\RationalNumbers\RationalNumbers\obj\Debug\RationalNumbers.exe
+E:\Загрузки\RationalNumbers\RationalNumbers\obj\Debug\RationalNumbers.pdb
+E:\Загрузки\RationalNumbers\RationalNumbers\bin\Debug\RationalNumbers.exe
+E:\Загрузки\RationalNumbers\RationalNumbers\bin\Debug\RationalNumbers.pdb
+E:\Загрузки\RationalNumbers\RationalNumbers\obj\Debug\RationalNumbers.csprojResolveAssemblyReference.cache
+C:\Users\student\Downloads\RationalNumbers\RationalNumbers\bin\Debug\RationalNumbers.exe.config
+C:\Users\student\Downloads\RationalNumbers\RationalNumbers\obj\Debug\RationalNumbers.exe
+C:\Users\student\Downloads\RationalNumbers\RationalNumbers\obj\Debug\RationalNumbers.pdb
+C:\Users\student\Downloads\RationalNumbers\RationalNumbers\bin\Debug\RationalNumbers.exe
+C:\Users\student\Downloads\RationalNumbers\RationalNumbers\bin\Debug\RationalNumbers.pdb
+C:\Users\student\Downloads\RationalNumbers\RationalNumbers\obj\Debug\RationalNumbers.csprojResolveAssemblyReference.cache

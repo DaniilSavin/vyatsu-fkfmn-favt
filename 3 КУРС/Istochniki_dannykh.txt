@@ -1,0 +1,68 @@
+// источники данных ----------------------------------------------------------
+
+  // номера от 100 до 9900 - для кодовых форм КН-XX
+  //
+  SOURCE_KN_01      =   100;  // SYNOP           - Cиноптика
+  SOURCE_KN_02      =   200;  // SEA             - Море
+
+//  SOURCE_KN_04      =   400;  // TEMP
+
+// TEMP - Аэрология (зонд)
+  SOURCE_KN_04       =  400; // общий код
+  SOURCE_KN_04_TTAA  =  411;
+  SOURCE_KN_04_TTBB  =  412;
+  SOURCE_KN_04_TTCC  =  413;
+  SOURCE_KN_04_TTDD  =  414;
+
+// TEMP SHIP
+  SOURCE_KN_04_UUAA  =  421;
+  SOURCE_KN_04_UUBB  =  422;
+  SOURCE_KN_04_UUCC  =  423;
+  SOURCE_KN_04_UUDD  =  424;
+
+// TEMP DROP
+  SOURCE_KN_04_XXAA  =  431;
+  SOURCE_KN_04_XXBB  =  432;
+  SOURCE_KN_04_ХХCC  =  433;
+  SOURCE_KN_04_XXDD  =  434;
+
+// TEMP MOBIL
+  SOURCE_KN_04_IIAA  =  441;
+  SOURCE_KN_04_IIBB  =  442;
+  SOURCE_KN_04_IICC  =  443;
+  SOURCE_KN_04_IIDD  =  444;
+
+  SOURCE_KN_13      =  1300;  // RHOB            - Радиация, ОВ, СДЯВ
+  SOURCE_KN_15      =  1500;  // HYDRA           - Гидрология
+  SOURCE_KN_17      =  1700;  // OZUV            - Озон
+  SOURCE_KN_19      =  1900;  // CLIMAT/DECADA   - Климат, Декада
+  SOURCE_KN_21      =  2100;  // AGRO            - Агро
+  SOURCE_KN_24      =  2400;  // SNOW            - Снег
+
+  //SOURCE_SOAP     = 10100;  // зарезервировано для записи в БД через протокол SOAP
+
+  // номера от 10101 до 10199 - для кодовых форм без номеров
+  //
+  SOURCE_WAREP      = 10101;  // WAREP           - Шторма, ОЯ, НГЯ
+
+  // номера от 10200 - для сообщений от различных приборов/устройств
+  //
+  SOURCE_HME4         = 10200;  // HME4            - прибор ГРК-4
+  SOURCE_METEO_XML    = 10201;  // Meteo XML       - <datatransmit> <DataSet> <Data>
+  SOURCE_COMMON_XML   = 10202;  // Common XML      - <report> <station> <parameter> <value>
+  SOURCE_SMF          = 10203;  // SMF             - Short Message Format
+  SOURCE_OTT          = 10204;  // OTT XML         - <StationDataList> <StationData> <ChannelData> <Values>
+  SOURCE_MAGMS        = 10205;  // Морской Буй XML - <measurements> <station> <data>
+  SOURCE_CUT_BUFR     = 10206;  // cutBUFR
+  SOURCE_AQUA_TXT     = 10207;  // Капля txt
+  // (?) нужен ли отдельный source ?  // SOURCE_AEROZOND_XML = 10208;  // Common XML от Аэрозондов
+
+  // АВИАЦИЯ            20000
+  //                    20100   // BIX - общий
+  SOURCE_BIX_1RW      = 20101;  // BIX для одной ВВП
+  //SOURCE_BIX_3RW    = 20103;  // BIX для трех ВВП
+
+  SOURCE_METAR        = 20200;  // METAR
+  SOURCE_TAF          = 20300;  // TAF
+
+грубо говоря берешь кн, умножаешь  на 100, получаешь source

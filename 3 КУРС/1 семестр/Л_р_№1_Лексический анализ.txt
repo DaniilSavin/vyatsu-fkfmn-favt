@@ -1,0 +1,100 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication4
+{
+    class Program
+    {
+        const int 
+            kT = 6,
+            n_str = 500,
+            n_ident = 20,
+            n_lex = 100;
+
+        List<int> LL = new List<int>();
+        List<int> TT = new List<int>();
+        static string[] VV = new string[n_ident];
+
+        static int nL, nT, i;
+
+        public void ttin(int kk, string str, int kod, int typ)
+        {
+
+        }
+
+        public void lexan(string text)
+        {
+            for (int i = 0; i < text.Length; i++)
+            {
+                if (Char.IsLetter(text[i]))
+                {
+                    //LL.Add();
+                    //TT.Add();
+                } else
+                if (Char.IsDigit(text[i]))
+                {
+
+                } else
+                {
+                    int code = -1;
+                    switch (text[i])
+                    {
+                        case '+':
+                            code = -1;
+                            break;
+                        case '-':
+                            code = -1;
+                            break;
+                        case '*':
+                            code = -1;
+                            break;
+                        case '/':
+                            code = -1;
+                            break;
+                        case '=':
+                            code = -1;
+                            break;
+                        case '(':
+                            code = -1;
+                            break;
+                        case ')':
+                            code = -1;
+                            break;
+                        case ',':
+                            code = -1;
+                            break;
+                        case ':':
+                            code = -1;
+                            break;
+                        case ';':
+                            code = -1;
+                            break;
+                        default:
+                            break;
+                    }
+                    LL.Add(code);
+                    TT.Add(0);
+                }
+            }
+        }
+
+        static void Main(string[] args)
+        {
+            VV[1] = "var";
+            VV[2] = "begin";
+            VV[3] = "end";
+            VV[4] = "read";
+            VV[5] = "write";
+            VV[6] = "integer";
+            nT = kT;
+            nL = 0;
+            StreamReader sr = new StreamReader("input.txt");
+            Console.WriteLine(sr.ReadToEnd());
+            Console.ReadKey();
+        }
+    }
+}

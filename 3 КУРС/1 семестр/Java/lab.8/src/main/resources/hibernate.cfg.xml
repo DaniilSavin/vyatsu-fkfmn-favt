@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-configuration xmlns="http://www.hibernate.org/xsd/orm/cfg">
+    <session-factory>
+        <property name="connection.url">jdbc:mysql://localhost:3306/one_to_many_lesson?serverTimezone=Europe/Moscow</property>
+        <property name="connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">12345</property>
+        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="show_sql">true</property>
+
+        <mapping resource="Car.hbm.xml" />
+        <mapping resource="Engine.hbm.xml" />
+        <mapping resource="Customer.hbm.xml" />
+    </session-factory>
+</hibernate-configuration>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<supply>
+    <region name="Ленинский">
+        <flat count="2" square="51.2" kitchen="14.6" housingpart="30.6">
+            <rooms>
+                <room>
+                    19.0
+                </room>
+                <room>
+                    11.6
+                </room>
+            </rooms>
+            <seller tel="+7922-154-10-11" title="Иванов Иван"/>
+        </flat>
+    </region>
+
+    <region name="Ленинский">
+        <flat count="3" square="50" kitchen="20" housingpart="30">
+            <rooms>
+                <room>
+                    15.0
+                </room>
+                <room>
+                    15.0
+                </room>
+            </rooms>
+            <seller tel="+7922-154-10-22" title="Иванов Александр"/>
+        </flat>
+    </region>
+
+    <region name="Октябрьский">
+        <flat count="1" square="36.2" kitchen="9.9" housingpart="18.6">
+            <rooms>
+                <room>
+                    18.6
+                </room>
+            </rooms>
+            <seller tel="+7922-154-10-11" title="Петров Петр"/>
+        </flat>
+    </region>
+
+    <region name="Октябрьский">
+        <flat count="1" square="36.2" kitchen="9.9" housingpart="18.6">
+            <rooms>
+                <room>
+                    18.6
+                </room>
+            </rooms>
+            <seller tel="+7922-154-10-11" title="Марков Марк"/>
+        </flat>
+    </region>
+    <region name="Первомайский">
+        <flat count="1" square="36.2" kitchen="9.9" housingpart="18.6">
+            <rooms>
+                <room>
+                    18.6
+                </room>
+            </rooms>
+            <seller tel="+7922-154-10-11" title="Марков Марк"/>
+        </flat>
+    </region>
+    <region name="Первомайский">
+        <flat count="1" square="36.2" kitchen="9.9" housingpart="18.6">
+            <rooms>
+                <room>
+                    18.6
+                </room>
+            </rooms>
+            <seller tel="+7922-154-10-11" title="Марков Марк"/>
+        </flat>
+    </region>
+
+</supply>

@@ -1,0 +1,13 @@
+C:\Users\savin\source\repos\Gradient\Gradient\bin\Debug\netcoreapp3.1\Gradient.exe
+C:\Users\savin\source\repos\Gradient\Gradient\bin\Debug\netcoreapp3.1\Gradient.deps.json
+C:\Users\savin\source\repos\Gradient\Gradient\bin\Debug\netcoreapp3.1\Gradient.runtimeconfig.json
+C:\Users\savin\source\repos\Gradient\Gradient\bin\Debug\netcoreapp3.1\Gradient.runtimeconfig.dev.json
+C:\Users\savin\source\repos\Gradient\Gradient\bin\Debug\netcoreapp3.1\Gradient.dll
+C:\Users\savin\source\repos\Gradient\Gradient\bin\Debug\netcoreapp3.1\Gradient.pdb
+C:\Users\savin\source\repos\Gradient\Gradient\obj\Debug\netcoreapp3.1\Gradient.csprojAssemblyReference.cache
+C:\Users\savin\source\repos\Gradient\Gradient\obj\Debug\netcoreapp3.1\Gradient.AssemblyInfoInputs.cache
+C:\Users\savin\source\repos\Gradient\Gradient\obj\Debug\netcoreapp3.1\Gradient.AssemblyInfo.cs
+C:\Users\savin\source\repos\Gradient\Gradient\obj\Debug\netcoreapp3.1\Gradient.csproj.CoreCompileInputs.cache
+C:\Users\savin\source\repos\Gradient\Gradient\obj\Debug\netcoreapp3.1\Gradient.dll
+C:\Users\savin\source\repos\Gradient\Gradient\obj\Debug\netcoreapp3.1\Gradient.pdb
+C:\Users\savin\source\repos\Gradient\Gradient\obj\Debug\netcoreapp3.1\Gradient.genruntimeconfig.cache

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISAAC", "ISAAC\ISAAC.csproj", "{66326FDD-D8F3-4338-BDEB-3C0BB22D30C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RC4", "RC4\RC4.csproj", "{D986A7D3-7ACD-4C27-A1EE-0CFA6E6D53B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{66326FDD-D8F3-4338-BDEB-3C0BB22D30C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66326FDD-D8F3-4338-BDEB-3C0BB22D30C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66326FDD-D8F3-4338-BDEB-3C0BB22D30C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66326FDD-D8F3-4338-BDEB-3C0BB22D30C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D986A7D3-7ACD-4C27-A1EE-0CFA6E6D53B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D986A7D3-7ACD-4C27-A1EE-0CFA6E6D53B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D986A7D3-7ACD-4C27-A1EE-0CFA6E6D53B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D986A7D3-7ACD-4C27-A1EE-0CFA6E6D53B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5947097A-1D10-4170-94FA-B15DE242168B}
+	EndGlobalSection
+EndGlobal

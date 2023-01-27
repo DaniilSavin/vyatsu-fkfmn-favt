@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping xmlns="http://www.hibernate.org/xsd/hibernate-mapping">
+
+    <class name="ru.javavision.model.Engine" table="engines">
+        <id name = "id" type = "int" column = "id">
+            <generator class="identity"/>
+        </id>
+        <property name="name" column="name"/>
+        <property name="power" column="power"/>
+        <property name="carMark" column="car_mark"/>
+
+        <set name="cars" table="cars" cascade="all" fetch="join">
+            <key column="mark" property-ref="carMark"/>
+            <one-to-many class="ru.javavision.model.Car" />
+        </set>
+    </class>
+</hibernate-mapping>

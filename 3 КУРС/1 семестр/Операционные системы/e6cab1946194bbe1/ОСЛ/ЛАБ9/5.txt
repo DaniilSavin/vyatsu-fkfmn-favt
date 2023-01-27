@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(int argc, char *argv[], char *envp[])
+{
+int i=0;
+printf("юпцслемрш йнлюмдмни ярпнйх:\n");
+for (; i<argc; i++)
+	printf("%s\n", argv[i]);
+i=0;
+printf("оюпюлерпш нйпсфючыеи япедш:\n");
+while(envp[i]!=NULL)
+{
+	printf("%s\n", envp[i]);
+i++;
+}
+	return 0;
+}
