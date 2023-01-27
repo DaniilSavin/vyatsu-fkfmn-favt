@@ -1,0 +1,32 @@
+D:\study\4.2\тестирование по\Лабораторная Белый ящик\ConsoleApp2\bin\Debug\net5.0\ConsoleApp2.exe
+D:\study\4.2\тестирование по\Лабораторная Белый ящик\ConsoleApp2\bin\Debug\net5.0\ConsoleApp2.deps.json
+D:\study\4.2\тестирование по\Лабораторная Белый ящик\ConsoleApp2\bin\Debug\net5.0\ConsoleApp2.runtimeconfig.json
+D:\study\4.2\тестирование по\Лабораторная Белый ящик\ConsoleApp2\bin\Debug\net5.0\ConsoleApp2.runtimeconfig.dev.json
+D:\study\4.2\тестирование по\Лабораторная Белый ящик\ConsoleApp2\bin\Debug\net5.0\ConsoleApp2.dll
+D:\study\4.2\тестирование по\Лабораторная Белый ящик\ConsoleApp2\bin\Debug\net5.0\ref\ConsoleApp2.dll
+D:\study\4.2\тестирование по\Лабораторная Белый ящик\ConsoleApp2\bin\Debug\net5.0\ConsoleApp2.pdb
+D:\study\4.2\тестирование по\Лабораторная Белый ящик\ConsoleApp2\obj\Debug\net5.0\ConsoleApp2.csproj.AssemblyReference.cache
+D:\study\4.2\тестирование по\Лабораторная Белый ящик\ConsoleApp2\obj\Debug\net5.0\ConsoleApp2.GeneratedMSBuildEditorConfig.editorconfig
+D:\study\4.2\тестирование по\Лабораторная Белый ящик\ConsoleApp2\obj\Debug\net5.0\ConsoleApp2.AssemblyInfoInputs.cache
+D:\study\4.2\тестирование по\Лабораторная Белый ящик\ConsoleApp2\obj\Debug\net5.0\ConsoleApp2.AssemblyInfo.cs
+D:\study\4.2\тестирование по\Лабораторная Белый ящик\ConsoleApp2\obj\Debug\net5.0\ConsoleApp2.csproj.CoreCompileInputs.cache
+D:\study\4.2\тестирование по\Лабораторная Белый ящик\ConsoleApp2\obj\Debug\net5.0\ConsoleApp2.dll
+D:\study\4.2\тестирование по\Лабораторная Белый ящик\ConsoleApp2\obj\Debug\net5.0\ref\ConsoleApp2.dll
+D:\study\4.2\тестирование по\Лабораторная Белый ящик\ConsoleApp2\obj\Debug\net5.0\ConsoleApp2.pdb
+D:\study\4.2\тестирование по\Лабораторная Белый ящик\ConsoleApp2\obj\Debug\net5.0\ConsoleApp2.genruntimeconfig.cache
+D:\ВУЗ\4 КУРС\2\Программная инженерия\Лабораторная Белый ящик\ConsoleApp2\bin\Debug\net5.0\ConsoleApp2.exe
+D:\ВУЗ\4 КУРС\2\Программная инженерия\Лабораторная Белый ящик\ConsoleApp2\bin\Debug\net5.0\ConsoleApp2.deps.json
+D:\ВУЗ\4 КУРС\2\Программная инженерия\Лабораторная Белый ящик\ConsoleApp2\bin\Debug\net5.0\ConsoleApp2.runtimeconfig.json
+D:\ВУЗ\4 КУРС\2\Программная инженерия\Лабораторная Белый ящик\ConsoleApp2\bin\Debug\net5.0\ConsoleApp2.runtimeconfig.dev.json
+D:\ВУЗ\4 КУРС\2\Программная инженерия\Лабораторная Белый ящик\ConsoleApp2\bin\Debug\net5.0\ConsoleApp2.dll
+D:\ВУЗ\4 КУРС\2\Программная инженерия\Лабораторная Белый ящик\ConsoleApp2\bin\Debug\net5.0\ConsoleApp2.pdb
+D:\ВУЗ\4 КУРС\2\Программная инженерия\Лабораторная Белый ящик\ConsoleApp2\obj\Debug\net5.0\ConsoleApp2.csproj.AssemblyReference.cache
+D:\ВУЗ\4 КУРС\2\Программная инженерия\Лабораторная Белый ящик\ConsoleApp2\obj\Debug\net5.0\ConsoleApp2.GeneratedMSBuildEditorConfig.editorconfig
+D:\ВУЗ\4 КУРС\2\Программная инженерия\Лабораторная Белый ящик\ConsoleApp2\obj\Debug\net5.0\ConsoleApp2.AssemblyInfoInputs.cache
+D:\ВУЗ\4 КУРС\2\Программная инженерия\Лабораторная Белый ящик\ConsoleApp2\obj\Debug\net5.0\ConsoleApp2.AssemblyInfo.cs
+D:\ВУЗ\4 КУРС\2\Программная инженерия\Лабораторная Белый ящик\ConsoleApp2\obj\Debug\net5.0\ConsoleApp2.csproj.CoreCompileInputs.cache
+D:\ВУЗ\4 КУРС\2\Программная инженерия\Лабораторная Белый ящик\ConsoleApp2\obj\Debug\net5.0\ConsoleApp2.dll
+D:\ВУЗ\4 КУРС\2\Программная инженерия\Лабораторная Белый ящик\ConsoleApp2\obj\Debug\net5.0\refint\ConsoleApp2.dll
+D:\ВУЗ\4 КУРС\2\Программная инженерия\Лабораторная Белый ящик\ConsoleApp2\obj\Debug\net5.0\ConsoleApp2.pdb
+D:\ВУЗ\4 КУРС\2\Программная инженерия\Лабораторная Белый ящик\ConsoleApp2\obj\Debug\net5.0\ConsoleApp2.genruntimeconfig.cache
+D:\ВУЗ\4 КУРС\2\Программная инженерия\Лабораторная Белый ящик\ConsoleApp2\obj\Debug\net5.0\ref\ConsoleApp2.dll

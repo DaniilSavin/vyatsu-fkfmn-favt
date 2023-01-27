@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "version": 2,
   "dgSpecHash": "t6G4Zze/tj/DeH28a69/UmddrVK648RGo5Ob30kAf+VkJYCAPFyHc9tt8Tfj5ifRvt/LER1jofl8r48cSdXFHw==",
@@ -5,4 +6,13 @@
   "projectFilePath": "D:\\ВУЗ\\4 КУРС\\Теория алгоритмов\\lab06 Слободчиков\\lab06\\task\\task.csproj",
   "expectedPackageFiles": [],
   "logs": []
+=======
+{
+  "version": 2,
+  "dgSpecHash": "t6G4Zze/tj/DeH28a69/UmddrVK648RGo5Ob30kAf+VkJYCAPFyHc9tt8Tfj5ifRvt/LER1jofl8r48cSdXFHw==",
+  "success": true,
+  "projectFilePath": "D:\\ВУЗ\\4 КУРС\\Теория алгоритмов\\lab06 Слободчиков\\lab06\\task\\task.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+>>>>>>> ad22ee082dac6ece8d23d5999a86f8d8c86438df
 }

@@ -1,0 +1,16 @@
+predicates
+repeat
+typewriter
+
+goal
+typewriter,nl.
+clauses
+repeat.
+repeat:-repeat.
+
+typewriter:-
+repeat,
+readchar(C), 
+write(C),
+C='\r',!.
+

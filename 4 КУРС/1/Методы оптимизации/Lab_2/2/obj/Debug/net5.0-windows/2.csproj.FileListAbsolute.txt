@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\obj\Debug\net5.0-windows\2.csproj.AssemblyReference.cache
 D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\obj\Debug\net5.0-windows\_2.Form1.resources
 D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\obj\Debug\net5.0-windows\2.csproj.GenerateResource.cache
@@ -31,3 +32,38 @@ D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\obj\Debug\net
 D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\obj\Debug\net5.0-windows\2.pdb
 D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\obj\Debug\net5.0-windows\2.genruntimeconfig.cache
 D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\obj\Debug\net5.0-windows\ref\2.dll
+=======
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\obj\Debug\net5.0-windows\2.csproj.AssemblyReference.cache
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\obj\Debug\net5.0-windows\_2.Form1.resources
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\obj\Debug\net5.0-windows\2.csproj.GenerateResource.cache
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\obj\Debug\net5.0-windows\2.GeneratedMSBuildEditorConfig.editorconfig
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\obj\Debug\net5.0-windows\2.AssemblyInfoInputs.cache
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\obj\Debug\net5.0-windows\2.AssemblyInfo.cs
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\obj\Debug\net5.0-windows\2.csproj.CoreCompileInputs.cache
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\bin\Debug\net5.0-windows\2.exe
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\bin\Debug\net5.0-windows\2.deps.json
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\bin\Debug\net5.0-windows\2.runtimeconfig.json
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\bin\Debug\net5.0-windows\2.runtimeconfig.dev.json
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\bin\Debug\net5.0-windows\2.dll
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\bin\Debug\net5.0-windows\2.pdb
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\bin\Debug\net5.0-windows\ZedGraph.dll
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\bin\Debug\net5.0-windows\de\ZedGraph.resources.dll
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\bin\Debug\net5.0-windows\es\ZedGraph.resources.dll
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\bin\Debug\net5.0-windows\fr\ZedGraph.resources.dll
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\bin\Debug\net5.0-windows\hu\ZedGraph.resources.dll
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\bin\Debug\net5.0-windows\it\ZedGraph.resources.dll
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\bin\Debug\net5.0-windows\ja\ZedGraph.resources.dll
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\bin\Debug\net5.0-windows\pt\ZedGraph.resources.dll
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\bin\Debug\net5.0-windows\ru\ZedGraph.resources.dll
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\bin\Debug\net5.0-windows\sk\ZedGraph.resources.dll
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\bin\Debug\net5.0-windows\sv\ZedGraph.resources.dll
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\bin\Debug\net5.0-windows\tr\ZedGraph.resources.dll
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\bin\Debug\net5.0-windows\zh-cn\ZedGraph.resources.dll
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\bin\Debug\net5.0-windows\zh-tw\ZedGraph.resources.dll
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\obj\Debug\net5.0-windows\2.csproj.CopyComplete
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\obj\Debug\net5.0-windows\2.dll
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\obj\Debug\net5.0-windows\refint\2.dll
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\obj\Debug\net5.0-windows\2.pdb
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\obj\Debug\net5.0-windows\2.genruntimeconfig.cache
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\2\obj\Debug\net5.0-windows\ref\2.dll
+>>>>>>> ad22ee082dac6ece8d23d5999a86f8d8c86438df

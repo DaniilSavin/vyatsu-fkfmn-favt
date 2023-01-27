@@ -1,0 +1,20 @@
+.picture{
+    background-color: #1abc9c;
+}
+
+.text {
+    background-color: #474e5d;
+}
+
+.footer {
+    background-color: #333;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(58, 58, 255);
+}
+
+.link:active {
+    color: purple;
+}

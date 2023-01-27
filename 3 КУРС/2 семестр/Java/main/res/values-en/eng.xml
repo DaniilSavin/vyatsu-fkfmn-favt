@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="current">ENG</string>
+    <string name="sendButton">Send</string>
+    <string name="hint">Ask a question</string>
+    <string name="answer">Got it. Let me think…</string>
+    <string name="userName">User</string>
+    <string name="assistantName">Assistant</string>
+</resources>

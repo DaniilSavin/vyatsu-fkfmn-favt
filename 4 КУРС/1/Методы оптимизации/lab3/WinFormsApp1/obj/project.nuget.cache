@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "version": 2,
   "dgSpecHash": "jATxK+xsazXUPwNDB7BkmmIkePI8aKkKKkInM59Qyz88r7ZhzWXV2skRpIXlzBIe5RQ3+8Y9y8fJbKSf2N7k3A==",
@@ -5,4 +6,13 @@
   "projectFilePath": "D:\\ВУЗ\\4 КУРС\\1\\Методы оптимизации\\lab3\\WinFormsApp1\\WinFormsApp1.csproj",
   "expectedPackageFiles": [],
   "logs": []
+=======
+{
+  "version": 2,
+  "dgSpecHash": "jATxK+xsazXUPwNDB7BkmmIkePI8aKkKKkInM59Qyz88r7ZhzWXV2skRpIXlzBIe5RQ3+8Y9y8fJbKSf2N7k3A==",
+  "success": true,
+  "projectFilePath": "D:\\ВУЗ\\4 КУРС\\1\\Методы оптимизации\\lab3\\WinFormsApp1\\WinFormsApp1.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+>>>>>>> ad22ee082dac6ece8d23d5999a86f8d8c86438df
 }

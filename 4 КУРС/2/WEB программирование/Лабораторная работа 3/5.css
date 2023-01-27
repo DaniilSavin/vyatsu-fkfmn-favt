@@ -1,0 +1,26 @@
+.first{
+	font-family:Times New Roman;
+	font-size:50px;
+	padding-left: 20px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-top: 10px;
+	margin-left: 10px;
+	//background: #00BFFF;
+	//border: 1px solid black;
+ }
+span.red { 
+color: red;
+background: #800000;
+padding: 10px;
+}
+span.yellow { 
+color: yellow;
+background: #ffdb58;
+padding: 10px;
+}
+span.green { 
+color: green;
+background: #77dd77;
+padding: 10px;
+}

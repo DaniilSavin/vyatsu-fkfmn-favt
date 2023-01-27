@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>D:/asd/JavaProects/app/src/main/java/com/example/voiceassistent</OriginalElement>
+  <nodes>
+    <node x="299.75" y="582.0">com.example.voiceassistent.AI</node>
+    <node x="160.5" y="501.0">com.example.voiceassistent.NumberToString</node>
+    <node x="0.0" y="251.0">com.example.voiceassistent.DBHelper</node>
+    <node x="342.5" y="501.0">com.example.voiceassistent.ForecastToString</node>
+    <node x="12.5" y="501.0">com.example.voiceassistent.NumberAPI</node>
+    <node x="453.5" y="420.0">com.example.voiceassistent.Forecast</node>
+    <node x="138.0" y="251.0">com.example.voiceassistent.MessageListAdapter</node>
+    <node x="101.5" y="658.0">com.example.voiceassistent.Advice</node>
+    <node x="12.5" y="739.0">com.example.voiceassistent.AdviceAPI</node>
+    <node x="525.5" y="501.0">com.example.voiceassistent.ForecastAPI</node>
+    <node x="349.5" y="658.0">com.example.voiceassistent.ParsingHtmlService</node>
+    <node x="200.74348958333334" y="168.0">com.example.voiceassistent.MessageViewHolder</node>
+    <node x="108.45052083333337" y="344.0">com.example.voiceassistent.MainActivity</node>
+    <node x="181.99348958333334" y="85.0">com.example.voiceassistent.Message</node>
+    <node x="151.5" y="739.0">com.example.voiceassistent.AdviceToString</node>
+    <node x="0.0" y="582.0">com.example.voiceassistent.NumberService</node>
+    <node x="513.0" y="582.0">com.example.voiceassistent.ForecastService</node>
+    <node x="142.74348958333334" y="0.0">com.example.voiceassistent.MessageEntity</node>
+    <node x="0.0" y="820.0">com.example.voiceassistent.AdviceService</node>
+    <node x="106.0" y="420.0">com.example.voiceassistent.Number</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.voiceassistent.NumberAPI" target="com.example.voiceassistent.Number" relationship="DEPENDENCY">
+      <point x="0.0" y="-15.5" />
+      <point x="76.5" y="476.0" />
+      <point x="159.0" y="476.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.example.voiceassistent.AdviceAPI" target="com.example.voiceassistent.Advice" relationship="DEPENDENCY">
+      <point x="0.0" y="-15.5" />
+      <point x="72.0" y="714.0" />
+      <point x="150.0" y="714.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.example.voiceassistent.MainActivity" target="com.example.voiceassistent.Message" relationship="CREATE">
+      <point x="55.833333333333314" y="-15.5" />
+      <point x="231.28385416666669" y="323.0" />
+      <point x="399.2434895833333" y="323.0" />
+      <point x="399.2434895833333" y="147.0" />
+      <point x="294.74348958333337" y="147.0" />
+      <point x="294.74348958333337" y="137.0" />
+      <point x="264.4934895833333" y="137.0" />
+      <point x="27.5" y="15.5" />
+    </edge>
+    <edge source="com.example.voiceassistent.MessageListAdapter" target="com.example.voiceassistent.MessageViewHolder" relationship="CREATE">
+      <point x="62.0" y="-15.5" />
+      <point x="293.0" y="225.0" />
+      <point x="294.74348958333337" y="225.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.example.voiceassistent.MainActivity" target="com.example.voiceassistent.MessageEntity" relationship="CREATE">
+      <point x="-11.166666666666657" y="-15.5" />
+      <point x="164.2838541666667" y="303.0" />
+      <point x="127.50000000000001" y="303.0" />
+      <point x="127.50000000000001" y="63.0" />
+      <point x="210.99348958333331" y="63.0" />
+      <point x="210.99348958333334" y="53.0" />
+      <point x="179.49348958333334" y="53.0" />
+      <point x="-36.75" y="15.5" />
+    </edge>
+    <edge source="com.example.voiceassistent.AI" target="com.example.voiceassistent.ForecastToString" relationship="DEPENDENCY">
+      <point x="16.5" y="-15.5" />
+      <point x="349.25" y="557.0" />
+      <point x="424.0" y="557.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.example.voiceassistent.NumberService" target="com.example.voiceassistent.NumberAPI" relationship="DEPENDENCY">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.example.voiceassistent.AdviceToString" target="com.example.voiceassistent.Advice" relationship="DEPENDENCY">
+      <point x="0.0" y="-15.5" />
+      <point x="228.0" y="714.0" />
+      <point x="150.0" y="714.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.example.voiceassistent.ForecastToString" target="com.example.voiceassistent.Forecast" relationship="DEPENDENCY">
+      <point x="0.0" y="-15.5" />
+      <point x="424.0" y="476.0" />
+      <point x="507.0" y="476.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.example.voiceassistent.NumberToString" target="com.example.voiceassistent.Number" relationship="DEPENDENCY">
+      <point x="0.0" y="-15.5" />
+      <point x="241.5" y="476.0" />
+      <point x="159.0" y="476.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.example.voiceassistent.Message" target="com.example.voiceassistent.MessageEntity" relationship="DEPENDENCY">
+      <point x="-27.5" y="-15.5" />
+      <point x="209.49348958333334" y="63.0" />
+      <point x="210.99348958333334" y="63.0" />
+      <point x="210.99348958333334" y="53.0" />
+      <point x="179.49348958333334" y="53.0" />
+      <point x="-36.75" y="15.5" />
+    </edge>
+    <edge source="com.example.voiceassistent.MainActivity" target="com.example.voiceassistent.MessageListAdapter" relationship="TO_ONE">
+      <point x="11.166666666666686" y="-15.5" />
+      <point x="186.61718750000006" y="323.0" />
+      <point x="184.5" y="323.0" />
+      <point x="-46.5" y="15.5" />
+    </edge>
+    <edge source="com.example.voiceassistent.MessageEntity" target="com.example.voiceassistent.Message" relationship="DEPENDENCY">
+      <point x="36.75" y="15.5" />
+      <point x="252.99348958333334" y="63.0" />
+      <point x="264.4934895833333" y="63.0" />
+      <point x="27.5" y="-15.5" />
+    </edge>
+    <edge source="com.example.voiceassistent.AI" target="com.example.voiceassistent.NumberToString" relationship="DEPENDENCY">
+      <point x="-16.5" y="-15.5" />
+      <point x="316.25" y="557.0" />
+      <point x="241.5" y="557.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.example.voiceassistent.MessageListAdapter" target="com.example.voiceassistent.Message" relationship="TO_MANY">
+      <point x="-62.0" y="-15.5" />
+      <point x="169.0" y="225.0" />
+      <point x="171.5" y="225.0" />
+      <point x="171.5" y="137.0" />
+      <point x="209.49348958333334" y="137.0" />
+      <point x="-27.5" y="15.5" />
+    </edge>
+    <edge source="com.example.voiceassistent.AdviceService" target="com.example.voiceassistent.AdviceAPI" relationship="DEPENDENCY">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.example.voiceassistent.MainActivity" target="com.example.voiceassistent.DBHelper" relationship="TO_ONE">
+      <point x="-55.833333333333314" y="-15.5" />
+      <point x="119.61718750000006" y="323.0" />
+      <point x="29.25" y="323.0" />
+      <point x="-29.25" y="15.5" />
+    </edge>
+    <edge source="com.example.voiceassistent.MainActivity" target="com.example.voiceassistent.MessageListAdapter" relationship="CREATE">
+      <point x="33.5" y="-15.5" />
+      <point x="208.95052083333337" y="313.0" />
+      <point x="277.5" y="313.0" />
+      <point x="46.5" y="15.5" />
+    </edge>
+    <edge source="com.example.voiceassistent.MainActivity" target="com.example.voiceassistent.DBHelper" relationship="CREATE">
+      <point x="-33.5" y="-15.5" />
+      <point x="141.95052083333337" y="313.0" />
+      <point x="87.75" y="313.0" />
+      <point x="29.25" y="15.5" />
+    </edge>
+    <edge source="com.example.voiceassistent.MessageListAdapter" target="com.example.voiceassistent.Message" relationship="DEPENDENCY">
+      <point x="0.0" y="-15.5" />
+      <point x="231.0" y="225.0" />
+      <point x="190.24348958333334" y="225.0" />
+      <point x="190.24348958333334" y="147.0" />
+      <point x="294.74348958333337" y="147.0" />
+      <point x="294.74348958333337" y="137.0" />
+      <point x="264.4934895833333" y="137.0" />
+      <point x="27.5" y="15.5" />
+    </edge>
+    <edge source="com.example.voiceassistent.ForecastService" target="com.example.voiceassistent.ForecastAPI" relationship="DEPENDENCY">
+      <point x="0.0" y="-15.5" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.example.voiceassistent.ForecastAPI" target="com.example.voiceassistent.Forecast" relationship="DEPENDENCY">
+      <point x="0.0" y="-15.5" />
+      <point x="590.0" y="476.0" />
+      <point x="507.0" y="476.0" />
+      <point x="0.0" y="15.5" />
+    </edge>
+    <edge source="com.example.voiceassistent.MessageViewHolder" target="com.example.voiceassistent.Message" relationship="DEPENDENCY">
+      <point x="0.0" y="-15.5" />
+      <point x="294.74348958333337" y="137.0" />
+      <point x="264.4934895833333" y="137.0" />
+      <point x="27.5" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="268.0" y="486.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

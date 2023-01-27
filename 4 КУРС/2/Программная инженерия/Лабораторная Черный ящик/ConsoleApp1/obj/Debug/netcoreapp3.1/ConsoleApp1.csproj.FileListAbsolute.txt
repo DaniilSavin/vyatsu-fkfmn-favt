@@ -1,0 +1,17 @@
+D:\study\4 курс 2 семестр\тестирование по\Лабораторная Черный ящик\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+D:\study\4 курс 2 семестр\тестирование по\Лабораторная Черный ящик\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+D:\study\4 курс 2 семестр\тестирование по\Лабораторная Черный ящик\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+D:\study\4 курс 2 семестр\тестирование по\Лабораторная Черный ящик\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+D:\study\4 курс 2 семестр\тестирование по\Лабораторная Черный ящик\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+D:\study\4 курс 2 семестр\тестирование по\Лабораторная Черный ящик\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+D:\study\4 курс 2 семестр\тестирование по\Лабораторная Черный ящик\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.AssemblyReference.cache
+D:\study\4 курс 2 семестр\тестирование по\Лабораторная Черный ящик\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+D:\study\4 курс 2 семестр\тестирование по\Лабораторная Черный ящик\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+D:\study\4 курс 2 семестр\тестирование по\Лабораторная Черный ящик\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.cs
+D:\study\4 курс 2 семестр\тестирование по\Лабораторная Черный ящик\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CoreCompileInputs.cache
+D:\study\4 курс 2 семестр\тестирование по\Лабораторная Черный ящик\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+D:\study\4 курс 2 семестр\тестирование по\Лабораторная Черный ящик\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
+D:\study\4 курс 2 семестр\тестирование по\Лабораторная Черный ящик\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache
+D:\study\4 курс 2 семестр\тестирование по\Лабораторная Черный ящик\ConsoleApp1\bin\Debug\netcoreapp3.1\ClassLibrary2.dll
+D:\study\4 курс 2 семестр\тестирование по\Лабораторная Черный ящик\ConsoleApp1\bin\Debug\netcoreapp3.1\ClassLibrary2.pdb
+D:\study\4 курс 2 семестр\тестирование по\Лабораторная Черный ящик\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.csproj.CopyComplete

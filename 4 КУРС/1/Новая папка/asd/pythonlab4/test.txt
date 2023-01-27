@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 sdsdsdsdsdgsd
 sdf
@@ -12,3 +13,19 @@ d1313133133
 
 
 
+=======
+
+sdsdsdsdsdgsd
+sdf
+sdf
+sdf
+sdf
+ddfs
+f
+ds
+dfhfh
+d1313133133
+
+
+
+>>>>>>> ad22ee082dac6ece8d23d5999a86f8d8c86438df

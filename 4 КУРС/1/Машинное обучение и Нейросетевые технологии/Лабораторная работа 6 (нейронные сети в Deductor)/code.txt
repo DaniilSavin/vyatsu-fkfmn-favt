@@ -1,0 +1,61 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication4
+{
+    class Program
+    {
+        const string tab = " ";
+        const int stringLength = 10;
+        const int stringCount = 100000;
+        const string fileName = "out.txt";
+        static List<string> lines = new List<string>();
+        static void Main(string[] args)
+        {
+            File.Delete(fileName);
+            StreamWriter file = new StreamWriter(fileName);
+            //file.WriteLine("string"+tab+"result");
+            Random random = new Random();
+            for (int stringNumber = 0; stringNumber < stringCount; stringNumber++)
+            {
+                string line = "";
+                int countOf0 = 0;
+                for (int i = 0; i < stringLength; i++)
+                {
+                    if (random.Next(0, 2) == 1)
+                    {
+                        line += "0";
+                        //file.Write(0);
+                        countOf0++;
+                    }
+                    else
+                    {
+                        line += "1";
+                        //file.Write(1);
+                    }
+                    if (i != stringLength-1)
+                    {
+                        line += " ";
+                    }
+                }
+                line += tab + (countOf0 > (stringLength - countOf0) ? 0 : 1);
+                if (lines.Contains(line) == false)
+                {
+                    lines.Add(line);
+                }
+                //file.Write(" "+(countOf0 > (stringLength - countOf0) ? 0 : 1) +Environment.NewLine);
+            }
+            foreach (var item in lines)
+            {
+                file.WriteLine(item);
+            }
+            file.Close();
+            Console.WriteLine("done.");
+            Console.ReadKey();
+        }
+    }
+}

@@ -1,0 +1,6 @@
+F:\save\учёба\4 курс\тестирование\ex2\Expression\bin\Debug\Expression.dll
+F:\save\учёба\4 курс\тестирование\ex2\Expression\bin\Debug\Expression.pdb
+F:\save\учёба\4 курс\тестирование\ex2\Expression\obj\Debug\Expression.csproj.AssemblyReference.cache
+F:\save\учёба\4 курс\тестирование\ex2\Expression\obj\Debug\Expression.csproj.CoreCompileInputs.cache
+F:\save\учёба\4 курс\тестирование\ex2\Expression\obj\Debug\Expression.dll
+F:\save\учёба\4 курс\тестирование\ex2\Expression\obj\Debug\Expression.pdb

@@ -1,0 +1,7 @@
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta\bin\Debug\runge-kutta.exe.config
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta\bin\Debug\runge-kutta.exe
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta\bin\Debug\runge-kutta.pdb
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta\obj\Debug\runge-kutta(system).csproj.AssemblyReference.cache
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta\obj\Debug\runge-kutta(system).csproj.CoreCompileInputs.cache
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta\obj\Debug\runge-kutta.exe
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta\obj\Debug\runge-kutta.pdb

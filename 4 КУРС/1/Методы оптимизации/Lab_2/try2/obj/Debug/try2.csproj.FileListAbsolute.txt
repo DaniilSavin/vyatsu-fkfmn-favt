@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\try2\obj\Debug\try2.csproj.AssemblyReference.cache
 D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\try2\obj\Debug\try2.Properties.Resources.resources
 D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\try2\obj\Debug\try2.csproj.GenerateResource.cache
 D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\try2\obj\Debug\try2.csproj.CoreCompileInputs.cache
+=======
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\try2\obj\Debug\try2.csproj.AssemblyReference.cache
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\try2\obj\Debug\try2.Properties.Resources.resources
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\try2\obj\Debug\try2.csproj.GenerateResource.cache
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\Lab_2\try2\obj\Debug\try2.csproj.CoreCompileInputs.cache
+>>>>>>> ad22ee082dac6ece8d23d5999a86f8d8c86438df

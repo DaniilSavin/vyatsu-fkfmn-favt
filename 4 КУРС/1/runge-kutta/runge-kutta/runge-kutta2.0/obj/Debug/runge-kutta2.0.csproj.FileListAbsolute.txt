@@ -1,0 +1,111 @@
+C:\Users\eMahines\source\repos\runge-kutta\runge-kutta2.0\bin\Debug\runge-kutta2.0.exe.config
+C:\Users\eMahines\source\repos\runge-kutta\runge-kutta2.0\bin\Debug\runge-kutta2.0.exe
+C:\Users\eMahines\source\repos\runge-kutta\runge-kutta2.0\bin\Debug\runge-kutta2.0.pdb
+C:\Users\eMahines\source\repos\runge-kutta\runge-kutta2.0\obj\Debug\runge_kutta2._0.Properties.Resources.resources
+C:\Users\eMahines\source\repos\runge-kutta\runge-kutta2.0\obj\Debug\runge-kutta2.0.csproj.GenerateResource.cache
+C:\Users\eMahines\source\repos\runge-kutta\runge-kutta2.0\obj\Debug\runge-kutta2.0.exe
+C:\Users\eMahines\source\repos\runge-kutta\runge-kutta2.0\obj\Debug\runge-kutta2.0.pdb
+C:\Users\eMahines\source\repos\runge-kutta\runge-kutta2.0\obj\Debug\runge_kutta2._0.Form1.resources
+C:\Users\eMahines\source\repos\runge-kutta\runge-kutta2.0\bin\Debug\ZedGraph.dll
+C:\Users\eMahines\source\repos\runge-kutta\runge-kutta2.0\bin\Debug\ZedGraph.xml
+C:\Users\eMahines\source\repos\runge-kutta\runge-kutta2.0\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\eMahines\source\repos\runge-kutta\runge-kutta2.0\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\eMahines\source\repos\runge-kutta\runge-kutta2.0\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\eMahines\source\repos\runge-kutta\runge-kutta2.0\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\eMahines\source\repos\runge-kutta\runge-kutta2.0\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\eMahines\source\repos\runge-kutta\runge-kutta2.0\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\eMahines\source\repos\runge-kutta\runge-kutta2.0\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\eMahines\source\repos\runge-kutta\runge-kutta2.0\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\eMahines\source\repos\runge-kutta\runge-kutta2.0\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\eMahines\source\repos\runge-kutta\runge-kutta2.0\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\eMahines\source\repos\runge-kutta\runge-kutta2.0\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\eMahines\source\repos\runge-kutta\runge-kutta2.0\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\eMahines\source\repos\runge-kutta\runge-kutta2.0\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\eMahines\source\repos\runge-kutta\runge-kutta2.0\obj\Debug\runge-kutta2.0.csprojAssemblyReference.cache
+C:\Users\eMahines\source\repos\runge-kutta\runge-kutta2.0\obj\Debug\runge-kutta2.0.csproj.CopyComplete
+C:\Users\eMahines\source\repos\runge-kutta\runge-kutta2.0\obj\Debug\runge_kutta2._0.Form3.resources
+C:\Users\eMahines\source\repos\runge-kutta\runge-kutta2.0\obj\Debug\runge_kutta2._0.Form2.resources
+D:\естествознание\лаб.2\runge-kutta\runge-kutta2.0\bin\Debug\runge-kutta2.0.exe.config
+D:\естествознание\лаб.2\runge-kutta\runge-kutta2.0\bin\Debug\runge-kutta2.0.exe
+D:\естествознание\лаб.2\runge-kutta\runge-kutta2.0\bin\Debug\runge-kutta2.0.pdb
+D:\естествознание\лаб.2\runge-kutta\runge-kutta2.0\bin\Debug\ZedGraph.dll
+D:\естествознание\лаб.2\runge-kutta\runge-kutta2.0\bin\Debug\ZedGraph.xml
+D:\естествознание\лаб.2\runge-kutta\runge-kutta2.0\bin\Debug\de\ZedGraph.resources.dll
+D:\естествознание\лаб.2\runge-kutta\runge-kutta2.0\bin\Debug\es\ZedGraph.resources.dll
+D:\естествознание\лаб.2\runge-kutta\runge-kutta2.0\bin\Debug\fr\ZedGraph.resources.dll
+D:\естествознание\лаб.2\runge-kutta\runge-kutta2.0\bin\Debug\hu\ZedGraph.resources.dll
+D:\естествознание\лаб.2\runge-kutta\runge-kutta2.0\bin\Debug\it\ZedGraph.resources.dll
+D:\естествознание\лаб.2\runge-kutta\runge-kutta2.0\bin\Debug\ja\ZedGraph.resources.dll
+D:\естествознание\лаб.2\runge-kutta\runge-kutta2.0\bin\Debug\pt\ZedGraph.resources.dll
+D:\естествознание\лаб.2\runge-kutta\runge-kutta2.0\bin\Debug\ru\ZedGraph.resources.dll
+D:\естествознание\лаб.2\runge-kutta\runge-kutta2.0\bin\Debug\sk\ZedGraph.resources.dll
+D:\естествознание\лаб.2\runge-kutta\runge-kutta2.0\bin\Debug\sv\ZedGraph.resources.dll
+D:\естествознание\лаб.2\runge-kutta\runge-kutta2.0\bin\Debug\tr\ZedGraph.resources.dll
+D:\естествознание\лаб.2\runge-kutta\runge-kutta2.0\bin\Debug\zh-cn\ZedGraph.resources.dll
+D:\естествознание\лаб.2\runge-kutta\runge-kutta2.0\bin\Debug\zh-tw\ZedGraph.resources.dll
+D:\естествознание\лаб.2\runge-kutta\runge-kutta2.0\obj\Debug\runge-kutta2.0.csprojAssemblyReference.cache
+D:\естествознание\лаб.2\runge-kutta\runge-kutta2.0\obj\Debug\runge_kutta2._0.Form1.resources
+D:\естествознание\лаб.2\runge-kutta\runge-kutta2.0\obj\Debug\runge_kutta2._0.Form2.resources
+D:\естествознание\лаб.2\runge-kutta\runge-kutta2.0\obj\Debug\runge_kutta2._0.Form3.resources
+D:\естествознание\лаб.2\runge-kutta\runge-kutta2.0\obj\Debug\runge_kutta2._0.Properties.Resources.resources
+D:\естествознание\лаб.2\runge-kutta\runge-kutta2.0\obj\Debug\runge-kutta2.0.csproj.GenerateResource.cache
+D:\естествознание\лаб.2\runge-kutta\runge-kutta2.0\obj\Debug\runge-kutta2.0.csproj.CoreCompileInputs.cache
+D:\естествознание\лаб.2\runge-kutta\runge-kutta2.0\obj\Debug\runge-kutta2.0.csproj.CopyComplete
+D:\естествознание\лаб.2\runge-kutta\runge-kutta2.0\obj\Debug\runge-kutta2.0.exe
+D:\естествознание\лаб.2\runge-kutta\runge-kutta2.0\obj\Debug\runge-kutta2.0.pdb
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta2.0\bin\Debug\runge-kutta2.0.exe.config
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta2.0\bin\Debug\runge-kutta2.0.exe
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta2.0\bin\Debug\runge-kutta2.0.pdb
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta2.0\bin\Debug\ZedGraph.dll
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta2.0\bin\Debug\ZedGraph.xml
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta2.0\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta2.0\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta2.0\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta2.0\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta2.0\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta2.0\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta2.0\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta2.0\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta2.0\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta2.0\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta2.0\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta2.0\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta2.0\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta2.0\obj\Debug\runge-kutta2.0.csproj.AssemblyReference.cache
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta2.0\obj\Debug\runge_kutta2._0.Form1.resources
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta2.0\obj\Debug\runge_kutta2._0.Form2.resources
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta2.0\obj\Debug\runge_kutta2._0.Form3.resources
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta2.0\obj\Debug\runge_kutta2._0.Properties.Resources.resources
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta2.0\obj\Debug\runge-kutta2.0.csproj.GenerateResource.cache
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta2.0\obj\Debug\runge-kutta2.0.csproj.CoreCompileInputs.cache
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta2.0\obj\Debug\runge-kutta2.0.exe
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta2.0\obj\Debug\runge-kutta2.0.pdb
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\runge-kutta2.0\bin\Debug\runge-kutta2.0.exe.config
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\runge-kutta2.0\bin\Debug\runge-kutta2.0.exe
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\runge-kutta2.0\bin\Debug\runge-kutta2.0.pdb
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\runge-kutta2.0\bin\Debug\ZedGraph.dll
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\runge-kutta2.0\bin\Debug\ZedGraph.xml
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\runge-kutta2.0\bin\Debug\de\ZedGraph.resources.dll
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\runge-kutta2.0\bin\Debug\es\ZedGraph.resources.dll
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\runge-kutta2.0\bin\Debug\fr\ZedGraph.resources.dll
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\runge-kutta2.0\bin\Debug\hu\ZedGraph.resources.dll
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\runge-kutta2.0\bin\Debug\it\ZedGraph.resources.dll
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\runge-kutta2.0\bin\Debug\ja\ZedGraph.resources.dll
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\runge-kutta2.0\bin\Debug\pt\ZedGraph.resources.dll
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\runge-kutta2.0\bin\Debug\ru\ZedGraph.resources.dll
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\runge-kutta2.0\bin\Debug\sk\ZedGraph.resources.dll
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\runge-kutta2.0\bin\Debug\sv\ZedGraph.resources.dll
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\runge-kutta2.0\bin\Debug\tr\ZedGraph.resources.dll
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\runge-kutta2.0\bin\Debug\zh-cn\ZedGraph.resources.dll
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\runge-kutta2.0\bin\Debug\zh-tw\ZedGraph.resources.dll
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\runge-kutta2.0\obj\Debug\runge-kutta2.0.csproj.AssemblyReference.cache
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\runge-kutta2.0\obj\Debug\runge-kutta2.0.csproj.SuggestedBindingRedirects.cache
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\runge-kutta2.0\obj\Debug\runge_kutta2._0.Form1.resources
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\runge-kutta2.0\obj\Debug\runge_kutta2._0.Form2.resources
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\runge-kutta2.0\obj\Debug\runge_kutta2._0.Form3.resources
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\runge-kutta2.0\obj\Debug\runge_kutta2._0.Properties.Resources.resources
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\runge-kutta2.0\obj\Debug\runge-kutta2.0.csproj.GenerateResource.cache
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\runge-kutta2.0\obj\Debug\runge-kutta2.0.csproj.CoreCompileInputs.cache
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\runge-kutta2.0\obj\Debug\runge-kutta2.0.csproj.CopyComplete
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\runge-kutta2.0\obj\Debug\runge-kutta2.0.exe
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\runge-kutta2.0\obj\Debug\runge-kutta2.0.pdb

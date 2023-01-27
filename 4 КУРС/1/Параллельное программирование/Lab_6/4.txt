@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <iostream>
 #include <math.h>
 #include <mpi.h>
@@ -60,4 +61,68 @@ int main(int argc, char* argv[])
 		//printf_s(buf);
 	}
 	MPI_Finalize();
+=======
+#include <iostream>
+#include <math.h>
+#include <mpi.h>
+#include <random>
+
+using namespace std;
+
+int main(int argc, char* argv[])
+{
+	int proc_rank, proc_num;
+	const int buf_size = 100;
+	char buf[buf_size];
+	int rand_num = 0;
+	int firs_value = 0;
+	int last_value = 333;
+	MPI_Status st;
+	int oldValue;
+	MPI_Init(&argc, &argv);
+	MPI_Comm_rank(MPI_COMM_WORLD, &proc_rank);
+	MPI_Comm_size(MPI_COMM_WORLD, &proc_num);
+	//MPI_Recv(buf, buf_size, MPI_CHAR, MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &st);
+	//MPI_Send(buf, buf_size, MPI_CHAR, 0, 0, MPI_COMM_WORLD);
+	if (proc_rank == 0)
+	{
+		rand_num = firs_value + rand() % last_value;
+		cout << "generated - " << rand_num << endl << endl;
+		oldValue = rand_num;
+		//cout << proc_rank << " send to 1 num= " << rand_num << endl;
+		sprintf_s(buf, "%d", rand_num);
+		MPI_Send(buf, buf_size, MPI_CHAR, 1, 0, MPI_COMM_WORLD);
+		MPI_Recv(buf, buf_size, MPI_CHAR, (proc_num - 1), 0, MPI_COMM_WORLD, &st);
+		//cout << proc_rank << " receive " << buf << endl;
+		if (atoi(buf) - oldValue == proc_num - 1)
+		{
+			cout << "Correct!" << endl;
+		}
+		else
+		{
+			cout << "Error!" << endl;
+		}
+	}
+	else
+	{
+		MPI_Recv(buf, buf_size, MPI_CHAR, (proc_rank-1), 0, MPI_COMM_WORLD, &st);
+		cout << proc_rank << " receive " << buf << endl;
+		
+		rand_num = atoi(buf) + 1;
+		sprintf_s(buf, "%d", rand_num);
+
+		if (proc_rank == proc_num - 1)
+		{
+			//cout << proc_rank << " send to 0 num= " << rand_num << endl;
+			MPI_Send(buf, buf_size, MPI_CHAR, 0, 0, MPI_COMM_WORLD);
+		}
+		else
+		{
+			//cout << proc_rank << " send to " << proc_rank + 1 << " num= " << rand_num << endl;
+			MPI_Send(buf, buf_size, MPI_CHAR, (proc_rank + 1), 0, MPI_COMM_WORLD);
+		}
+		//printf_s(buf);
+	}
+	MPI_Finalize();
+>>>>>>> ad22ee082dac6ece8d23d5999a86f8d8c86438df
 }

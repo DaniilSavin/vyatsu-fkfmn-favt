@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "version": 2,
   "dgSpecHash": "cP/yK9UbCVtb35MSnFZwFxzBWyjxU439JL654vw6Np3tBJ+lYtaIVvkj8Jaws4Xg0WzTyXap6qOM1BVInGwVXA==",
@@ -18,4 +19,26 @@
       ]
     }
   ]
+=======
+{
+  "version": 2,
+  "dgSpecHash": "cP/yK9UbCVtb35MSnFZwFxzBWyjxU439JL654vw6Np3tBJ+lYtaIVvkj8Jaws4Xg0WzTyXap6qOM1BVInGwVXA==",
+  "success": true,
+  "projectFilePath": "D:\\ВУЗ\\4 КУРС\\1\\Методы оптимизации\\Lab_2\\2\\2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\savin\\.nuget\\packages\\zedgraph\\5.1.7\\zedgraph.5.1.7.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"ZedGraph 5.1.7\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \"net5.0-windows7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "ZedGraph",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
+>>>>>>> ad22ee082dac6ece8d23d5999a86f8d8c86438df
 }

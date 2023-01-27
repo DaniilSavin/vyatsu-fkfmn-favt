@@ -1,0 +1,90 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Lab_1
+{
+    class Program
+    {
+
+        const int n=6;
+        class Coord
+        {
+            public double X;
+            public double Y;
+            public Coord(double X, double Y)
+            {
+                this.X = X;
+                this.Y = Y;
+            }
+        }
+        class Rasst
+        {
+            public double r;
+            public int num;
+            public Rasst(double r, int num)
+            {
+                this.r = r;
+                this.num = num;
+            }
+        }
+        int []data = {1, 0, 1, 1 , 0, 1 };
+
+        static void Main(string[] args)
+        {
+            List<Coord> coords = new List<Coord>();
+            Coord s;
+            s = new Coord(3, 6);
+            coords.Add(s);
+            s = new Coord(4, 2);
+            coords.Add(s);
+            s = new Coord(5, 7);
+            coords.Add(s);
+            s = new Coord(1, 6);
+            coords.Add(s);
+            s = new Coord(6, 6);
+            coords.Add(s);
+            s = new Coord(8, 9);
+            coords.Add(s);
+
+            List<Rasst> rasst = new List<Rasst>(n);
+            //List<List<double>> rasst = new List<List<double>>();
+            double pos_X = 5;
+            double pos_Y = 3;
+            Rasst rr;
+            for (int i=0; i<n; i++)
+            {
+                rr = new Rasst (Math.Sqrt(Math.Pow(pos_X - coords[i].X, 2) + Math.Pow(pos_Y - coords[i].Y, 2)), i);
+                rasst.Add(rr);
+                
+            }
+            var result = from user in rasst
+                         orderby user.r, user.num
+                         select user;
+            double[,] final=null;
+            int k = 0;
+            foreach (Rasst u in result)
+            {
+                Console.WriteLine($"{u.r} - {u.num}");
+                
+            }
+            for 
+            /*for (int i = 0; i < n; i++)
+            {
+                Console.WriteLine(rasst[i]);
+            }*/
+            
+            
+           /* for (int i = 0; i < n; i++)
+            {
+                Console.WriteLine(rasst[i]);
+
+            }*/
+                Console.ReadLine();
+
+
+        }
+    }
+}

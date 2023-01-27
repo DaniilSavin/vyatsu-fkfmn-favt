@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 test123@domain.com
 12345
 test2@domain.com
+=======
+test123@domain.com
+12345
+test2@domain.com
+>>>>>>> ad22ee082dac6ece8d23d5999a86f8d8c86438df
 12345

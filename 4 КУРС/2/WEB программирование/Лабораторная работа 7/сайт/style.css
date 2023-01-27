@@ -1,0 +1,191 @@
+body{
+    background-color: #36393f;
+    color: #ffffff;
+    
+}
+.item{
+    background-color: rgb(115, 129, 146);
+    border-radius: 10px; 
+    margin-top: 10px;
+    width: 600px;
+    height: auto;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-family: 'Comic Sans MS';
+    font-size: 15px;
+   
+}
+#inputUserName{
+    font-family: 'Consolas';
+    font-weight: 400;
+    margin-left: 300px;
+    font-size: 18px;
+    width: 400px;
+    border-radius: 3px;
+    color: #b9bbbe;
+    height: 30px;
+    border: none;
+    background-color: #202225; 
+    margin-top: 5px;
+}
+.main{
+    width: 100%;
+    height: auto;
+
+}
+.buttons{
+    width: 60px;
+    height: 25px;
+    margin-left: 500px;
+    cursor: pointer;
+    font-family: 'Comic Sans MS';
+    text-rendering: optimizeLegibility;
+    outline: 0;
+    
+    display: flex;
+   
+    box-sizing: border-box;
+    background: none;
+    border: none;
+    border-radius: 3px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    font-size: 12px;
+    line-height: 24px;
+    color: #fff;
+    background-color: #5865f2;
+}
+
+.regForm{
+    position: absolute;
+    margin-top: -35px;
+    height: 30px;
+    width: 100px;
+}
+
+#regForm.regForm{
+    position: absolute;
+    height: 30px;
+    width: 700px;
+}
+
+.buttons:hover{
+    background-color: #4752c4;
+}
+.buttons:active{
+    background-color: #3c45a5;
+}
+
+#logout.buttons
+{
+    width: 50px;
+    height: 25px;
+    margin-left: 300px;
+}
+
+
+.left { 
+    /*position: absolute; */
+    margin-left: -260px;
+ }
+ .right { 
+    /*position: absolute;*/
+   margin-left: -260px;
+   
+    
+ } 
+
+#currentUser{
+    margin-left: 300px;
+    font-family: 'Comic Sans MS';
+    font-size: 20px;
+}
+
+.orders{
+    width: 420px;
+    margin: 280px;
+    margin-top: 10px;
+    border-radius: 10px; 
+    height: auto;
+    padding-left: 10px;
+    padding-top: 0px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-color: #202225;
+    
+    border-style: solid;
+    
+}
+
+.lg{ /*имя пользователя*/
+    
+    margin-left: 415px;
+    margin-top: 10px;
+    font-family: 'Comic Sans MS';
+    font-size: 20px;
+    padding-bottom: 0px;
+    height: 10px;
+    
+}
+.item_orders{
+    background-color: rgb(85, 85, 85);
+    border-radius: 10px; 
+    margin-top: 10px;
+    width: 400px;
+    height: auto;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    font-family: 'Comic Sans MS';
+    font-size: 15px;
+}
+
+.header{
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    padding: 5px;
+    font-family: 'Comic Sans MS';
+}
+
+#wrapper{
+    border-color: #202225;
+    border-style: solid;
+    width: 620px;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    top: 10%;
+    left: 33%;
+    
+}
+
+#logout.buttons
+{
+    margin-left: 300px;
+    font-size: 15px;
+    font-family: 'Comic Sans MS';
+    padding-left: 100px;
+    width: 250px;
+    height: 30px;
+}
+
+.ord{
+   
+    font-family: 'Comic Sans MS';
+    font-size: 20px;
+}
+
+#regUser{
+    width: 400px;
+    height: 30px;
+    padding-left: 130px;
+    font-size: 15px;
+    font-family: 'Comic Sans MS';
+    margin-left: 300px;
+    margin-top: 10px;
+
+}

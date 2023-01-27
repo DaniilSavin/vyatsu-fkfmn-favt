@@ -1,0 +1,7 @@
+var pendoDataUtil={loadPendoDataObject:function(userId,clientIPAddress,pathInfo,assnType,locale,accountId,accountName,superAccountId,sessionId){pendoData.ipAddress=clientIPAddress;if(isIDPlusEnabled&&!isCarsForIDPlus){pendoData.accessType=pathInfo;}else{pendoData.accessType=getAccessType(userId,pathInfo,assnType);}
+pendoData.loginStatus=loginStatus(pendoData.accessType);if(pendoData.loginStatus==="anonymous"){pendoData.userId="";}else{pendoData.userId=addAuthPrefix(userId.toLowerCase());}
+pendoData.language=pendoData.scopusLanguage=locale.split(/_|-/g)[0];pendoData.SCSessionID=sessionId;pendoData.accountId=addAuthPrefix(accountId.toLowerCase());pendoData.accountName=addAuthPrefix(accountName.toLowerCase());pendoData.consortiumId=addAuthPrefix(superAccountId.toLowerCase());pendoData.scopusOriginalId=addAuthPrefix(userId.toLowerCase());}}
+function addAuthPrefix(value){if(typeof value!=="undefined"&&value!=""){return"ae"+":"+value;}else{return"";}}
+function getAccessType(currentUserId,usagePath,associationType){var csasAccessType="";var usagePathInfo=usagePath.split("|");for(index=0;index<usagePathInfo.length;++index){if(usagePathInfo[index].indexOf("ACCESS_TYPE")>-1){var atSplit=usagePathInfo[index].split(",");csasAccessType=atSplit[0];}}
+return addAuthPrefix(csasAccessType.toLowerCase());}
+function loginStatus(accessType){if(accessType.toLowerCase().indexOf("anon")>-1){return"anonymous";}else{return"logged in";}}

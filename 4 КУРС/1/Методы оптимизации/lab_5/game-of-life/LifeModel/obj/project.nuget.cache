@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "version": 2,
   "dgSpecHash": "w3rFMFce95wpGuZoom37DzrQSfjBr3JZUFvK9ZvVaoq/C8JzUS0dmvCt+nfaWHPzwqTbwI0RIMjxOl7m/NW1+A==",
@@ -8,4 +9,16 @@
     "C:\\Users\\savin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
+=======
+{
+  "version": 2,
+  "dgSpecHash": "w3rFMFce95wpGuZoom37DzrQSfjBr3JZUFvK9ZvVaoq/C8JzUS0dmvCt+nfaWHPzwqTbwI0RIMjxOl7m/NW1+A==",
+  "success": true,
+  "projectFilePath": "D:\\ВУЗ\\4 КУРС\\1\\Методы оптимизации\\lab_5\\game-of-life\\LifeModel\\LifeModel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\savin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\savin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+>>>>>>> ad22ee082dac6ece8d23d5999a86f8d8c86438df
 }

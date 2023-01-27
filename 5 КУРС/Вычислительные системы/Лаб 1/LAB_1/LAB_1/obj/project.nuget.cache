@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "hnCo5rG+/AqEDIBjEHEkRHt9eg4Ae1zK7Y+MissNVllcLNwzWrnTU8SF/1wrT1tCX3Ud/AgPvpZi9cUpxpi8+Q==",
+  "success": true,
+  "projectFilePath": "D:\\ВУЗ\\ВУЗ\\5 КУРС\\Вычислительные системы\\LAB_1\\LAB_1\\LAB_1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\savin\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.22621.26\\microsoft.windows.sdk.net.ref.10.0.22621.26.nupkg.sha512"
+  ],
+  "logs": []
+}

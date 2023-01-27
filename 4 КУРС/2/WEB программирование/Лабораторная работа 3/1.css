@@ -1,0 +1,24 @@
+div.first{
+	height:300px;
+	width:66%;
+	text-align:center;
+	font-size:14px;
+	color:black;
+	background-color:#fbec5d;
+	margin-left:10px;
+	margin-top: 10px;
+	border: 1px solid black;
+ }
+ 
+ div.second{
+	height:300px;
+	width:66%;
+	text-align:center;
+	font-size:14px;
+	color:black;
+	background-color:#ffb6c1;
+	margin: 0 0 0 auto;
+	margin-top: 10px;
+	margin-right: 10px;
+	border: 1px solid black;
+ }

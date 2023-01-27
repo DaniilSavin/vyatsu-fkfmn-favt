@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 is_global = true
 build_property.ApplicationManifest = 
 build_property.StartupObject = 
@@ -7,3 +8,14 @@ build_property.ApplicationUseCompatibleTextRendering =
 build_property.ApplicationVisualStyles = 
 build_property.RootNamespace = lab3
 build_property.ProjectDir = D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab3\lab3\
+=======
+is_global = true
+build_property.ApplicationManifest = 
+build_property.StartupObject = 
+build_property.ApplicationDefaultFont = 
+build_property.ApplicationHighDpiMode = 
+build_property.ApplicationUseCompatibleTextRendering = 
+build_property.ApplicationVisualStyles = 
+build_property.RootNamespace = lab3
+build_property.ProjectDir = D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab3\lab3\
+>>>>>>> ad22ee082dac6ece8d23d5999a86f8d8c86438df

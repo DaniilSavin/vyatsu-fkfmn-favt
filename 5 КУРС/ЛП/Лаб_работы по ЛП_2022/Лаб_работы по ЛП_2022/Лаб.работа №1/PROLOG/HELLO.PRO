@@ -1,0 +1,19 @@
+predicates
+           name_like(string,string)
+goal
+     name_like(X,Y).
+clauses
+     name_like(X,Y):-
+     makewindow(1,7,7,"What you like",0,0,25,80),
+     gotowindow(1),
+     makewindow(2,112,7,"What you name",1,1,10,32),
+     shiftwindow(2),
+     write("Hi!Fuck you"),nl,
+     readln(X),
+     makewindow(3,7,7,"Me nravitsa",12,1,10,32),
+     shiftwindow(3),
+     readln(Y),
+     makewindow(4,240,135,"I know",9,33,5,45),
+     shiftwindow(4),
+     write("!  I know"),nl,
+     write(X," like ",Y,"!").

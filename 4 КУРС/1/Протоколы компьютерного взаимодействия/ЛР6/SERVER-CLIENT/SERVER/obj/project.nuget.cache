@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "version": 2,
   "dgSpecHash": "ETOFCrQRwVct4BnHmAb47S+Z2g7mczxb1q9E89wUYIefjONqJB14EaAcTfo4tAgaFSrQO2yc7fNJE4Rsd8NPTg==",
@@ -5,4 +6,13 @@
   "projectFilePath": "D:\\ВУЗ\\4 КУРС\\Протоколы компьютерного взаимодействия\\ЛР6\\SERVER-CLIENT\\SERVER\\SERVER.csproj",
   "expectedPackageFiles": [],
   "logs": []
+=======
+{
+  "version": 2,
+  "dgSpecHash": "ETOFCrQRwVct4BnHmAb47S+Z2g7mczxb1q9E89wUYIefjONqJB14EaAcTfo4tAgaFSrQO2yc7fNJE4Rsd8NPTg==",
+  "success": true,
+  "projectFilePath": "D:\\ВУЗ\\4 КУРС\\Протоколы компьютерного взаимодействия\\ЛР6\\SERVER-CLIENT\\SERVER\\SERVER.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+>>>>>>> ad22ee082dac6ece8d23d5999a86f8d8c86438df
 }

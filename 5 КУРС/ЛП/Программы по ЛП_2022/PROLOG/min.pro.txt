@@ -1,0 +1,87 @@
+domains 
+	i=integer
+predicates
+	cifra(i)
+	opred(i,i,i,i,i,i,i,i,i)
+clauses
+	cifra(0).
+	cifra(1).
+	cifra(2).
+	cifra(3).
+	cifra(4).
+	cifra(5).
+	cifra(6).
+	cifra(7).
+	cifra(8).
+	cifra(9).
+	opred(S,T,U,L,I,A,M,E,B):-
+		cifra(S),
+		cifra(T),
+		S<>T,
+		cifra(U),
+		U<>S,U<>T,
+		cifra(L),
+		L<>S,L<>T,L<>U,
+		cifra(I),
+		I<>S,I<>T,I<>U,I<>L,
+		cifra(A),
+		A<>S,A<>T,A<>U,A<>L,A<>I,
+		cifra(M),
+		M<>S,M<>T,M<>U,M<>L,M<>I,M<>A,
+		cifra(E),
+		E<>S,E<>T,E<>U,E<>L,E<>I,E<>A,E<>M,
+		cifra(B),
+		B<>S,B<>T,B<>U,B<>L,B<>I,B<>A,B<>M,B<>E,
+		S*200000+T*20000+U*2000+L*200+I*20+A*2=M*200000+E*20000+B*2000+E*200+L*20+I*2,
+		write(S,T,U,L,I,A,"+",S,T,U,L,I,A,"=",M,E,B,E,L,I),nl,
+		fail.
+ 
+goal
+	makewindow(1,14,13,"Result",0,0,25,80),
+	write("STULIA + STULIA = MEBELI"),nl,
+	opred(S,T,U,L,I,A,M,E,B).
+
+Листинг программы №2
+
+/* В заданном списке найти минимальное число. 
+   Результаты вывести в отдельных окнах: 
+     1 окно - исходный список;
+     2 окно - минимальное число.
+   list=[1,3,-7,9,-23,31,25,-26,12,18] */
+domains
+  list=integer*
+predicates
+  spisok(list)
+  vivod(list)
+  findmin(integer,list)
+goal
+  spisok(S),
+  makewindow(1,6,6,"list",0,0,5,44),
+  nl,
+  vivod(S),
+  makewindow(1,6,6,"min number",5,0,6,21),
+  findmin(32,S).
+clauses
+%**** исходный список ****
+  spisok([1,3,-7,9,-23,31,25,-26,12,18]).
+%**** процедура вывода исходного списка ****
+  vivod([]).              %условие перехода к следующей процедуре
+  vivod([Head|Tail]):-    %разделение на голову и хвост
+    write("  "),
+    write(Head),          %вывод головного числа
+    vivod(Tail).          %рекурсивный вызов
+%**** процедура вывода миномального числа ****
+  findmin(Min,[]):-
+    nl,
+    write("        "),
+    write(Min),
+    nl.
+%**** процедура нахождения миномального числа ****    
+  findmin(Min,[Head|Tail]):-
+    Head>=Min,
+    findmin(Min,Tail).
+  findmin(Min,[Head|Tail]):-
+    Head<Min,
+    _Min=Head,
+    findmin(_Min,Tail).  
+ 

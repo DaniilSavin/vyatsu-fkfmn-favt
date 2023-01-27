@@ -1,0 +1,14 @@
+C:\Users\Дмитрий\Desktop\runge-kutta\LAB6\obj\Debug\netcoreapp3.1\LAB6.csproj.AssemblyReference.cache
+C:\Users\Дмитрий\Desktop\runge-kutta\LAB6\obj\Debug\netcoreapp3.1\LAB6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Дмитрий\Desktop\runge-kutta\LAB6\obj\Debug\netcoreapp3.1\LAB6.AssemblyInfoInputs.cache
+C:\Users\Дмитрий\Desktop\runge-kutta\LAB6\obj\Debug\netcoreapp3.1\LAB6.AssemblyInfo.cs
+C:\Users\Дмитрий\Desktop\runge-kutta\LAB6\obj\Debug\netcoreapp3.1\LAB6.csproj.CoreCompileInputs.cache
+C:\Users\Дмитрий\Desktop\runge-kutta\LAB6\bin\Debug\netcoreapp3.1\LAB6.exe
+C:\Users\Дмитрий\Desktop\runge-kutta\LAB6\bin\Debug\netcoreapp3.1\LAB6.deps.json
+C:\Users\Дмитрий\Desktop\runge-kutta\LAB6\bin\Debug\netcoreapp3.1\LAB6.runtimeconfig.json
+C:\Users\Дмитрий\Desktop\runge-kutta\LAB6\bin\Debug\netcoreapp3.1\LAB6.runtimeconfig.dev.json
+C:\Users\Дмитрий\Desktop\runge-kutta\LAB6\bin\Debug\netcoreapp3.1\LAB6.dll
+C:\Users\Дмитрий\Desktop\runge-kutta\LAB6\bin\Debug\netcoreapp3.1\LAB6.pdb
+C:\Users\Дмитрий\Desktop\runge-kutta\LAB6\obj\Debug\netcoreapp3.1\LAB6.dll
+C:\Users\Дмитрий\Desktop\runge-kutta\LAB6\obj\Debug\netcoreapp3.1\LAB6.pdb
+C:\Users\Дмитрий\Desktop\runge-kutta\LAB6\obj\Debug\netcoreapp3.1\LAB6.genruntimeconfig.cache

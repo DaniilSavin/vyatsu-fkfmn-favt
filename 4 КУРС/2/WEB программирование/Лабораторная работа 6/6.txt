@@ -1,0 +1,70 @@
+
+# Задачи на математические функции PHP
+# №6
+<?php
+    $sqrt = sqrt(379);
+    echo "Округление до сотых: ", round($sqrt,2), "\nОкругление до десятых: ", round($sqrt,1), "\nОкругление до целого: ", round($sqrt);
+?>
+
+# Задачи на функции работы со строками в PHP
+# №9
+<?php
+    $str = 'html css php';
+    echo "Первое слово: ", substr($str, 0, 4), "\nВторое слово: ", substr($str, 5, 3), "\nТретье слово: ", substr($str, 9, 3);
+?>
+
+# Задачи на функции работы с массивами в PHP
+# №5
+<?php
+    $arr = [1, 2, 3, 4, 5];
+    echo "Произведение элементов массива = ", array_product($arr);
+?>
+
+# Задачи на формы в PHP
+# №1
+<form action="" method="GET">
+	<input type="text" name="name">
+	<input type="submit">
+</form>
+
+<?php
+	if (isset($_REQUEST['name'])) {
+		$name = $_REQUEST['name'];
+		echo 'Привет,'.$name;
+	}
+?>
+
+# Задачи на даты в PHP
+
+# № 7
+
+<?php
+	
+	echo date('Y-m-j'), "\n";
+
+	echo date('j.m.Y'), "\n";
+
+	echo date('j.m.y'), "\n";
+
+	echo date('H:i:s');
+
+?>
+
+# Задачи на пользовательские функции
+
+# № 2
+
+<?php
+	
+	function sum($a, $b)
+	
+	{
+		
+		return $a + $b;
+	
+	}
+	
+	
+	echo sum(4, 5);
+
+?>

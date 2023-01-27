@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -114,3 +115,121 @@ namespace ConsoleApplication1
         }
     }
 }
+=======
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApplication1
+{
+    class Program
+    {
+        public static Dictionary<string, double> dc = new Dictionary<string, double>();
+        
+        static void initDc()
+        {
+            dc.Add("_", 0.175);
+            dc.Add("î", 0.090);
+            dc.Add("¸", 0.072);
+            dc.Add("å", 0.072);
+            dc.Add("à", 0.062);
+            dc.Add("è", 0.062);
+            dc.Add("ò", 0.053);
+            dc.Add("í", 0.053);
+            dc.Add("ñ", 0.045);
+
+            dc.Add("ð", 0.040);
+            dc.Add("â", 0.038);
+            dc.Add("ë", 0.035);
+            dc.Add("ê", 0.028);
+            dc.Add("ì", 0.026);
+            dc.Add("ä", 0.025);
+            dc.Add("ï", 0.023);
+            dc.Add("ó", 0.021);
+
+            dc.Add("ÿ", 0.018);
+            dc.Add("û", 0.016);
+            dc.Add("ç", 0.016);
+            dc.Add("ü", 0.014);
+            dc.Add("ú", 0.014);
+            dc.Add("á", 0.014);
+            dc.Add("ã", 0.013);
+            dc.Add("÷", 0.012);
+            dc.Add("é", 0.010);
+
+            dc.Add("õ", 0.009);
+            dc.Add("æ", 0.007);
+            dc.Add("þ", 0.006);
+            dc.Add("ø", 0.006);
+            dc.Add("ö", 0.004);
+            dc.Add("ù", 0.003);
+            dc.Add("ý", 0.003);
+            dc.Add("ô", 0.002);
+        }
+
+
+        public static void decrypt_mess_count(string s)
+        {
+
+            string text = s;
+
+            string AlreadyDone = "";
+            string[,] Result = new string[text.Length, 2];
+            int i = 0, l = 0;
+            foreach (char ch in text)
+            {
+                i = 0;
+                foreach (char c in text)
+                {
+                    if (ch == c) i++;
+                }
+                if (AlreadyDone.Contains(ch) != true)
+                {
+                    // Console.WriteLine(ch + "  ïîâòîðÿåòñÿ " + i.ToString() + " ðàç ");
+                    Result[l, 0] = ch.ToString();//ñèìâîë
+                    Result[l, 1] = (Math.Round((double)i / s.Length, 3)).ToString();  //êîë-âî ïîâòîðîâ
+                    AlreadyDone += ch; l++;
+                }
+            }
+            for (int k = 0;k < AlreadyDone.Length; k++)
+            {
+                Console.WriteLine("{0} - {1}", Result[k, 0], Result[k, 1]);
+                
+            }
+
+            
+
+
+
+
+        }
+        
+        static void Main(string[] args)
+        {
+            initDc();
+
+            string str = "ÿ_ð÷þìæòó÷ñþ_þòæ÷_óæûüúþý÷æ÷ÿþõôó÷ð÷ÿ_ð÷þìæòó÷ûæ_þêóûð÷â_æýèîõìáðà÷ÿþòòæýýïà÷æýíîæý÷_þììðýüþûü÷_æìêðâ_þåæû÷ÿó_óãåæéóýýïó÷ìþþçùóýðö÷ð÷íóú÷ìæúïú÷ÿþúþñ÷ÿþçóòðíü÷æ_úðë÷ñîñóýþíþå÷ÿþìûó÷ÿþçóòï÷ÿ_æåðíóûüìíåþ÷â_æýèðð÷ýóìáþûüáþ÷_æõ÷ÿ_ðåûóáæûð÷óñþ÷á÷_æìêðâ_þåáó÷êðâ_þå÷ÿþìûó÷ìúó_íð÷_þììðýüþûö÷óñþ÷ìïý÷çþýæåóýíî_÷_þììðýüþûü÷æ÷ÿþõôó÷ð÷åýîá÷æýíîæý÷_þììðýüþûü÷ÿ_þòþûôðûð÷óñþ÷òóûþ÷å÷íþ÷å_óúö÷ÿ_æåðíóûüìíåþ÷â_æýèðð÷ÿ_ðåûóáæûþ÷á÷_æçþíó÷úýþôóìíåþ÷á_ðÿíþñ_æâþå÷áþíþ_ïó÷åúóìíó÷þç_æõþåïåæûð÷íæá÷ýæõïåæóúïà÷éó_ýïà÷áæçðýóí÷æýíîæýî÷_þììðýüþûë÷ÿ_ðýæòûóôðí÷òþáí_ðýæ÷ìþñûæìýþ÷áþíþ_þà÷ìíþàáþìíü÷êðâ_æ÷òþûôýæ÷þÿ_óòóûöíüìö÷åðòþú÷õæêðâ_þåæýýþà÷ðýâþ_úæèðð÷òûö÷åþóýýþñþ÷å_óúóýð÷òþìíæíþéýþà÷çîòóí÷öåûöíüìö÷ìíþàáþìíü÷óìûð÷ìþþçùóýðó÷ì÷ÿ_ðáæõþú÷æ_úóàìáþúî÷ÿþò_æõòóûóýðë÷ýó÷çîòóí÷_æìêðâ_þåæýþ÷ÿ_þíðåýðáþú÷ãþíö÷çï÷òþ÷úþúóýíæ÷ðìÿþûýóýðö÷ÿþûîéæíóûóú÷æ÷òûö÷òðÿûþúæíðéóìáþà÷ÿþéíï÷êðâ_÷òþûôóý÷þçóìÿóéðåæíü÷ìþã_æýýþìíü÷ýæ÷òóìöíáð÷ûóí";
+            decrypt_mess_count(str);
+            string []s=str.ToCharArray().Select(c => c.ToString()).ToArray();
+
+           /* string ans = "";
+            for (int i = 0; i < s.Length; i++)
+            {
+                if (dc.ContainsKey(s[i]))
+                {
+                    ans +=dc[s[i]].ToString()+" |\t";   
+                }
+            }*/
+           // Console.WriteLine(ans);
+            Console.ReadKey();
+
+            
+
+
+
+        }
+    }
+}
+>>>>>>> ad22ee082dac6ece8d23d5999a86f8d8c86438df

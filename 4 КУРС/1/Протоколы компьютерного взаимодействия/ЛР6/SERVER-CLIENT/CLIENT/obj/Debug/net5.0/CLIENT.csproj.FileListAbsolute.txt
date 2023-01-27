@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\ВУЗ\4 КУРС\Протоколы компьютерного взаимодействия\ЛР6\SERVER-CLIENT\CLIENT\bin\Debug\net5.0\CLIENT.exe
 D:\ВУЗ\4 КУРС\Протоколы компьютерного взаимодействия\ЛР6\SERVER-CLIENT\CLIENT\bin\Debug\net5.0\CLIENT.deps.json
 D:\ВУЗ\4 КУРС\Протоколы компьютерного взаимодействия\ЛР6\SERVER-CLIENT\CLIENT\bin\Debug\net5.0\CLIENT.runtimeconfig.json
@@ -14,3 +15,21 @@ D:\ВУЗ\4 КУРС\Протоколы компьютерного взаимо�
 D:\ВУЗ\4 КУРС\Протоколы компьютерного взаимодействия\ЛР6\SERVER-CLIENT\CLIENT\obj\Debug\net5.0\ref\CLIENT.dll
 D:\ВУЗ\4 КУРС\Протоколы компьютерного взаимодействия\ЛР6\SERVER-CLIENT\CLIENT\obj\Debug\net5.0\CLIENT.pdb
 D:\ВУЗ\4 КУРС\Протоколы компьютерного взаимодействия\ЛР6\SERVER-CLIENT\CLIENT\obj\Debug\net5.0\CLIENT.genruntimeconfig.cache
+=======
+D:\ВУЗ\4 КУРС\Протоколы компьютерного взаимодействия\ЛР6\SERVER-CLIENT\CLIENT\bin\Debug\net5.0\CLIENT.exe
+D:\ВУЗ\4 КУРС\Протоколы компьютерного взаимодействия\ЛР6\SERVER-CLIENT\CLIENT\bin\Debug\net5.0\CLIENT.deps.json
+D:\ВУЗ\4 КУРС\Протоколы компьютерного взаимодействия\ЛР6\SERVER-CLIENT\CLIENT\bin\Debug\net5.0\CLIENT.runtimeconfig.json
+D:\ВУЗ\4 КУРС\Протоколы компьютерного взаимодействия\ЛР6\SERVER-CLIENT\CLIENT\bin\Debug\net5.0\CLIENT.runtimeconfig.dev.json
+D:\ВУЗ\4 КУРС\Протоколы компьютерного взаимодействия\ЛР6\SERVER-CLIENT\CLIENT\bin\Debug\net5.0\CLIENT.dll
+D:\ВУЗ\4 КУРС\Протоколы компьютерного взаимодействия\ЛР6\SERVER-CLIENT\CLIENT\bin\Debug\net5.0\ref\CLIENT.dll
+D:\ВУЗ\4 КУРС\Протоколы компьютерного взаимодействия\ЛР6\SERVER-CLIENT\CLIENT\bin\Debug\net5.0\CLIENT.pdb
+D:\ВУЗ\4 КУРС\Протоколы компьютерного взаимодействия\ЛР6\SERVER-CLIENT\CLIENT\obj\Debug\net5.0\CLIENT.csproj.AssemblyReference.cache
+D:\ВУЗ\4 КУРС\Протоколы компьютерного взаимодействия\ЛР6\SERVER-CLIENT\CLIENT\obj\Debug\net5.0\CLIENT.GeneratedMSBuildEditorConfig.editorconfig
+D:\ВУЗ\4 КУРС\Протоколы компьютерного взаимодействия\ЛР6\SERVER-CLIENT\CLIENT\obj\Debug\net5.0\CLIENT.AssemblyInfoInputs.cache
+D:\ВУЗ\4 КУРС\Протоколы компьютерного взаимодействия\ЛР6\SERVER-CLIENT\CLIENT\obj\Debug\net5.0\CLIENT.AssemblyInfo.cs
+D:\ВУЗ\4 КУРС\Протоколы компьютерного взаимодействия\ЛР6\SERVER-CLIENT\CLIENT\obj\Debug\net5.0\CLIENT.csproj.CoreCompileInputs.cache
+D:\ВУЗ\4 КУРС\Протоколы компьютерного взаимодействия\ЛР6\SERVER-CLIENT\CLIENT\obj\Debug\net5.0\CLIENT.dll
+D:\ВУЗ\4 КУРС\Протоколы компьютерного взаимодействия\ЛР6\SERVER-CLIENT\CLIENT\obj\Debug\net5.0\ref\CLIENT.dll
+D:\ВУЗ\4 КУРС\Протоколы компьютерного взаимодействия\ЛР6\SERVER-CLIENT\CLIENT\obj\Debug\net5.0\CLIENT.pdb
+D:\ВУЗ\4 КУРС\Протоколы компьютерного взаимодействия\ЛР6\SERVER-CLIENT\CLIENT\obj\Debug\net5.0\CLIENT.genruntimeconfig.cache
+>>>>>>> ad22ee082dac6ece8d23d5999a86f8d8c86438df

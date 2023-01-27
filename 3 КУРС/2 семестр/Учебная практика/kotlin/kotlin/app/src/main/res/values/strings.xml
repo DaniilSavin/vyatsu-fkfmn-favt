@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VoiceAssistant</string>
+    <string name="InputText">Задайте вопрос</string>
+    <string name="sendText">Отправить</string>
+    <string name = "answer" >Вопрос понял. Думаю..."</string>
+    <string name="day_settings">Дневная тема</string>
+    <string name="night_settings">Ночная тема</string>
+    <string name="clear_dialog_item">Очистить диалог</string>
+</resources>

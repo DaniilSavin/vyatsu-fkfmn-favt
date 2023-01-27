@@ -1,0 +1,14 @@
+C:\Users\Дмитрий\Desktop\runge-kutta\runge_kutta\bin\Debug\netcoreapp3.1\runge_kutta.exe
+C:\Users\Дмитрий\Desktop\runge-kutta\runge_kutta\bin\Debug\netcoreapp3.1\runge_kutta.deps.json
+C:\Users\Дмитрий\Desktop\runge-kutta\runge_kutta\bin\Debug\netcoreapp3.1\runge_kutta.runtimeconfig.json
+C:\Users\Дмитрий\Desktop\runge-kutta\runge_kutta\bin\Debug\netcoreapp3.1\runge_kutta.runtimeconfig.dev.json
+C:\Users\Дмитрий\Desktop\runge-kutta\runge_kutta\bin\Debug\netcoreapp3.1\runge_kutta.dll
+C:\Users\Дмитрий\Desktop\runge-kutta\runge_kutta\bin\Debug\netcoreapp3.1\runge_kutta.pdb
+C:\Users\Дмитрий\Desktop\runge-kutta\runge_kutta\obj\Debug\netcoreapp3.1\runge_kutta.csproj.AssemblyReference.cache
+C:\Users\Дмитрий\Desktop\runge-kutta\runge_kutta\obj\Debug\netcoreapp3.1\runge_kutta.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Дмитрий\Desktop\runge-kutta\runge_kutta\obj\Debug\netcoreapp3.1\runge_kutta.AssemblyInfoInputs.cache
+C:\Users\Дмитрий\Desktop\runge-kutta\runge_kutta\obj\Debug\netcoreapp3.1\runge_kutta.AssemblyInfo.cs
+C:\Users\Дмитрий\Desktop\runge-kutta\runge_kutta\obj\Debug\netcoreapp3.1\runge_kutta.csproj.CoreCompileInputs.cache
+C:\Users\Дмитрий\Desktop\runge-kutta\runge_kutta\obj\Debug\netcoreapp3.1\runge_kutta.dll
+C:\Users\Дмитрий\Desktop\runge-kutta\runge_kutta\obj\Debug\netcoreapp3.1\runge_kutta.pdb
+C:\Users\Дмитрий\Desktop\runge-kutta\runge_kutta\obj\Debug\netcoreapp3.1\runge_kutta.genruntimeconfig.cache

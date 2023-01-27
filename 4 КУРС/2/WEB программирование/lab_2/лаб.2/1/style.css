@@ -1,0 +1,12 @@
+	body {background-color: #c5ffa0}
+	p{color:green}
+	.colortext {color:red; margin: 20px}
+	#main {color:blue;}
+	h1{font-weight: bold; font-family: Calibri; width: 300px; padding: 10px; margin: auto}
+	div[student="yes"] {background-image: url("https://images.pexels.com/photos/2478248/pexels-photo-2478248.jpeg");}
+	div{width: 300px; height: 300px;}
+	div > div {width: 150px; height: 150px; background-color: lightblue;}
+	a:link { color: blue; }          
+	a:visited { color: purple; }     
+	a:hover { background: yellow; }  
+	a:active { color: red; }         

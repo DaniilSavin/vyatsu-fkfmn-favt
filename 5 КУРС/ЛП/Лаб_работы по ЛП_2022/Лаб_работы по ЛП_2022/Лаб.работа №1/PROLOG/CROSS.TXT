@@ -1,0 +1,46 @@
+predicates
+      slovo(string,char,char,char).
+      slovo(string,char,char,char,char).
+      slovo(string,char,char,char,char,char).
+      slovo(string,char,char,char,char,char,char).
+      crossword.
+
+goal      crossword.
+clauses
+
+        crossword:-
+        makewindow(1,7,1,"ddd",5,10,15,30),
+        gotowindow(1),
+
+        write("  Введите ключевое слово: "),
+
+
+        readchar(A),write(A),
+        readchar(B),write(B),
+        readchar(C),write(C),
+        readchar(D),write(D),
+        readchar(E),write(E),
+        slovo(W1,A,_,_,_),
+        slovo(W2,D,_,_,X),
+        slovo(W3,X,_,Y,_,_,_),
+        slovo(W4,Y,_,_),
+        makewindow(2,7,1,"Ответ",6,11,16,31),
+        shiftwindow(2),
+        write("  По горизонтали: "),nl,
+        write(A),write(B),write(C),write(D),write(E),nl,
+        write(W3),nl,nl,
+
+        write("  По вертикали: "),nl,
+        write(W1),nl,
+        write(W2),nl,
+        write(W4).
+
+        /* база данных */
+      slovo("ТОПОЛЬ",'Т','О','П','О','Л','Ь').
+      slovo("ТОПОР",'Т','О','П','О','Р').
+      slovo("ЗМЕЯ",'З','М','Е','Я').
+      slovo("ЛИСТ",'Л','И','С','Т').
+      slovo("ЗВУК",'З','В','У','К').
+      slovo("ПОЛ",'П','О','Л').
+      slovo("ПУЛ",'П','У','Л').
+

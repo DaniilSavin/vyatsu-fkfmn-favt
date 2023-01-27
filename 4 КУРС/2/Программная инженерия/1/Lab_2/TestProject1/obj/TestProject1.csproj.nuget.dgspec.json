@@ -1,0 +1,103 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\ВУЗ\\4 КУРС\\2\\Программная инженерия\\1\\Lab_2\\TestProject1\\TestProject1.csproj": {}
+  },
+  "projects": {
+    "D:\\ВУЗ\\4 КУРС\\2\\Программная инженерия\\1\\Lab_2\\ClassLibrary\\ClassLibrary.csproj": {
+      "restore": {
+        "projectUniqueName": "D:\\ВУЗ\\4 КУРС\\2\\Программная инженерия\\1\\Lab_2\\ClassLibrary\\ClassLibrary.csproj",
+        "projectName": "ClassLibrary",
+        "projectPath": "D:\\ВУЗ\\4 КУРС\\2\\Программная инженерия\\1\\Lab_2\\ClassLibrary\\ClassLibrary.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
+    "D:\\ВУЗ\\4 КУРС\\2\\Программная инженерия\\1\\Lab_2\\TestProject1\\TestProject1.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ВУЗ\\4 КУРС\\2\\Программная инженерия\\1\\Lab_2\\TestProject1\\TestProject1.csproj",
+        "projectName": "TestProject1",
+        "projectPath": "D:\\ВУЗ\\4 КУРС\\2\\Программная инженерия\\1\\Lab_2\\TestProject1\\TestProject1.csproj",
+        "packagesPath": "C:\\Users\\savin\\.nuget\\packages\\",
+        "outputPath": "D:\\ВУЗ\\4 КУРС\\2\\Программная инженерия\\1\\Lab_2\\TestProject1\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\savin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\ВУЗ\\4 КУРС\\2\\Программная инженерия\\1\\Lab_2\\ClassLibrary\\ClassLibrary.csproj": {
+                "projectPath": "D:\\ВУЗ\\4 КУРС\\2\\Программная инженерия\\1\\Lab_2\\ClassLibrary\\ClassLibrary.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

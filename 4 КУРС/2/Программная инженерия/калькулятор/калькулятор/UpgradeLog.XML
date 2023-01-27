@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="laba_2">
+</Property><Property Name="Файл решения" Value="D:\Work\СПКТ\laba_2\laba_2.sln">
+</Property><Property Name="Файл параметров пользователя" Value="D:\Work\СПКТ\laba_2\laba_2.suo">
+</Property><Property Name="Date" Value="13 марта 2015 г.">
+</Property><Property Name="Time" Value="17:40">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="laba_2.sln" Description="Успешно создана резервная копия файла D:\Work\СПКТ\laba_2\laba_2.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="laba_2.suo" Description="Успешно создана резервная копия файла D:\Work\СПКТ\laba_2\laba_2.suo.old">
+</Event><Event ErrorLevel="0" Project="laba_2" Source="laba_2\laba_2.vcproj" Description="Converting project file 'D:\Work\СПКТ\laba_2\laba_2\laba_2.vcproj'.">
+</Event><Event ErrorLevel="1" Project="laba_2" Source="laba_2\laba_2.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="laba_2" Source="laba_2\laba_2.vcproj" Description="Attribute 'CopyLocalDependencies' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="laba_2" Source="laba_2\laba_2.vcproj" Description="Attribute 'UseDependenciesInBuild' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="laba_2" Source="laba_2\laba_2.vcproj" Description="Attribute 'CopyLocalDependencies' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="laba_2" Source="laba_2\laba_2.vcproj" Description="Attribute 'UseDependenciesInBuild' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="laba_2" Source="laba_2\laba_2.vcproj" Description="Attribute 'CopyLocalDependencies' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="laba_2" Source="laba_2\laba_2.vcproj" Description="Attribute 'UseDependenciesInBuild' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="laba_2" Source="laba_2\laba_2.vcproj" Description="Attribute 'CopyLocalDependencies' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="laba_2" Source="laba_2\laba_2.vcproj" Description="Attribute 'UseDependenciesInBuild' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="laba_2" Source="laba_2\laba_2.vcproj" Description="Attribute 'CopyLocalDependencies' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="1" Project="laba_2" Source="laba_2\laba_2.vcproj" Description="Attribute 'UseDependenciesInBuild' of 'AssemblyReference' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="0" Project="laba_2" Source="laba_2\laba_2.vcproj" Description="Done converting to new project file 'D:\Work\СПКТ\laba_2\laba_2\laba_2.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="laba_2" Source="laba_2\laba_2.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="laba_2.sln" Description="Преобразование решения успешно завершено">
+</Event><Event ErrorLevel="3" Project="" Source="laba_2.sln" Description="Converted">
+</Event></UpgradeLog>

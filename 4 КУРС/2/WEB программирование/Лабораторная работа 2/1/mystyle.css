@@ -1,0 +1,51 @@
+p{ color: green; }
+.colortext{color: red; margin: 20px;}
+#main {color: blue; padding-left: 20px; }
+h1{
+	font-weight: bold;
+	font-family: Comic Sans MS;
+	width: 300px;
+	padding: 10px;
+	margin: auto;
+}
+body {background-color: #FFDDFF;}
+div[student="yes"] {background-image: url("https://i.imgur.com/TLYVVou.jpeg");}
+div{width: 300px; height: 300px;}
+div > div{width: 150px; height: 150px; background-color: lightblue;}
+a {
+   display: inline-block;
+   text-decoration: none;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   margin: 15px 25px;
+   padding: 15px 20px;
+   font-size: 20px;
+   font-weight: bold;
+   font-family: 'Montserrat', sans-serif;
+   transition: 0.4s ease-in-out;
+}
+a {
+   color: black;
+   border-radius: 25px;
+   border: 3px solid black;
+}
+a:hover {
+   color: #BDB9AB;
+   background: black;
+   border-left: 15px solid purple;
+    border-bottom: 15px solid purple;
+}
+a span {
+   opacity: 0;
+   padding-left: 5px;
+   padding-right: 5px;
+   font-weight: bold;
+   transition: 0.4s ease-in-out;
+}
+a:hover span {
+   opacity: 1;
+   padding-left: 10px;
+   padding-right: 10px;
+   color: black;
+}
+a:visited {color: red;}

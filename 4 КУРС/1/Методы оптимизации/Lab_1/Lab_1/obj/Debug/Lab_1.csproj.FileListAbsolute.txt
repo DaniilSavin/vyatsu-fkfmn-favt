@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\ВУЗ\4 КУРС\Методы оптимизации\Lab_1\Lab_1\bin\Debug\Lab_1.exe.config
 D:\ВУЗ\4 КУРС\Методы оптимизации\Lab_1\Lab_1\bin\Debug\Lab_1.exe
 D:\ВУЗ\4 КУРС\Методы оптимизации\Lab_1\Lab_1\bin\Debug\Lab_1.pdb
@@ -9,3 +10,16 @@ D:\ВУЗ\4 КУРС\Методы оптимизации\Lab_1\Lab_1\obj\Debug\L
 D:\ВУЗ\4 КУРС\Методы оптимизации\Lab_1\Lab_1\obj\Debug\Lab_1.csproj.CoreCompileInputs.cache
 D:\ВУЗ\4 КУРС\Методы оптимизации\Lab_1\Lab_1\obj\Debug\Lab_1.exe
 D:\ВУЗ\4 КУРС\Методы оптимизации\Lab_1\Lab_1\obj\Debug\Lab_1.pdb
+=======
+D:\ВУЗ\4 КУРС\Методы оптимизации\Lab_1\Lab_1\bin\Debug\Lab_1.exe.config
+D:\ВУЗ\4 КУРС\Методы оптимизации\Lab_1\Lab_1\bin\Debug\Lab_1.exe
+D:\ВУЗ\4 КУРС\Методы оптимизации\Lab_1\Lab_1\bin\Debug\Lab_1.pdb
+D:\ВУЗ\4 КУРС\Методы оптимизации\Lab_1\Lab_1\obj\Debug\Lab_1.csproj.AssemblyReference.cache
+D:\ВУЗ\4 КУРС\Методы оптимизации\Lab_1\Lab_1\obj\Debug\Lab_1.csproj.SuggestedBindingRedirects.cache
+D:\ВУЗ\4 КУРС\Методы оптимизации\Lab_1\Lab_1\obj\Debug\Lab_1.Form1.resources
+D:\ВУЗ\4 КУРС\Методы оптимизации\Lab_1\Lab_1\obj\Debug\Lab_1.Properties.Resources.resources
+D:\ВУЗ\4 КУРС\Методы оптимизации\Lab_1\Lab_1\obj\Debug\Lab_1.csproj.GenerateResource.cache
+D:\ВУЗ\4 КУРС\Методы оптимизации\Lab_1\Lab_1\obj\Debug\Lab_1.csproj.CoreCompileInputs.cache
+D:\ВУЗ\4 КУРС\Методы оптимизации\Lab_1\Lab_1\obj\Debug\Lab_1.exe
+D:\ВУЗ\4 КУРС\Методы оптимизации\Lab_1\Lab_1\obj\Debug\Lab_1.pdb
+>>>>>>> ad22ee082dac6ece8d23d5999a86f8d8c86438df

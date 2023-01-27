@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="current">RU</string>
+    <string name="sendButton">Отправить</string>
+    <string name="hint">Задайте вопрос</string>
+    <string name="answer">Вопрос понял. Думаю…</string>
+    <string name="userName">Пользователь</string>
+    <string name="assistantName">Ассистент</string>
+</resources>

@@ -1,0 +1,28 @@
+C:\Users\Дмитрий\Desktop\runge-kutta\lab3\bin\Debug\netcoreapp3.1\lab3.exe
+C:\Users\Дмитрий\Desktop\runge-kutta\lab3\bin\Debug\netcoreapp3.1\lab3.deps.json
+C:\Users\Дмитрий\Desktop\runge-kutta\lab3\bin\Debug\netcoreapp3.1\lab3.runtimeconfig.json
+C:\Users\Дмитрий\Desktop\runge-kutta\lab3\bin\Debug\netcoreapp3.1\lab3.runtimeconfig.dev.json
+C:\Users\Дмитрий\Desktop\runge-kutta\lab3\bin\Debug\netcoreapp3.1\lab3.dll
+C:\Users\Дмитрий\Desktop\runge-kutta\lab3\bin\Debug\netcoreapp3.1\lab3.pdb
+C:\Users\Дмитрий\Desktop\runge-kutta\lab3\obj\Debug\netcoreapp3.1\lab3.csproj.AssemblyReference.cache
+C:\Users\Дмитрий\Desktop\runge-kutta\lab3\obj\Debug\netcoreapp3.1\lab3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Дмитрий\Desktop\runge-kutta\lab3\obj\Debug\netcoreapp3.1\lab3.AssemblyInfoInputs.cache
+C:\Users\Дмитрий\Desktop\runge-kutta\lab3\obj\Debug\netcoreapp3.1\lab3.AssemblyInfo.cs
+C:\Users\Дмитрий\Desktop\runge-kutta\lab3\obj\Debug\netcoreapp3.1\lab3.csproj.CoreCompileInputs.cache
+C:\Users\Дмитрий\Desktop\runge-kutta\lab3\obj\Debug\netcoreapp3.1\lab3.dll
+C:\Users\Дмитрий\Desktop\runge-kutta\lab3\obj\Debug\netcoreapp3.1\lab3.pdb
+C:\Users\Дмитрий\Desktop\runge-kutta\lab3\obj\Debug\netcoreapp3.1\lab3.genruntimeconfig.cache
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\lab3\bin\Debug\netcoreapp3.1\lab3.exe
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\lab3\bin\Debug\netcoreapp3.1\lab3.deps.json
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\lab3\bin\Debug\netcoreapp3.1\lab3.runtimeconfig.json
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\lab3\bin\Debug\netcoreapp3.1\lab3.runtimeconfig.dev.json
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\lab3\bin\Debug\netcoreapp3.1\lab3.dll
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\lab3\bin\Debug\netcoreapp3.1\lab3.pdb
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\lab3\obj\Debug\netcoreapp3.1\lab3.csproj.AssemblyReference.cache
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\lab3\obj\Debug\netcoreapp3.1\lab3.GeneratedMSBuildEditorConfig.editorconfig
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\lab3\obj\Debug\netcoreapp3.1\lab3.AssemblyInfoInputs.cache
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\lab3\obj\Debug\netcoreapp3.1\lab3.AssemblyInfo.cs
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\lab3\obj\Debug\netcoreapp3.1\lab3.csproj.CoreCompileInputs.cache
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\lab3\obj\Debug\netcoreapp3.1\lab3.dll
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\lab3\obj\Debug\netcoreapp3.1\lab3.pdb
+D:\ВУЗ\4 КУРС\1\runge-kutta\runge-kutta\lab3\obj\Debug\netcoreapp3.1\lab3.genruntimeconfig.cache

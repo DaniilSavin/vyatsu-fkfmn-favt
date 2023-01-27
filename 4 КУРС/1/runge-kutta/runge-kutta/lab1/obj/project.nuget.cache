@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "LNqmbHhMVH4Dt3x/fclhMxFY8IzwU5l9cqRLj+wHm+QndL0lHkwgJ33HBQkgndx0c1AxDzEUtcmyqD4zb5RHOg==",
+  "success": true,
+  "projectFilePath": "E:\\vyatsu-fkfmn-favt\\4 КУРС\\1\\runge-kutta\\runge-kutta\\lab1\\lab1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\savin\\.nuget\\packages\\zedgraph\\5.1.7\\zedgraph.5.1.7.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"ZedGraph 5.1.7\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1\", а не целевой платформы проекта \".NETCoreApp,Version=v3.1\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "ZedGraph",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

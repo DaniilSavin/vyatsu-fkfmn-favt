@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <iostream>
 #include <cmath>
 #include <mpi.h>
@@ -91,4 +92,99 @@ int main(int argc, char* argv[])
 	delete[] y;
 	delete[] z;
 	delete[] sum;
+=======
+#include <iostream>
+#include <cmath>
+#include <mpi.h>
+using namespace std;
+
+int proc_rank, proc_num;
+
+int* Create1(int n)
+{
+	int* x = new int[n * n];
+	for (int i = 0; i < n; i++)
+	{
+		for (int j = 0; j < n; j++)
+		{
+			x[i * n + j] = 1;
+		}
+	}
+	return x;
+}
+
+int* Create2(int n)
+{
+	int* x = new int[n];
+	for (int i = 0; i < n; i++)
+	{
+		x[i] = 1;
+	}
+	return x;
+}
+
+int main(int argc, char* argv[])
+{
+	const int buf_size = 1;
+	int n = 10000;
+
+	int* x = new int[1], * y = new int[n], * z;
+	double start, end, diff;
+	MPI_Init(&argc, &argv);
+	MPI_Comm_rank(MPI_COMM_WORLD, &proc_rank);
+	MPI_Comm_size(MPI_COMM_WORLD, &proc_num);
+	if (proc_rank == 0)
+	{
+		delete[] x;
+		delete[] y;
+		x = Create1(n);
+		y = Create2(n);
+		start = MPI_Wtime();
+	}
+
+	int* countsx = new int[proc_num];
+	int* countsrx1 = new int[proc_num];
+	double k = (double)n / proc_num;
+	int k1 = (int)k;
+	if (n % proc_num != 0)
+		k1 = n / proc_num + 1;
+	for (int i = 0; i < proc_num; i++)
+	{
+		countsx[i] = min((int)((n - k1 * i) * n), (int)(k1 * n));
+		countsrx1[i] = i * n * k1;
+	}
+	int* countsy = new int[proc_num];
+	int* countsry1 = new int[proc_num];
+	for (int i = 0; i < proc_num; i++)
+	{
+		countsy[i] = min((int)((n - k1 * i)), (int)(k1));
+		countsry1[i] = i * k1;
+	}
+
+	int* x1 = new int[countsx[proc_rank]];
+	MPI_Scatterv(x, countsx, countsrx1, MPI_INTEGER, x1, countsx[proc_rank], MPI_INTEGER, 0, MPI_COMM_WORLD);
+	MPI_Bcast(y, n, MPI_INTEGER, 0, MPI_COMM_WORLD);
+	int* sum = new int[countsy[proc_rank]];
+	for (int i = 0; i < countsy[proc_rank]; i++)
+	{
+		sum[i] = 0;
+		for (int j = 0; j < n; j++) {
+			sum[i] += x1[i * n + j] * y[j];
+		}
+	}
+	z = new int[n];
+	MPI_Gatherv(sum, countsy[proc_rank], MPI_INTEGER, z, countsy, countsry1, MPI_INTEGER, 0, MPI_COMM_WORLD);
+	if (proc_rank == 0)
+	{
+		end = MPI_Wtime();
+		diff = end - start;
+		cout << diff << endl;
+	}
+	MPI_Finalize();
+	delete[] x;
+	delete[] x1;
+	delete[] y;
+	delete[] z;
+	delete[] sum;
+>>>>>>> ad22ee082dac6ece8d23d5999a86f8d8c86438df
 }

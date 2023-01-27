@@ -1,0 +1,21 @@
+
+EE 4524:
+
+A Lisp book is available on the Web.
+The book is Common Lisp:  The Language, 2nd Ed., by Guy Steele,
+and it is supposed to be complete.  (This is the same textbook
+that the library is trying to put on reserve for us.)
+
+The url is http://www.cs.cmu.edu/Web/Groups/AI/html/cltl/clm/clm.html.
+From there, click on Contents, and then select the section you wish to read.
+For example, section 6.2.2 describes the predicates that we discussed
+in class this morning.  Unfortunately, I have not found a Lisp tutorial 
+in this book.
+
+I suggest that you use my class transpariencies as a tutorial introducion;
+refer to Steele's book when you need more specifics
+concerning the Common Lisp language; then refer to the xlisp manual
+when you need help specific to our Lisp interpreter.
+
+Happy LISPing!
+-ala

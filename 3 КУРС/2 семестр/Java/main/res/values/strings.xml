@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false">VoiceAssistent</string>
+    <string name="current">RU</string>
+    <string name="sendButton">Отправить</string>
+    <string name="userName">Пользователь</string>
+    <string name="assistantName">Ассистент</string>
+    <string name="hint">Задайте вопрос</string>
+    <string name="answer">Вопрос понял. Думаю…</string>
+</resources>

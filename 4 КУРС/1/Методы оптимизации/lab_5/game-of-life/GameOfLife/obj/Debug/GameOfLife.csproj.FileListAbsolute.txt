@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 C:\Users\class\Desktop\Csharp-Data-Visualization-master\examples\drawing\game-of-life\GameOfLife\bin\Debug\GameOfLife.exe.config
 C:\Users\class\Desktop\Csharp-Data-Visualization-master\examples\drawing\game-of-life\GameOfLife\bin\Debug\GameOfLife.exe
 C:\Users\class\Desktop\Csharp-Data-Visualization-master\examples\drawing\game-of-life\GameOfLife\bin\Debug\GameOfLife.pdb
@@ -51,3 +52,58 @@ D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab_5\game-of-life\Ga
 D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab_5\game-of-life\GameOfLife\obj\Debug\GameOfLife.csproj.CopyComplete
 D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab_5\game-of-life\GameOfLife\obj\Debug\GameOfLife.exe
 D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab_5\game-of-life\GameOfLife\obj\Debug\GameOfLife.pdb
+=======
+C:\Users\class\Desktop\Csharp-Data-Visualization-master\examples\drawing\game-of-life\GameOfLife\bin\Debug\GameOfLife.exe.config
+C:\Users\class\Desktop\Csharp-Data-Visualization-master\examples\drawing\game-of-life\GameOfLife\bin\Debug\GameOfLife.exe
+C:\Users\class\Desktop\Csharp-Data-Visualization-master\examples\drawing\game-of-life\GameOfLife\bin\Debug\GameOfLife.pdb
+C:\Users\class\Desktop\Csharp-Data-Visualization-master\examples\drawing\game-of-life\GameOfLife\bin\Debug\LifeModel.dll
+C:\Users\class\Desktop\Csharp-Data-Visualization-master\examples\drawing\game-of-life\GameOfLife\bin\Debug\LifeModel.pdb
+C:\Users\class\Desktop\Csharp-Data-Visualization-master\examples\drawing\game-of-life\GameOfLife\obj\Debug\GameOfLife.csprojAssemblyReference.cache
+C:\Users\class\Desktop\Csharp-Data-Visualization-master\examples\drawing\game-of-life\GameOfLife\obj\Debug\GameOfLife.Form1.resources
+C:\Users\class\Desktop\Csharp-Data-Visualization-master\examples\drawing\game-of-life\GameOfLife\obj\Debug\GameOfLife.Properties.Resources.resources
+C:\Users\class\Desktop\Csharp-Data-Visualization-master\examples\drawing\game-of-life\GameOfLife\obj\Debug\GameOfLife.csproj.GenerateResource.cache
+C:\Users\class\Desktop\Csharp-Data-Visualization-master\examples\drawing\game-of-life\GameOfLife\obj\Debug\GameOfLife.csproj.CoreCompileInputs.cache
+C:\Users\class\Desktop\Csharp-Data-Visualization-master\examples\drawing\game-of-life\GameOfLife\obj\Debug\GameOfLife.csproj.CopyComplete
+C:\Users\class\Desktop\Csharp-Data-Visualization-master\examples\drawing\game-of-life\GameOfLife\obj\Debug\GameOfLife.exe
+C:\Users\class\Desktop\Csharp-Data-Visualization-master\examples\drawing\game-of-life\GameOfLife\obj\Debug\GameOfLife.pdb
+D:\Учеба\4\Математические модели в естествознании и методы их исследования\game-of-life\GameOfLife\bin\Debug\GameOfLife.exe.config
+D:\Учеба\4\Математические модели в естествознании и методы их исследования\game-of-life\GameOfLife\bin\Debug\GameOfLife.exe
+D:\Учеба\4\Математические модели в естествознании и методы их исследования\game-of-life\GameOfLife\bin\Debug\GameOfLife.pdb
+D:\Учеба\4\Математические модели в естествознании и методы их исследования\game-of-life\GameOfLife\bin\Debug\LifeModel.dll
+D:\Учеба\4\Математические модели в естествознании и методы их исследования\game-of-life\GameOfLife\bin\Debug\LifeModel.pdb
+D:\Учеба\4\Математические модели в естествознании и методы их исследования\game-of-life\GameOfLife\obj\Debug\GameOfLife.csprojAssemblyReference.cache
+D:\Учеба\4\Математические модели в естествознании и методы их исследования\game-of-life\GameOfLife\obj\Debug\GameOfLife.Form1.resources
+D:\Учеба\4\Математические модели в естествознании и методы их исследования\game-of-life\GameOfLife\obj\Debug\GameOfLife.Properties.Resources.resources
+D:\Учеба\4\Математические модели в естествознании и методы их исследования\game-of-life\GameOfLife\obj\Debug\GameOfLife.csproj.GenerateResource.cache
+D:\Учеба\4\Математические модели в естествознании и методы их исследования\game-of-life\GameOfLife\obj\Debug\GameOfLife.csproj.CoreCompileInputs.cache
+D:\Учеба\4\Математические модели в естествознании и методы их исследования\game-of-life\GameOfLife\obj\Debug\GameOfLife.csproj.CopyComplete
+D:\Учеба\4\Математические модели в естествознании и методы их исследования\game-of-life\GameOfLife\obj\Debug\GameOfLife.exe
+D:\Учеба\4\Математические модели в естествознании и методы их исследования\game-of-life\GameOfLife\obj\Debug\GameOfLife.pdb
+F:\естествознание\лаб.5\game-of-life\GameOfLife\bin\Debug\GameOfLife.exe.config
+F:\естествознание\лаб.5\game-of-life\GameOfLife\bin\Debug\GameOfLife.exe
+F:\естествознание\лаб.5\game-of-life\GameOfLife\bin\Debug\GameOfLife.pdb
+F:\естествознание\лаб.5\game-of-life\GameOfLife\bin\Debug\LifeModel.dll
+F:\естествознание\лаб.5\game-of-life\GameOfLife\bin\Debug\LifeModel.pdb
+F:\естествознание\лаб.5\game-of-life\GameOfLife\obj\Debug\GameOfLife.csproj.AssemblyReference.cache
+F:\естествознание\лаб.5\game-of-life\GameOfLife\obj\Debug\GameOfLife.Form1.resources
+F:\естествознание\лаб.5\game-of-life\GameOfLife\obj\Debug\GameOfLife.Properties.Resources.resources
+F:\естествознание\лаб.5\game-of-life\GameOfLife\obj\Debug\GameOfLife.csproj.GenerateResource.cache
+F:\естествознание\лаб.5\game-of-life\GameOfLife\obj\Debug\GameOfLife.csproj.CoreCompileInputs.cache
+F:\естествознание\лаб.5\game-of-life\GameOfLife\obj\Debug\GameOfLife.exe
+F:\естествознание\лаб.5\game-of-life\GameOfLife\obj\Debug\GameOfLife.pdb
+F:\естествознание\лаб.5\game-of-life\GameOfLife\obj\Debug\GameOfLife.csproj.CopyComplete
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab_5\game-of-life\GameOfLife\bin\Debug\GameOfLife.exe.config
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab_5\game-of-life\GameOfLife\bin\Debug\GameOfLife.exe
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab_5\game-of-life\GameOfLife\bin\Debug\GameOfLife.pdb
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab_5\game-of-life\GameOfLife\bin\Debug\LifeModel.dll
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab_5\game-of-life\GameOfLife\bin\Debug\LifeModel.pdb
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab_5\game-of-life\GameOfLife\obj\Debug\GameOfLife.csproj.AssemblyReference.cache
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab_5\game-of-life\GameOfLife\obj\Debug\GameOfLife.csproj.SuggestedBindingRedirects.cache
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab_5\game-of-life\GameOfLife\obj\Debug\GameOfLife.Form1.resources
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab_5\game-of-life\GameOfLife\obj\Debug\GameOfLife.Properties.Resources.resources
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab_5\game-of-life\GameOfLife\obj\Debug\GameOfLife.csproj.GenerateResource.cache
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab_5\game-of-life\GameOfLife\obj\Debug\GameOfLife.csproj.CoreCompileInputs.cache
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab_5\game-of-life\GameOfLife\obj\Debug\GameOfLife.csproj.CopyComplete
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab_5\game-of-life\GameOfLife\obj\Debug\GameOfLife.exe
+D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab_5\game-of-life\GameOfLife\obj\Debug\GameOfLife.pdb
+>>>>>>> ad22ee082dac6ece8d23d5999a86f8d8c86438df

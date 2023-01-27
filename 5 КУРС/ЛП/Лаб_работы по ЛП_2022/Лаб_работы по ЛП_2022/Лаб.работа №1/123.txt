@@ -1,0 +1,96 @@
+domains
+w = symbol
+predicates
+wr(w)
+rul1
+rul2(symbol) 
+rul3(symbol)
+rul4(symbol)
+rul5(symbol)
+rul6(symbol)
+create_window
+goal
+create_window,
+rul1.
+
+clauses               /*перечень слов*/
+wr("ворона").
+wr("коммерция").
+wr("апполон").
+wr("осло").
+wr("конец").
+wr("рено").
+wr("ирга").
+wr("рита").
+wr("компьютер").
+wr("вена").
+create_window:- 	/*создаём окно результа-
+                                тов*/
+   makewindow (1,23,4,"Кроссворд",4,5,16,60).
+        rul1:-
+   wr(W),
+   str_len(W,5),/*ищем слово длиной 5 
+                            букв*/
+   Q = "ворона",
+   frontstr (4, Q, A, B ),/*разбиваем воро-на 
+                                        на воро- на-*/
+   frontstr (1, B, C, D ), /*разбиваем на- на 
+                                         н- а-*/
+   /*от найденного слова отсекаем 2 буквы*/
+   frontstr (2, W , A1, B1 ),
+   /*оставшиеся 3 буквы делим на 1 и 2*/	frontstr (1, B1 , C1,D1), 
+   /*н- от ворона совпадает с 3 буквой ис-
+      комого слова*/	
+   C=C1,
+   write (Q),nl,	/*печать результатов*/
+   write (W),nl,
+   /*от найденного слова отсечь первую бук-ву*/
+   frontstr (1,W,A2,B2),
+   rul2 (A2).
+        rul2(A2):-
+   wr(W),
+str_len(W,9),/*ищем слово длиной 9
+                        букв*/
+/*отсекаем первую букву этого слова*/
+frontstr (1,W,A3,B3), 			
+A2=A3,/*эта буква совпадает с 1 бук-вой
+               слова из rul1*/
+write (W," "), /*напечатать это слово*/
+              /*отсечь от этого слова первые три буквы*/
+frontstr (3,W,A4,B4),
+frontstr (1,B4,C4,D4),  /*от оставшихся 6 букв 
+                                         отсечь 1*/ 
+frontstr (8,W,A6,B6),  /*отсечь от этого слова 8 
+                                        букв*/
+rul3 (C4),
+rul4 (B6).
+        rul3 (C4):-
+wr(W),
+str_len (W,7),	/*ищем слово длиной 7 букв*/
+frontstr (2,W,A5,B5),
+frontstr (1,B5,C5,D5),
+C4=C5,
+nl,write ("          ",W),nl.
+        rul4(B6):-
+wr(W),
+str_len (W,4),
+frontstr(1,W,A7,B7),
+B6=A7,
+write ("          ",W),
+frontstr (1,W,A8,B8),
+frontstr (1,B8,C8,D8),
+rul5 (C8),
+frontstr (3,W,A10,B10),
+ rul6 (B10).
+         rul5 (C8):-
+ wr(W),
+ str_len (W,4),
+ frontstr (1,W,A9,B9),
+ A9=C8,
+ nl, write ("          ",W),nl.
+         rul6 (B10):-
+ wr(W),
+ str_len (W,4),
+ frontstr (3,W,A11,B11),
+ B10=B11,
+ write ("          ",W),fail.

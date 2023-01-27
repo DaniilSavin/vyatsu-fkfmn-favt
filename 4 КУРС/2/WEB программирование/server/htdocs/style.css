@@ -1,0 +1,15 @@
+.item{
+    background-color: rgb(118, 120, 247);
+
+    margin-top: 10px;
+    width: 500px;
+    height: 50px;
+}
+#inputUserName{
+    margin: 10px;
+}
+#regUser{
+    margin: 10px;
+    width: 100px;
+    height: 50px;
+}

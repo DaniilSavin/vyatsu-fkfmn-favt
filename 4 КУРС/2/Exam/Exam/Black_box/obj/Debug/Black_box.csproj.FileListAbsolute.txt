@@ -1,0 +1,40 @@
+C:\Users\class\source\repos\Exam\Black_box\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+C:\Users\class\source\repos\Exam\Black_box\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+C:\Users\class\source\repos\Exam\Black_box\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+C:\Users\class\source\repos\Exam\Black_box\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\class\source\repos\Exam\Black_box\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\class\source\repos\Exam\Black_box\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\class\source\repos\Exam\Black_box\bin\Debug\Black_box.dll
+C:\Users\class\source\repos\Exam\Black_box\bin\Debug\Black_box.pdb
+C:\Users\class\source\repos\Exam\Black_box\bin\Debug\Exam.exe
+C:\Users\class\source\repos\Exam\Black_box\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\class\source\repos\Exam\Black_box\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\class\source\repos\Exam\Black_box\bin\Debug\Exam.pdb
+C:\Users\class\source\repos\Exam\Black_box\bin\Debug\Exam.exe.config
+C:\Users\class\source\repos\Exam\Black_box\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\class\source\repos\Exam\Black_box\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\class\source\repos\Exam\Black_box\obj\Debug\Black_box.csproj.AssemblyReference.cache
+C:\Users\class\source\repos\Exam\Black_box\obj\Debug\Black_box.csproj.CoreCompileInputs.cache
+C:\Users\class\source\repos\Exam\Black_box\obj\Debug\Black_box.csproj.CopyComplete
+C:\Users\class\source\repos\Exam\Black_box\obj\Debug\Black_box.dll
+C:\Users\class\source\repos\Exam\Black_box\obj\Debug\Black_box.pdb
+D:\ВУЗ\4 КУРС\2\Exam\Exam\Black_box\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll
+D:\ВУЗ\4 КУРС\2\Exam\Exam\Black_box\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll
+D:\ВУЗ\4 КУРС\2\Exam\Exam\Black_box\bin\Debug\ru\Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll
+D:\ВУЗ\4 КУРС\2\Exam\Exam\Black_box\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+D:\ВУЗ\4 КУРС\2\Exam\Exam\Black_box\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+D:\ВУЗ\4 КУРС\2\Exam\Exam\Black_box\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+D:\ВУЗ\4 КУРС\2\Exam\Exam\Black_box\bin\Debug\Black_box.dll
+D:\ВУЗ\4 КУРС\2\Exam\Exam\Black_box\bin\Debug\Black_box.pdb
+D:\ВУЗ\4 КУРС\2\Exam\Exam\Black_box\bin\Debug\Exam.exe
+D:\ВУЗ\4 КУРС\2\Exam\Exam\Black_box\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+D:\ВУЗ\4 КУРС\2\Exam\Exam\Black_box\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+D:\ВУЗ\4 КУРС\2\Exam\Exam\Black_box\bin\Debug\Exam.pdb
+D:\ВУЗ\4 КУРС\2\Exam\Exam\Black_box\bin\Debug\Exam.exe.config
+D:\ВУЗ\4 КУРС\2\Exam\Exam\Black_box\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+D:\ВУЗ\4 КУРС\2\Exam\Exam\Black_box\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+D:\ВУЗ\4 КУРС\2\Exam\Exam\Black_box\obj\Debug\Black_box.csproj.AssemblyReference.cache
+D:\ВУЗ\4 КУРС\2\Exam\Exam\Black_box\obj\Debug\Black_box.csproj.CoreCompileInputs.cache
+D:\ВУЗ\4 КУРС\2\Exam\Exam\Black_box\obj\Debug\Black_box.csproj.CopyComplete
+D:\ВУЗ\4 КУРС\2\Exam\Exam\Black_box\obj\Debug\Black_box.dll
+D:\ВУЗ\4 КУРС\2\Exam\Exam\Black_box\obj\Debug\Black_box.pdb

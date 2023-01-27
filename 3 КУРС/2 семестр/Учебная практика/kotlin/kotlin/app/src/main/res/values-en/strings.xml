@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VoiceAssistant</string>
+    <string name="InputText">Ask me a question</string>
+    <string name="sendText">Send</string>
+    <string name = "answer" >Think about that question..."</string>
+    <string name="day_settings">Daytime theme</string>
+    <string name="night_settings">Night theme</string>
+    <string name="clear_dialog_item">Clear Dialog</string>
+</resources>

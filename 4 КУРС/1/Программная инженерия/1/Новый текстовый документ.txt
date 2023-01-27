@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 -- ******************SqlDBM: Microsoft SQL Server * *****************
 -- ******************************************************************
 
@@ -19,3 +20,26 @@ GO
 EXEC sp_addextendedproperty @name = N'MS_Description', @value = N'Basic information 
 about Supplier', @level0type = N'SCHEMA', @level0name = N'phoneSelling', @level1type = N'TABLE', @level1name = N'Supplier';
 GO
+=======
+-- ******************SqlDBM: Microsoft SQL Server * *****************
+-- ******************************************************************
+
+-- ************************************** [phoneSelling].[Supplier]
+CREATE TABLE [phoneSelling].[Supplier]
+(
+ [SupplierId]  int IDENTITY (1, 1) NOT NULL ,
+ [CompanyName] nvarchar(40) NOT NULL ,
+ [Phone]       nvarchar(10) NOT NULL ,
+
+
+ CONSTRAINT [PK_Supplier] PRIMARY KEY CLUSTERED ([SupplierId] ASC),
+ CONSTRAINT [AK1_Supplier_CompanyName] UNIQUE NONCLUSTERED ([CompanyName] ASC)
+);
+GO
+
+
+
+EXEC sp_addextendedproperty @name = N'MS_Description', @value = N'Basic information 
+about Supplier', @level0type = N'SCHEMA', @level0name = N'phoneSelling', @level1type = N'TABLE', @level1name = N'Supplier';
+GO
+>>>>>>> ad22ee082dac6ece8d23d5999a86f8d8c86438df

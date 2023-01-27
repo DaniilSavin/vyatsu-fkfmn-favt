@@ -1,0 +1,1693 @@
+#
+3   Illegal keyword.
+Recognized keywords are:
+
+  DATABASE, PREDICATES, DOMAINS, CLAUSES,
+  GOAL, GLOBAL, INCLUDE, CONSTANTS
+
+and the options are:
+
+  check_determ, nobreak, nowarnings, diagnostics
+  trace, shorttrace, code, trail, errorlevel, project
+#
+4   Use the format CODE=dddd, TRAIL=dddd, HEAP=dddd or ERRORLEVEL=d.
+ Ex.
+  code=4000  trail=1000  heap=6000  errorlevel=1
+#
+5   The trail size cannot exceed 4000 paragraphs (corresponding to 64K).
+#
+6   The code size in DOS cannot exceed 16000 paragraphs (corresponding to 256K).
+#
+7   The errorlevel must be either 0, 1 or 2.
+#
+10  Illegal character.
+Legal characters are upper and lower case letters, digits and the
+characters :-+!"'/*()[]|><=.,;
+#
+11  Character constants must be terminated with an apostrophe (')
+Eg 'a' and '\254'
+#
+12  The comment is not terminated by */
+End of source has been encountered within a comment. This may be
+caused by nested comments.
+#
+14  The name is too long. (max. 250 characters)
+#
+15  The string is too long. (max. 250 characters in the source text)
+#
+16  The string must be terminated with a double quote (") in the same line.
+If you need newline characters in a string, use \n as in "First\n Next".
+If you need a string with more than 250 characters, use 'concat' to
+assemble it from shorter strings.
+#
+17  Real constant is out of range.
+The valid range is: +-17976931348E+-308
+#
+18  A hexadecimal digit is expected after a dollar sign.
+Eg X=$B800
+#
+20  Constant identifier expected.
+An 'ifdef' or an 'ifndef' should be followed by the controlling constant
+identifier.
+#
+21  'enddef' expected; unterminated 'ifdef' or 'ifndef' block.
+#
+22  End of text in an unterminated ifdef-block.
+#
+23  Too many nested conditional blocks (max. 25).
+#
+100 Undeclared domain or misspelling.
+#
+102 Standard domains cannot be declared.
+The standard domains are always considered to be declared, and cannot be
+redeclared even if they aren't used in the program.
+#
+103 This domain was declared previously.
+#
+104 Syntax error:  =  or  ,  expected.
+#
+105 Name expected (either a domain or a functor).
+#
+106 Alternatives in a list declaration are illegal.
+The only format for a list declaration is
+
+  dom1, dom2, dom3 = otherdom*
+
+However, there's nothing preventing 'otherdom' from being a compound
+domain including different types, surrounded by functors of your
+choice, as in eg.
+
+  otherdom = i(integer); s(string); r(real)
+#
+107 This functor has already been used in the domain declaration.
+A functor can only appear once in every domain declaration.
+#
+108 Functor name expected.
+After the ';' a new functor name is expected.
+#
+109 Domain name expected.
+#
+110 Syntax error in domain declaration.  )  or  ,  expected.
+#
+111 WARNING: Domain used as a functor. (F10=Ok, Esc=Abort).
+This name is also the name of a domain. If this isn't a mistake, you
+can avoid the warning by succeeding the functor with two brackets as
+in 'integer()'.
+#
+112 WARNING: Domain declaration with a single functor. (F10=Ok, Esc=Abort).
+This declaration is understood as a domain with just a single functor,
+which is rarely used.
+#
+113 This constant is already defined.
+#
+201 This name is reserved for a standard predicate.
+It is not possible to redefine standard predicates.
+#
+202 This predicate is already declared.
+Alternative declarations for the same predicate should be grouped.
+#
+204 Domain name  or  ')'  expected.
+#
+205 Undeclared domain or misspelling.
+#
+206 Too many arguments used in this predicate.
+The maximum is 50.
+#
+208 Syntax error in predicate declaration,  ')'  or  ',' expected.
+#
+209 Illegal number of arguments.
+There is no declaration for the predicate with this number of arguments.
+#
+210 Only one database predicate declaration is allowed.
+Database predicates can only have one type declaration.  If you
+want to assert different types, you should use different predicates or
+declare a suitable compound domain.
+#
+211 This predicate is declared as a database predicate.
+Predicates declared in the DATABASE section must consist entirelyÿof
+facts, without using variables.
+#
+220 Syntax error in declaration of global predicate, '-' expected.
+All global predicates must be followed by one or more flow pattern
+specifications, as in
+ GLOBAL PREDICATES
+   determ status_RS232(integer,integer) - (i,o),(o,i) language c
+#
+221 Syntax error, '(' expected.
+The flow pattern declaration should follow the syntax indicated in the
+example below:
+ GLOBAL PREDICATES
+   determ status_RS232(integer,integer) - (i,o),(o,i) language c
+#
+222 Syntax error in flow pattern, 'i' or 'o' expected.
+The flow pattern for each argument should be indicated by an 'i' for
+input flow or an 'o' for output flow, as illustrated below:
+ GLOBAL PREDICATES
+   determ status_RS232(integer,integer) - (i,o),(o,i) language c
+#
+223 Wrong number of arguments in flow pattern.
+All the alternative flow patterns must have the same number of
+arguments as the type declaration for the predicate.
+#
+224 Syntax error in declaration of global predicate, 'as "NewName"' expected.
+The syntax for explicitly naming an external routine is suggested below:
+
+   determ routine(integer) - (i) language c as "MyRoutine"
+
+Don't forget the double quotes around the name.
+#
+226 Syntax error, 'PREDICATES', 'DOMAINS' or 'DATABASE' expected.
+The keyword 'GLOBAL' must be followed by the name of the section you
+want to declare as global.
+#
+227 Name of project or configuration file expected.
+The directives 'project' and 'config' must be followed by a file name, eg.
+
+  project "parser"
+  config "myconfig.cfg"
+
+A configuration file is created by the 'Save configuration' under
+the 'Setup'-option.
+#
+228 At most one internal goal may be specified.
+A 'GOAL' section has already been encountered. If there isn't one in
+this file, it may have come from an included file.
+#
+229 The include file does not exist in the specified directory.
+If the file really does exist you probably fell foul to a very common
+omission, namely to use double backslashes to override the escape-function
+of backslashes in strings:
+
+  include "\\tools\\tpreds.pro"
+
+You should also check your include directory setting.
+#
+230 Include files may not be used recursively.
+This include file is already included.
+#
+231 Too many include files. The maximum is 50.
+#
+232 The include file is too big. Max. size is 64K.
+#
+233 Global declarations cannot succeed local declarations.
+All global declarations must be done before any local declarations.
+A predicate, clause or domain section which is not preceded by the
+keyword 'GLOBAL' is considered a local declaration, and cannot be
+succeeded by any global declarations.
+#
+234 No module in the project contains a GOAL.
+#
+235 The FILE domain cannot be a local domain in a project.
+Simply declare the domain in a global section.
+#
+236 The unnamed database must be global in a project.
+Simply declare the database as 'GLOBAL'.
+#
+237 Name of include-file expected.
+#
+401 No clauses for this predicate.
+The predicate has been declared, but there are no corresponding clauses.
+
+If this file is part of a project, note that it is possible to test
+project modules interactively, but you must not refer to any of the
+global predicates whose clauses are defined in other modules.
+#
+402 Syntax error, ',' or '.' expected in clause body.
+#
+403 Predicate name or section keyword expected.
+#
+404 Undeclared predicate or misspelling.
+#
+405 '('  expected.
+#
+406 ')' or ',' expected.
+#
+407 Illegal number of arguments: refer to declaration.
+#
+408 Number expected after '+' or '-'.
+#
+409 Syntax error.
+#
+410 Variable expected.
+#
+411 ',' expected.
+#
+413 Syntax error, ',' '|' or ']' expected.
+#
+414 Constant or variable expected.
+#
+415 Clauses for the same predicate should be grouped.
+Clauses for this predicate have already appeared elsewhere.
+#
+416 Comparison operator expected i.e. one of  =   <   <=   >=   ><   <>.
+#
+417 Text after '.' is illegal here.
+#
+418 Unexpected end of text.
+#
+419 Syntax error in clause body, predicate call expected.
+#
+420 WARNING: Unused variable. (F10=Ok, Esc=abort).
+If the variable does only occur once, you should instead use an
+underbar. You can turn this warning off by using the 'nowarning' option.
+#
+422 '.' ':-' or expected.
+#
+423 ',' or ')' expected.
+#
+425 Lists should be terminated by ']'.
+#
+426 Initializing the global database is not allowed in a sub module.
+It is only allowed to define facts for a database that is declared in
+the same module. This means that all global database facts must be 
+initialized in the main module.
+
+The distinction between a main module and a sub module is only that the
+main module contains a goal.  If this error occurred in the main module,
+it is therefore caused by an attempt to initialize the database before
+the goal has been defined, in which case the compiler is still unaware
+that it is the main module.  To rectify, simply move the goal to a
+position before the initialization of the database.
+#
+427 To generate an object module the program must contain a goal.
+If you want to compile a single module to an OBJ file, the module
+must either contain a goal or be part of a project.
+#
+428 The free variable in 'findall' can only be used inside 'findall'.
+#
+429 The free variable in 'findall' does not occur in the predicate.
+An example of use of 'findall' is:
+  findall(NAME,person(NAME,_,_),L),
+#
+430 Language name expected.
+After the 'language' directive, the name of the language must be
+specified, as indicated below:
+ GLOBAL PREDICATES
+   determ status_RS232(integer,integer) - (i,o),(o,i) language c
+#
+431 Unknown language. Must be one of: pascal, fortran, c, asm.
+#
+432 Database name expected.
+To give a database a name the 'DATABASE' keyword should be followed
+by a hyphen and the name, as indicated below:
+
+ DATABASE - lineinp
+   insmode
+   lineinpstate(string,col)
+   lineinpflag
+#
+433 The domain is already defined.
+A database declaration automatically generates a corresponding domain
+declaration ('dbasedom' for the global database), where the name of the
+domain is the name of the database.
+It is not allowed to declare a database with the same name as a
+previously declared domain.
+#
+434 The database is already declared.
+The main (global) database is already declared. In order to declare a
+new (local) database, you must give it a name, eg:
+
+ DATABASE - lineinp
+   insmode
+   lineinpstate(string,col)
+   lineinpflag
+#
+435 This must be the first occurrence of the Errorcode variable.
+The Errorcode variable is neither allowed to be bound before the 'trap'
+predicate nor can it be an output argument of the controlled predicate.
+The first occurrence of the variable must be as the return variable
+for the error-code, inside the 'trap' predicate.
+#
+450 Syntax error, keyword expected.
+#
+500 Type error.
+#
+501 Free variable in expression.
+This is the first occurrence of the variable.
+#
+504 This is the first occurrence of this variable.
+'bound' cannot return a bound variable. Use instead the equal sign
+to bind the variable to a constant.
+#
+505 Type error: Illegal variable type for this position.
+The type associated with the variable does not match with any of
+the type declarations for the predicate.
+#
+506 Type error: The functor does not belong to the domain.
+#
+507 Type error: The compound object has the wrong number of arguments.
+#
+508 Expressions may not contain objects of this type.
+#
+509 Comparisons may only be made between the basic types.
+#
+510 Objects from these domains cannot be compared.
+#
+511 There is no corresponding list domain.
+To use 'findall', a suitable list domain must be declared in
+the domain section.
+#
+512 Type error: Wrong object type.
+#
+513 Type error: This argument can't be a real.
+In DIV and MOD, both the arguments must be integer values.
+#
+590 WARNING: nondeterministic clause. ( F10=Ok, Esc=abort ).
+There is one or more clauses with the same entry conditions (matching
+argument lists or no arguments at all) as this clause, and possible
+backtracking will lead to new solutions as the clause doesn't
+contain a cut.
+
+Use 'nondeterm' before the predicate declaration if it's supposed to be
+nondeterministic.
+#
+591 WARNING: nondeterministic predicate. ( F10=Ok, Esc=abort ).
+The predicate indicated is nondeterministic, ie it may succeed again
+if backtracking occurs.  This will be reflected in the calling
+predicate, which also becomes nondeterministic.
+Note that database predicates are, by their nature, nondeterministic;
+this will therefore also apply to all uses of 'retract'.
+
+Use nondeterm before the predicate declaration if it is OK.
+#
+592 ERROR nondeterministic clause in deterministic global predicate.
+There is one or more clauses with the same entry conditions (matching
+argument lists or no arguments at all) as this clause, and possible
+backtracking will lead to new solutions as the clause doesn't
+contain a cut.
+
+Use 'nondeterm' before the predicate declaration if it's supposed to be
+nondeterministic.
+#
+593 ERROR nondeterministic predicate call in deterministic global predicate.
+The predicate indicated is nondeterministic, ie it may succeed again
+if backtracking occurs.  This will be reflected in the calling
+predicate, which also becomes nondeterministic.
+Note that database predicates are, by their nature, nondeterministic;
+this will therefore also apply to all uses of 'retract'.
+
+Use nondeterm before the predicate declaration if it's supposed to be
+nondeterministic.
+#
+600 Too many domain names, maximum is 250.
+Split the program into separate modules with local domain declarations.
+#
+601 Too many alternatives in the domain declaration, maximum is 250.
+#
+602 Too many predicate names, maximum in one module is 700.
+This includes both predicate and database declarations, and the
+different flow pattern variants for each predicate.
+Split the module into two or more sub-modules.
+#
+603 Too many variables in this clause, maximum is 100.
+Split the clause into two or more separate clauses.
+#
+604 Too many predicate calls in this clause, maximum is 100.
+Split the clause into two or more separate clauses.
+#
+605 Too many clauses, maximum is 400 for each predicate.
+Split the predicate into two or more predicates.
+#
+606 Too many arguments, maximum is 50.
+Combine some of the arguments with functors from a suitable domain.
+#
+607 Too many domain names on the left hand side of a domain declaration.
+Maximum is 20.
+#
+608 Too many database predicates.
+Maximum is 250 in each database declaration.
+If you  need more than this, declare some of the predicates in one or
+more local databases.
+#
+609 Too many symbols; there can only be 64K of symbols during compilation
+#
+610 Code array too small.
+Use code=size to get more space.
+#
+612 Overflow: too many structures in clause.
+Split the clause into two or more clauses.
+#
+614 Overflow in generation of OBJ module.
+Split the module into two or more separately compiled modules.
+#
+620 Error reading symbol table.
+Something is wrong with the file <projectname>.SYM
+Recompile the module(s) or project.
+#
+701 Loop in the flow analysis. Don't use a compound flow pattern here.
+The problem is that the compiler has gone into a loop where it
+continues to generate new flow variants with more and more complex
+flow patterns.
+
+If it is not an error in the program, replace the argument with a
+variable and do the unification before or after the predicate call,
+whatever is the appropriate.
+#
+703 This flow pattern doesn't exist. (Look in the message window)
+You  have tried to call a standard or a global predicate with a flow
+pattern which isn't recognized, either because it doesn't exist, in the
+case of a standard predicate, or, in the case of a global predicate,
+because it isn't declared.
+The error may be caused from a higher level, where a variable which
+was meant as an input argument is used as an output argument, perhaps
+with an underscore.  In this case you must try to follow the calls
+backward.
+#
+704 Free variables are not allowed in 'not' or 'retractall'.
+It is not possible to get a variable bound in a 'not' or a 'retractall'
+call, so you must use underscores for all unknown arguments.
+#
+705 Free variables are not allowed here.
+'assert', 'writef' and 'format' etc. requires that all variables are
+bound before the call. (Only 'write' will display a free variable as an
+underscore).
+#
+706 The list variable in 'findall' must be free.
+If it is necessary to compare the result of a call to 'findall' with
+an existing list, call 'findall' with a free variable and do the
+comparison after the call, as in
+
+  findall(X,p(X),Lnew), L=Lnew,
+#
+707 Free variable in expression.
+Arithmetic expressions cannot be evaluated if they contain free
+variables.
+#
+708 WARNING: The variable is not bound in this clause. (F10=ok, Esc=abort)
+When an output variable is not bound in a clause, it will be bound
+to a free reference variable. This requires that the whole domain
+to which the variable belongs is handled as a reference domain.
+Avoid this if there is no need for it, as the use of reference
+variables generates more code.
+#
+709 WARNING: Two free variables in expression. (F10=ok, Esc=abort)
+This will cause the two variables to be bound to the same free
+reference variable.
+Avoid this if there is no need for it, as the use of reference
+variables generates more code.
+#
+710 WARNING: Variable used twice with output flow pattern. (F10=ok,Esc=abort)
+The variable is used twice as an output variable in a predicate call.
+This will cause the variable to be bound to a free reference variable
+before the call is done, and both arguments where the variable is used
+will become input arguments (with a reference variable).
+Avoid this if there is no need for it, as the use of reference
+variables generates more code.
+#
+711 WARNING: This will create a free variable.  ( F10=Ok, Esc=abort ).
+Using the first occurrence of a variable as an argument to 'free' will
+cause the variable to be bound to a free reference variable.
+This can be used to generate less flow variants, but will force the
+domain to which the variable belongs to become a reference domain.
+Avoid this if there is no need for it, as the use of reference
+variables generates more code.
+#
+712 The variable is not bound in this clause.
+When an output variable is not bound in a clause, it will be bound
+to a free reference variable. 
+In a project all reference domains must be declared; the compiler
+cannot automatically generate these when needed, as a project will
+typically consist of several modules compiled from time to time.
+To rectify, either rewrite the code so as to avoid the use of reference
+variables or declare a reference domain for the variable.
+The latter should be avoided if there is no need for it, as the use of
+reference variables generates more code.
+#
+713 Two free variables in expression.
+This will cause the two variables to be bound to the same free
+reference variable.
+In a project all reference domains must be declared; the compiler
+cannot automatically generate these when needed, as a project will
+typically consist of several modules compiled from time to time.
+To rectify, either rewrite the code so as to avoid the use of reference
+variables or declare a reference domain for the variables.
+The latter should be avoided if there is no need for it, as the use of
+reference variables generates more code.
+#
+714 Variable used twice with output flow pattern.
+The variable is used twice as an output variable in a predicate call.
+This will cause the variable to be bound to a free reference variable
+before the call is done, and both arguments where the variable is used
+will become input arguments (with a reference variable).
+However, in a project all reference domains must be declared; the
+compiler cannot automatically generate these when needed, as a project
+will typically consist of several modules compiled from time to time.
+To rectify, either rewrite the code so as to avoid the use of reference
+variables or declare a reference domain for the variables.
+The latter should be avoided if there is no need for it, as the use of
+reference variables generates more code.
+#
+715 This will create a free variable.
+Using the first occurrence of a variable as an argument to 'free' will
+cause the variable to be bound to a free reference variable.
+This can be used to generate less flow variants, but will force the
+domain to which the variable belongs to become a reference domain.
+However, in a project all reference domains must be declared; the
+compiler cannot automatically generate these when needed, as a project
+will typically consist of several modules compiled from time to time.
+To rectify, either rewrite the code so as to avoid the use of reference
+variables or declare a reference domain for the variables.
+The latter should be avoided if there is no need for it, as the use of
+reference variables generates more code.
+#
+716 This argument can only be an input argument.
+Check the reference manual for the flowpatterns of the predicate.
+#
+717 This argument can only be an output argument.
+Check the reference manual for the flowpatterns of the predicate.
+#
+718 The domain refers to global non-reference domains.
+When a domain becomes a reference domain, all underlying domains
+must also be reference domains. When a local domain in a project
+is declared as a reference domain, it must therefore not refer to
+any global non-reference domains.
+#
+719 Reference to a standard domain, which may not become a reference domain.
+When a domain becomes a reference domain, all underlying domains also
+becomes reference domains.  However, the standard domains FILE,
+DB_SELECTOR, BT_SELECTOR, REG, BGI_ILIST and PLACE can for technical
+reasons not become reference domains.
+#
+999 Known internal error during last call optimization. (Press F1)
+The cursor will point at the last call in a clauses where
+  1) Reference domains are used.
+  2) A variable parameter is being converted ffrom a reference domain
+     to a non reference domain
+  3) There exists backtrack points earlier in the clause.
+To fix the problem either:
+  a) Succeede the call by another call, ex. "true"
+  b) Precede the call by a cut
+  c) Change the domain declarations so the conversion is not needed
+We will fix this problem in the next version.
+#
+------------ RUNTIME ERRORS
+#
+1001 Gstack overflow. Not enough memory or an endless loop.
+#
+1002 Heap overflow. Not enough memory or an endless loop.
+#
+1003 Requested block is too big (max 0xFFF0 bytes).
+Internal error which should not be caused by pure Prolog code.
+#
+1004 Mismatch between freed blocks size and internal record.
+Internal error which should not be caused by pure Prolog code.
+#
+1005 Attempt to release already released block.
+Internal error which should not be caused by pure Prolog code.
+#
+1006 Heap signature overwritten
+Internal error which should not be caused by pure Prolog code.
+#
+1007 Term too big.
+A term, including associated pointer data, cannot exceed 64K when
+entered into a database or sent across a message pipe.
+#
+1008 Memory initialization failure.
+This indicates severe shortage of memory. The program is unable
+to start execution.
+#
+1010 Stack overflow. Re-configure with Options if necessary.
+It may be a help to re-compile the program with the option
+'check_determ' turned on in order to check that no unnecessary
+backtrack points are stacked, as these increase stack consumption
+quite considerably.
+#
+1020 Trail overflow. Use trail=size to get more space.
+The trail is only used in connection with reference variables,
+where a free variable with input flowpattern is matched with
+a constant or another variable with input flowpattern.
+
+However, the used part of the trail can only be recovered when a
+predicate fails and backtracks over the point where the trail was used.
+Therefore, if the problem persists in spite of increases in the trail
+size, it is necessary to change the execution sequence to avoid the
+excessive trail usage. This may often be the case if a top-level predicate
+uses infinite recursion ('run:- process, run.') rather than a repeat-fail
+combination.
+
+It might also help to try to cut away unneeded backtrackpoints.
+#
+1030 Arithmetic overflow in real operation.
+The range for reals is  -1.0e308 .. 1.0e308.
+#
+1031 Arithmetic overflow in integer operation.
+The result cannot be stored in a 16-bit integer, which has a range
+of -32768 .. 32767.
+#
+1032 Division by zero.
+#
+1033 Negative values or 0 cannot be arguments to 'log' or 'ln'.
+#
+1034 Negative values cannot be arguments to 'sqrt'.
+#
+1040 Free variables are not allowed here.
+This message occurs when a variable from a reference domain is tried
+to be converted to a non reference domain, while the variable is free.
+
+During automatic type conversion, as example from integer to real
+it is required that variables are bound.
+
+'assert', 'writef' and 'format' etc. requires that all variables are
+bound before the call. (Only 'write' will display a free variable as an
+underscore).
+#
+------------ IO & OS errors
+#
+1101 Attempt to open an already open file.
+Note that a symbolic file-name, declared with a file-domain,
+can only be used for one file at a time.
+#
+1102 Attempt to assign input device to a file that is not in readmode.
+The file was opened in write-only mode.
+#
+1103 Attempt to assign output device to a file that is not in writemode.
+The file was opened in read-only mode.
+#
+1104 The file isn't open.
+#
+1105 Illegal mode in filemode predicate, should be 0 or 1.
+'0' specifies Text mode, while '1' specifies Binary (raw) mode.
+#
+1106 Invalid operation on device.
+#
+1107 Eof can only be used during readmode.
+The file might be closed.
+#
+1108 Illegal device or path.
+#
+1109 Wrong number of arguments in the format string.
+#
+1110 File too big, or not enough memory for file.
+#
+1111 Wrong number of bytes read from file.
+This is either caused by a corrupt database or errors using the readblock
+predicate.
+#
+1112 Not able to write correct number of bytes to file.
+This is probably caused by a full disk.
+#
+1113 Invalid arguments to the 'date'-predicate.
+The arguments should be three integers in the order day, month, year.
+#
+1114 Invalid arguments to the 'time'-predicate.
+The arguments should be four integers in the order
+  hours       0..24
+  minutes     0..59
+  seconds     0..59
+  hundredths  0..99
+#
+1115 'unreadchar' failed because of full buffer (max 128 characters).
+#
+1116 Failure in 'system' call.
+Either COMMAND.COM can not be found, or the indicated .EXE or .COM file
+can not be found.
+#
+1117 Error executing external program.
+The external program might be too big to be executed from the
+Prolog system or it might be an illegal EXE-file, or it remained resident.
+Try to execute the external program from the DOS shell to see what happens.
+#
+1118 Cannot access port(s).
+The port(s) cannot be reserved. Another program is probably using them.
+#
+1133 Incorrect operating system version.
+The OS version doesn't have the support required by the attempted operation.
+#
+----------------------- SCR & WD Error's
+#
+1201 The arguments in 'makewindow' are illegal.
+Check that
+  - the window number is in the range 1 .. 127
+  - StartRow+NoOfRows <= no. of rows on screen (usually 25 or 43)
+  - StartCol+NoOfCols <= no. of cols on screen (usually 80 or 120)
+#
+1202 The cursor values are illegal.
+The Row and Column must be inside the actual window.
+#
+1203 The window referred to does not exist.
+#
+1205 Maximum number of windows exceeded. ( The maximum is 34. )
+#
+1206 The arguments in 'resizewindow' are illegal.
+in resizewindow(StartRow,StartCol,NoOfRows,NoOfCols)
+Check that
+  - StartRow+NoOfRows <= no. of rows on screen (usually 25 or 43)
+  - StartCol+NoOfCols <= no. of cols on screen (usually 80 or 132)
+  - Both StartRow and StartCol are positive.
+#
+1207 Scroll predicate is not supported in graphic.
+#
+1208 Not possible to set indicated textmode.
+#
+1209 Operation not possible on system windows.
+#
+1210 Illegal operation on a system window.
+#
+1211 The window is compressed.
+#
+1212 The window is expanded.
+#
+1213 Wrong length of framestring. Must be excactly 6 characters.
+#
+-------------------------- DB Error's
+#
+1301 Overflow in Expanded Memory System.
+#
+1302 The database is already open.
+A given database selector can only be opened once.
+#
+1303 Invalid database file name.
+#
+1304 The database isn't open.
+No database is currently associated with DB_SELECTOR.
+#
+1305 The B+TREE isn't open.
+The B+TREE has been closed since the bt_selector was returned
+from bt_open or bt_create.
+#
+1306 The B+TREE already exists.
+The names for the B+TREES in a single database must be unique,
+and a B+TREE with the indicated name already exists.
+#
+1308 The database name already exists in the specified location.
+The names for databases placed in memory must be unique.
+#
+1309 Error reopening the database during flush operation.
+'db_flush' closes and opens the file in order to flush the DOS
+buffers; there is sadly no other way of guaranteeing that the
+buffers really are flushed on a DOS-system.
+When the database file is opened again, the same name as before
+is used.  This may cause problems if the database was opened in
+the current (default) directory and this has been changed since
+then, as 'db_flush' will have closed it in the old directory and
+tries to look for it in the new directory.
+#
+1310 Invalid Order value; it must be between 1 and 255.
+#
+1311 Invalid Key length.
+The key length must be between 1 and 255.
+However, it should be chosen as small as possible in order to
+save space.
+#
+1313 Type conflict. The term in the database doesn't correspond with the domain.
+Database terms must be inserted and retrieved with variables belonging
+to the same domain.
+#
+1314 Unable to create the indicated database.
+#
+1315 Unable to open the indicated database in the given place.
+#
+1316 No EMS installed.
+You can not use the option 'in_ems' in db_open and db_create if
+you have no EMS card installed.
+#
+1317 Database marked as invalid.
+Whenever a database is closed, or flushed, it is totally consistent and
+marked as valid; this is reverted to invalid when it's contents are
+changed. If the computer crashes with an invalid database, it isn't
+subsequently safe to open and use it as if nothing has happened. In this
+case you must try to write a short recovery/copy program, opening the
+database with the 'openinvalid' predicate and copying the contents as far
+as they go to a new database.
+#
+1318 Unable to delete database in the indicated place.
+#
+1319 Invalid database reference number.
+You are probably using a database reference number for a term you have
+deleted, or you have maybe two open databases and are referring to the
+wrong database.
+#
+1320 The chain does not exist in the database.
+#
+1321 The named B+Tree does not exist in the database.
+#
+1322 Invalid B+Tree selector for the given database.
+You are probably using a bt_selector for a B+Tree you have deleted, or
+you have maybe two open databases and are referring to the wrong database.
+#
+1323 Can not delete an open index. (Close it first)
+#
+1324 Key and ref not found in B+tree during key_delete.
+You either have a wrong combination of KEY and REF, or you are referring
+to a wrong B+Tree.
+#
+1325 Term too big for conversion.
+A single term must not occupy more than 64K for insertion in databases or
+transmission on a message pipe.
+#
+1326 Incorrect database system version.
+The database was not created with the same version of the database system
+as the one you are now using.
+#
+1327 Not inside transaction.
+The database was opened in sharemode, so all predicates that access the
+database must be placed inside a transaction.
+#
+1328 Write transaction not allowed when file opened in readonly.
+db_begintransaction was called with readwrite, but the database
+was opened as readonly.
+#
+1330 Begintransaction made twice without endtransaction.
+After a call of db_begintransaction, db_endtransaction must be called
+to mark the end of the transaction before another call to db_begintransaction.
+#
+1331 Update of the database not allowed in readonly mode.
+#
+1332 Timeout in begintransaction
+After having tried RetryCount times with SleepPeriod intervals,
+db_begintransaction was unable to access the file.
+#
+1333 Key does already exist in B+Tree where dupplicates are not allowed.
+#
+1334 Wrong chain used in term_delete.
+#
+-------------------------- Term Reader
+#
+1401 Integer expected (during term reading).
+#
+1402 Real number expected (during term reading).
+#
+1403 Double quote expected (during term reading).
+#
+1404 Single quote expected (during term reading).
+#
+1405 List start expected (during term reading).
+#
+1406 End of list expected (during term reading).
+#
+1407 Functor not found in domain (during term reading).
+#
+1408 '(' expected (during term reading).
+#
+1409 ',' or ')' expected (during term reading).
+#
+-------------------------- Editor
+#
+1501 Editor text buffer full.
+#
+-------------------------- String handling
+#
+1601 String index error.
+A substring or subchar call with index values outside the string.
+#
+1602 Result string cannot be bigger than 64K.
+#
+-------------------------- BGI
+#
+1701 BGI graphics not installed.
+#
+1702 Graphics hardware not detected.
+#
+1703 Device driver file not found.
+#
+1704 Invalid device driver file.
+#
+1705 Not enough memory to load driver.
+#
+1706 Out of memory in scan fill.
+#
+1707 Out of memory in flood fill.
+#
+1708 Font file not found.
+#
+1709 Not enough memory to load font.
+#
+1710 Invalid graphics mode for selected driver.
+#
+1711 Graphics error.
+#
+1712 Graphics I/O error.
+#
+1713 Invalid font file.
+#
+1714 Invalid font number.
+#
+1715 Invalid device number.
+#
+1750 Wrong list length in setfillpattern.
+#
+-------------------------- Message
+#
+1801 Message queue memory allocation failure.
+The operating system was unable to access or allocate memory
+required by the message queue system.
+#
+1802 The pipe is closed.
+The program at the other end of the pipe has closed it.
+#
+1803 The pipe is broken.
+The pipe connection is lost and the other end didn't close the pipe normally.
+This may be caused by the program at the other end of the pipe terminating
+without closing the pipe, or a loss of connection somewhere in the operating
+system or, in the case of a networked pipe, a network error.
+#
+1804 Cannot open pipe.
+The pipe doesn't exist.
+#
+1805 Invalid pipe name.
+The name must begin with \pipe\ or \\computername\pipe
+#
+-------------------------- Directory browser
+#
+1901 Too many files.
+#
+-------------------------- Configuration loading
+#
+2001 Bad configuration file.
+#
+2002 Error reading Configuration file.
+#
+-------------------------- Operating system errors
+			   Note that many of these only apply to the OS2
+			   version, and that for OS2 many of the messages
+			   are not applicable. They are, however, included
+			   for completeness.
+#
+7001 Invalid function number
+#
+7002 File not found
+#
+7003 Path not found
+#
+7004 Out of handles
+#
+7005 Access denied
+#
+7006 Invalid handle
+#
+7007 Memory control blocks destroyed
+#
+7008 Insufficient memory
+#
+7009 Invalid memory block address
+#
+7010 Invalid environment
+#
+7011 Invalid format
+#
+7012 Invalid access code
+#
+7013 Invalid data
+#
+7014 Unknown unit
+#
+7015 Invalid disk drive
+#
+7016 Cannot remove current directory
+#
+7017 Not same device
+#
+7018 No more files
+#
+7019 Disk write-protected
+#
+7020 Unknown unit
+#
+7021 Drive not ready
+#
+7022 Unknown command
+#
+7023 Data error (CRC)
+#
+7024 Bad request structure length
+#
+7025 Seek error
+#
+7026 Unknown type of medium
+#
+7027 Sector not found
+#
+7028 Printer out of paper
+#
+7029 Write fault
+#
+7030 Read fault
+#
+7031 General failure
+#
+7032 Sharing violation
+#
+7033 Lock violation
+#
+7034 Invalid disk change
+#
+7035 FCB unavailable
+#
+7036 Sharing buffer exceeded
+#
+7050 Unsupported network request
+#
+7051 Remote machine not listening
+#
+7052 Duplicate name on network
+#
+7053 Network name not found
+#
+7054 Network busy
+#
+7055 Device no longer exists on network
+#
+7056 NetBIOS command limit exceeded
+#
+7057 Error in network adapter hardware
+#
+7058 Incorrect response from network
+#
+7059 Unexpected network error
+#
+7060 Remote adapter incompatible
+#
+7061 Print queue full
+#
+7062 Insufficient memory for print file
+#
+7063 Print file canceled
+#
+7064 Network name deleted
+#
+7065 Network access denied
+#
+7066 Incorrect network device type
+#
+7067 Network name not found
+#
+7068 Network limit exceeded
+#
+7069 NetBIOS session limit exceeded
+#
+7070 File sharing temporarily paused
+#
+7071 Network request not accepted
+#
+7072 Print or disk redirection paused
+#
+7080 File already exists
+#
+7082 Cannot make directory
+#
+7083 Fail on Int 24H (critical error)
+#
+7084 Too many redirections
+#
+7085 Duplicate redirection
+#
+7086 Invalid password
+#
+7087 Invalid parameter
+#
+7088 Network device fault
+#
+7089 No process slots available
+#
+7090 System error
+#
+7091 Timer service table overflow
+#
+7092 Timer service table duplicate
+#
+7093 No limits to work on
+#
+7095 Interupted system call
+#
+7100 Open semaphore limit exceeded
+#
+7101 Exclusive semaphore already owned
+#
+7102 DosCloseSem Found semaphore set
+#
+7103 Too many exclusive semaphore requests
+#
+7104 Operation invalid at interrupt time
+#
+7105 Semaphore owner terminated
+#
+7106 Semaphore limit exceeded
+#
+7107 Insert drive B disk into drive A
+#
+7108 Drive locked by another process
+#
+7109 Write on pipe with no reader
+#
+7110 Open/create failed due to explicit fail command
+#
+7111 Buffer too small
+#
+7112 Disk is full
+#
+7113 No more search handles
+#
+7114 Invalid target handle for DosDupHandle
+#
+7115 Bad user virtual address
+#
+7116 Error on display write or keyboard read
+#
+7117 Invalid DosDevIOCtl category
+#
+7118 Invalid value for verify flag
+#
+7119 Driver does not support DosDevIOCtl
+#
+7120 Invalid function called
+#
+7121 Timed out waiting for semaphore
+#
+7122 Insufficient data in buffer
+#
+7123 Invalid character or bad filename
+#
+7124 Unimplemented information level
+#
+7125 No volume label found
+#
+7126 Invalid module handle
+#
+7127 Procedure not found in module
+#
+7128 No child processes found
+#
+7129 Child processes still running
+#
+7130 Invalid handle operation for direct disk access
+#
+7131 Cannot seek to negative offset
+#
+7132 Cannot seek on pipe or device
+#
+7133 Drive has previously joined drives
+#
+7134 Drive is already joined
+#
+7135 Drive is already substituted
+#
+7136 Drive is not joined
+#
+7137 Drive is not substituted
+#
+7138 Cannot join to joined drive
+#
+7139 Cannot substitute to substituted drive
+#
+7140 Cannot join to substituted
+#
+7141 Cannot substitute to joined drive
+#
+7142 Drive is busy
+#
+7143 Cannot join or substitute drive to directory on same drive
+#
+7144 Must be subdirectory of root
+#
+7145 Joined directory must be empty
+#
+7146 Path is already used in substitute
+#
+7147 Path is already used in join
+#
+7148 Path is being used by another process
+#
+7149 Cannot join or substitute drive having directory that is target of previous substitute
+#
+7150 System trace error
+#
+7151 DosMuxSemWait errors
+#
+7152 Systems limit on DosMuxSemWait calls exceeded
+#
+7153 Invalid list format
+#
+7154 Volume label too big
+#
+7155 Cannot create another TCB
+#
+7156 Signal refused
+#
+7157 Segment is discarded
+#
+7158 Segment was not locked
+#
+7159 Bad tread ID address
+#
+7160 Bad environment pointer
+#
+7161 Bad pathname for DosExecPgm
+#
+7162 Signal already pending
+#
+7163 Unknown medium
+#
+7164 No more threads available
+#
+7165 Monitors not supported
+#
+7180 Invalid segment number
+#
+7181 Invalid call gate
+#
+7182 Invalid ordinal
+#
+7183 Shared segment or system semaphore already exists
+#
+7184 No child process running
+#
+7185 Child process is still alive
+#
+7186 Invalid flag number
+#
+7187 semaphore does not exist
+#
+7188 Invalid stating code segment
+#
+7189 Invalid stack segment
+#
+7190 Invalid module type
+#
+7191 Wrong EXE file header
+#
+7192 Invalid EXE file,LINK errors
+#
+7193 Invalid EXE format
+#
+7194 Iterated data exceeds 64 KB
+#
+7195 Invalid minimum allocation size
+#
+7196 Invalid dynamic link from ring 2 segment
+#
+7197 IOPL not enabled in CONFIG.SYS
+#
+7198 Invalid segment descriptor privilege limit
+#
+7199 Automatic data segment exceeds 64 KB
+#
+7200 Ring 2 segment must be movable
+#
+7201 Relocation chain exceeds segment limit
+#
+7202 Infinite loop in relocation chain
+#
+7203 Environment variable not found
+#
+7204 Not current country
+#
+7205 NO process whit handler to receive signal
+#
+7206 Filename or extension too long
+#
+7207 Ring 2 stack in use
+#
+7208 Meta expansion too long
+#
+7209 Invalid signal number
+#
+7210 Inactive thread
+#
+7211 File system information not available
+#
+7212 Locked error
+#
+7213 Bad dynamic link
+#
+7214 Too many modules
+#
+7215 Nesting not allowed
+#
+7216 Cannot shrink ring 2 stack
+#
+7230 Nonexistent pipe or invalid operation
+#
+7231 Specified pipe is busy
+#
+7232 No data on nonblocking pipe read
+#
+7233 Pipe disconnected by server
+#
+7234 Additional data is available
+#
+7240 Network session was canceled
+#
+7262 Stack too large
+#
+7303 Invalid process ID
+#
+7304 Invalid priority level increment
+#
+7305 Not a descendant process
+#
+7306 Requestor not Task Manager
+#
+7307 Invalid priority class
+#
+7308 Invalid scope
+#
+7309 Invalid thread ID
+#
+7310 Cannot shrink DosSubSet segment
+#
+7311 Out of memory(DosSubAlloc)
+#
+7312 Invalid block specified(DosSubFree)
+#
+7313 Bad size parameter
+#
+7314 Bad flag parameter(DosSubSet)
+#
+7315 Invalid segment selector
+#
+7316 Message too long for buffer
+#
+7317 Message ID number not found
+#
+7318 Unable to access message file
+#
+7319 Invalid message file format
+#
+7320 Invalid insertion variable count
+#
+7321 Unable to perform function
+#
+7322 Unable to wake up
+#
+7323 Invalid semaphore handle
+#
+7324 No timers available
+#
+7326 Invalid timer handle
+#
+7327 Date or time invalid
+#
+7328 Internal system error
+#
+7329 Current queue name does not exist
+#
+7330 Current process is not queue owner
+#
+7331 Current process owns queue
+#
+7332 Duplicate queue name
+#
+7333 Queue record does not exist
+#
+7334 Inadequate queue memory
+#
+7335 Invalid queue name
+#
+7336 Invalid queue priority parameter
+#
+7337 Invalid queue handle
+#
+7338 Queue link not found
+#
+7339 Queue memory error
+#
+7340 Previous queue record was at end of queue
+#
+7341 Process does not have access to queue
+#
+7342 Queue is empty
+#
+7343 Queue name does not exist
+#
+7344 Queues not initialized
+#
+7345 Unable to access queues
+#
+7346 Unable to add new queue
+#
+7347 Unable to initialize queues
+#
+7349 Invalid Vio function replaced
+#
+7350 Invalid pointer to parameter
+#
+7355 Unsupported screen mode
+#
+7356 Invalid cursor width value
+#
+7358 Invalid row value
+#
+7359 Invalid column value
+#
+7366 Invalid wait flag setting
+#
+7367 Screen not previously locked
+#
+7369 Invalid session ID
+#
+7370 No session available
+#
+7371 Session not found
+#
+7372 Title cannot be changed
+#
+7373 Invalid parameter(Kbd)
+#
+7375 Invalid wait parameter
+#
+7376 Invalid length for keyboard
+#
+7377 Invalid echo mode mask
+#
+7378 Invalid input mode mask
+#
+7379 Invalid monitor parameters
+#
+7380 Invalid device name string
+#
+7381 Invalid device handle
+#
+7382 Buffer too small
+#
+7383 Buffer empty
+#
+7384 Data record too large
+#
+7386 Mouse handle invalid or closed
+#
+7389 Invalid display mode parameters
+#
+7391 Invalid entry point
+#
+7392 Invalid function mask
+#
+7394 Pointer drawn
+#
+7395 Invalid frequency for DosBeep
+#
+7396 Cannot find COUNTRY.SYS file
+#
+7397 Cannot open COUNTRY.SYS file
+#
+7398 Country code not found
+#
+7399 Information truncated to fit buffer
+#
+7400 Selected type does not exist
+#
+7401 Selected type not in file
+#
+7402 Vio function for Task Manager only
+#
+7403 Invalid string length(Vio)
+#
+7404 VioDeRegister not allowed
+#
+7405 Popup screen not allocated
+#
+7406 Pop-up already on screen
+#
+7407 Kdb function for Task Manager only
+#
+7408 Invalid ASCIIZ string length(Kdb)
+#
+7409 Invalid function replacement mask
+#
+7410 KbdRegister not allowed
+#
+7411 KbdDeRegister not allowed
+#
+7412 Mou function for Task Manager only
+#
+7413 Invalid ASCIIZ string length(Mou)
+#
+7414 Invalid replacement mask
+#
+7415 MouRegister not allowed
+#
+7416 MouDeRegister not allowed
+#
+7417 Invalid action specified
+#
+7418 INIT called more than one
+#
+7419 Screen group number not found
+#
+7420 Caller is not shell
+#
+7421 Invalid parameter(Vio)
+#
+7422 Save/restore already owned
+#
+7423 Thread unblocked by VioModeUndo or VioSavRedrawUndo
+#
+7425 Caller not Task Manager
+#
+7426 VioRegister Not allowed
+#
+7427 No VioModeWait thread exists
+#
+7428 No VioSavRedrawWait thread exists
+#
+7429 Function invalid in background
+#
+7430 Function not allowed during pop-up
+#
+7431 Caller is not the base shell
+#
+7432 Invalid status requested
+#
+7433 No-wait parameter out of bounds
+#
+7434 Cannot lock screen
+#
+7435 Invalid wait parameter
+#
+7436 Invalid Vio handle
+#
+7438 Invalid length for Vio function
+#
+7439 Invalid Kdb handle
+#
+7440 Out of Kbd handles
+#
+7441 Cannot create logical Keyboard
+#
+7442 Code page load failed
+#
+7443 Invalid code page ID
+#
+7445 Keyboard focus required
+#
+7446 Caller already has focus
+#
+7447 Keyboard subsystem is busy
+#
+7448 Invalid code page
+#
+7449 Cannot get keyboard focus
+#
+7450 Session is not selectable
+#
+7451 Parent/child session not in foreground
+#
+7452 Not parent of specified child
+#
+7453 Invalid session start mode
+#
+7454 Invalid session start option
+#
+7455 Invalid session bonding option
+#
+7456 Invalid session select option
+#
+7457 Session started in background
+#
+7458 Invalid session stop option
+#
+7459 Reserved parameter not 0
+#
+7460 Session parent process already exists
+#
+7461 Invalid data length
+#
+7462 Parent session not bound
+#
+7463 Retry request block allocation
+#
+7464 Unavailable for detached process(Kbd)
+#
+7465 Unavailable for detached process(Vio)
+#
+7466 Unavailable for detached process(Mou)
+#
+7467 No font available to support mode
+#
+7468 User font active
+#
+7469 Invalid code page specified
+#
+7470 System displays do not support code page
+#
+7471 Current display does not support code page
+#
+7472 Invalid code page
+#
+7473 Code page list is too small
+#
+7474 Code page not moved
+#
+7475 Mode switch initialization error
+#
+7476 Code page not found
+#
+7477 Internal error
+#
+7478 Invalid session start trace indicator
+#
+7479 Vio internal Resource error
+#
+7480 Vio shell initialization error
+#
+7481 No Task Manager hard errors
+#
+7482 DosSetCp unable to set display or keyboard code page
+#
+7483 Error during Vio pop-up
+#
+7484 Critical section overflow
+#
+7485 Critical section underflow
+#
+7486 Reserved parameter is not 0
+#
+7487 Bad physical address
+#
+7488 No selectors requested
+#
+7489 Not enough GDT selectors available
+#
+7490 Not a GDT selector
+#
+7491 Invalid program type
+#
+7492 Invalid program control
+#
+7493 Invalid program inheritance option
+#
+7494 Vio function not allowed in PM window
+#
+7495 Function not supported in non PM screen group
+#
+7496 Vio shield already owned
+#
+7497 Vio handle exhausted
+#
+7498 Vio error occured, details sent to error log
+#
+7499 Invalid display context
+#
+7500 Kbd input not available
+#
+7501 Mou input not available
+#
+7502 Invalid mouse handle
+#
+7503 Invalid debugging parameters
+#
+7504 Kbd function not allowed in PM window
+#
+7505 Mou function not allowed in PM window
+#
+7506 Invalid icon file
+#

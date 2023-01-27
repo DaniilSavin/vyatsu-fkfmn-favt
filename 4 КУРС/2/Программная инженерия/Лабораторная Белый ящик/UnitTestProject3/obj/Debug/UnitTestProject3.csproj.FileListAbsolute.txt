@@ -1,0 +1,2 @@
+D:\study\4.2\тестирование по\Лабораторная Белый ящик\UnitTestProject3\obj\Debug\UnitTestProject3.csproj.AssemblyReference.cache
+D:\study\4.2\тестирование по\Лабораторная Белый ящик\UnitTestProject3\obj\Debug\UnitTestProject3.csproj.CoreCompileInputs.cache

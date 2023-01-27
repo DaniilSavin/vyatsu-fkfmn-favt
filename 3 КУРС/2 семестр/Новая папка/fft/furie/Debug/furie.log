@@ -1,0 +1,3 @@
+﻿  furie.cpp
+C:\Users\savin\source\repos\fft\furie\furie.cpp(36,20): warning C4018: <: несоответствие типов со знаком и без знака
+  furie.vcxproj -> C:\Users\savin\source\repos\fft\Debug\furie.exe

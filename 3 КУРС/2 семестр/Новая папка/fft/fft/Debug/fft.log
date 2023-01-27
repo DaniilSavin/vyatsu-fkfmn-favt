@@ -1,0 +1,4 @@
+﻿  fft.cpp
+C:\Users\savin\source\repos\fft\fft\fft.cpp(44,1): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\savin\source\repos\fft\fft\fft.cpp(60,21): warning C4018: <: несоответствие типов со знаком и без знака
+  fft.vcxproj -> C:\Users\savin\source\repos\fft\Debug\fft.exe

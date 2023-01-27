@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/assistantPic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:foreground="@drawable/assistant"
+        android:maxWidth="@dimen/imageSize"
+        android:maxHeight="@dimen/imageSize"
+        android:minWidth="@dimen/imageSize"
+        android:minHeight="@dimen/imageSize"
+        android:paddingLeft="@dimen/paddingSize"
+        android:paddingTop="@dimen/paddingSize"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/messageTextView"
+        android:layout_width="@dimen/match_constraint"
+        android:layout_height="wrap_content"
+        android:background="@drawable/assistant_bubble"
+        android:fontFamily="serif"
+        android:gravity="left"
+        android:paddingLeft="@dimen/paddingSize"
+        android:paddingTop="@dimen/paddingSize"
+        android:paddingRight="@dimen/paddingSize"
+        android:paddingBottom="@dimen/paddingSize"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/assistantName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/assistantPic"
+        app:layout_constraintBottom_toTopOf="@+id/messageDateView" />
+
+    <TextView
+        android:id="@+id/messageDateView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text=""
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/messageTextView"
+        app:layout_constraintStart_toEndOf="@+id/assistantPic" />
+
+    <TextView
+        android:id="@+id/assistantName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="@string/assistantName"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@id/messageTextView"
+        app:layout_constraintStart_toEndOf="@+id/assistantPic"
+        app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

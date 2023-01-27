@@ -1,0 +1,38 @@
+
+		SCREEN LAYOUT DEFINITION
+		************************
+
+- Use PgDn to see the rest of this text.
+
+The function keys work as follows:
+	F10:	End screen definition.
+	S-F10:	Re-size window.
+	F3:  	Delete field under cursor.
+	F4:	Define new field.
+	F7:	Delete line.
+	F8:	Insert blank line at cursor position.
+
+
+Special keys are:
+	Ins:		Change between insert and overwrite mode.
+	Del:		Delete char under cursor
+	Back Space:	Delete char before cursor
+
+
+For cursor movement the following keys can be used:
+	->		Move the cursor one character to the right.
+	Ctrl ->		Move the cursor five characters to the right.
+	<-		Move the cursor one character to the left.
+	Ctrl <-		Move the cursor five characters to the left.
+	Arrow up	Move the cursor one row up.
+	PgUp		Move the cursor one page up.
+	Arrow down		Move the cursor one row down.
+	PgDn		Move the cursor one page down.
+	Home		Move the cursor to the start of the window.
+	Ctrl Pgup	Move the cursor to the start of the 
+	                screen definition.
+	End		Move the cursor to the end of the window.
+	Ctrl Pgdn	Move the cursor to the end of the screen 
+	                definition.
+	Cr		Move the cursor to start of the next line
+

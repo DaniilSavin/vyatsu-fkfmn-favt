@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :Base DesTutor.hlp
 :Title DES Tutorial Help
 1 Система шифрования DES=IDH_BEGINDES
@@ -7,3 +8,14 @@
 1 Теоретические сведения о DES=IDH_DESTEXT
 1 О программе=IDH_ABOUTPROG
 1 Авторы=IDH_AUTHORS
+=======
+:Base DesTutor.hlp
+:Title DES Tutorial Help
+1 Система шифрования DES=IDH_BEGINDES
+1 Введение=IDH_USERMANUAL
+1 Режим кодирования и декодирования=IDH_CODEDECODE
+1 Режим тестирования=IDH_TEST
+1 Теоретические сведения о DES=IDH_DESTEXT
+1 О программе=IDH_ABOUTPROG
+1 Авторы=IDH_AUTHORS
+>>>>>>> ad22ee082dac6ece8d23d5999a86f8d8c86438df

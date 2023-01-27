@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
@@ -5,4 +6,13 @@
       "C:\\Users\\Дмитрий\\.nuget\\packages"
     ]
   }
+=======
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Дмитрий\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Дмитрий\\.nuget\\packages"
+    ]
+  }
+>>>>>>> ad22ee082dac6ece8d23d5999a86f8d8c86438df
 }

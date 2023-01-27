@@ -1,0 +1,20 @@
+1   int n = 10;
+1   double[] arr = new double[n];
+1   Random rand = new Random(DateTime.Now.Millisecond);
+1   double min = double.MaxValue;
+
+    for ((2)int i = 0; (3)i < arr.Length; (4)i++)
+5       arr[i] = Math.Round((rand.NextDouble() * 100), 2);
+
+6   Console.WriteLine("Массив: ");
+
+7   foreach (double a in arr)
+       Console.WriteLine(a + " ");
+    Console.WriteLine();
+   
+    for ((8)int i = 0; (9)i < arr.Length/2; (10)i++)
+    {
+11      if (arr[i] + arr[i + 5] < min)
+12		min = arr[i] + arr[i + 5];
+    }
+13  Console.WriteLine(min);

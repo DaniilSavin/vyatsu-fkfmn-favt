@@ -1,0 +1,33 @@
+﻿<Window x:Class="LAB_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LAB_1"
+        mc:Ignorable="d"
+        Title="" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="fLb" Content="f=" HorizontalAlignment="Left" Margin="19,27,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="fTb" HorizontalAlignment="Left" Margin="64,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="18" Text="6"/>
+        <Label x:Name="hLb" Content="h=" HorizontalAlignment="Left" Margin="174,27,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="hTB" HorizontalAlignment="Left" Margin="207,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="18" Text="2"/>
+        <Label x:Name="P1Lb" Content="P1=" HorizontalAlignment="Left" Margin="334,27,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="P1Tb" HorizontalAlignment="Left" Margin="375,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="18" Text="0,990"/>
+        <Label x:Name="P2Lb" Content="P2=" HorizontalAlignment="Left" Margin="476,27,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="P2Tb" HorizontalAlignment="Left" Margin="517,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="18" Text="0,970"/>
+        <Label x:Name="P3Lb" Content="P3=" HorizontalAlignment="Left" Margin="638,27,0,0" VerticalAlignment="Top" FontSize="18"/>
+        <TextBox x:Name="P3Tb" HorizontalAlignment="Left" Margin="679,31,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" FontSize="18" Text="0,850"/>
+        <Button x:Name="calcBt" Content="Calculate" HorizontalAlignment="Left" Margin="19,294,0,0" VerticalAlignment="Top" FontSize="18" Click="calcBt_Click" Width="125" Height="37"/>
+        <Label x:Name="resultLb" Content="G=" HorizontalAlignment="Left" Margin="28,336,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.6,0.464" Height="38" Width="38" FontSize="18" Visibility="Hidden"/>
+        <GroupBox Header="" Margin="19,79,219,164"></GroupBox>
+        <RadioButton x:Name="_1rb" Content="однопроцессорной вычислительной системы" HorizontalAlignment="Left" Margin="32,97,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <RadioButton x:Name="_2rb" Content="дуплексной вычислительной системы" HorizontalAlignment="Left" Margin="32,120,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <RadioButton x:Name="_3rb" Content="триплексной вычислительной системы" HorizontalAlignment="Left" Margin="32,143,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <RadioButton x:Name="_4rb" Content="двухпроцессорной вычислительной системы с одним резервным" HorizontalAlignment="Left" Margin="32,166,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <RadioButton x:Name="_5rb" Content="двухпроцессорной вычислительной системы с двумя резервными" HorizontalAlignment="Left" Margin="32,189,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <RadioButton x:Name="_6rb" Content="двухпроцессорной вычислительной системы с f резервными" HorizontalAlignment="Left" Margin="32,212,0,0" VerticalAlignment="Top" FontSize="14"/>
+        <TextBox x:Name="resultTb" HorizontalAlignment="Left" Margin="64,342,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="570" FontSize="18" Visibility="Hidden"/>
+
+
+    </Grid>
+</Window>

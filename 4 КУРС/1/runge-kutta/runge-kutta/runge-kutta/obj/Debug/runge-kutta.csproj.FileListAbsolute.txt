@@ -1,0 +1,13 @@
+C:\Users\eMahines\source\repos\runge-kutta\runge-kutta\bin\Debug\runge-kutta.exe.config
+C:\Users\eMahines\source\repos\runge-kutta\runge-kutta\bin\Debug\runge-kutta.exe
+C:\Users\eMahines\source\repos\runge-kutta\runge-kutta\bin\Debug\runge-kutta.pdb
+C:\Users\eMahines\source\repos\runge-kutta\runge-kutta\obj\Debug\runge-kutta.csprojAssemblyReference.cache
+C:\Users\eMahines\source\repos\runge-kutta\runge-kutta\obj\Debug\runge-kutta.exe
+C:\Users\eMahines\source\repos\runge-kutta\runge-kutta\obj\Debug\runge-kutta.pdb
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta\bin\Debug\runge-kutta.exe.config
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta\bin\Debug\runge-kutta.exe
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta\bin\Debug\runge-kutta.pdb
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta\obj\Debug\runge-kutta.csproj.AssemblyReference.cache
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta\obj\Debug\runge-kutta.csproj.CoreCompileInputs.cache
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta\obj\Debug\runge-kutta.exe
+C:\Users\Дмитрий\Desktop\runge-kutta\runge-kutta\obj\Debug\runge-kutta.pdb

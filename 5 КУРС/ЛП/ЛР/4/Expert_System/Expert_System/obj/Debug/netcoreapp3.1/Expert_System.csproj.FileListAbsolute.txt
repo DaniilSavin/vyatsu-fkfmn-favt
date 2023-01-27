@@ -1,0 +1,16 @@
+E:\ВУЗ\ВУЗ\5 КУРС\ЛП\ЛР\4\Expert_System\Expert_System\bin\Debug\netcoreapp3.1\Expert_System.exe
+E:\ВУЗ\ВУЗ\5 КУРС\ЛП\ЛР\4\Expert_System\Expert_System\bin\Debug\netcoreapp3.1\Expert_System.deps.json
+E:\ВУЗ\ВУЗ\5 КУРС\ЛП\ЛР\4\Expert_System\Expert_System\bin\Debug\netcoreapp3.1\Expert_System.runtimeconfig.json
+E:\ВУЗ\ВУЗ\5 КУРС\ЛП\ЛР\4\Expert_System\Expert_System\bin\Debug\netcoreapp3.1\Expert_System.runtimeconfig.dev.json
+E:\ВУЗ\ВУЗ\5 КУРС\ЛП\ЛР\4\Expert_System\Expert_System\bin\Debug\netcoreapp3.1\Expert_System.dll
+E:\ВУЗ\ВУЗ\5 КУРС\ЛП\ЛР\4\Expert_System\Expert_System\bin\Debug\netcoreapp3.1\Expert_System.pdb
+E:\ВУЗ\ВУЗ\5 КУРС\ЛП\ЛР\4\Expert_System\Expert_System\obj\Debug\netcoreapp3.1\Expert_System.csproj.AssemblyReference.cache
+E:\ВУЗ\ВУЗ\5 КУРС\ЛП\ЛР\4\Expert_System\Expert_System\obj\Debug\netcoreapp3.1\Expert_System.Form1.resources
+E:\ВУЗ\ВУЗ\5 КУРС\ЛП\ЛР\4\Expert_System\Expert_System\obj\Debug\netcoreapp3.1\Expert_System.csproj.GenerateResource.cache
+E:\ВУЗ\ВУЗ\5 КУРС\ЛП\ЛР\4\Expert_System\Expert_System\obj\Debug\netcoreapp3.1\Expert_System.GeneratedMSBuildEditorConfig.editorconfig
+E:\ВУЗ\ВУЗ\5 КУРС\ЛП\ЛР\4\Expert_System\Expert_System\obj\Debug\netcoreapp3.1\Expert_System.AssemblyInfoInputs.cache
+E:\ВУЗ\ВУЗ\5 КУРС\ЛП\ЛР\4\Expert_System\Expert_System\obj\Debug\netcoreapp3.1\Expert_System.AssemblyInfo.cs
+E:\ВУЗ\ВУЗ\5 КУРС\ЛП\ЛР\4\Expert_System\Expert_System\obj\Debug\netcoreapp3.1\Expert_System.csproj.CoreCompileInputs.cache
+E:\ВУЗ\ВУЗ\5 КУРС\ЛП\ЛР\4\Expert_System\Expert_System\obj\Debug\netcoreapp3.1\Expert_System.dll
+E:\ВУЗ\ВУЗ\5 КУРС\ЛП\ЛР\4\Expert_System\Expert_System\obj\Debug\netcoreapp3.1\Expert_System.pdb
+E:\ВУЗ\ВУЗ\5 КУРС\ЛП\ЛР\4\Expert_System\Expert_System\obj\Debug\netcoreapp3.1\Expert_System.genruntimeconfig.cache

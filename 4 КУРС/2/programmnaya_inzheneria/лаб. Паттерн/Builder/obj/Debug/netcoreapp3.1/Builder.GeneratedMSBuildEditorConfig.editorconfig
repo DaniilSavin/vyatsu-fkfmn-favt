@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 is_global = true
 build_property.RootNamespace = Builder
 build_property.ProjectDir = D:\study\4 курс 2 семестр\программная инженерия\лаб. Паттерн\Builder\
+=======
+is_global = true
+build_property.RootNamespace = Builder
+build_property.ProjectDir = D:\study\4 курс 2 семестр\программная инженерия\лаб. Паттерн\Builder\
+>>>>>>> ad22ee082dac6ece8d23d5999a86f8d8c86438df

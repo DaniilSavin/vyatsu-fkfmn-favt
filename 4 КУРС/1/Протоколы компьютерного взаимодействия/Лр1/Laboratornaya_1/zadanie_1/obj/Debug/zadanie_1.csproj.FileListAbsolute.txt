@@ -1,0 +1,40 @@
+D:\Users\class\source\repos\Laboratornaya_1\zadanie_1\bin\Debug\zadanie_1.exe.config
+D:\Users\class\source\repos\Laboratornaya_1\zadanie_1\bin\Debug\zadanie_1.exe
+D:\Users\class\source\repos\Laboratornaya_1\zadanie_1\bin\Debug\zadanie_1.pdb
+D:\Users\class\source\repos\Laboratornaya_1\zadanie_1\obj\Debug\zadanie_1.csprojAssemblyReference.cache
+D:\Users\class\source\repos\Laboratornaya_1\zadanie_1\obj\Debug\zadanie_1.Form1.resources
+D:\Users\class\source\repos\Laboratornaya_1\zadanie_1\obj\Debug\zadanie_1.Properties.Resources.resources
+D:\Users\class\source\repos\Laboratornaya_1\zadanie_1\obj\Debug\zadanie_1.csproj.GenerateResource.cache
+D:\Users\class\source\repos\Laboratornaya_1\zadanie_1\obj\Debug\zadanie_1.csproj.CoreCompileInputs.cache
+D:\Users\class\source\repos\Laboratornaya_1\zadanie_1\obj\Debug\zadanie_1.exe
+D:\Users\class\source\repos\Laboratornaya_1\zadanie_1\obj\Debug\zadanie_1.pdb
+E:\      \Протоколы компьютерного взаимодействия\Лр1\Laboratornaya_1\zadanie_1\bin\Debug\zadanie_1.exe.config
+E:\      \Протоколы компьютерного взаимодействия\Лр1\Laboratornaya_1\zadanie_1\bin\Debug\zadanie_1.exe
+E:\      \Протоколы компьютерного взаимодействия\Лр1\Laboratornaya_1\zadanie_1\bin\Debug\zadanie_1.pdb
+E:\      \Протоколы компьютерного взаимодействия\Лр1\Laboratornaya_1\zadanie_1\obj\Debug\zadanie_1.csprojAssemblyReference.cache
+E:\      \Протоколы компьютерного взаимодействия\Лр1\Laboratornaya_1\zadanie_1\obj\Debug\zadanie_1.Form1.resources
+E:\      \Протоколы компьютерного взаимодействия\Лр1\Laboratornaya_1\zadanie_1\obj\Debug\zadanie_1.Properties.Resources.resources
+E:\      \Протоколы компьютерного взаимодействия\Лр1\Laboratornaya_1\zadanie_1\obj\Debug\zadanie_1.csproj.GenerateResource.cache
+E:\      \Протоколы компьютерного взаимодействия\Лр1\Laboratornaya_1\zadanie_1\obj\Debug\zadanie_1.csproj.CoreCompileInputs.cache
+E:\      \Протоколы компьютерного взаимодействия\Лр1\Laboratornaya_1\zadanie_1\obj\Debug\zadanie_1.exe
+E:\      \Протоколы компьютерного взаимодействия\Лр1\Laboratornaya_1\zadanie_1\obj\Debug\zadanie_1.pdb
+F:\      \Протоколы компьютерного взаимодействия\Лр1\Laboratornaya_1\zadanie_1\bin\Debug\zadanie_1.exe.config
+F:\      \Протоколы компьютерного взаимодействия\Лр1\Laboratornaya_1\zadanie_1\bin\Debug\zadanie_1.exe
+F:\      \Протоколы компьютерного взаимодействия\Лр1\Laboratornaya_1\zadanie_1\bin\Debug\zadanie_1.pdb
+F:\      \Протоколы компьютерного взаимодействия\Лр1\Laboratornaya_1\zadanie_1\obj\Debug\zadanie_1.csproj.AssemblyReference.cache
+F:\      \Протоколы компьютерного взаимодействия\Лр1\Laboratornaya_1\zadanie_1\obj\Debug\zadanie_1.Form1.resources
+F:\      \Протоколы компьютерного взаимодействия\Лр1\Laboratornaya_1\zadanie_1\obj\Debug\zadanie_1.Properties.Resources.resources
+F:\      \Протоколы компьютерного взаимодействия\Лр1\Laboratornaya_1\zadanie_1\obj\Debug\zadanie_1.csproj.GenerateResource.cache
+F:\      \Протоколы компьютерного взаимодействия\Лр1\Laboratornaya_1\zadanie_1\obj\Debug\zadanie_1.csproj.CoreCompileInputs.cache
+F:\      \Протоколы компьютерного взаимодействия\Лр1\Laboratornaya_1\zadanie_1\obj\Debug\zadanie_1.exe
+F:\      \Протоколы компьютерного взаимодействия\Лр1\Laboratornaya_1\zadanie_1\obj\Debug\zadanie_1.pdb
+D:\ВУЗ\4 КУРС\Протоколы компьютерного взаимодействия\Лр1\Laboratornaya_1\zadanie_1\bin\Debug\zadanie_1.exe.config
+D:\ВУЗ\4 КУРС\Протоколы компьютерного взаимодействия\Лр1\Laboratornaya_1\zadanie_1\bin\Debug\zadanie_1.exe
+D:\ВУЗ\4 КУРС\Протоколы компьютерного взаимодействия\Лр1\Laboratornaya_1\zadanie_1\bin\Debug\zadanie_1.pdb
+D:\ВУЗ\4 КУРС\Протоколы компьютерного взаимодействия\Лр1\Laboratornaya_1\zadanie_1\obj\Debug\zadanie_1.csproj.AssemblyReference.cache
+D:\ВУЗ\4 КУРС\Протоколы компьютерного взаимодействия\Лр1\Laboratornaya_1\zadanie_1\obj\Debug\zadanie_1.Form1.resources
+D:\ВУЗ\4 КУРС\Протоколы компьютерного взаимодействия\Лр1\Laboratornaya_1\zadanie_1\obj\Debug\zadanie_1.Properties.Resources.resources
+D:\ВУЗ\4 КУРС\Протоколы компьютерного взаимодействия\Лр1\Laboratornaya_1\zadanie_1\obj\Debug\zadanie_1.csproj.GenerateResource.cache
+D:\ВУЗ\4 КУРС\Протоколы компьютерного взаимодействия\Лр1\Laboratornaya_1\zadanie_1\obj\Debug\zadanie_1.csproj.CoreCompileInputs.cache
+D:\ВУЗ\4 КУРС\Протоколы компьютерного взаимодействия\Лр1\Laboratornaya_1\zadanie_1\obj\Debug\zadanie_1.exe
+D:\ВУЗ\4 КУРС\Протоколы компьютерного взаимодействия\Лр1\Laboratornaya_1\zadanie_1\obj\Debug\zadanie_1.pdb

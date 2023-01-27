@@ -1,0 +1,5 @@
+E:\server\mysql\bin>mysqld --initialize --user=mysql
+
+E:\server\mysql\bin>mysqld
+
+httpd

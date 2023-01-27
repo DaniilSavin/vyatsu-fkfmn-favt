@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 is_global = true
 build_property.RootNamespace = LifeModel
 build_property.ProjectDir = D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab_5\game-of-life\LifeModel\
+=======
+is_global = true
+build_property.RootNamespace = LifeModel
+build_property.ProjectDir = D:\ВУЗ\4 КУРС\1\Методы оптимизации\lab_5\game-of-life\LifeModel\
+>>>>>>> ad22ee082dac6ece8d23d5999a86f8d8c86438df

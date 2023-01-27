@@ -1,0 +1,175 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace zxc
+{
+    class Program
+    {
+        private static List<char> _endSentenceSymbols = new List<char>() { '!', '.', '?' };
+        private static List<char> _artPunctuationSymbols = new List<char>() { ':', '!', '-', '"' };
+        private static List<char> _legalPunctuationSymbols = new List<char>() { '.', ',' };
+
+        enum TextStyle { Art, Legal };
+
+        enum Parameter
+        {
+            Number,
+            AverageSentence,
+            UpperSymbols,
+            Punctuation,
+            InLineSymbols,
+        }
+
+        private static Dictionary<Parameter, double> _settings = new Dictionary<Parameter, double>()
+        {
+            [Parameter.Number] = 0.00798345962637344,
+            [Parameter.AverageSentence] = 0.0124369054781243,
+            [Parameter.UpperSymbols] = 0.0120087587956261,
+            [Parameter.Punctuation] = 0.0417401650736522,
+            [Parameter.InLineSymbols] = 0.0141756545653788,
+        };
+
+
+        private static string ReadTextFromFile(string fileName)
+        {
+            return System.IO.File.ReadAllText(fileName, Encoding.UTF8);
+        }
+        private static double GetNumbersIndex(string text)
+        {
+            int count = 1;
+            for (int i = 0; i < text.Length; i++)
+            {
+                if (Char.IsDigit(text[i])) count++;
+            }
+            return count / (double)text.Length;
+        }
+        private static double GetAverageSentenceLength(string text)
+        {
+            int count = 1;
+            for (int i = 0; i < text.Length; i++)
+            {
+                if (_endSentenceSymbols.Contains(text[i]))
+                {
+                    count++;
+                }
+            }
+            return count / (double)text.Length;
+        }
+        private static double GetStylePunctuationIndex(string text) //positive is art, negative is legal
+        {
+            int index = 1;
+            for (int i = 0; i < text.Length; i++)
+            {
+                if (_artPunctuationSymbols.Contains(text[i]))
+                {
+                    index++;
+                }
+                if (_legalPunctuationSymbols.Contains(text[i]))
+                {
+                    index--;
+                }
+            }
+            return index / (double)text.Length;
+        }
+        private static double GetPunctuationIndex(string text)
+        {
+            int count = 1;
+            for (int i = 0; i < text.Length; i++)
+            {
+                if (Char.IsPunctuation(text[i]))
+                {
+                    count++;
+                }
+            }
+            return count / (double)text.Length;
+        }
+        private static double GetInLineSymbolsIndex(string text)
+        {
+            int count = 1;
+            for (int i = 0; i < text.Length; i++)
+            {
+                if (text[i] == Environment.NewLine[0])
+                {
+                    count++;
+                }
+            }
+            return count / (double)text.Length;
+        }
+        /*
+            [Parameter.Number] = 288,
+            [Parameter.AverageSentence] = 58.5,
+            [Parameter.UpperSymbols] = -9,
+            [Parameter.Punctuation] = 23,
+            [Parameter.InLineSymbols] = 100.5,
+             */
+
+        //static double q1 = 0;
+        //static double q2 = 0;
+        //static double q3 = 0;
+        //static double q4 = 0;
+        //static double q5 = 0;
+        private static TextStyle GetTextStyle(string text)
+        {
+            double styleIndex = 0;
+            styleIndex += (GetNumbersIndex(text) > _settings[Parameter.Number]) ? _impact[Parameter.Number] : -_impact[Parameter.Number]; //Кол-во цифр на текст
+            styleIndex += (GetAverageSentenceLength(text) > _settings[Parameter.AverageSentence]) ? -_impact[Parameter.AverageSentence] : _impact[Parameter.AverageSentence]; //Средняя длина предложения
+            styleIndex += (GetStylePunctuationIndex(text) > _settings[Parameter.UpperSymbols]) ? _impact[Parameter.UpperSymbols] : -_impact[Parameter.UpperSymbols]; //Стиль символов пунктуации в тексте
+            styleIndex += (GetPunctuationIndex(text) > _settings[Parameter.Punctuation]) ? -_impact[Parameter.Punctuation] : _impact[Parameter.Punctuation]; //Кол-во символов пунктуации на текст
+            styleIndex += (GetInLineSymbolsIndex(text) > _settings[Parameter.InLineSymbols]) ? -_impact[Parameter.InLineSymbols] : _impact[Parameter.InLineSymbols]; //Кол-во символов в строке
+            #region OUTPUT
+            //q1 += GetNumbersIndex(text);
+            //q2 += GetAverageSentenceLength(text);
+            //q3 += GetStylePunctuationIndex(text);
+            //q4 += GetPunctuationIndex(text);
+            //q5 += GetInLineSymbolsIndex(text);
+            Console.WriteLine(GetNumbersIndex(text)); //Кол-во цифр на текст
+            Console.WriteLine(GetAverageSentenceLength(text)); //Средняя длинна предложения
+            Console.WriteLine(GetStylePunctuationIndex(text)); //Стиль символов пунктуации в тексте
+            Console.WriteLine(GetPunctuationIndex(text)); //Кол-во символов пунктуации на текст
+            Console.WriteLine(GetInLineSymbolsIndex(text)); //Кол-во символов в строке
+            #endregion
+            Console.WriteLine("styleIndex " + styleIndex);
+            return (styleIndex >= 0) ? TextStyle.Art : TextStyle.Legal;
+        }
+
+        private static Dictionary<Parameter, double> _impact = new Dictionary<Parameter, double>()
+        {
+            [Parameter.Number] = 1,
+            [Parameter.AverageSentence] = 1,
+            [Parameter.UpperSymbols] = 100,
+            [Parameter.Punctuation] = 1,
+            [Parameter.InLineSymbols] = 1,
+        };
+
+        static void Main(string[] args)
+        {
+            //for (int i = 1; i <= 6; i++)
+            //{
+            //    string fileName = i+".txt";
+            //    string text = ReadTextFromFile(fileName);
+            //    GetTextStyle(text);
+            //}
+            //Console.WriteLine(q1 / 6);
+            //Console.WriteLine(q2 / 6);
+            //Console.WriteLine(q3 / 6);
+            //Console.WriteLine(q4 / 6);
+            //Console.WriteLine(q5 / 6);
+
+            const string fileName = "1.txt";
+            string text = ReadTextFromFile(fileName);
+            switch (GetTextStyle(text))
+            {
+                case TextStyle.Art:
+                    Console.WriteLine("Стиль текста художественный");
+                    break;
+                case TextStyle.Legal:
+                    Console.WriteLine("Стиль текста юридический");
+                    break;
+            }
+            Console.ReadKey();
+        }
+    }
+}

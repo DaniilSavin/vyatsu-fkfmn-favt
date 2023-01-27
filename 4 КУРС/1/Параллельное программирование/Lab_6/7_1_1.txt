@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <iostream>
 #include <math.h>
 #include <mpi.h>
@@ -55,3 +56,62 @@ int main(int argc, char* argv[])
 	MPI_Finalize();
 	return 0;
 }
+=======
+#include <iostream>
+#include <math.h>
+#include <mpi.h>
+
+using namespace std;
+int main(int argc, char* argv[])
+{
+	int proc_rank, proc_num;
+	long long N;
+	double sum = 0;
+	MPI_Status st;
+	MPI_Init(&argc, &argv);
+	MPI_Comm_rank(MPI_COMM_WORLD, &proc_rank);
+	MPI_Comm_size(MPI_COMM_WORLD, &proc_num);
+	double start, end;
+	if (proc_rank == 0)
+	{
+		//  вводим n и рассылаем всем процессам
+		std::cout << "input N: ";
+		N = pow(10, 8);
+		cout << N << endl;
+		//std::cin >> N;
+		start = MPI_Wtime();
+		for (int i = 1; i < proc_num; ++i)
+			MPI_Send(&N, 1, MPI_LONG_LONG, i, 0, MPI_COMM_WORLD);
+	}
+	else
+	{
+		MPI_Recv(&N, 1, MPI_LONG_LONG, 0, MPI_ANY_TAG, MPI_COMM_WORLD, &st);
+	}
+	//  считаем значение
+
+	for (long long k = proc_rank + 1; k <= N; k += proc_num)
+		sum += (((k - 1) & 1) == 1 ? -1.0 : 1.0) / k;
+
+	//  отправляем главному процессу
+	if (proc_rank == 0)
+	{
+		double tmpsum;
+		//  собираем значения других процессов и вычисляем результат
+		for (int i = 1; i < proc_num; ++i)
+		{
+			MPI_Recv(&tmpsum, 1, MPI_LONG_LONG, MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &st);
+			sum += tmpsum;
+		}
+		end = MPI_Wtime();
+		std::cout << "time to sum = " << end - start << "s\n";
+		printf("Result: %.10f", sum);
+	}
+	else
+	{
+		MPI_Send(&sum, 1, MPI_LONG_LONG, 0, 0, MPI_COMM_WORLD);
+	}
+
+	MPI_Finalize();
+	return 0;
+}
+>>>>>>> ad22ee082dac6ece8d23d5999a86f8d8c86438df

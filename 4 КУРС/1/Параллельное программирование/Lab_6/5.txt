@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <iostream>
 #include <mpi.h>
 #include <vector>
@@ -88,4 +89,96 @@ int main(int argc, char* argv[])
     cout << endl;
     MPI_Finalize();
     return 0;
+=======
+#include <iostream>
+#include <mpi.h>
+#include <vector>
+#include <clocale>
+#include <random>
+using namespace std;
+int main(int argc, char* argv[])
+{
+    const int N = 4, M = 3, a = 10, b = 100;
+    MPI_Init(&argc, &argv);
+    MPI_Request request;
+    MPI_Status status;
+    int rank, size;
+    MPI_Comm_size(MPI_COMM_WORLD, &size);
+    MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+    int rows = N;
+    int** array = new int* [rows];
+    int size1 = rows * M;
+    array[0] = new int[size1]; //инициализируем массив
+    for (int j = 1; j < rows; j++)
+        array[j] = &array[0][j * M];
+    //локальная сумма для каждого потока
+    int* sum = new int;
+    *sum = 0;
+    //общая сумма (сумма всех локальных сумм)
+    int* Sum = new int;
+    *Sum = 0;
+    if (rank == 0)
+    {
+        random_device rd;
+        mt19937 gen(rd());
+        uniform_int_distribution<> dis(a, b);
+        for (int i = 0; i < N; i++) // 0 поток генерирует массив 
+        {
+            for (int j = 0; j < M; j++)
+            {
+                array[i][j] = dis(gen);
+                cout << array[i][j] << " ";
+            }
+            cout << endl;
+        }
+        cout << endl;
+        for (int i = 0; i < N; i++)
+        {
+            if (i % size != 0) //отправка каждому из потоков одномерного массива
+            {
+                MPI_Send(array[i], M, MPI_INT, i % size, 0, MPI_COMM_WORLD);
+                cout << "process: " << rank << " send row: " << i << endl;
+            }
+            else
+            {
+                MPI_Send(array[i], M, MPI_INT, i % size + 1, 0, MPI_COMM_WORLD);
+                cout << "process: " << rank << " send row: " << i << endl;
+            }
+        }
+        for (int i = 0; i < N; i++) // 0 поток принимает от каждого потока его локальную сумму и прибавляет к общей
+        {
+            if (i % size != 0)
+            {
+                MPI_Recv(sum, 1, MPI_INT, i % size, 0, MPI_COMM_WORLD, &status);
+                cout << "process: " << rank << " receive sum: " << *sum << endl;
+                *Sum += *sum;
+            }
+            else
+            {
+                MPI_Recv(sum, 1, MPI_INT, i % size + 1, 0, MPI_COMM_WORLD, &status);
+                cout << "process: " << rank << " receive sum: " << *sum << endl;
+                *Sum += *sum;
+            }
+        }
+        cout << "Sum = " << *Sum << endl;
+    }
+    else
+    {
+        for (int i = 0; i < N; i++) //каждый из потоков принимает от 0 часть массива подсчитывает сумму элементов и отправляет обратно
+        {
+            MPI_Recv(array[i], M, MPI_INT, 0, 0, MPI_COMM_WORLD, &status);
+            for (int j = 0; j < M; j++)
+            {
+                cout << "process: " << rank << " recieve number:  " << array[i][j] << endl;
+                *sum += array[i][j];
+            }
+            MPI_Send(sum, 1, MPI_INT, 0, 0, MPI_COMM_WORLD);
+            cout << "process: " << rank << " send sum:  " << *sum << endl;
+            *sum = 0;
+        }
+    }
+    cout << endl;
+    MPI_Finalize();
+    return 0;
+>>>>>>> ad22ee082dac6ece8d23d5999a86f8d8c86438df
 }

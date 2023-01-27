@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2d6a0614-e292-4bed-b40c-1bdfce790408": {
+      "ProjectGuid": "2d6a0614-e292-4bed-b40c-1bdfce790408",
+      "DisplayName": "UnitTestProject3",
+      "ColorIndex": 0
+    },
+    "7117bfe2-2083-401d-8430-03f1aa1f1c7a": {
+      "ProjectGuid": "7117bfe2-2083-401d-8430-03f1aa1f1c7a",
+      "DisplayName": "ClassLibrary2",
+      "ColorIndex": 1
+    },
+    "49a89b63-d75e-48c4-84ab-6f6a36b1b19d": {
+      "ProjectGuid": "49a89b63-d75e-48c4-84ab-6f6a36b1b19d",
+      "DisplayName": "ConsoleApp2",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Прочие файлы",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 3
+}

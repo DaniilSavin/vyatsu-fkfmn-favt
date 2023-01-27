@@ -1,0 +1,711 @@
+%*****************************************************************
+% File: preamble.bgi
+% Postscript preamble file for BGI Postscript driver
+% (c) Copyright 1989 Borland International
+% Last Update: 8-31-89
+%*****************************************************************
+%%EndComments
+
+save
+
+/dic 12 dict def
+
+/RES
+{
+   dic begin
+   /cn exch def
+   /new exch def
+   /bf exch def
+
+   /bd bf findfont def
+   /fo bd maxlength dict def
+
+   bd
+   {
+     exch dup /FID ne
+     {
+       dup /Encoding eq
+       {
+     exch dup length array copy
+     fo 3 1 roll put
+       }
+       {
+     exch fo 3 1 roll put
+       }
+       ifelse
+     }
+     {
+       pop pop
+     }
+     ifelse
+   }
+   forall
+
+   fo /FontName new put
+   cn aload pop
+
+   cn length 2 idiv
+   {
+     fo /Encoding get 3 1 roll put
+   }
+   repeat
+
+   new fo definefont pop
+   end
+} def
+
+
+/pcVector [
+ 16#00 /fraction 16#01 /currency 16#02 /guilsinglright 16#03 /fi
+ 16#04 /fl 16#05 /lslash 16#07 /bullet 16#08 /bullet 16#09 /bullet
+ 16#0a /bullet 16#0b /Aacute 16#0c /Acircumflex 16#0d /Agrave
+ 16#0e /Atilde 16#0f /Ecircumflex 16#10 /Edieresis 16#11 /Egrave
+ 16#12 /Iacute 16#13 /Icircumflex 16#14 /paragraph 16#15 /section
+ 16#16 /Idieresis 16#17 /Igrave 16#18 /Oacute 16#19 /Ocircumflex
+ 16#1a /Ograve 16#1b /Otilde 16#1c /Scaron 16#1d /Uacute
+ 16#1e /Ucircumflex 16#1f /Ugrave 16#80 /Ccedilla 16#81 /udieresis
+ 16#82 /eacute 16#83 /acircumflex 16#84 /adieresis 16#85 /agrave
+ 16#86 /aring 16#87 /ccedilla 16#88 /ecircumflex 16#89 /edieresis
+ 16#8a /egrave 16#8b /idieresis 16#8c /icircumflex 16#8d /igrave
+ 16#8e /Adieresis 16#8f /Aring 16#90 /Eacute 16#91 /ae
+ 16#92 /AE 16#93 /ocircumflex 16#94 /odieresis 16#95 /ograve
+ 16#96 /ucircumflex 16#97 /ugrave 16#98 /ydieresis 16#99 /Odieresis
+ 16#9a /Udieresis 16#9b /cent 16#9c /sterling 16#9d /yen
+ 16#9f /florin 16#a0 /aacute 16#a1 /iacute 16#a2 /oacute
+ 16#a3 /uacute 16#a4 /ntilde 16#a5 /Ntilde 16#a6 /ordfeminine
+ 16#a7 /ordmasculine 16#a8 /questiondown
+ 16#aa /threequarters
+ 16#ab /onehalf
+ 16#ac /onequarter
+ 16#ad /exclamdown 16#ae /guillemotleft
+ 16#af /guillemotright 16#d1 /Zcaron 16#d2 /atilde 16#d3 /otilde
+ 16#d4 /scaron 16#d5 /zcaron 16#d6 /Ydieresis 16#f8 /ring
+] def
+
+/OP
+{
+  bgiFill 0 ne bgiRes 0 eq and bgiFill 1 eq or	       % 1 = SolidFill
+  {
+    1 CurrentFill ne
+    {
+      level0
+    } if
+    bgiFillColor			    % stack: (color)
+    dup /CurrentColor exch def			      % set color
+    bgiRes 1 eq
+    {
+      bgiGrayTable exch get setgray
+    }
+    {
+      setbgicolor
+    } ifelse
+  }{
+    % stack:  -
+    0 bgiFill eq				% 0 = HollowFill
+    {
+    }{
+      bgiFill dup 15 gt
+      {
+	pop
+      }{
+	% stack:  bgiFill
+	dup bgiRes 0 ne exch 9 ne and
+	{
+	  level0
+	  bgiPatTable exch get
+	  setpatterndict begin
+	    /bstring exch def
+
+	    /onbits 0 def
+	    /offbits 0 def
+
+	    %9.375 0 /spot load setscreen
+	    18.75 0  /spot load setscreen
+
+	    {} settransfer
+	    offbits offbits onbits add div
+	  end
+	  setgray
+	}{
+	  pop
+	  level0			% for pattern 9
+	  0.3 setgray
+	} ifelse
+      } ifelse
+    } ifelse
+  } ifelse
+
+  /CurrentFill bgiFill def
+  newpath
+} bind def
+
+
+/toStack
+{
+  bgiMono
+  bgiFill
+  bgiColor
+  bgiFillColor
+  bgiSize
+  bgiFont
+  bgiAttrib
+  bgiOrient
+  bgiRes
+  x0Clip
+  y0Clip
+  x1Clip
+  y1Clip
+} def
+
+/fromStack
+{
+  /y1Clip exch def
+  /x1Clip exch def
+  /y0Clip exch def
+  /x0Clip exch def
+  /bgiRes exch def
+  /bgiOrient exch def
+  /bgiAttrib exch def
+  /bgiFont exch def
+  /bgiSize exch def
+  /bgiFillColor exch def
+  /bgiColor exch def
+  /bgiFill exch def
+  /bgiMono exch def
+} def
+
+/level0 {
+  toStack
+  Memory0 restore
+  fromStack
+
+  /Memory0 save def
+
+  newpath
+  x0Clip y0Clip moveto
+  x0Clip y1Clip lineto
+  x1Clip y1Clip lineto
+  x1Clip y0Clip lineto
+  closepath
+  clip
+  newpath
+
+  /Memory1 save def
+  /CurrentFont -1 def
+  /CurrentColor 0 def
+} def
+
+/CL {
+  closepath
+  dup 1 eq
+  { DO } if
+  dup 2 eq
+  { gsave
+      0 CurrentFill ne				      % 0 = Hollow fill
+      {
+	fill
+      } if
+   grestore DO
+  } if
+  3 eq
+  {
+    0 CurrentFill ne				    % 0 = Hollow fill
+    {
+      fill
+    } if
+  } if
+
+} bind def
+
+/DO						   % draw outline
+{
+  bgiMono false eq
+  {
+     % color printer
+     bgiColor setbgicolor
+
+  }
+  {
+    0.0 setgray
+  } ifelse
+  stroke
+} def
+
+/setpatterndict 18 dict def
+
+/spot
+{
+    1 add 4 mul cvi
+    exch
+    1 add 4 mul cvi
+    /xbit exch def
+    /ybit exch def
+    bstring ybit xbit -3 bitshift add get
+    1 7 xbit 7 and sub bitshift
+
+    and 0 ne
+
+    { /onbits onbits 1 add def 1}
+    { /offbits offbits 1 add def 0}
+    ifelse
+} bind def
+/bgiFontTable
+[
+   [ /AvantGarde-Book -96 58 739]
+   [ /AvantGarde-BookOblique -96 58 739]
+   [ /AvantGarde-Demi -92 90 739]
+   [ /AvantGarde-DemiOblique -92 90 39]
+   [ /Bookman-Demi -121 106 725]
+   [ /Bookman-DemiItalic -106 106 732]
+   [ /Bookman-Light -125 60 717]
+   [ /Bookman-LightItalic -110 60 717]
+   [ /Courier -82 40 624]
+   [ /Courier-Bold -85 100 674]
+   [ /Courier-BoldOblique -85 100 674]
+   [ /Courier-Oblique -82 40 624]
+   [ /Helvetica -97 73 729]
+   [ /Helvetica-Bold -106 73 729]
+   [ /Helvetica-BoldOblique -106  105 729]
+   [ /Helvetica-Oblique -106 73 729]
+   [ /Helvetica-Narrow -97 73 729]
+   [ /Helvetica-Narrow-Bold -106 73 729]
+   [ /Helvetica-Narrow-BoldOblique -106 73 729]
+   [ /Helvetica-Narrow-Oblique -97 73 729]
+   [ /NewCenturySchlbk-Bold -103 106 737]
+   [ /NewCenturySchlbk-BoldItalic -102 54 737]
+   [ /NewCenturySchlbk-Italic -102 42 737]
+   [ /NewCenturySchlbk-Roman -103 61 737]
+   [ /Palatino-Bold -98 44 719]
+   [ /Palatino-BoldItalic -98 54 726]
+   [ /Palatino-Italic -138 50 733]
+   [ /Palatino-Roman -141 38 723]
+   [ /Symbol -98 54 720]
+   [ /Times-Bold -99 95 670]
+   [ /Times-BoldItalic -98 54 682]
+   [ /Times-Italic -96 48 684]
+   [ /Times-Roman -109 49 682]
+   [ /ZapfChancery-MediumItalic -120 50 678]
+   [ /ZapfDingbats -98 54 720]
+] def
+
+/bgiPatTable
+[
+   <0000000000000000>
+   <ffffffffffffffff>
+   <ffff0000ffff0000>
+   <0102040810204080>
+   <e0c183070e1c3870>
+   <f0783c1e0f87c3e1>
+   <a5d269b45a2d964b>
+   <ff888888ff888888>
+   <8142241818244281>
+   <cc33cc33cc33cc33>
+   <8000080080000800>
+   <8800220088002200>
+   <dd8b078edde870b8>
+   <dfdfdf00fbfbfb00>
+   <081c22c180010204>
+   <0001020400402010>
+] def
+
+/bgiGrayTable
+[ 1.00 0.11 0.59 0.70 0.30 0.41 0.40 1.00 0.50 0.40 0.73 0.80 0.53 0.60 0.93
+  0.00	] def
+
+/bgiColorTable
+[
+  [1 1 1]			  % white
+  [0 0 1]			  % blue
+  [0 1 0]			  % green
+  [0 1 1]			  % cyan
+  [1 0 0]			  % red
+  [1 0 1]
+  [0.67  0.33  0]		  % brown
+  [1 1 1]			  % white
+  [0.9 0.9 0.9]			  % gray
+  [0.33 0.33 1]			  % lightblue
+  [0.33  1 0.33]		  % lightgreen
+  [0.33 1 1]			  % lightcyan
+  [1 0.33  0.33]		  % lightred
+  [1 0.33  1]			  % lightmagenta
+  [1 1 0.33]			  % yellow
+  [0 0 0]			  % black
+  [0.75 0.75 0.75]			 % gray (color 7 on color printers)
+] def
+
+/MT /moveto load def
+/LT /lineto load def
+/CP /closepath load def
+/NP /newpath load def
+/SD /setdash load def
+/SG /setgray load def
+/TR /translate load def
+/LW /setlinewidth load def
+
+/DL
+{
+  moveto
+  lineto
+  DO
+} bind def
+
+/TW
+{
+  20 div exch 20 div exch moveto
+  20 div exch 20 div exch lineto
+  DO
+} bind def
+
+/TB
+{
+  20 div 4 1 roll
+  20 div 4 1 roll
+  20 div 4 1 roll
+  20 div 4 1 roll
+  DB
+} bind def
+
+/SC
+{
+  /y1Clip exch def
+  /x1Clip exch def
+  /y0Clip exch def
+  /x0Clip exch def
+  level0
+} bind def
+
+/ellipsedict 12 dict def
+ellipsedict /mtrx matrix put
+
+/SA				      % stack:	x y xrad yrad start delta
+{
+% add an arc to the current path
+  ellipsedict begin
+    /delta exch 60.0 div def
+    /startangle exch 60.0 div def
+    /yrad exch def
+    /xrad exch def
+    /y exch def
+    /x exch def
+
+    /endangle startangle delta add def
+    /savematrix mtrx currentmatrix def
+    x y translate
+    xrad yrad scale
+    0 0 1
+    delta 0 gt
+    {startangle endangle arc }
+    {startangle endangle arcn}
+    ifelse
+    savematrix setmatrix
+  end
+} bind def
+
+/DOARC					       % stack:  x y xrad yrad start end
+{
+% add an arc to the current path
+  ellipsedict begin
+    /endangle exch def
+    /startangle exch def
+
+    bgiOrient 0 ne
+    { exch } if
+    /yrad exch def
+    /xrad exch def
+    /y exch def
+    /x exch def
+
+    /savematrix mtrx currentmatrix def
+    x y translate
+    xrad yrad scale
+    0 0 1 startangle endangle arc
+    savematrix setmatrix
+  end
+} bind def
+
+/FE				   % stack:  x y xrad yrad  for ellipse
+{
+  gsave
+    OP
+    0 360 DOARC
+    3 CL
+  grestore
+  DO
+} bind def
+
+
+/DB					   % stack:    x1 y1 x0 y0 color
+{
+  OP
+  /y0 exch def
+  /x0 exch def
+  /y1 exch def
+  /x1 exch def
+  newpath
+  x0 y0 moveto x0 y1 lineto x1 y1 lineto x1 y0 lineto
+  3 CL
+} bind def
+
+/DF				       % stack: (attrib) (size) (font)
+{
+  /bgiFont exch def
+  /bgiSize exch def
+  /bgiAttrib exch def
+} bind def
+
+/FP						   % stack: (fill #)
+{
+  dup 15 le
+  {
+    /bgiFill exch def
+  }{
+    pop
+  } ifelse
+} bind def
+
+/CO {			    % stack: (color) (fill color)
+  dup 15 le
+  { /bgiFillColor exch def}
+  {pop} ifelse
+  dup 15 le
+  { /bgiColor exch def}
+  {pop} ifelse
+} bind def
+
+/ST						   % start text
+						% stack: -
+{
+  CurrentSize bgiSize ne CurrentFont bgiFont ne or
+  {
+    currentpoint
+    toStack
+    Memory1 restore
+    fromStack
+    moveto
+
+
+    /Memory1 save def
+    /CurrentColor 0 def
+
+    bgiFont dup /CurrentFont exch def
+
+    dup dup 8 ge exch 15 le  and
+    {
+      dup 8 eq		% courier
+      { 0.93 }
+      {
+	dup 9 eq		% courier-bold
+	{ 0.94 }
+	{
+	    dup   11 eq		% courier-bolditalic (1.02 expansion)
+	    {  0.95  }
+	    {
+	      dup 10 eq   % courier-italic
+	      { 0.95 }
+	      {
+	      dup 12 eq % helvetica
+	      { 0.93 }
+	      {
+		dup 13 eq	% helvetica-bold
+		{ 0.96 }
+		{
+		  dup 14 eq	% helvetica-bolditalic
+		  { 0.93 }
+		  {
+		    dup 15 eq	% helvetica-italic (1.02 expansion)
+		{     0.96 }
+		{
+		      1
+		}     ifelse
+		  } ifelse
+		} ifelse
+	      } ifelse
+	      } ifelse
+	  }   ifelse
+	} ifelse
+      } ifelse
+    }
+    {
+      dup 32 eq		% times-roman
+      { 1 }
+      {
+	dup 29 eq	% times-bold (1.02 expansion)
+	{ 0.95 }
+	{
+	  dup 30 eq	% times-boldoblique
+	  { 0.91 }
+	  {
+	    dup 31 eq	%times-italic
+	    { 0.92 }
+	    {
+	      1		% everything else
+	    } ifelse
+	  } ifelse
+	} ifelse
+      } ifelse
+    } ifelse
+    /CurrentCompress exch  def
+
+    bgiFontTable exch get		     % stack: [(font name) offset thick]
+    dup 0 get				     % stack: array fontname
+    exch
+    dup 1 get
+    /CurrentUnderlineOffset exch def
+    dup 2 get
+    /CurrentUnderlineThickness exch def
+    3 get
+    /CurrentAscender exch bgiSize mul 1000.0 div def
+    /thisFont pcVector RES
+    /thisFont
+    findfont
+
+    bgiSize dup /CurrentSize exch def
+    scalefont setfont
+  } if
+
+% set the text color or gray scale
+  bgiMono false eq
+  {
+    % color printer			stack:	color
+    setbgicolor
+  }
+  {
+    % mono printer
+    0 eq			% stack:  color
+    { 1.0 setgray}
+    { 0.0 setgray}
+    ifelse
+  } ifelse
+} bind def
+
+/setbgicolor
+{
+    dup 7 eq bgiMono not and
+    {
+      pop
+      16
+    } if
+
+     bgiColorTable exch get		      % stack:	[r g b]
+     dup
+     0 get					 % stack: [r g b] r
+     exch
+     dup
+     1 get					 % stack: r [rgb] g
+     exch
+     2 get					 % stack: r g b
+     setrgbcolor
+} bind def
+
+/SH			 % stack:  string tdir rot justx justy
+{
+  /justy exch def
+  /justx exch def
+  90 mul /rot exch def
+
+  0 ne		%   tdir is on the stack
+		%   (this will move into driver)
+  {
+    /justx 2 def
+  } if
+
+  dup stringwidth pop
+  CurrentCompress mul
+  /sx exch def
+  sx justx mul -0.5 mul
+  justy 0 eq
+  {
+    0					% baseline aligned
+  }
+  {
+    justy 1 eq
+    {
+      CurrentAscender 2 div neg		% center aligned
+    }
+    {
+      CurrentAscender neg		% top aligned
+    } ifelse
+  } ifelse
+
+  % underlining
+  gsave
+
+  rot rotate rmoveto
+  bgiAttrib 4 and 0 ne		% true if underlined, false otherwise
+  {
+    currentpoint
+    CurrentUnderlineOffset CurrentSize mul 1000.0 div add
+    /yval exch def
+    /xval exch def
+
+    bshow
+    xval yval moveto
+    sx xval add yval lineto
+    CurrentUnderlineThickness CurrentSize mul 1000.0 div setlinewidth
+    stroke
+  }
+  {
+    bshow
+  }
+  ifelse
+  grestore
+} bind def
+
+/bshow
+{
+  CurrentCompress 1 eq
+  {
+    show
+  }
+  {
+    dup length /len exch def
+    len 0 ne
+    {
+       dup stringwidth pop /wid exch def
+       CurrentCompress wid mul		% (factor * wid)
+       wid sub					% (factor * wid) - wid
+       len div					% stack:  string per_char_amt
+       exch
+       0 exch
+       ashow
+    } if
+  } ifelse
+} bind def
+
+/colorsetup
+{
+    % exchange colors 0 and 15
+    bgiColorTable 0 get			  % stack:  [r g b]
+    bgiColorTable 15 get
+    exch
+    bgiColorTable 0 put
+    bgiColorTable 15 put
+} bind def
+
+% ---- initialization
+
+/CurrentFill 1 def
+/CurrentFont -1 def
+/CurrentSize -1 def
+/CurrentColor 15 def
+
+/bgiMono 0 def
+/bgiFill 1 def
+/bgiColor 15 def
+/bgiFillColor 15 def
+/bgiSize 10 def
+/bgiFont 1 def
+/bgiOrient 0 def
+/bgiRes 1 def
+/bgiAttrib 0 def
+
+1.415 setmiterlimit
+0.5 setlinewidth
+
+/Memory0 save def
+/Memory1 save def
+
+0 0 moveto
+
+%%EndProlog
+

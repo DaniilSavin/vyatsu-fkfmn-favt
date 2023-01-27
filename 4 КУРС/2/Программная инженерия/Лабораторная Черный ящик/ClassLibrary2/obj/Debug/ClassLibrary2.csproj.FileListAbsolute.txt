@@ -1,0 +1,6 @@
+D:\study\4 курс 2 семестр\тестирование по\Лабораторная Черный ящик\ClassLibrary2\bin\Debug\ClassLibrary2.dll
+D:\study\4 курс 2 семестр\тестирование по\Лабораторная Черный ящик\ClassLibrary2\bin\Debug\ClassLibrary2.pdb
+D:\study\4 курс 2 семестр\тестирование по\Лабораторная Черный ящик\ClassLibrary2\obj\Debug\ClassLibrary2.csproj.AssemblyReference.cache
+D:\study\4 курс 2 семестр\тестирование по\Лабораторная Черный ящик\ClassLibrary2\obj\Debug\ClassLibrary2.csproj.CoreCompileInputs.cache
+D:\study\4 курс 2 семестр\тестирование по\Лабораторная Черный ящик\ClassLibrary2\obj\Debug\ClassLibrary2.dll
+D:\study\4 курс 2 семестр\тестирование по\Лабораторная Черный ящик\ClassLibrary2\obj\Debug\ClassLibrary2.pdb

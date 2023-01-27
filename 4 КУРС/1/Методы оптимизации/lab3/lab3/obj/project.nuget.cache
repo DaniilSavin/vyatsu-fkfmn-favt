@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
   "version": 2,
   "dgSpecHash": "7bjC+QHpwUk4xztageRRHX5p5x+MAW5epLWRgKekZmEyREhC1kOBG7C4JsD8vzUBD5tNXIdYhDj0f3vyBa/Q+g==",
@@ -5,4 +6,13 @@
   "projectFilePath": "D:\\ВУЗ\\4 КУРС\\1\\Методы оптимизации\\lab3\\lab3\\lab3.csproj",
   "expectedPackageFiles": [],
   "logs": []
+=======
+{
+  "version": 2,
+  "dgSpecHash": "7bjC+QHpwUk4xztageRRHX5p5x+MAW5epLWRgKekZmEyREhC1kOBG7C4JsD8vzUBD5tNXIdYhDj0f3vyBa/Q+g==",
+  "success": true,
+  "projectFilePath": "D:\\ВУЗ\\4 КУРС\\1\\Методы оптимизации\\lab3\\lab3\\lab3.csproj",
+  "expectedPackageFiles": [],
+  "logs": []
+>>>>>>> ad22ee082dac6ece8d23d5999a86f8d8c86438df
 }

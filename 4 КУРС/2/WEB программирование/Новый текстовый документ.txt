@@ -1,0 +1,20 @@
+CREATE TABLE shop.users ( id INT NOT NULL AUTO_INCREMENT , name INT NOT NULL , PRIMARY KEY (id)) ENGINE = InnoDB;
+CREATE TABLE shop.items ( id INT NOT NULL AUTO_INCREMENT , name TEXT NOT NULL , PRIMARY KEY (id)) ENGINE = InnoDB;
+CREATE TABLE shop.orders ( id INT NOT NULL AUTO_INCREMENT , creator TEXT NOT NULL , comment TEXT NOT NULL , time TIMESTAMP NOT NULL , PRIMARY KEY (id)) ENGINE = InnoDB;
+
+
+
+INSERT INTO items (id, name) VALUES (NULL, 'Блок питания NW-400')
+ALTER TABLE items ADD price INT NOT NULL AFTER name;
+
+
+INSERT INTO items (id, name, price) VALUES (NULL, '4" Смартфон DEXP A440 8 ГБ розовый', '3199');
+INSERT INTO items (id, name, price) VALUES (NULL, '6.67" Смартфон POCO X3 Pro 256 ГБ черный', '28299');
+INSERT INTO items (id, name, price) VALUES (NULL, '6.7" Смартфон Apple iPhone 13 Pro Max 256 ГБ голубой', '179999');
+INSERT INTO items (id, name, price) VALUES (NULL, '6.5" Смартфон Samsung Galaxy A52 256 ГБ черный', '39999');
+INSERT INTO items (id, name, price) VALUES (NULL, '6.1" Смартфон Apple iPhone 13 128 ГБ черный', '87999');
+INSERT INTO items (id, name, price) VALUES (NULL, '6.1" Смартфон Apple iPhone 11 128 ГБ фиолетовый', '59999');
+INSERT INTO items (id, name, price) VALUES (NULL, '6.2" Смартфон Samsung Galaxy S21 256 ГБ серый', '84999');
+INSERT INTO items (id, name, price) VALUES (NULL, '6.67" Смартфон Xiaomi Redmi Note 10 Pro 128 ГБ серый', '32999');
+INSERT INTO items (id, name, price) VALUES (NULL, '6.57" Смартфон Honor 50 128 ГБ зеленый', '34999');
+INSERT INTO items (id, name, price) VALUES (NULL, '6.4" Смартфон Samsung Galaxy S21 FE 128 ГБ черный', '64999');

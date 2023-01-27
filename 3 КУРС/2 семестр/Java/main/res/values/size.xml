@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="paddingSize" translatable="false">8dp</dimen>
+    <dimen name="textViewSize" translatable="false">18sp</dimen>
+    <dimen name="match_constraint" translatable="false">0dp</dimen>
+    <dimen name="questionSize" translatable="false">14sp</dimen>
+    <dimen name="sendSize" translatable="false">14sp</dimen>
+    <dimen name="buttonSize" translatable="false">90dp</dimen>
+    <dimen name="imageSize" translatable="false">60dp</dimen>
+    <dimen name="textView" translatable="false">550dp</dimen>
+</resources>

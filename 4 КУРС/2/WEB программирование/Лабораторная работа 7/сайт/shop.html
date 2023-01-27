@@ -1,0 +1,116 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <!--<div class="main">-->
+        <div class="header">Магазин</div>
+
+        <div class="left">           
+            <div id="wrapper"></div>       
+        </div>
+
+        <div class="right">
+            <div id="currentUser"></div>
+            <input  id="logout"  type="button" value="Выйти" class="buttons">
+            <div class="orders" id="orders">
+                <p class="ord">Заказы:</p>
+            </div>
+            <div class="regForm" id="regForm">
+                <p class="lg">Имя пользователя:</p>
+                <input type="text" id="inputUserName">
+             <input  id="regUser"  type="button" value="Регистрация/Вход" class="buttons"> 
+             </div>
+        </div>
+  <!--  </div>-->
+<script>
+    function setCookie(name,value,days) {
+        var expires = "";
+        if (days) {
+            var date = new Date();
+            date.setTime(date.getTime() + (days*24*60*60*1000));
+            expires = "; expires=" + date.toUTCString();
+        }
+        document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+    }
+    function getCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0;i < ca.length;i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        }
+        return null;
+    }
+
+    document.getElementById("logout").onclick = function() {
+        setCookie("userName","",0);
+        location.reload();
+    };
+    document.getElementById("currentUser").innerHTML="Добро пожаловать, "+getCookie("userName");
+    $.ajax({                                      
+        url: 'getItemList.php',       
+    }).done(function( msg ) {
+        //console.log(JSON.parse(msg))
+        showItems(JSON.parse(msg))
+    });
+    $.ajax({                                      
+        url: 'getOrderList.php?userName='+getCookie("userName"),       
+    }).done(function( msg ) {
+        console.log(JSON.parse(msg));
+        showOrders(JSON.parse(msg));
+    });
+    function showOrders(respone){
+        respone.forEach(element => {
+            let item = 'Заказ #'+(element['id']).toString()+' | '+element['itemName']+" "+element['time'];
+             $('#orders').append('<div class="item_orders">'+item+'</div>'); 
+        });
+    }
+    function showItems(respone)
+    {
+        respone.forEach(element => {
+            //console.log(element)
+            $('#wrapper').append('<div class="item">'+element['id']
+                +" | "+element['name']+" "+element['price']+" руб."+' <input id="'+element['id']+'" type="button" value="Купить" class="buttons"></div>');  
+                document.getElementById(element['id']).onclick = function() {
+                    if (getCookie("userName") == '')
+                    {
+                        alert("Вы не зарегистрировались/не вошли в аккаунт.");
+                        return;
+                    }
+                    
+                    location.reload();
+                     $.ajax({                                      
+            url: 'buy.php?userName='+getCookie("userName")+'&itemId='+element['id'],       
+        }).done(function( msg ) {
+        });
+            };
+        });   
+    }
+    if (getCookie("userName")!='')
+    {
+        document.getElementById("regForm").remove();
+    } else
+    {
+        document.getElementById("logout").remove();
+        document.getElementById("currentUser").remove();
+        document.getElementById("orders").remove();
+        
+        document.getElementById("regUser").onclick = function() {
+            $.ajax({                                      
+                url: 'reg.php?userName='+document.getElementById("inputUserName").value,       
+            }).done(function( msg ) {
+                setCookie("userName",document.getElementById("inputUserName").value,100000);
+                location.reload();
+            });
+        };
+    }
+</script>
+</body>
+</html>

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <iostream>
 #include <math.h>
 #include <mpi.h>
@@ -42,3 +43,49 @@ int main(int argc, char* argv[])
 	MPI_Finalize();
 	return 0;
 }
+=======
+#include <iostream>
+#include <math.h>
+#include <mpi.h>
+#include <chrono>
+using namespace std;
+int main(int argc, char* argv[])
+{
+	int proc_rank, proc_num;
+	long long N;
+	double sum = 0;
+	MPI_Status st;
+	MPI_Init(&argc, &argv);
+	MPI_Comm_rank(MPI_COMM_WORLD, &proc_rank);
+	MPI_Comm_size(MPI_COMM_WORLD, &proc_num);
+	double start, end;
+	if (proc_rank == 0)
+	{
+		//  вводим n
+		std::cout << "input N: ";
+		N = pow(10, 8) * 10;
+		//std::cin >> N;
+		start = MPI_Wtime();
+	}
+	//  рассылаем всем N
+	MPI_Bcast(&N, 1, MPI_LONG_LONG, 0, MPI_COMM_WORLD);
+
+	//  считаем сумму
+	double tmpsum = 0;
+
+	for (long long k = proc_rank + 1; k <= N; k += proc_num)
+		tmpsum += (((k - 1) & 1) == 1 ? -1.0 : 1.0) / k;
+
+	//  собираем значения в сумме и выводим результаты
+	MPI_Reduce(&tmpsum, &sum, 1, MPI_DOUBLE, MPI_SUM, 0, MPI_COMM_WORLD);
+	if (proc_rank == 0)
+	{
+		end = MPI_Wtime();
+		std::cout << "time to sum = " << end - start << std::endl;
+		printf("Result: %.10f", sum);
+	}
+
+	MPI_Finalize();
+	return 0;
+}
+>>>>>>> ad22ee082dac6ece8d23d5999a86f8d8c86438df
