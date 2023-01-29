@@ -1,0 +1,100 @@
+Otvet'te na voprosi: 
+
+Vopros: riba plavaet v rekah ili ozerah? y
+Vopros: u ribi est' jabernie krishki? y
+Vopros: odinochniy spinnoy luchevoy plavnik? y
+Vopros: u ribi net zubov? y
+Vopros: gubi s 4 usikami? n
+Vopros: u ribi est' kostniy skelet? y
+Vopros: plavniki s rozovimi per'yami? n
+Vopros: u ribi jelto-zolotistiy okras? y
+Vopros: u ribi spinnoy plavnik uzkiy? y
+
+ Otvet: eto lesch.
+no
+
+
+Otvet'te na voprosi: 
+
+Vopros: riba plavaet v rekah ili ozerah? y
+Vopros: u ribi est' jabernie krishki? y
+Vopros: odinochniy spinnoy luchevoy plavnik? y
+Vopros: u ribi net zubov? y
+Vopros: gubi s 4 usikami? y
+
+ Otvet: eto sazan.
+no
+
+Otvet'te na voprosi: 
+
+Vopros: riba plavaet v rekah ili ozerah? y
+Vopros: u ribi est' jabernie krishki? y
+Vopros: odinochniy spinnoy luchevoy plavnik? y
+Vopros: u ribi net zubov? y
+Vopros: gubi s 4 usikami? n
+Vopros: u ribi est' kostniy skelet? n
+Vopros: plavniki s rozovimi per'yami? y
+
+ Otvet: eto plotva.
+no
+
+Otvet'te na voprosi: 
+
+Vopros: riba plavaet v rekah ili ozerah? n
+Vopros: u ribi est' electricheskie organi? y
+Vopros: u ribi net hvostovogo plavnika? y
+Vopros: u ribi tonkiy dlinniy hvost? y
+Vopros: u ribi net plavatel'nogo puzirya? y
+Vopros: u ribi est' hryascheviy skelet? y
+Vopros: riba plavaet v moryah? y
+
+ Otvet: eto electicheskiy skat.
+no
+
+Otvet'te na voprosi: 
+
+Vopros: riba plavaet v rekah ili ozerah? n
+Vopros: u ribi est' electricheskie organi? n
+Vopros: u ribi na hvoste yadovitiy ship? y
+Vopros: u ribi net hvostovogo plavnika? n
+Vopros: u ribi sero-korichneviy okras? y
+Vopros: u ribi konicheskaya morda? y
+Vopros: riba plavaet v moryah? y
+Vopros: u ribi net plavatel'nogo puzirya? y
+Vopros: u ribi est' hryascheviy skelet? y
+Vopros: plavniki ne gibkie? y
+Vopros: hvost assimetrichniy? y
+
+ Otvet: eto gigantskaya akula.
+no
+
+Otvet'te na voprosi: 
+
+Vopros: riba plavaet v rekah ili ozerah? n
+Vopros: u ribi est' electricheskie organi? n
+Vopros: u ribi na hvoste yadovitiy ship? y
+Vopros: u ribi net hvostovogo plavnika? y
+Vopros: u ribi tonkiy dlinniy hvost? y
+Vopros: u ribi net plavatel'nogo puzirya? y
+Vopros: u ribi est' hryascheviy skelet? y
+Vopros: riba plavaet v moryah? y
+
+ Otvet: eto skat-hvostokol.
+no
+
+Otvet'te na voprosi: 
+
+Vopros: riba plavaet v rekah ili ozerah? n
+Vopros: u ribi est' electricheskie organi? n
+Vopros: u ribi na hvoste yadovitiy ship? n
+Vopros: u ribi sero-korichneviy okras? n
+Vopros: riba plavaet v moryah? y
+Vopros: u ribi net plavatel'nogo puzirya? y
+Vopros: u ribi est' hryascheviy skelet? y
+Vopros: plavniki ne gibkie? y
+Vopros: hvost assimetrichniy? y
+Vopros: riba napadaet na lyudey? y
+Vopros: u ribi molotoobraznaya morda? y
+
+ Otvet: eto riba molot.
+no

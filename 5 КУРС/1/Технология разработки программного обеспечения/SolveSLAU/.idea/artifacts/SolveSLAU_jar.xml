@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SolveSLAU:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SolveSLAU_jar</output-path>
+    <root id="archive" name="SolveSLAU.jar">
+      <element id="module-output" name="SolveSLAU" />
+    </root>
+  </artifact>
+</component>

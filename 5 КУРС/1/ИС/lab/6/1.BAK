@@ -1,0 +1,68 @@
+GLOBAL FACTS
+yes (symbol)
+no (symbol)
+PREDICATES
+fish(symbol)
+otrajd(symbol)
+vid(symbol)
+begin
+answer
+question(symbol)
+add_to_database(symbol,char)
+otvet(char)
+clear_from_database
+priznak(symbol)
+
+GOAL
+begin.
+CLAUSES
+begin :-
+write ("Otvet'te na voprosi :"),nl,nl,
+answer,
+clear_from_database,
+nl,nl,nl,nl,
+exit.
+answer :-
+fish(X),!,nl,
+save("BF1.dbf"),
+write (" Otvet,nl.
+question(Y) :-
+ write ("Vopros,"? "),
+otvet(X),
+write(X),nl,
+add_to_database (Y,X).
+otvet(C):-
+readchar(C).
+priznak (Y) :-
+yes (Y),!.
+priznak (Y) :-
+not( no (Y)),
+question (Y).
+add_to_database (Y,'y') :-
+assertz (yes (Y)).
+add_to_database (Y,'n') :-
+assertz (no (Y)),fail.
+ clear_from_database :- retract (yes(_)),fail.
+clear_from_database :- retract (no(_)),fail.
+fish("eto sazan"):-
+
+otrajd("otryad obraznie
+priznak("gubi s 4 usikami).
+fish("eto plotva"):-
+otrajd("otryad karpoobraznie"),
+priznak("plavniki s rozovimi per'yami").
+fish("eto lesch"):-
+otrajd("otryad karpoobraznie"),
+priznak("u ribi jelto-zolotistiy okras"),
+priznak("u ribi spinnoy plavnik uzkiy").
+fish("Dannoy ribi v baze znaniy ne obnarujeno").
+otrajd("otryad karpoobraznie"):-
+vid("presnovodnaya riba"),
+vid("kostnaya riba"),
+priznak("odinochniy spinnoy luchevoy plavnik"),
+priznak("u ribi нет зубов").
+vid("kostnaya riba"):-
+priznak("u ribi est' jabernie krishki");
+priznak("u ribi est' kostniy skelet").
+vid("presnovodnaya riba"):-
+priznak("riba plavaet v rekah ili ozerah").

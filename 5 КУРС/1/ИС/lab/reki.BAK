@@ -1,0 +1,14 @@
+domains
+name=symbol
+
+predicates
+nondeterm dlinnee(name,name).
+nondeterm koroche(name,name).
+
+clauses
+dlinnee(volga, amudarya).
+dlinnee(lena,volga).
+koroche(dnepr,amudarya).
+
+goal
+write("reka - "), dlinnee(X, volga), write(" dlinnee volgi"). 
